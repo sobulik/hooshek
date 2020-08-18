@@ -48,6 +48,12 @@ class Test(unittest.TestCase):
         subprocess.run([os.path.join(os.path.dirname(__file__), "finish.py")], cwd=self.dir_data_target)
         self.assertTrue(filecmp.cmp(os.path.join(self.dir_data_source, "results.yaml"), os.path.join(self.dir_data_target, "results.yaml")))
 
+    def testResultsText(self):
+        """Result list text file is correct"""
+        shutil.copy(os.path.join(self.dir_data_source, "start.yaml"), os.path.join(self.dir_data_target, "start.yaml"))
+        subprocess.run([os.path.join(os.path.dirname(__file__), "finish.py")], cwd=self.dir_data_target)
+        self.assertTrue(filecmp.cmp(os.path.join(self.dir_data_source, "results.txt"), os.path.join(self.dir_data_target, "results.txt")))
+
 
 if __name__ == '__main__':
     unittest.main()
