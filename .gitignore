@@ -1,5 +1,10 @@
+# Python runtime
 __pycache__/
 *.py[cod]
 *$py.class
 
+# Vim swap files
+*.swp
+
+# test data
 test/data/
