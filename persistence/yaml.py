@@ -4,7 +4,7 @@ import yaml
 
 def load(ifile):
     """load yaml from an input file"""
-    with open(ifile, "r") as f:
+    with open(ifile, "r", encoding='utf8') as f:
         return yaml.safe_load(f)
 
 def dump(obj, ofile):
