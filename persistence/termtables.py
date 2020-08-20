@@ -5,7 +5,7 @@ import termtables
 def dump_start(o, ofile):
     """dump start object to an output file"""
     header = ["  #", "         jméno         ", "ročník", "klub", "start  ", "       cíl       "]
-    with open(ofile, "w") as f:
+    with open(ofile, "w", encoding="utf-8") as f:
         for race in o["races"]:
             f.write("Kategorie: {0}   Trať: {1}\n".format(race["name"], race["distance"]))
             if len(race["athletes"]) > 0:
@@ -20,7 +20,7 @@ def dump_start(o, ofile):
 def dump_finish(o, ofile):
     """dump finish object to an output file"""
     header = [" #", " S", "         jméno         ", "ročník", "klub", "čas  ", "ztráta"]
-    with open(ofile, "w") as f:
+    with open(ofile, "w", encoding="utf-8") as f:
         for race in o["races"]:
             f.write("Kategorie: {0}   Trať: {1}\n".format(race["name"], race["distance"]))
             if len(race["athletes"]) > 0:
