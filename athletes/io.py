@@ -50,7 +50,7 @@ def sanity_check(raw):
         if uniquekeys.count(i) > 1:
             raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
 
-def dump(athletes):
+def dump(athletes, filename="athletes-sorted.yaml"):
     """write athletes"""
     o = dict()
     o["version"] = "1.0"
@@ -66,4 +66,4 @@ def dump(athletes):
         a["club"] = athlete.club
         o["athletes"].append(a)
         
-    yaml.dump(o, "athletes-sorted.yaml")
+    yaml.dump(o, filename)
