@@ -1,0 +1,121 @@
+version: "1.0"
+name: Skuhrovská lyže
+date: 2020-02-16
+interval:
+    start: "09:30:00"
+    race: 180
+    athlete: 20
+    groupby: 1
+races:
+    - age_min: 0
+      age_max: 5
+      sex: f
+      name: Benjamínky
+      distance: 200m
+    - age_min: 0
+      age_max: 5
+      sex: m
+      name: Benjamínci
+      distance: 200m
+    - age_min: 6
+      age_max: 7
+      sex: f
+      name: Minižačky
+      distance: 500m
+    - age_min: 6
+      age_max: 7
+      sex: m
+      name: Minižáci
+      distance: 500m
+    - age_min: 8
+      age_max: 9
+      sex: f
+      name: Nejmladší žákyně
+      distance: 1000m
+    - age_min: 8
+      age_max: 9
+      sex: m
+      name: Nejmladší žáci
+      distance: 1000m
+    - age_min: 10
+      age_max: 11
+      sex: f
+      name: Mladší žákyně
+      distance: 2000m
+    - age_min: 10
+      age_max: 11
+      sex: m
+      name: Mladší žáci
+      distance: 2000m
+    - age_min: 12
+      age_max: 13
+      sex: f
+      name: Starší žákyně
+      distance: 3000m
+    - age_min: 12
+      age_max: 13
+      sex: m
+      name: Starší žáci
+      distance: 3000m
+    - age_min: 14
+      age_max: 14
+      sex: f
+      name: Starší žákyně U15
+      distance: 3000m
+    - age_min: 14
+      age_max: 14
+      sex: m
+      name: Starší žáci U15
+      distance: 3000m
+    - age_min: 15
+      age_max: 15
+      sex: f
+      name: Mladší dorostenky U16
+      distance: 5000m
+    - age_min: 15
+      age_max: 15
+      sex: m
+      name: Mladší dorostenci U16
+      distance: 5000m
+    - age_min: 16
+      age_max: 17
+      sex: f
+      name: Starší dorostenky U18
+      distance: 5000m
+    - age_min: 16
+      age_max: 17
+      sex: m
+      name: Starší dorostenci U18
+      distance: 5000m
+    - age_min: 18
+      age_max: 19
+      sex: f
+      name: Juniorky U20
+      distance: 5000m
+    - age_min: 18
+      age_max: 19
+      sex: m
+      name: Junioři U20
+      distance: 5000m
+    - age_min: 20
+      age_max: 22
+      sex: f
+      name: Ženy do 23 let U23
+      distance: 5000m
+    - age_min: 20
+      age_max: 22
+      sex: m
+      name: Muži do 23 let U23
+      distance: 5000m
+    - age_min: 23
+      age_max: 99
+      sex: f
+      name: Ženy
+      distance: 5000m
+      start: "10:37:00"
+    - age_min: 23
+      age_max: 99
+      sex: m
+      name: Muži
+      distance: 5000m
+      start: "10:37:20"

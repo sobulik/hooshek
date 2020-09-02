@@ -1,0 +1,941 @@
+date: 2020-02-16
+name: Skuhrovská lyže
+races:
+-   athletes:
+    -   born: 2014
+        club: KBTR
+        diff: '0.0'
+        finish: 09:31:35
+        name: Leanmd
+        rank: 1
+        rank_sokol: ''
+        start: 09:30:20
+        surname: Kkreávoif
+        time: '01:15.5'
+    -   born: 2014
+        club: DULI
+        diff: '3.1'
+        finish: 09:31:58
+        name: Aeirm
+        rank: 2
+        rank_sokol: ''
+        start: 09:30:40
+        surname: Ímoečřáv
+        time: '01:18.6'
+    -   born: 2014
+        club: SWSL
+        diff: '6.5'
+        finish: 09:32:22
+        name: Ančiak
+        rank: 3
+        rank_sokol: ''
+        start: 09:31:00
+        surname: Kolváv
+        time: '01:22.0'
+    -   born: 2015
+        club: SOSK
+        diff: '01:45.1'
+        finish: 09:34:40
+        name: Rzteea
+        rank: 4
+        rank_sokol: 1
+        start: 09:31:40
+        surname: Vrávušoavk
+        time: '03:00.6'
+    -   born: 2017
+        club: SWSL
+        diff: '06:46.0'
+        finish: 09:39:21
+        name: Rkoeivan
+        rank: 5
+        rank_sokol: ''
+        start: 09:31:20
+        surname: Uvšápo
+        time: '08:01.5'
+    -   born: 2015
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Aieeml
+        rank: ''
+        rank_sokol: ''
+        start: 09:30:00
+        surname: Árodolv
+        time: ''
+    distance: 200m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: SOVH
+        diff: '0.0'
+        finish: 09:36:18
+        name: Iíjř
+        rank: 1
+        rank_sokol: 1
+        start: 09:35:00
+        surname: Ffreja
+        time: '01:18.0'
+    -   born: 2014
+        club: SWSL
+        diff: '15.8'
+        finish: 09:37:33
+        name: Dořnje
+        rank: 2
+        rank_sokol: ''
+        start: 09:36:00
+        surname: Ušp
+        time: '01:33.8'
+    -   born: 2014
+        club: SOSK
+        diff: '36.0'
+        finish: 09:37:14
+        name: Odřejn
+        rank: 3
+        rank_sokol: 2
+        start: 09:35:20
+        surname: Šoámtke
+        time: '01:54.0'
+    -   born: 2014
+        club: STUD
+        diff: '02:03.3'
+        finish: 09:39:01
+        name: Tíanonn
+        rank: 4
+        rank_sokol: 3
+        start: 09:35:40
+        surname: Ebtlarj
+        time: '03:21.3'
+    -   born: 2016
+        club: SOVH
+        diff: '02:24.7'
+        finish: 09:38:22
+        name: Aštáed
+        rank: 5
+        rank_sokol: 4
+        start: 09:34:40
+        surname: Dbnea
+        time: '03:42.7'
+    distance: 200m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: STUD
+        diff: '0.0'
+        finish: 09:41:44
+        name: Haajon
+        rank: 1
+        rank_sokol: 1
+        start: 09:39:20
+        surname: Hvkáoá
+        time: '02:24.7'
+    -   born: 2012
+        club: SOSK
+        diff: '13.4'
+        finish: 09:42:38
+        name: Aežkna
+        rank: 2
+        rank_sokol: 2
+        start: 09:40:00
+        surname: Ahalvomá
+        time: '02:38.1'
+    -   born: 2013
+        club: SOVH
+        diff: '20.5'
+        finish: 09:41:45
+        name: Ztaree
+        rank: 3
+        rank_sokol: 3
+        start: 09:39:00
+        surname: Odnebvá
+        time: '02:45.2'
+    -   born: 2012
+        club: STUD
+        diff: '25.4'
+        finish: 09:42:30
+        name: Uaznaz
+        rank: 4
+        rank_sokol: 4
+        start: 09:39:40
+        surname: Kvoháá
+        time: '02:50.1'
+    -   born: 2012
+        club: SOSK
+        diff: '53.1'
+        finish: 09:43:57
+        name: Rbaarob
+        rank: 5
+        rank_sokol: 5
+        start: 09:40:40
+        surname: Vvošrkuváa
+        time: '03:17.8'
+    -   born: 2012
+        club: DULI
+        diff: '01:34.5'
+        finish: 09:44:19
+        name: Chemalia
+        rank: 6
+        rank_sokol: ''
+        start: 09:40:20
+        surname: Řmeoáčív
+        time: '03:59.2'
+    distance: 500m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: DULI
+        diff: '0.0'
+        finish: 09:45:57
+        name: Cievntn
+        rank: 1
+        rank_sokol: ''
+        start: 09:44:00
+        surname: Keežj
+        time: '01:57.9'
+    -   born: 2012
+        club: SOSK
+        diff: '4.0'
+        finish: 09:45:41
+        name: Vlorie
+        rank: 2
+        rank_sokol: 1
+        start: 09:43:40
+        surname: Lord
+        time: '02:01.9'
+    distance: 500m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2010
+        club: KBTR
+        diff: '0.0'
+        finish: 09:52:52
+        name: Nana
+        rank: 1
+        rank_sokol: ''
+        start: 09:49:00
+        surname: Uvánoormša
+        time: '03:52.0'
+    -   born: 2010
+        club: STUD
+        diff: '22.9'
+        finish: 09:52:54
+        name: Laamki
+        rank: 2
+        rank_sokol: 1
+        start: 09:48:40
+        surname: Zváokolu
+        time: '04:14.9'
+    -   born: 2011
+        club: SOVH
+        diff: '53.8'
+        finish: 09:52:05
+        name: Oisef
+        rank: 3
+        rank_sokol: 2
+        start: 09:47:20
+        surname: Fáeoajfvr
+        time: '04:45.8'
+    -   born: 2011
+        club: STUD
+        diff: '59.1'
+        finish: 09:52:31
+        name: Plava
+        rank: 4
+        rank_sokol: 3
+        start: 09:47:40
+        surname: Ávktoáub
+        time: '04:51.1'
+    -   born: 2010
+        club: SOVH
+        diff: '01:03.6'
+        finish: 09:53:15
+        name: Ašpěkánt
+        rank: 5
+        rank_sokol: 4
+        start: 09:48:20
+        surname: Áoošjnáv
+        time: '04:55.6'
+    -   born: 2010
+        club: STUD
+        diff: '01:07.6'
+        finish: 09:54:39
+        name: Rbaabro
+        rank: 6
+        rank_sokol: 5
+        start: 09:49:40
+        surname: Káváho
+        time: '04:59.6'
+    -   born: 2011
+        club: SOVH
+        diff: '01:37.0'
+        finish: 09:52:29
+        name: Eal
+        rank: 7
+        rank_sokol: 6
+        start: 09:47:00
+        surname: Vebnárto
+        time: '05:29.0'
+    -   born: 2010
+        club: SOSK
+        diff: '01:40.8'
+        finish: 09:54:52
+        name: Leáima
+        rank: 8
+        rank_sokol: 7
+        start: 09:49:20
+        surname: Aovřávavč
+        time: '05:32.8'
+    -   born: 2010
+        club: SOSK
+        diff: '02:04.0'
+        finish: 09:53:56
+        name: Eelan
+        rank: 9
+        rank_sokol: 8
+        start: 09:48:00
+        surname: Bukáds
+        time: '05:56.0'
+    distance: 1000m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: SOSK
+        diff: '0.0'
+        finish: 09:58:31
+        name: Šaeikrftn
+        rank: 1
+        rank_sokol: 1
+        start: 09:54:20
+        surname: Acrpzákho
+        time: '04:11.1'
+    -   born: 2010
+        club: SWSL
+        diff: '3.5'
+        finish: 09:59:34
+        name: Oředjn
+        rank: 2
+        rank_sokol: ''
+        start: 09:55:20
+        surname: Vkl
+        time: '04:14.6'
+    -   born: 2010
+        club: SWSL
+        diff: '7.4'
+        finish: 09:58:58
+        name: Áukšl
+        rank: 3
+        rank_sokol: ''
+        start: 09:54:40
+        surname: Akrvus
+        time: '04:18.5'
+    -   born: 2010
+        club: SOVH
+        diff: '17.1'
+        finish: 09:59:28
+        name: Válvac
+        rank: 4
+        rank_sokol: 2
+        start: 09:55:00
+        surname: Kánov
+        time: '04:28.2'
+    -   born: 2010
+        club: KBTR
+        diff: '51.1'
+        finish: 09:58:42
+        name: Aasrovjl
+        rank: 5
+        rank_sokol: ''
+        start: 09:53:40
+        surname: Efkkir
+        time: '05:02.2'
+    -   born: 2011
+        club: SOSK
+        diff: '01:10.4'
+        finish: 09:58:01
+        name: Bšáoti
+        rank: 6
+        rank_sokol: 3
+        start: 09:52:40
+        surname: Ečýnr
+        time: '05:21.5'
+    -   born: 2011
+        club: SOSK
+        diff: '01:19.1'
+        finish: 09:58:30
+        name: Otámš
+        rank: 7
+        rank_sokol: 4
+        start: 09:53:00
+        surname: Rnzykue
+        time: '05:30.2'
+    -   born: 2010
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Savly
+        rank: ''
+        rank_sokol: ''
+        start: 09:53:20
+        surname: Nyyrkab
+        time: ''
+    -   born: 2010
+        club: DULI
+        diff: ''
+        finish: ''
+        name: Uabkj
+        rank: ''
+        rank_sokol: ''
+        start: 09:54:00
+        surname: Akakf
+        time: ''
+    distance: 1000m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2008
+        club: SOVH
+        diff: '0.0'
+        finish: '10:08:12'
+        name: Nakrysýt
+        rank: 1
+        rank_sokol: 1
+        start: '10:01:00'
+        surname: Ovákávno
+        time: '07:12.0'
+    -   born: 2009
+        club: SKJA
+        diff: '2.8'
+        finish: '10:05:34'
+        name: Naimok
+        rank: 2
+        rank_sokol: ''
+        start: 09:58:20
+        surname: Kaožlábv
+        time: '07:14.8'
+    -   born: 2008
+        club: SOVH
+        diff: '38.3'
+        finish: '10:07:50'
+        name: Rkitiove
+        rank: 3
+        rank_sokol: 2
+        start: '10:00:00'
+        surname: Ffvjáerao
+        time: '07:50.3'
+    -   born: 2009
+        club: SOVH
+        diff: '45.7'
+        finish: '10:06:37'
+        name: Sniade
+        rank: 4
+        rank_sokol: 3
+        start: 09:58:40
+        surname: Kirbcáoč
+        time: '07:57.7'
+    -   born: 2008
+        club: STUD
+        diff: '57.2'
+        finish: '10:08:49'
+        name: Lrkáa
+        rank: 5
+        rank_sokol: 4
+        start: '10:00:40'
+        surname: Voátukáb
+        time: '08:09.2'
+    -   born: 2008
+        club: SOVH
+        diff: '01:00.9'
+        finish: '10:08:32'
+        name: Milacahe
+        rank: 6
+        rank_sokol: 5
+        start: '10:00:20'
+        surname: Vovnáčiia
+        time: '08:12.9'
+    -   born: 2009
+        club: SOSK
+        diff: '01:31.5'
+        finish: '10:08:23'
+        name: Nealk
+        rank: 7
+        rank_sokol: 6
+        start: 09:59:40
+        surname: Ozkuánvry
+        time: '08:43.5'
+    -   born: 2009
+        club: SOSK
+        diff: '03:06.9'
+        finish: '10:09:38'
+        name: Eofsi
+        rank: 8
+        rank_sokol: 7
+        start: 09:59:20
+        surname: Cvuyeláo
+        time: '10:18.9'
+    -   born: 2009
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Brraabo
+        rank: ''
+        rank_sokol: ''
+        start: 09:59:00
+        surname: Eíkáhvosl
+        time: ''
+    distance: 2000m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2008
+        club: SOSK
+        diff: '0.0'
+        finish: '10:11:55'
+        name: Mjěat
+        rank: 1
+        rank_sokol: 1
+        start: '10:04:40'
+        surname: Rbžkoe
+        time: '07:15.8'
+    -   born: 2009
+        club: SOVH
+        diff: '9.3'
+        finish: '10:11:25'
+        name: Atrljěbmoo
+        rank: 2
+        rank_sokol: 2
+        start: '10:04:00'
+        surname: Nbter
+        time: '07:25.1'
+    -   born: 2008
+        club: SOSK
+        diff: '16.0'
+        finish: '10:12:31'
+        name: Jbauk
+        rank: 3
+        rank_sokol: 3
+        start: '10:05:00'
+        surname: Uitkřrf
+        time: '07:31.8'
+    -   born: 2009
+        club: STUD
+        diff: '40.1'
+        finish: '10:14:15'
+        name: Ukbaj
+        rank: 4
+        rank_sokol: 4
+        start: '10:06:20'
+        surname: Etalrjb
+        time: '07:55.9'
+    -   born: 2008
+        club: SOSK
+        diff: '46.2'
+        finish: '10:13:42'
+        name: Ejosf
+        rank: 5
+        rank_sokol: 5
+        start: '10:05:40'
+        surname: Elpls
+        time: '08:02.0'
+    -   born: 2009
+        club: SOSK
+        diff: '01:19.6'
+        finish: '10:12:55'
+        name: Jhtoěcv
+        rank: 6
+        rank_sokol: 6
+        start: '10:04:20'
+        surname: Aahaml
+        time: '08:35.4'
+    -   born: 2009
+        club: JIJD
+        diff: '01:43.5'
+        finish: '10:14:59'
+        name: Jříi
+        rank: 7
+        rank_sokol: ''
+        start: '10:06:00'
+        surname: Mznura
+        time: '08:59.3'
+    -   born: 2008
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Kabju
+        rank: ''
+        rank_sokol: ''
+        start: '10:05:20'
+        surname: Nýnvoot
+        time: ''
+    distance: 2000m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2006
+        club: SOSK
+        diff: '0.0'
+        finish: '10:20:19'
+        name: Tienařka
+        rank: 1
+        rank_sokol: 1
+        start: '10:10:40'
+        surname: Nokvytá
+        time: '09:39.2'
+    -   born: 2007
+        club: SOVH
+        diff: '2.1'
+        finish: '10:19:01'
+        name: Anna
+        rank: 2
+        rank_sokol: 2
+        start: '10:09:20'
+        surname: Cioichláv
+        time: '09:41.3'
+    -   born: 2007
+        club: STUD
+        diff: '40.6'
+        finish: '10:21:19'
+        name: Raolnkaí
+        rank: 3
+        rank_sokol: 3
+        start: '10:11:00'
+        surname: Vvpoaál
+        time: '10:19.8'
+    -   born: 2006
+        club: SOSK
+        diff: '01:06.5'
+        finish: '10:21:05'
+        name: Aann
+        rank: 4
+        rank_sokol: 4
+        start: '10:10:20'
+        surname: Voánnot
+        time: '10:45.7'
+    -   born: 2007
+        club: SOSK
+        diff: '01:53.5'
+        finish: '10:21:12'
+        name: Mema
+        rank: 5
+        rank_sokol: 5
+        start: '10:09:40'
+        surname: Ubdksá
+        time: '11:32.7'
+    -   born: 2007
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Anjkhoa
+        rank: ''
+        rank_sokol: ''
+        start: '10:10:00'
+        surname: Lcáakinomehv
+        time: ''
+    distance: 3000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2006
+        club: SOSK
+        diff: '0.0'
+        finish: '10:24:28'
+        name: Fpili
+        rank: 1
+        rank_sokol: 1
+        start: '10:15:40'
+        surname: Kluhešo
+        time: '08:48.9'
+    -   born: 2007
+        club: SOVH
+        diff: '36.3'
+        finish: '10:23:25'
+        name: Kryošft
+        rank: 2
+        rank_sokol: 2
+        start: '10:14:00'
+        surname: Tabnža
+        time: '09:25.2'
+    -   born: 2007
+        club: JIJD
+        diff: '57.4'
+        finish: '10:26:06'
+        name: Samlvior
+        rank: 3
+        rank_sokol: ''
+        start: '10:16:20'
+        surname: Jeftša
+        time: '09:46.3'
+    -   born: 2007
+        club: DULI
+        diff: '01:26.4'
+        finish: '10:24:35'
+        name: Ěcohtjv
+        rank: 4
+        rank_sokol: ''
+        start: '10:14:20'
+        surname: Ířečm
+        time: '10:15.3'
+    -   born: 2006
+        club: SOSK
+        diff: '01:27.2'
+        finish: '10:25:36'
+        name: Ěpnštá
+        rank: 5
+        rank_sokol: 3
+        start: '10:15:20'
+        surname: Ubdýks
+        time: '10:16.1'
+    -   born: 2006
+        club: SOVH
+        diff: '01:31.4'
+        finish: '10:26:20'
+        name: Álvacv
+        rank: 6
+        rank_sokol: 4
+        start: '10:16:00'
+        surname: Hvíocaktrl
+        time: '10:20.3'
+    -   born: 2007
+        club: SOVH
+        diff: '01:32.8'
+        finish: '10:25:01'
+        name: Anrtmi
+        rank: 7
+        rank_sokol: 5
+        start: '10:14:40'
+        surname: Erškou
+        time: '10:21.7'
+    -   born: 2007
+        club: SOSK
+        diff: '03:38.7'
+        finish: '10:27:27'
+        name: Iomnš
+        rank: 8
+        rank_sokol: 6
+        start: '10:15:00'
+        surname: Čavavř
+        time: '12:27.6'
+    distance: 3000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2005
+        club: SOSK
+        diff: '0.0'
+        finish: '10:29:17'
+        name: Ilcue
+        rank: 1
+        rank_sokol: 1
+        start: '10:19:20'
+        surname: Duksbá
+        time: '09:57.1'
+    -   born: 2005
+        club: SOSK
+        diff: '8.2'
+        finish: '10:30:05'
+        name: Akonlaír
+        rank: 2
+        rank_sokol: 2
+        start: '10:20:00'
+        surname: Bhüáveonr
+        time: '10:05.3'
+    -   born: 2005
+        club: SOSK
+        diff: '01:03.1'
+        finish: '10:30:40'
+        name: Édala
+        rank: 3
+        rank_sokol: 3
+        start: '10:19:40'
+        surname: Ácoifnerthv
+        time: '11:00.2'
+    distance: 3000m
+    name: Starší žákyně U15
+    sex: f
+-   athletes:
+    -   born: 2005
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Abkuj
+        rank: ''
+        rank_sokol: ''
+        start: '10:23:00'
+        surname: Idusl
+        time: ''
+    distance: 3000m
+    name: Starší žáci U15
+    sex: m
+-   athletes:
+    -   born: 2004
+        club: SOMA
+        diff: '0.0'
+        finish: '10:41:26'
+        name: Dmliaat
+        rank: 1
+        rank_sokol: ''
+        start: '10:26:40'
+        surname: Joevžák
+        time: '14:46.5'
+    -   born: 2004
+        club: SOSK
+        diff: '02:37.1'
+        finish: '10:43:43'
+        name: Nlikao
+        rank: 2
+        rank_sokol: 1
+        start: '10:26:20'
+        surname: Niokýodvám
+        time: '17:23.6'
+    -   born: 2004
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Řtanikea
+        rank: ''
+        rank_sokol: ''
+        start: '10:26:00'
+        surname: Rvokáožb
+        time: ''
+    distance: 5000m
+    name: Mladší dorostenky U16
+    sex: f
+-   athletes:
+    -   born: 2004
+        club: JIJD
+        diff: '0.0'
+        finish: '10:45:47'
+        name: Edark
+        rank: 1
+        rank_sokol: ''
+        start: '10:30:00'
+        surname: Mryl
+        time: '15:47.7'
+    -   born: 2004
+        club: SOSK
+        diff: '6.2'
+        finish: '10:45:33'
+        name: Kjuba
+        rank: 2
+        rank_sokol: 1
+        start: '10:29:40'
+        surname: Oecknmilha
+        time: '15:53.9'
+    distance: 5000m
+    name: Mladší dorostenci U16
+    sex: m
+-   athletes:
+    -   born: 2003
+        club: SOSK
+        diff: '0.0'
+        finish: '10:48:00'
+        name: Áelatni
+        rank: 1
+        rank_sokol: 1
+        start: '10:33:00'
+        surname: Třvrfáiuko
+        time: '15:00.3'
+    -   born: 2002
+        club: SOSK
+        diff: '06:13.0'
+        finish: '10:54:53'
+        name: Insade
+        rank: 2
+        rank_sokol: 2
+        start: '10:33:40'
+        surname: Iýodvnmoák
+        time: '21:13.3'
+    -   born: 2002
+        club: SOSK
+        diff: '09:35.8'
+        finish: '10:57:56'
+        name: Eknaaž
+        rank: 3
+        rank_sokol: 3
+        start: '10:33:20'
+        surname: Ovčvřaváa
+        time: '24:36.1'
+    distance: 5000m
+    name: Starší dorostenky U18
+    sex: f
+-   athletes:
+    -   born: 2003
+        club: SOSK
+        diff: '0.0'
+        finish: '10:47:59'
+        name: Átošm
+        rank: 1
+        rank_sokol: 1
+        start: '10:36:40'
+        surname: Esslerirp
+        time: '11:19.2'
+    distance: 5000m
+    name: Starší dorostenci U18
+    sex: m
+-   athletes: []
+    distance: 5000m
+    name: Juniorky U20
+    sex: f
+-   athletes: []
+    distance: 5000m
+    name: Junioři U20
+    sex: m
+-   athletes: []
+    distance: 5000m
+    name: Ženy do 23 let U23
+    sex: f
+-   athletes: []
+    distance: 5000m
+    name: Muži do 23 let U23
+    sex: m
+-   athletes:
+    -   born: 1985
+        club: SWSL
+        diff: '0.0'
+        finish: '10:53:16'
+        name: Ahicemla
+        rank: 1
+        rank_sokol: ''
+        start: '10:37:00'
+        surname: Ápuvoš
+        time: '16:16.4'
+    distance: 5000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 1983
+        club: SOVH
+        diff: '0.0'
+        finish: '10:50:33'
+        name: Lhmiac
+        rank: 1
+        rank_sokol: 1
+        start: '10:37:40'
+        surname: Ebnda
+        time: '12:53.2'
+    -   born: 1975
+        club: STUD
+        diff: '2.9'
+        finish: '10:50:56'
+        name: Mahcil
+        rank: 2
+        rank_sokol: 2
+        start: '10:38:00'
+        surname: Hká
+        time: '12:56.1'
+    -   born: 1970
+        club: SOSK
+        diff: '06:08.1'
+        finish: '10:56:21'
+        name: Etrobr
+        rank: 3
+        rank_sokol: 3
+        start: '10:37:20'
+        surname: Phzrkacoá
+        time: '19:01.3'
+    distance: 5000m
+    name: Muži
+    sex: m
