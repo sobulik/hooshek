@@ -15,7 +15,7 @@ def dump_start(o, ofile):
                     athletes.append(l)
                 f.write(termtables.to_string(athletes, header=header, alignment="rlccrr"))
             f.write("\n\n")
-        f.write("Powered by hooshek")
+        f.write("Powered by hooshek\n")
 
 def dump_finish(o, ofile):
     """dump finish object to an output file"""
