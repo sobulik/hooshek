@@ -12,6 +12,7 @@ aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.load()))
 startlist = dict()
 startlist["name"] = event.name
 startlist["date"] = event.date
+startlist["mass"] = event.mass
 startlist["races"] = list()
 
 # set race athletes

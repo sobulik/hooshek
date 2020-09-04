@@ -24,6 +24,7 @@ def dump(start):
     o = dict()
     o["name"] = start["name"]
     o["date"] = start["date"]
+    o["mass"] = start["mass"]
     o["races"] = list()
     for race in start["races"]:
         r = dict()
