@@ -4,6 +4,7 @@ import event
 import athletes
 import start
 
+import argparse
 import datetime
 
 event = event.load()
@@ -57,3 +58,22 @@ else:
         time += event.interval_race
 
 start.dump(startlist)
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--clubs", help="print startlist grouped by club", action="store_true")
+args = parser.parse_args()
+
+if args.clubs:
+    aths = list()
+    for race in startlist["races"]:
+        for athlete in race.athletes:
+            aths.append(athlete)
+    aths = sorted(aths, key=lambda athlete : athlete.club)
+    club = ""
+    with open("start-clubs.txt", "w", encoding="utf-8") as f:
+        for athlete in aths:
+            if club != athlete.club:
+                f.write("\n\n--------------------------------------------------------------------\n\n")
+                club = athlete.club
+            f.write(athlete.toString())
+            f.write("\n")

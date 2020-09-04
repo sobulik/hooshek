@@ -42,6 +42,11 @@ class Test(unittest.TestCase):
         subprocess.run([os.path.join(os.path.dirname(__file__), "start.py")], cwd=self.dir_data_target)
         self.assertTrue(filecmp.cmp(os.path.join(self.dir_data_source, "start.txt"), os.path.join(self.dir_data_target, "start.txt")))
 
+    def testStartClub(self):
+        """Start list grouped by club file is correct"""
+        subprocess.run([os.path.join(os.path.dirname(__file__), "start.py"), "--clubs"], cwd=self.dir_data_target)
+        self.assertTrue(filecmp.cmp(os.path.join(self.dir_data_source, "start-clubs.txt"), os.path.join(self.dir_data_target, "start-clubs.txt")))
+
     def testResults(self):
         """Result list is correct"""
         shutil.copy(os.path.join(self.dir_data_source, "start.yaml"), os.path.join(self.dir_data_target, "start.yaml"))
