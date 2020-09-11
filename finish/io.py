@@ -45,25 +45,25 @@ def dump(start):
     o["name"] = start["name"]
     o["date"] = start["date"]
     o["races"] = list()
-    for race in start["races"]:
+    for race in start["evals"]:
         r = dict()
         r["name"] = race["name"]
         r["sex"] = race["sex"]
         r["distance"] = race["distance"]
         r["athletes"] = list()
-        first_one = race["athletes"][0] if len(race["athletes"]) > 0 and "time" in race["athletes"][0] else None
+        first_one = race["athletes"][0] if len(race["athletes"]) > 0 and hasattr(race["athletes"][0], "time") else None
         for athlete in race["athletes"]:
             a = dict()
-            a["rank"] = athlete["rank"] if "rank" in athlete else ""
-            a["rank_sokol"] = athlete["rank_sokol"] if "rank_sokol" in athlete else ""
-            a["name"] = athlete["name"]
-            a["surname"] = athlete["surname"]
-            a["born"] = athlete["born"]
-            a["club"] = athlete["club"] if "club" in athlete and athlete["club"] is not None else ""
-            a["start"] = athlete["start"]
-            a["finish"] = athlete["finish"].strftime("%H:%M:%S") if "finish" in athlete else ""
-            a["time"] = util.format_delta(athlete["time"]) if "time" in athlete else ""
-            a["diff"] = util.format_delta(athlete["time"] - first_one["time"]) if "time" in athlete and first_one is not None else ""
+            a["rank"] = athlete.rank if hasattr(athlete, "rank") else ""
+            a["rank_sokol"] = athlete.rank_sokol if hasattr(athlete, "rank_sokol") else ""
+            a["name"] = athlete.name
+            a["surname"] = athlete.surname
+            a["born"] = athlete.born
+            a["club"] = athlete.club if hasattr(athlete, "club") and athlete.club is not None else ""
+            a["start"] = athlete.start
+            a["finish"] = athlete.finish.strftime("%H:%M:%S") if hasattr(athlete, "finish") and athlete.finish is not None else ""
+            a["time"] = util.format_delta(athlete.time) if hasattr(athlete, "time") and athlete.time is not None else ""
+            a["diff"] = util.format_delta(athlete.time - first_one.time) if hasattr(athlete, "time") and first_one is not None else ""
             r["athletes"].append(a)
         o["races"].append(r)
         

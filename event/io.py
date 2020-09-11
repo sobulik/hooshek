@@ -79,6 +79,24 @@ def sanity_check(raw):
             raise Exception("age_min higher than age_max for a race")
         if race["sex"] not in ("f", "m"):
             raise Exception("Invalid sex value for a race")
+        if "eval" in raw:
+            if len(raw["eval"]) == 0:
+                raise Exception("Evaluations empty")
+            for e in raw["eval"]:
+                try:
+                    int(e["age_min"])
+                except ValueError:
+                    raise Exception("Invalid age_min value for an evaluation")
+                try:
+                    int(e["age_max"])
+                except ValueError:
+                    raise Exception("Invalid age_max value for an evaluation")
+                if (int(e["age_min"]) > int(e["age_max"])):
+                    raise Exception("age_min higher than age_max for an evaluation")
+                if (int(e["age_min"]) < int(race["age_min"])):
+                    raise Exception("age_min in evaluation lower than age_min for a race")
+                if (int(e["age_max"]) > int(race["age_max"])):
+                    raise Exception("age_max in evaluation higher than age_max for a race")
         if "interval" in raw:
             if "start" in race:
                 try:

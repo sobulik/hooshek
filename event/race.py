@@ -13,6 +13,13 @@ class Race:
         self.sex = i["sex"]
         self.name = i["name"]
         self.distance = i["distance"]
+        if "eval" in i:
+            self.eval = list()
+            for e in i["eval"]:
+                evaluation = dict()
+                evaluation["age_min"] = e["age_min"]
+                evaluation["age_max"] = e["age_max"]
+                self.eval.append(evaluation)
         if "start" in i:
             self.start = util.parseTime(i["start"])
         if "interval" in i:
