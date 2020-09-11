@@ -16,10 +16,11 @@ class Test(unittest.TestCase):
 
     def setUp(self):
         self.dir_data_source = os.path.join(os.path.dirname(__file__), "test", "resources", "2020-skuhrovska-lyze")
-        self.dir_data_target = os.path.join(os.path.dirname(__file__), "test", "data", str(random.randrange(1024)).rjust(4, "0"))
-        if os.path.isdir(self.dir_data_target):
-            shutil.rmtree(self.dir_data_target)
-        os.makedirs(self.dir_data_target)
+        self.dir_data_target = os.path.join(os.path.dirname(__file__), "test", "data", str(random.randrange(4048)).rjust(4, "0"))
+        try:
+            os.makedirs(self.dir_data_target)
+        except FileExistsError:
+            self.fail()
         for f in ("athletes.yaml", "clubs.yaml", "event.yaml", "finish.yaml"):
             shutil.copy(os.path.join(self.dir_data_source, f), os.path.join(self.dir_data_target, f))
 

@@ -34,7 +34,7 @@ def sanity_check(raw):
             raise Exception("Event file start missing")
         try:
             util.parseTime(raw["interval"]["start"])
-        except (ValueError):
+        except ValueError:
             raise Exception("Invalid start value")
         if "race" not in raw["interval"]:
             raise Exception("Event file interval race missing")
