@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import unittest
 import os
-import sys  
+import sys
 
 class Test(unittest.TestCase):
 
