@@ -32,7 +32,7 @@ def dump_finish(o, ofile):
     header = [" #", " S", "         jméno         ", "ročník", "klub", "čas  ", "ztráta"]
     with open(ofile, "w", encoding="utf-8") as f:
         for race in o["races"]:
-            f.write("Kategorie: {0}   Trať: {1}\n".format(race["name"], race["distance"]))
+            f.write("Kategorie: {0} {1}  Trať: {2}\n".format(race["name"], race["desc"], race["distance"]))
             if len(race["athletes"]) > 0:
                 athletes = list()
                 for a in race["athletes"]:

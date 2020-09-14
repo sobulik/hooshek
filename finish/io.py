@@ -48,6 +48,7 @@ def dump(start):
     for race in start["evals"]:
         r = dict()
         r["name"] = race["name"]
+        r["desc"] = race["desc"]
         r["sex"] = race["sex"]
         r["distance"] = race["distance"]
         r["athletes"] = list()

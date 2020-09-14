@@ -62,6 +62,7 @@ races:
         start: 09:30:00
         surname: Árodolv
         time: ''
+    desc: ''
     distance: 200m
     name: Benjamínky
     sex: f
@@ -116,6 +117,7 @@ races:
         start: 09:34:40
         surname: Dbnea
         time: '03:42.7'
+    desc: ''
     distance: 200m
     name: Benjamínci
     sex: m
@@ -180,6 +182,7 @@ races:
         start: 09:40:20
         surname: Řmeoáčív
         time: '03:59.2'
+    desc: ''
     distance: 500m
     name: Minižačky
     sex: f
@@ -204,6 +207,7 @@ races:
         start: 09:43:40
         surname: Lord
         time: '02:01.9'
+    desc: ''
     distance: 500m
     name: Minižáci
     sex: m
@@ -298,6 +302,7 @@ races:
         start: 09:48:00
         surname: Bukáds
         time: '05:56.0'
+    desc: ''
     distance: 1000m
     name: Nejmladší žákyně
     sex: f
@@ -392,6 +397,7 @@ races:
         start: 09:54:00
         surname: Akakf
         time: ''
+    desc: ''
     distance: 1000m
     name: Nejmladší žáci
     sex: m
@@ -486,6 +492,7 @@ races:
         start: 09:59:00
         surname: Eíkáhvosl
         time: ''
+    desc: ''
     distance: 2000m
     name: Mladší žákyně
     sex: f
@@ -570,6 +577,7 @@ races:
         start: '10:05:20'
         surname: Nýnvoot
         time: ''
+    desc: ''
     distance: 2000m
     name: Mladší žáci
     sex: m
@@ -634,6 +642,7 @@ races:
         start: '10:10:00'
         surname: Lcáakinomehv
         time: ''
+    desc: ''
     distance: 3000m
     name: Starší žákyně
     sex: f
@@ -718,6 +727,7 @@ races:
         start: '10:15:00'
         surname: Čavavř
         time: '12:27.6'
+    desc: ''
     distance: 3000m
     name: Starší žáci
     sex: m
@@ -752,6 +762,7 @@ races:
         start: '10:19:40'
         surname: Ácoifnerthv
         time: '11:00.2'
+    desc: ''
     distance: 3000m
     name: Starší žákyně U15
     sex: f
@@ -766,6 +777,7 @@ races:
         start: '10:23:00'
         surname: Idusl
         time: ''
+    desc: ''
     distance: 3000m
     name: Starší žáci U15
     sex: m
@@ -800,6 +812,7 @@ races:
         start: '10:26:00'
         surname: Rvokáožb
         time: ''
+    desc: ''
     distance: 5000m
     name: Mladší dorostenky U16
     sex: f
@@ -824,6 +837,7 @@ races:
         start: '10:29:40'
         surname: Oecknmilha
         time: '15:53.9'
+    desc: ''
     distance: 5000m
     name: Mladší dorostenci U16
     sex: m
@@ -858,6 +872,7 @@ races:
         start: '10:33:20'
         surname: Ovčvřaváa
         time: '24:36.1'
+    desc: ''
     distance: 5000m
     name: Starší dorostenky U18
     sex: f
@@ -872,22 +887,27 @@ races:
         start: '10:36:40'
         surname: Esslerirp
         time: '11:19.2'
+    desc: ''
     distance: 5000m
     name: Starší dorostenci U18
     sex: m
 -   athletes: []
+    desc: ''
     distance: 5000m
     name: Juniorky U20
     sex: f
 -   athletes: []
+    desc: ''
     distance: 5000m
     name: Junioři U20
     sex: m
 -   athletes: []
+    desc: ''
     distance: 5000m
     name: Ženy do 23 let U23
     sex: f
 -   athletes: []
+    desc: ''
     distance: 5000m
     name: Muži do 23 let U23
     sex: m
@@ -902,6 +922,7 @@ races:
         start: '10:37:00'
         surname: Ápuvoš
         time: '16:16.4'
+    desc: ''
     distance: 5000m
     name: Ženy
     sex: f
@@ -936,6 +957,7 @@ races:
         start: '10:37:20'
         surname: Phzrkacoá
         time: '19:01.3'
+    desc: ''
     distance: 5000m
     name: Muži
     sex: m
