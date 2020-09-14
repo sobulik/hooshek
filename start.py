@@ -22,7 +22,7 @@ for race in event.races:
     race.athletes = list()
     for athlete in aths:
         if (athlete.sex == race.sex
-                and event.eff_year - athlete.born >= race.age_min 
+                and event.eff_year - athlete.born >= race.age_min
                 and event.eff_year - athlete.born <= race.age_max):
             race.athletes.append(athlete)
 
