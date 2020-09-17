@@ -67,7 +67,8 @@ if args.clubs:
     aths = list()
     for race in startlist["races"]:
         for athlete in race.athletes:
-            aths.append(athlete)
+            if hasattr(athlete, "club"):
+                aths.append(athlete)
     aths = sorted(aths, key=lambda athlete : athlete.club)
     club = ""
     with open("start-clubs.txt", "w", encoding="utf-8") as f:

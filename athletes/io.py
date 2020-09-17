@@ -63,7 +63,8 @@ def dump(athletes, filename="athletes-sorted.yaml"):
         a["surname"] = athlete.surname
         a["born"] = athlete.born
         a["sex"] = athlete.sex
-        a["club"] = athlete.club
+        if hasattr(athlete, "club"):
+            a["club"] = athlete.club
         o["athletes"].append(a)
         
     yaml.dump(o, filename)
