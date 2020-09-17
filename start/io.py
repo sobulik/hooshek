@@ -38,7 +38,7 @@ def dump(start):
             a["name"] = athlete.name
             a["surname"] = athlete.surname
             a["born"] = athlete.born
-            a["club"] = athlete.club
+            a["club"] = athlete.club if hasattr(athlete, "club") else ""
             a["start"] = athlete.start.strftime("%H:%M:%S")
             r["athletes"].append(a)
         o["races"].append(r)
