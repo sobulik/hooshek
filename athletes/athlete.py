@@ -16,5 +16,6 @@ class Athlete:
         self.finish = None
 
     def toString(self):
-        return "Athlete id: {0}, name: {1}, surname: {2}, born: {3}, sex: {4}, club: {5}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.sex, self.club if hasattr(self, "club") else "")
+        return "{0}   {1} {2} ({3}) {5}".format(str(self.id).rjust(3, " ") if hasattr(self, "id") else "", self.name, self.surname, self.born, self.sex, self.club if hasattr(self, "club") else "")
+        #return "Athlete id: {0}, name: {1}, surname: {2}, born: {3}, sex: {4}, club: {5}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.sex, self.club if hasattr(self, "club") else "")
         #return "{0}  {1} {2}, {3}, {4}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.club if hasattr(self, "club") else "")
