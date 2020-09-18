@@ -18,6 +18,7 @@ aths = sorted(aths, key=lambda athlete : athlete.born, reverse=True)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--shuffle", help="shuffle names to anonymize and store as file SHUFFLE")
+parser.add_argument("--renumber", help="renumber ids based on default sort and store as file RENUMBER")
 args = parser.parse_args()
 
 if args.shuffle:
@@ -25,5 +26,12 @@ if args.shuffle:
         athlete.name = ''.join(random.sample(athlete.name, len(athlete.name))).lower().title()
         athlete.surname = ''.join(random.sample(athlete.surname, len(athlete.surname))).lower().title()
     athletes.dump(aths, args.shuffle)
+elif args.renumber:
+    number = 0
+    for athlete in aths:
+        if hasattr(athlete, "id"):
+            number += 1
+            athlete.id = number
+    athletes.dump(aths, args.renumber)
 else:
     athletes.dump(aths)
