@@ -12,6 +12,9 @@ class Event:
     def __init__(self, i):
         self.name = i["name"]
         self.date = i["date"]
+        self.encoding_print = "utf-8"
+        if "encoding_print" in i and i["encoding_print"] is not None:
+            self.encoding_print = i["encoding_print"]
 
         self.eff_year = self.date.year
         if self.date.month < 7:

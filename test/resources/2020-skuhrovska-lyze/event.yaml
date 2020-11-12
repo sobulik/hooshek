@@ -1,6 +1,7 @@
 version: "1.0"
 name: Skuhrovská lyže
 date: 2020-02-16
+#encoding_print: "utf_8_sig"
 interval:
     start: "09:30:00"
     race: 180

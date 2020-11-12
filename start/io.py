@@ -19,7 +19,7 @@ def load():
 def sanity_check(raw):
     pass
 
-def dump(start):
+def dump(start, encoding_print):
     """write start list"""
     o = dict()
     o["name"] = start["name"]
@@ -44,4 +44,4 @@ def dump(start):
         o["races"].append(r)
         
     yaml.dump(o, "start.yaml")
-    termtables.dump_start(o, "start.txt")
+    termtables.dump_start(o, "start.txt", encoding_print)

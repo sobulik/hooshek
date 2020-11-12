@@ -39,7 +39,7 @@ def sanity_check(raw):
         if ids.count(i) > 1:
             raise Exception("Finish file result for id " + str(i) + " defined " + str(ids.count(i)) + " times")
 
-def dump(start):
+def dump(start, encoding_print):
     """write results"""
     o = dict()
     o["name"] = start["name"]
@@ -69,4 +69,4 @@ def dump(start):
         o["races"].append(r)
         
     yaml.dump(o, "results.yaml")
-    termtables.dump_finish(o, "results.txt")
+    termtables.dump_finish(o, "results.txt", encoding_print)

@@ -57,7 +57,7 @@ else:
             group += 1
         time += event.interval_race
 
-start.dump(startlist)
+start.dump(startlist, event.encoding_print)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--clubs", help="print startlist grouped by club", action="store_true")
@@ -72,7 +72,7 @@ if args.clubs:
     aths = sorted(aths, key=lambda athlete : athlete.id)
     aths = sorted(aths, key=lambda athlete : athlete.club)
     club = ""
-    with open("start-clubs.txt", "w", encoding="utf-8") as f:
+    with open("start-clubs.txt", "w", encoding=event.encoding_print) as f:
         for athlete in aths:
             if club != athlete.club:
                 f.write("\n\n--------------------------------------------------------------------\n\n")

@@ -77,4 +77,4 @@ for race in event.races:
                 athlete.rank_sokol = rank_sokol
         e["athletes"].extend(unfinished)
 
-finish.dump(results)
+finish.dump(results, event.encoding_print)
