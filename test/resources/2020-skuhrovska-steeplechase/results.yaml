@@ -1,0 +1,2733 @@
+date: 2020-09-19
+name: Skuhrovská steeplechase
+races:
+-   athletes:
+    -   born: 2015
+        club: SOSK
+        diff: '0.0'
+        finish: 00:00:15
+        name: Tereza
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Vavrušková
+        time: '15.3'
+    -   born: 2015
+        club: ''
+        diff: '2.0'
+        finish: 00:00:17
+        name: Emma
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pičmanová
+        time: '17.3'
+    -   born: 2015
+        club: DULI
+        diff: '3.0'
+        finish: 00:00:18
+        name: Nina
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Veselá
+        time: '18.3'
+    -   born: 2015
+        club: SOVH
+        diff: '3.4'
+        finish: 00:00:18
+        name: Astrid
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Berntová
+        time: '18.7'
+    -   born: 2015
+        club: HSKB
+        diff: '4.2'
+        finish: 00:00:19
+        name: Pavlína
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šourková
+        time: '19.5'
+    -   born: 2015
+        club: SWSL
+        diff: '4.7'
+        finish: 00:00:20
+        name: Anna
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Piskáčková
+        time: '20.0'
+    -   born: 2015
+        club: ''
+        diff: '5.2'
+        finish: 00:00:20
+        name: Nela
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Švermová
+        time: '20.5'
+    -   born: 2016
+        club: VLCA
+        diff: '8.2'
+        finish: 00:00:23
+        name: Ella
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mečířová
+        time: '23.5'
+    -   born: 2016
+        club: SOSK
+        diff: '8.8'
+        finish: 00:00:24
+        name: Magdalena
+        rank: 9
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Halamová
+        time: '24.1'
+    -   born: 2015
+        club: SOSK
+        diff: '9.7'
+        finish: 00:00:25
+        name: Annamarie
+        rank: 10
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Havlasová
+        time: '25.0'
+    -   born: 2016
+        club: JBCN
+        diff: '10.3'
+        finish: 00:00:25
+        name: Kristýna
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pelouchová
+        time: '25.6'
+    -   born: 2016
+        club: ''
+        diff: '10.7'
+        finish: 00:00:26
+        name: Maja
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Štosová
+        time: '26.0'
+    -   born: 2017
+        club: SKHA
+        diff: '11.0'
+        finish: 00:00:26
+        name: Klára
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kmoníčková
+        time: '26.3'
+    -   born: 2017
+        club: ''
+        diff: '14.5'
+        finish: 00:00:29
+        name: Anežka
+        rank: 14
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šatrová
+        time: '29.8'
+    -   born: 2017
+        club: ''
+        diff: '15.1'
+        finish: 00:00:30
+        name: Jessica
+        rank: 15
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Balatková
+        time: '30.4'
+    -   born: 2016
+        club: SOSK
+        diff: '15.8'
+        finish: 00:00:31
+        name: Tereza
+        rank: 16
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Ziková
+        time: '31.1'
+    -   born: 2016
+        club: ''
+        diff: '18.0'
+        finish: 00:00:33
+        name: Lucie
+        rank: 17
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vopatová
+        time: '33.3'
+    -   born: 2016
+        club: SOSK
+        diff: '19.6'
+        finish: 00:00:34
+        name: Tereza
+        rank: 18
+        rank_sokol: 6
+        start: 00:00:00
+        surname: Jírová
+        time: '34.9'
+    -   born: 2016
+        club: SWSL
+        diff: '26.5'
+        finish: 00:00:41
+        name: Aneta
+        rank: 19
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lipšová
+        time: '41.8'
+    -   born: 2018
+        club: DULI
+        diff: '39.5'
+        finish: 00:00:54
+        name: Anežka
+        rank: 20
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mládková
+        time: '54.8'
+    desc: ''
+    distance: 50m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2015
+        club: SKHA
+        diff: '0.0'
+        finish: 00:00:14
+        name: Samuel
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Račák
+        time: '14.1'
+    -   born: 2015
+        club: SOVH
+        diff: '2.2'
+        finish: 00:00:16
+        name: Vilém
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Peukert
+        time: '16.3'
+    -   born: 2015
+        club: DULI
+        diff: '2.7'
+        finish: 00:00:16
+        name: Ondřej
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mládek
+        time: '16.8'
+    -   born: 2015
+        club: SWSL
+        diff: '3.4'
+        finish: 00:00:17
+        name: David
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hūbner
+        time: '17.5'
+    -   born: 2015
+        club: ''
+        diff: '4.0'
+        finish: 00:00:18
+        name: Štěpán
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šatra
+        time: '18.1'
+    -   born: 2015
+        club: SKJA
+        diff: '5.3'
+        finish: 00:00:19
+        name: Matyáš
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Car
+        time: '19.4'
+    -   born: 2015
+        club: SOTE
+        diff: '5.7'
+        finish: 00:00:19
+        name: Sebastian
+        rank: 7
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Esselbach
+        time: '19.8'
+    -   born: 2017
+        club: SOSK
+        diff: '6.3'
+        finish: 00:00:20
+        name: Bořek
+        rank: 8
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Bodlák
+        time: '20.4'
+    -   born: 2016
+        club: SWSL
+        diff: '6.8'
+        finish: 00:00:20
+        name: Jan
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Piskáček
+        time: '20.9'
+    -   born: 2015
+        club: SOTE
+        diff: '7.2'
+        finish: 00:00:21
+        name: Petr
+        rank: 10
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Beier
+        time: '21.3'
+    -   born: 2016
+        club: SOSK
+        diff: '7.7'
+        finish: 00:00:21
+        name: Vojtěch
+        rank: 11
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Jelínek
+        time: '21.8'
+    -   born: 2015
+        club: ''
+        diff: '8.3'
+        finish: 00:00:22
+        name: Vojtěch
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Preissler
+        time: '22.4'
+    -   born: 2016
+        club: JIJD
+        diff: '9.0'
+        finish: 00:00:23
+        name: Bohuslav
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Štejfa
+        time: '23.1'
+    -   born: 2015
+        club: SWSL
+        diff: '9.5'
+        finish: 00:00:23
+        name: Radim
+        rank: 14
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vyhnal
+        time: '23.6'
+    -   born: 2016
+        club: SOSK
+        diff: '10.0'
+        finish: 00:00:24
+        name: Matouš
+        rank: 15
+        rank_sokol: 6
+        start: 00:00:00
+        surname: Fichtner
+        time: '24.1'
+    -   born: 2016
+        club: ''
+        diff: '10.9'
+        finish: 00:00:25
+        name: Alexandr
+        rank: 16
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bryanyk
+        time: '25.0'
+    -   born: 2015
+        club: TJSE
+        diff: '11.5'
+        finish: 00:00:25
+        name: Šimon
+        rank: 17
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Plíhal
+        time: '25.6'
+    -   born: 2016
+        club: CSKV
+        diff: '29.7'
+        finish: 00:00:43
+        name: Viktor
+        rank: 18
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaněk
+        time: '43.8'
+    -   born: 2018
+        club: SOSK
+        diff: '31.6'
+        finish: 00:00:45
+        name: Josef
+        rank: 19
+        rank_sokol: 7
+        start: 00:00:00
+        surname: Roubínek
+        time: '45.7'
+    -   born: 2018
+        club: ''
+        diff: '53.4'
+        finish: 00:01:07
+        name: Patrik
+        rank: 20
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Štos
+        time: '01:07.5'
+    desc: ''
+    distance: 50m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2014
+        club: SKHA
+        diff: '0.0'
+        finish: 00:02:11
+        name: Kamila
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kmoníčková
+        time: '02:11.2'
+    -   born: 2014
+        club: DULI
+        diff: '3.9'
+        finish: 00:02:15
+        name: Marie
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mečířová
+        time: '02:15.1'
+    -   born: 2014
+        club: SOSK
+        diff: '6.3'
+        finish: 00:02:17
+        name: Agáta
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Malá
+        time: '02:17.5'
+    -   born: 2014
+        club: SOVH
+        diff: '8.3'
+        finish: 00:02:19
+        name: Emma
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Peukertová
+        time: '02:19.5'
+    -   born: 2014
+        club: SWSL
+        diff: '13.7'
+        finish: 00:02:24
+        name: Anička
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vlková
+        time: '02:24.9'
+    -   born: 2014
+        club: DULI
+        diff: '15.5'
+        finish: 00:02:26
+        name: Kateřina
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Endrychová
+        time: '02:26.7'
+    -   born: 2014
+        club: SOSK
+        diff: '24.7'
+        finish: 00:02:35
+        name: Lucie
+        rank: 7
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Jírová
+        time: '02:35.9'
+    -   born: 2014
+        club: HSKB
+        diff: '35.0'
+        finish: 00:02:46
+        name: Štěpánka
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šourková
+        time: '02:46.2'
+    -   born: 2014
+        club: JIJD
+        diff: '46.1'
+        finish: 00:02:57
+        name: Antonie
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Štejfová
+        time: '02:57.3'
+    -   born: 2014
+        club: ''
+        diff: '47.0'
+        finish: 00:02:58
+        name: Týna
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Balatková
+        time: '02:58.2'
+    desc: '2014'
+    distance: 300m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2013
+        club: SPVR
+        diff: '0.0'
+        finish: 00:01:52
+        name: Ema
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Heřmanská
+        time: '01:52.0'
+    -   born: 2013
+        club: SWSL
+        diff: '11.9'
+        finish: 00:02:03
+        name: Stella
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Huková
+        time: '02:03.9'
+    -   born: 2013
+        club: ACJB
+        diff: '14.5'
+        finish: 00:02:06
+        name: Amálie
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Křelinová
+        time: '02:06.5'
+    -   born: 2013
+        club: SOZB
+        diff: '31.2'
+        finish: 00:02:23
+        name: Karla
+        rank: 4
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Jakubíčková
+        time: '02:23.2'
+    -   born: 2013
+        club: SKJA
+        diff: ''
+        finish: ''
+        name: Natálka
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kuncová
+        time: ''
+    desc: '2013'
+    distance: 300m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: SWSL
+        diff: '0.0'
+        finish: 00:01:57
+        name: Petr
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Piskáček
+        time: '01:57.1'
+    -   born: 2014
+        club: TJTA
+        diff: '3.7'
+        finish: 00:02:00
+        name: Vít
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kubín
+        time: '02:00.8'
+    -   born: 2014
+        club: SOVH
+        diff: '8.5'
+        finish: 00:02:05
+        name: Jiří
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Fejfar
+        time: '02:05.6'
+    -   born: 2014
+        club: SOSK
+        diff: '10.2'
+        finish: 00:02:07
+        name: Jakub
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Chupek
+        time: '02:07.3'
+    -   born: 2014
+        club: SOSK
+        diff: '12.5'
+        finish: 00:02:09
+        name: Jakub
+        rank: 5
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Jelínek
+        time: '02:09.6'
+    -   born: 2014
+        club: SOSK
+        diff: '13.2'
+        finish: 00:02:10
+        name: Filip
+        rank: 6
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Chupek
+        time: '02:10.3'
+    -   born: 2014
+        club: ''
+        diff: '15.0'
+        finish: 00:02:12
+        name: Tobiáš
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tryzna
+        time: '02:12.1'
+    -   born: 2014
+        club: SOSK
+        diff: '19.0'
+        finish: 00:02:16
+        name: Ondřej
+        rank: 8
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Tomášek
+        time: '02:16.1'
+    -   born: 2014
+        club: SWSL
+        diff: '40.9'
+        finish: 00:02:38
+        name: Jakub
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lipš
+        time: '02:38.0'
+    -   born: 2014
+        club: ''
+        diff: ''
+        finish: ''
+        name: Radek
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Duda
+        time: ''
+    desc: '2014'
+    distance: 300m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2013
+        club: SKHA
+        diff: '0.0'
+        finish: 00:01:53
+        name: Štěpán
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaněček
+        time: '01:53.6'
+    -   born: 2013
+        club: JBCN
+        diff: '0.0'
+        finish: 00:01:53
+        name: Adam
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pelouch
+        time: '01:53.6'
+    -   born: 2013
+        club: ''
+        diff: '8.3'
+        finish: 00:02:01
+        name: Jiří
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Svoboda
+        time: '02:01.9'
+    -   born: 2013
+        club: SKJA
+        diff: '11.1'
+        finish: 00:02:04
+        name: Matyáš
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Svoboda
+        time: '02:04.7'
+    -   born: 2013
+        club: SKJA
+        diff: '12.5'
+        finish: 00:02:06
+        name: Pepa
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šnytr
+        time: '02:06.1'
+    -   born: 2013
+        club: ''
+        diff: '16.1'
+        finish: 00:02:09
+        name: Matěj
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dvořák
+        time: '02:09.7'
+    -   born: 2013
+        club: SKHA
+        diff: '17.3'
+        finish: 00:02:10
+        name: Jiří
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Čermák
+        time: '02:10.9'
+    -   born: 2013
+        club: SKHA
+        diff: '18.7'
+        finish: 00:02:12
+        name: Tadeáš
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Račák
+        time: '02:12.3'
+    -   born: 2013
+        club: FRYD
+        diff: '30.4'
+        finish: 00:02:24
+        name: Viktor
+        rank: 9
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Hilpert
+        time: '02:24.0'
+    -   born: 2013
+        club: SKJA
+        diff: ''
+        finish: ''
+        name: Mikuláš
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Car
+        time: ''
+    desc: '2013'
+    distance: 300m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: SOSK
+        diff: '0.0'
+        finish: 00:01:54
+        name: Amálie
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Tomášková
+        time: '01:54.3'
+    -   born: 2012
+        club: STUD
+        diff: '3.2'
+        finish: 00:01:57
+        name: Alice
+        rank: 2
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Kosáčková
+        time: '01:57.5'
+    -   born: 2012
+        club: SOSK
+        diff: '4.2'
+        finish: 00:01:58
+        name: Barbora
+        rank: 3
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Vavrušková
+        time: '01:58.5'
+    -   born: 2012
+        club: TJSE
+        diff: '7.3'
+        finish: 00:02:01
+        name: Šárka
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Plíhalová
+        time: '02:01.6'
+    -   born: 2012
+        club: SOSK
+        diff: '11.9'
+        finish: 00:02:06
+        name: Anežka
+        rank: 5
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Halamová
+        time: '02:06.2'
+    -   born: 2012
+        club: ''
+        diff: '14.3'
+        finish: 00:02:08
+        name: Josephine
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Singh
+        time: '02:08.6'
+    -   born: 2012
+        club: HSKB
+        diff: '19.8'
+        finish: 00:02:14
+        name: Anna
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hanušová
+        time: '02:14.1'
+    -   born: 2012
+        club: DULI
+        diff: '24.6'
+        finish: 00:02:18
+        name: Eliška
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Heindorfer
+        time: '02:18.9'
+    -   born: 2012
+        club: ''
+        diff: '28.3'
+        finish: 00:02:22
+        name: Ema
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Švermová
+        time: '02:22.6'
+    desc: '2012'
+    distance: 300m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2011
+        club: TJTA
+        diff: '0.0'
+        finish: 00:01:38
+        name: Veronika
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bervicová
+        time: '01:38.6'
+    -   born: 2011
+        club: ''
+        diff: '1.7'
+        finish: 00:01:40
+        name: Viktorie
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dudová
+        time: '01:40.3'
+    -   born: 2011
+        club: SKHA
+        diff: '6.8'
+        finish: 00:01:45
+        name: Adéla
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hančová
+        time: '01:45.4'
+    -   born: 2011
+        club: SOVH
+        diff: '9.0'
+        finish: 00:01:47
+        name: Ela
+        rank: 4
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Berntová
+        time: '01:47.6'
+    -   born: 2011
+        club: TJTA
+        diff: '12.2'
+        finish: 00:01:50
+        name: Beáta
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Melichová
+        time: '01:50.8'
+    -   born: 2011
+        club: SOVH
+        diff: '13.6'
+        finish: 00:01:52
+        name: Sofie
+        rank: 6
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Fejfarová
+        time: '01:52.2'
+    -   born: 2011
+        club: DULI
+        diff: '16.8'
+        finish: 00:01:55
+        name: Eliška
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Poeková
+        time: '01:55.4'
+    -   born: 2011
+        club: HSKB
+        diff: '18.3'
+        finish: 00:01:56
+        name: Anežka
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mohvaldová
+        time: '01:56.9'
+    -   born: 2011
+        club: SKHA
+        diff: '19.3'
+        finish: 00:01:57
+        name: Nikola
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lukešová
+        time: '01:57.9'
+    -   born: 2011
+        club: SWSL
+        diff: '21.1'
+        finish: 00:01:59
+        name: Terezie
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hübnerová
+        time: '01:59.7'
+    desc: '2011'
+    distance: 300m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: DULI
+        diff: '0.0'
+        finish: 00:01:43
+        name: Vincent
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ježek
+        time: '01:43.9'
+    -   born: 2012
+        club: HSKB
+        diff: '4.7'
+        finish: 00:01:48
+        name: Vojtěch
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šochovský
+        time: '01:48.6'
+    -   born: 2012
+        club: SOHU
+        diff: '5.3'
+        finish: 00:01:49
+        name: Tomáš
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Pavlata
+        time: '01:49.2'
+    -   born: 2012
+        club: SOSK
+        diff: '10.9'
+        finish: 00:01:54
+        name: Tomáš
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Motl
+        time: '01:54.8'
+    -   born: 2012
+        club: SKIJ
+        diff: '31.7'
+        finish: 00:02:15
+        name: Šimon
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bárta
+        time: '02:15.6'
+    -   born: 2012
+        club: ''
+        diff: '49.2'
+        finish: 00:02:33
+        name: Ondřej
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šrejma
+        time: '02:33.1'
+    desc: '2012'
+    distance: 300m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2011
+        club: VLCA
+        diff: '0.0'
+        finish: 00:01:38
+        name: Jakub
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mečíř
+        time: '01:38.4'
+    -   born: 2011
+        club: JBCN
+        diff: '4.4'
+        finish: 00:01:42
+        name: Filip
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pelouch
+        time: '01:42.8'
+    -   born: 2011
+        club: DULI
+        diff: '5.7'
+        finish: 00:01:44
+        name: Matyáš
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mládek
+        time: '01:44.1'
+    -   born: 2011
+        club: SOSK
+        diff: '7.5'
+        finish: 00:01:45
+        name: Tomáš
+        rank: 4
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Helísek
+        time: '01:45.9'
+    -   born: 2011
+        club: TJTA
+        diff: '8.8'
+        finish: 00:01:47
+        name: Lukáš
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Valeš
+        time: '01:47.2'
+    -   born: 2011
+        club: SOSK
+        diff: '9.4'
+        finish: 00:01:47
+        name: Tobiáš
+        rank: 6
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Černý
+        time: '01:47.8'
+    -   born: 2011
+        club: LSKL
+        diff: '10.7'
+        finish: 00:01:49
+        name: Kryštof
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lukavec
+        time: '01:49.1'
+    -   born: 2011
+        club: CSKV
+        diff: '21.5'
+        finish: 00:01:59
+        name: Metoděj
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Novotný
+        time: '01:59.9'
+    -   born: 2011
+        club: SOSK
+        diff: '23.3'
+        finish: 00:02:01
+        name: Tomáš
+        rank: 9
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Zurynek
+        time: '02:01.7'
+    -   born: 2011
+        club: SKHA
+        diff: '26.9'
+        finish: 00:02:05
+        name: Jaroslav
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Uman
+        time: '02:05.3'
+    desc: '2011'
+    distance: 300m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2010
+        club: SWSL
+        diff: '0.0'
+        finish: 00:02:43
+        name: Veronika
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Syrovátková
+        time: '02:43.3'
+    -   born: 2010
+        club: CKLH
+        diff: '7.1'
+        finish: 00:02:50
+        name: Magdaléna
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Rázlová
+        time: '02:50.4'
+    -   born: 2010
+        club: SWSL
+        diff: '8.2'
+        finish: 00:02:51
+        name: Kateřina
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kremsová
+        time: '02:51.5'
+    -   born: 2010
+        club: DULI
+        diff: '9.9'
+        finish: 00:02:53
+        name: Kristýna
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kellerová
+        time: '02:53.2'
+    -   born: 2010
+        club: SKHA
+        diff: '12.9'
+        finish: 00:02:56
+        name: Markéta
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kmoníčková
+        time: '02:56.2'
+    -   born: 2010
+        club: SKIJ
+        diff: '16.2'
+        finish: 00:02:59
+        name: Johanka
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Krtičková
+        time: '02:59.5'
+    -   born: 2010
+        club: JBCN
+        diff: '16.6'
+        finish: 00:02:59
+        name: Kristýna
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bartošová
+        time: '02:59.9'
+    -   born: 2010
+        club: SOSK
+        diff: '22.8'
+        finish: 00:03:06
+        name: Amálie
+        rank: 8
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Vavřačová
+        time: '03:06.1'
+    -   born: 2010
+        club: DULI
+        diff: '30.1'
+        finish: 00:03:13
+        name: Veronika
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Endrychová
+        time: '03:13.4'
+    -   born: 2010
+        club: HSKB
+        diff: '36.8'
+        finish: 00:03:20
+        name: Vendula
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mohvaldová
+        time: '03:20.1'
+    -   born: 2010
+        club: SWSL
+        diff: '38.0'
+        finish: 00:03:21
+        name: Nella
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Huková
+        time: '03:21.3'
+    -   born: 2010
+        club: SWSL
+        diff: '40.1'
+        finish: 00:03:23
+        name: Barbora
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Slezáková
+        time: '03:23.4'
+    -   born: 2010
+        club: SOSK
+        diff: '43.5'
+        finish: 00:03:26
+        name: Elena
+        rank: 13
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Dubská
+        time: '03:26.8'
+    -   born: 2010
+        club: SKJA
+        diff: '47.5'
+        finish: 00:03:30
+        name: Aneta
+        rank: 14
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lederová
+        time: '03:30.8'
+    -   born: 2010
+        club: SKIJ
+        diff: '48.1'
+        finish: 00:03:31
+        name: Karolína
+        rank: 15
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Preisslerová
+        time: '03:31.4'
+    -   born: 2010
+        club: ''
+        diff: '50.4'
+        finish: 00:03:33
+        name: Jasmine
+        rank: 16
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Singh
+        time: '03:33.7'
+    -   born: 2010
+        club: DULI
+        diff: ''
+        finish: ''
+        name: Kristýna
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kerelová
+        time: ''
+    -   born: 2010
+        club: DULI
+        diff: ''
+        finish: ''
+        name: Alžběta
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Nebusová
+        time: ''
+    desc: '2010'
+    distance: 500m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2009
+        club: SOVH
+        diff: '0.0'
+        finish: 00:02:35
+        name: Zuzana
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Jodasová
+        time: '02:35.4'
+    -   born: 2009
+        club: TJSE
+        diff: '0.4'
+        finish: 00:02:35
+        name: Andrea
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Halamová
+        time: '02:35.8'
+    -   born: 2009
+        club: SKIJ
+        diff: '2.1'
+        finish: 00:02:37
+        name: Pavlína
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Salabová
+        time: '02:37.5'
+    -   born: 2009
+        club: SOSK
+        diff: '17.2'
+        finish: 00:02:52
+        name: Lenka
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Zurynková
+        time: '02:52.6'
+    -   born: 2009
+        club: HSKB
+        diff: '23.5'
+        finish: 00:02:58
+        name: Zuzana
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mrázová
+        time: '02:58.9'
+    -   born: 2009
+        club: DULI
+        diff: '25.8'
+        finish: 00:03:01
+        name: Terezie
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Blažejová
+        time: '03:01.2'
+    -   born: 2009
+        club: SOSK
+        diff: '26.5'
+        finish: 00:03:01
+        name: Barbora
+        rank: 7
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Helísková
+        time: '03:01.9'
+    -   born: 2009
+        club: CSKV
+        diff: '28.8'
+        finish: 00:03:04
+        name: Marie
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Novotná
+        time: '03:04.2'
+    -   born: 2009
+        club: SOVH
+        diff: '30.8'
+        finish: 00:03:06
+        name: Denisa
+        rank: 9
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Borčická
+        time: '03:06.2'
+    -   born: 2009
+        club: ZDRP
+        diff: '33.7'
+        finish: 00:03:09
+        name: Simona
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kuiper
+        time: '03:09.1'
+    -   born: 2009
+        club: SWSL
+        diff: '38.0'
+        finish: 00:03:13
+        name: Aneta
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Jelínková
+        time: '03:13.4'
+    -   born: 2009
+        club: JBCN
+        diff: '40.4'
+        finish: 00:03:15
+        name: Julie
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Procházková
+        time: '03:15.8'
+    -   born: 2009
+        club: SKHA
+        diff: '46.7'
+        finish: 00:03:22
+        name: Amálie
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Jeníková
+        time: '03:22.1'
+    -   born: 2009
+        club: SOSK
+        diff: ''
+        finish: ''
+        name: Sofie
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Yucel
+        time: ''
+    desc: '2009'
+    distance: 500m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: SKJA
+        diff: '0.0'
+        finish: 00:02:25
+        name: Filip
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Drda
+        time: '02:25.0'
+    -   born: 2010
+        club: SWSL
+        diff: '9.0'
+        finish: 00:02:34
+        name: Lukáš
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Savruk
+        time: '02:34.0'
+    -   born: 2010
+        club: FRYD
+        diff: '10.2'
+        finish: 00:02:35
+        name: Oliver
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Hilpert
+        time: '02:35.2'
+    -   born: 2010
+        club: DULI
+        diff: '14.0'
+        finish: 00:02:39
+        name: Tomáš
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Plachý
+        time: '02:39.0'
+    -   born: 2010
+        club: DULI
+        diff: '15.7'
+        finish: 00:02:40
+        name: Josef
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Schäfer
+        time: '02:40.7'
+    -   born: 2010
+        club: SKJA
+        diff: '18.1'
+        finish: 00:02:43
+        name: Adam
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kohout
+        time: '02:43.1'
+    -   born: 2010
+        club: TJTA
+        diff: '20.9'
+        finish: 00:02:45
+        name: Jan
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kubín
+        time: '02:45.9'
+    -   born: 2010
+        club: SKHA
+        diff: '25.5'
+        finish: 00:02:50
+        name: Michal
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaněček
+        time: '02:50.5'
+    -   born: 2010
+        club: TJSE
+        diff: '26.8'
+        finish: 00:02:51
+        name: Jan
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hassa
+        time: '02:51.8'
+    -   born: 2010
+        club: SOSK
+        diff: '27.9'
+        finish: 00:02:52
+        name: František
+        rank: 10
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Procházka
+        time: '02:52.9'
+    -   born: 2010
+        club: DULI
+        diff: '30.3'
+        finish: 00:02:55
+        name: Jáchym
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tandler
+        time: '02:55.3'
+    -   born: 2010
+        club: SOSK
+        diff: '32.9'
+        finish: 00:02:57
+        name: Matouš
+        rank: 12
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Skrbek
+        time: '02:57.9'
+    -   born: 2010
+        club: SWSL
+        diff: '39.2'
+        finish: 00:03:04
+        name: Petr
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kopecký
+        time: '03:04.2'
+    -   born: 2010
+        club: SWSL
+        diff: '39.7'
+        finish: 00:03:04
+        name: Mikuláš
+        rank: 14
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mazáč
+        time: '03:04.7'
+    -   born: 2010
+        club: HSKB
+        diff: '42.7'
+        finish: 00:03:07
+        name: Jan
+        rank: 15
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hanuš
+        time: '03:07.7'
+    -   born: 2010
+        club: SOSK
+        diff: '45.4'
+        finish: 00:03:10
+        name: Václav
+        rank: 16
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Motl
+        time: '03:10.4'
+    -   born: 2010
+        club: SKJA
+        diff: '46.2'
+        finish: 00:03:11
+        name: Antonín
+        rank: 17
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šnytr
+        time: '03:11.2'
+    -   born: 2010
+        club: SWSL
+        diff: '47.0'
+        finish: 00:03:12
+        name: Ondřej
+        rank: 18
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vlk
+        time: '03:12.0'
+    -   born: 2010
+        club: HSKB
+        diff: '01:32.5'
+        finish: 00:03:57
+        name: Filip
+        rank: 19
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Trýzna
+        time: '03:57.5'
+    -   born: 2010
+        club: SOSK
+        diff: '01:49.1'
+        finish: 00:04:14
+        name: Vasyl
+        rank: 20
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Bryanyk
+        time: '04:14.1'
+    -   born: 2010
+        club: SOTE
+        diff: '01:50.2'
+        finish: 00:04:15
+        name: Jakub
+        rank: 21
+        rank_sokol: 6
+        start: 00:00:00
+        surname: Esselbach
+        time: '04:15.2'
+    desc: '2010'
+    distance: 500m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2009
+        club: SKJA
+        diff: '0.0'
+        finish: 00:02:28
+        name: Bartoloměj
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Čapek
+        time: '02:28.8'
+    -   born: 2009
+        club: SOVH
+        diff: '1.5'
+        finish: 00:02:30
+        name: Bartoloměj
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Bernt
+        time: '02:30.3'
+    -   born: 2009
+        club: LSKL
+        diff: '5.9'
+        finish: 00:02:34
+        name: Marek
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Škorpil
+        time: '02:34.7'
+    -   born: 2009
+        club: KBJI
+        diff: '14.0'
+        finish: 00:02:42
+        name: Matyáš
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bárta
+        time: '02:42.8'
+    -   born: 2009
+        club: SKHA
+        diff: '18.7'
+        finish: 00:02:47
+        name: Jakub
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hanč
+        time: '02:47.5'
+    -   born: 2009
+        club: SOTE
+        diff: '22.0'
+        finish: 00:02:50
+        name: Adam
+        rank: 6
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Beier
+        time: '02:50.8'
+    -   born: 2009
+        club: DULI
+        diff: '25.7'
+        finish: 00:02:54
+        name: Matyáš
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Brož
+        time: '02:54.5'
+    -   born: 2009
+        club: SOSK
+        diff: '26.5'
+        finish: 00:02:55
+        name: Vojtěch
+        rank: 8
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Halama
+        time: '02:55.3'
+    -   born: 2009
+        club: HSKB
+        diff: '26.9'
+        finish: 00:02:55
+        name: Václav
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Holubec
+        time: '02:55.7'
+    -   born: 2009
+        club: TJTA
+        diff: '29.5'
+        finish: 00:02:58
+        name: Kryštof
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Melich
+        time: '02:58.3'
+    -   born: 2009
+        club: CSKV
+        diff: '34.5'
+        finish: 00:03:03
+        name: Hugo
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaněk
+        time: '03:03.3'
+    -   born: 2009
+        club: DULI
+        diff: '42.6'
+        finish: 00:03:11
+        name: Mikoláš
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Valoušek
+        time: '03:11.4'
+    -   born: 2009
+        club: SOSK
+        diff: '44.4'
+        finish: 00:03:13
+        name: Tomáš
+        rank: 13
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Udatný
+        time: '03:13.2'
+    -   born: 2009
+        club: SOTE
+        diff: '48.6'
+        finish: 00:03:17
+        name: Michal
+        rank: 14
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Donát
+        time: '03:17.4'
+    desc: '2009'
+    distance: 500m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2008
+        club: DULI
+        diff: '0.0'
+        finish: 00:04:55
+        name: Anna
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mládková
+        time: '04:55.8'
+    -   born: 2008
+        club: SOVH
+        diff: '14.5'
+        finish: 00:05:10
+        name: Kristýna
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Nováková
+        time: '05:10.3'
+    -   born: 2008
+        club: SWSL
+        diff: '15.9'
+        finish: 00:05:11
+        name: Karla
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kopecká
+        time: '05:11.7'
+    -   born: 2008
+        club: DULI
+        diff: '20.7'
+        finish: 00:05:16
+        name: Alžběta
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Havlasová
+        time: '05:16.5'
+    -   born: 2008
+        club: DULI
+        diff: '31.6'
+        finish: 00:05:27
+        name: Magdalena
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Schäferová
+        time: '05:27.4'
+    -   born: 2008
+        club: LSKL
+        diff: '39.8'
+        finish: 00:05:35
+        name: Marcela
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Nosková
+        time: '05:35.6'
+    -   born: 2008
+        club: DULI
+        diff: '53.1'
+        finish: 00:05:48
+        name: Johanka
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tandlerová
+        time: '05:48.9'
+    -   born: 2008
+        club: TJSE
+        diff: '58.7'
+        finish: 00:05:54
+        name: Ema
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Frenclová
+        time: '05:54.5'
+    -   born: 2008
+        club: TJSE
+        diff: '01:19.1'
+        finish: 00:06:14
+        name: Barbora
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Trýznová
+        time: '06:14.9'
+    -   born: 2008
+        club: DULI
+        diff: ''
+        finish: ''
+        name: Magdaléna
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Schäferová
+        time: ''
+    desc: '2008'
+    distance: 1000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2007
+        club: SOVH
+        diff: '0.0'
+        finish: 00:04:48
+        name: Anna
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Cilichová
+        time: '04:48.2'
+    -   born: 2007
+        club: LSKL
+        diff: '1.4'
+        finish: 00:04:49
+        name: Sofie
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vyhlídková
+        time: '04:49.6'
+    -   born: 2007
+        club: DULI
+        diff: '21.0'
+        finish: 00:05:09
+        name: Eliška
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Plachá
+        time: '05:09.2'
+    -   born: 2007
+        club: SKHA
+        diff: '40.4'
+        finish: 00:05:28
+        name: Věra
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaněčková
+        time: '05:28.6'
+    -   born: 2007
+        club: LSKL
+        diff: '57.4'
+        finish: 00:05:45
+        name: Aneta
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ježková
+        time: '05:45.6'
+    -   born: 2007
+        club: LSKL
+        diff: '01:06.7'
+        finish: 00:05:54
+        name: Simona
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Řeháková
+        time: '05:54.9'
+    -   born: 2007
+        club: SOSK
+        diff: '01:19.5'
+        finish: 00:06:07
+        name: Johanka
+        rank: 7
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Michalenková
+        time: '06:07.7'
+    desc: '2007'
+    distance: 1000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2008
+        club: DULI
+        diff: '0.0'
+        finish: 00:04:27
+        name: Matouš
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Půbal
+        time: '04:27.5'
+    -   born: 2008
+        club: SOSK
+        diff: '8.9'
+        finish: 00:04:36
+        name: Matěj
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Brožek
+        time: '04:36.4'
+    -   born: 2008
+        club: TJTA
+        diff: '14.7'
+        finish: 00:04:42
+        name: Ota
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kubín
+        time: '04:42.2'
+    -   born: 2008
+        club: LSKL
+        diff: '20.1'
+        finish: 00:04:47
+        name: Albert
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lukavec
+        time: '04:47.6'
+    -   born: 2008
+        club: DULI
+        diff: '28.5'
+        finish: 00:04:56
+        name: Dalibor
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Novotný
+        time: '04:56.0'
+    -   born: 2008
+        club: DULI
+        diff: '32.1'
+        finish: 00:04:59
+        name: Tomáš
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pokorný
+        time: '04:59.6'
+    -   born: 2008
+        club: SKHA
+        diff: '35.7'
+        finish: 00:05:03
+        name: Hynek
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dostalík
+        time: '05:03.2'
+    -   born: 2008
+        club: SOSK
+        diff: '40.4'
+        finish: 00:05:07
+        name: Josef
+        rank: 8
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Plesl
+        time: '05:07.9'
+    -   born: 2008
+        club: SKHA
+        diff: '50.1'
+        finish: 00:05:17
+        name: Jakub
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Uman
+        time: '05:17.6'
+    -   born: 2008
+        club: DULI
+        diff: '55.2'
+        finish: 00:05:22
+        name: Saša
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Velecký
+        time: '05:22.7'
+    -   born: 2008
+        club: CSKV
+        diff: '57.4'
+        finish: 00:05:24
+        name: Matěj
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Koňák
+        time: '05:24.9'
+    -   born: 2008
+        club: SKJA
+        diff: '59.4'
+        finish: 00:05:26
+        name: Václav
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šnytr
+        time: '05:26.9'
+    -   born: 2008
+        club: SOSK
+        diff: '01:00.8'
+        finish: 00:05:28
+        name: Sebastian
+        rank: 13
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Skrbek
+        time: '05:28.3'
+    -   born: 2008
+        club: SWSL
+        diff: '01:19.2'
+        finish: 00:05:46
+        name: Petr
+        rank: 14
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kremsa
+        time: '05:46.7'
+    -   born: 2008
+        club: TJSE
+        diff: '01:28.7'
+        finish: 00:05:56
+        name: David
+        rank: 15
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vaňátko
+        time: '05:56.2'
+    -   born: 2008
+        club: SOSK
+        diff: '01:41.8'
+        finish: 00:06:09
+        name: Jakub
+        rank: 16
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Novotný
+        time: '06:09.3'
+    -   born: 2008
+        club: ''
+        diff: '02:45.3'
+        finish: 00:07:12
+        name: Jan
+        rank: 17
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Svoboda
+        time: '07:12.8'
+    desc: '2008'
+    distance: 1000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2007
+        club: JIJD
+        diff: '0.0'
+        finish: 00:04:40
+        name: Miroslav
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Štejfa
+        time: '04:40.7'
+    -   born: 2007
+        club: DULI
+        diff: '16.6'
+        finish: 00:04:57
+        name: Matěj
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Endrych
+        time: '04:57.3'
+    -   born: 2007
+        club: LSKL
+        diff: '24.7'
+        finish: 00:05:05
+        name: Tomáš
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pekárek
+        time: '05:05.4'
+    -   born: 2007
+        club: DULI
+        diff: '31.4'
+        finish: 00:05:12
+        name: Harry
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Deimling
+        time: '05:12.1'
+    -   born: 2007
+        club: LSKL
+        diff: '48.4'
+        finish: 00:05:29
+        name: Martin
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dlouhý
+        time: '05:29.1'
+    -   born: 2007
+        club: DULI
+        diff: '48.8'
+        finish: 00:05:29
+        name: Vojtěch
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mečíř
+        time: '05:29.5'
+    -   born: 2007
+        club: CSKV
+        diff: '50.4'
+        finish: 00:05:31
+        name: Mikuláš
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Novotný
+        time: '05:31.1'
+    -   born: 2007
+        club: SOSK
+        diff: '01:11.3'
+        finish: 00:05:52
+        name: Šimon
+        rank: 8
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Vavřač
+        time: '05:52.0'
+    desc: '2007'
+    distance: 1000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2006
+        club: DULI
+        diff: '0.0'
+        finish: 00:07:23
+        name: Ema
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pokorná
+        time: '07:23.2'
+    -   born: 2006
+        club: DULI
+        diff: '12.7'
+        finish: 00:07:35
+        name: Anna
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šírová
+        time: '07:35.9'
+    -   born: 2005
+        club: SGJB
+        diff: '16.5'
+        finish: 00:07:39
+        name: Lucie
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dubská
+        time: '07:39.7'
+    -   born: 2006
+        club: SKJA
+        diff: '48.7'
+        finish: 00:08:11
+        name: Zuzka
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kohoutová
+        time: '08:11.9'
+    -   born: 2005
+        club: SOSK
+        diff: '01:09.3'
+        finish: 00:08:32
+        name: Karolína
+        rank: 5
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Hübnerová
+        time: '08:32.5'
+    -   born: 2006
+        club: SOSK
+        diff: '02:05.7'
+        finish: 00:09:28
+        name: Anna
+        rank: 6
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Novotná
+        time: '09:28.9'
+    -   born: 2005
+        club: SGJB
+        diff: '02:41.1'
+        finish: 00:10:04
+        name: Adéla
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Fichtnerová
+        time: '10:04.3'
+    -   born: 2005
+        club: SOTE
+        diff: '05:17.1'
+        finish: 00:12:40
+        name: Petra
+        rank: 8
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Ouhrabková
+        time: '12:40.3'
+    -   born: 2005
+        club: SOTE
+        diff: ''
+        finish: ''
+        name: Hedvika
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vosáhlová
+        time: ''
+    desc: ''
+    distance: 1500m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2006
+        club: SOSK
+        diff: '0.0'
+        finish: 00:06:39
+        name: Filip
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Hloušek
+        time: '06:39.2'
+    -   born: 2006
+        club: DULI
+        diff: '20.9'
+        finish: 00:07:00
+        name: Adam
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Brož
+        time: '07:00.1'
+    -   born: 2006
+        club: DULI
+        diff: '33.6'
+        finish: 00:07:12
+        name: Kryštof
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Velecký
+        time: '07:12.8'
+    -   born: 2006
+        club: HSKB
+        diff: '01:02.6'
+        finish: 00:07:41
+        name: František
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Holubec
+        time: '07:41.8'
+    -   born: 2006
+        club: SKJA
+        diff: '02:11.5'
+        finish: 00:08:50
+        name: Theodor
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Čapek
+        time: '08:50.7'
+    -   born: 2006
+        club: SOSK
+        diff: '02:12.1'
+        finish: 00:08:51
+        name: Štěpán
+        rank: 6
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Dubský
+        time: '08:51.3'
+    -   born: 2006
+        club: TJSE
+        diff: '03:33.2'
+        finish: 00:10:12
+        name: Petr
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pavlata
+        time: '10:12.4'
+    desc: ''
+    distance: 1500m
+    name: Mladší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2003
+        club: SGJB
+        diff: '0.0'
+        finish: 00:07:53
+        name: Natálie
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kurfiřtová
+        time: '07:53.2'
+    -   born: 2004
+        club: SOSK
+        diff: '37.4'
+        finish: 00:08:30
+        name: Nikola
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Nikodýmová
+        time: '08:30.6'
+    -   born: 2003
+        club: SGJB
+        diff: '02:16.2'
+        finish: 00:10:09
+        name: Nina
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bureš
+        time: '10:09.4'
+    desc: ''
+    distance: 1500m
+    name: Starší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2003
+        club: SGJB
+        diff: '0.0'
+        finish: 00:06:17
+        name: Tomáš
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Preissler
+        time: '06:17.2'
+    -   born: 2004
+        club: SKIJ
+        diff: '9.9'
+        finish: 00:06:27
+        name: Dan
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Salaba
+        time: '06:27.1'
+    -   born: 2004
+        club: SOSK
+        diff: '31.2'
+        finish: 00:06:48
+        name: Jakub
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Michalenko
+        time: '06:48.4'
+    desc: ''
+    distance: 1500m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 1996
+        club: SGJB
+        diff: '0.0'
+        finish: 00:09:38
+        name: Anna
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Sixtová
+        time: '09:38.5'
+    -   born: 1982
+        club: SOZB
+        diff: '20.5'
+        finish: 00:09:59
+        name: Lenka
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Skrbková
+        time: '09:59.0'
+    -   born: 1982
+        club: FRYD
+        diff: '01:02.2'
+        finish: 00:10:40
+        name: Olga
+        rank: 3
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Čechová
+        time: '10:40.7'
+    -   born: 1981
+        club: SOSK
+        diff: '01:10.9'
+        finish: 00:10:49
+        name: Jana
+        rank: 4
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Tomášková
+        time: '10:49.4'
+    -   born: 1974
+        club: LSKL
+        diff: '02:08.3'
+        finish: 00:11:46
+        name: Jana
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Škorpilová
+        time: '11:46.8'
+    -   born: 1988
+        club: SOSK
+        diff: '03:07.5'
+        finish: 00:12:46
+        name: Lucie
+        rank: 6
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Roubínková
+        time: '12:46.0'
+    -   born: 1995
+        club: SOSK
+        diff: '04:42.1'
+        finish: 00:14:20
+        name: Petra
+        rank: 7
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Nikodýmová
+        time: '14:20.6'
+    -   born: 2002
+        club: SOSK
+        diff: '05:00.0'
+        finish: 00:14:38
+        name: Denisa
+        rank: 8
+        rank_sokol: 6
+        start: 00:00:00
+        surname: Nikodýmová
+        time: '14:38.5'
+    -   born: 1998
+        club: SOTE
+        diff: '07:59.5'
+        finish: 00:17:38
+        name: Dagmar
+        rank: 9
+        rank_sokol: 7
+        start: 00:00:00
+        surname: Sobotková
+        time: '17:38.0'
+    desc: ''
+    distance: 2000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 2001
+        club: SGJB
+        diff: '0.0'
+        finish: 00:08:17
+        name: Matěj
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bříza
+        time: '08:17.2'
+    -   born: 2001
+        club: SGJB
+        diff: '11.1'
+        finish: 00:08:28
+        name: Jakub
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Augsten
+        time: '08:28.3'
+    -   born: 1975
+        club: ''
+        diff: '36.3'
+        finish: 00:08:53
+        name: Josef
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Valeš
+        time: '08:53.5'
+    -   born: 2002
+        club: SGJB
+        diff: '01:04.8'
+        finish: 00:09:22
+        name: Ondřej
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Sixta
+        time: '09:22.0'
+    -   born: 1967
+        club: ''
+        diff: '01:05.2'
+        finish: 00:09:22
+        name: Petr
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hlaváček
+        time: '09:22.4'
+    -   born: 1981
+        club: ''
+        diff: '01:05.7'
+        finish: 00:09:22
+        name: Jan
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tryzna
+        time: '09:22.9'
+    -   born: 1976
+        club: SWSL
+        diff: '01:26.2'
+        finish: 00:09:43
+        name: Petr
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Huk
+        time: '09:43.4'
+    -   born: 1991
+        club: ''
+        diff: '01:36.8'
+        finish: 00:09:54
+        name: Martin
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tryzna
+        time: '09:54.0'
+    -   born: 1970
+        club: SOSK
+        diff: '01:43.8'
+        finish: 00:10:01
+        name: Robert
+        rank: 9
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Procházka
+        time: '10:01.0'
+    -   born: 1976
+        club: SOSK
+        diff: '03:14.0'
+        finish: 00:11:31
+        name: Jiří
+        rank: 10
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Dubský
+        time: '11:31.2'
+    -   born: 1980
+        club: ''
+        diff: '04:40.7'
+        finish: 00:12:57
+        name: Adam
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hübner
+        time: '12:57.9'
+    desc: ''
+    distance: 2000m
+    name: Muži
+    sex: m

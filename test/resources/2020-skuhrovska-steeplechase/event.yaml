@@ -1,0 +1,125 @@
+version: "1.0"
+name: Skuhrovská steeplechase
+date: 2020-09-19
+encoding_print: "utf_8_sig"
+races:
+    - age_min: 0
+      age_max: 5
+      sex: f
+      name: Benjamínky
+      distance: 50m
+    - age_min: 0
+      age_max: 5
+      sex: m
+      name: Benjamínci
+      distance: 50m
+    - age_min: 6
+      age_max: 7
+      sex: f
+      name: Minižačky
+      distance: 300m
+      eval:
+      -   age_min: 6
+          age_max: 6
+      -   age_min: 7
+          age_max: 7
+    - age_min: 6
+      age_max: 7
+      sex: m
+      name: Minižáci
+      distance: 300m
+      eval:
+      -   age_min: 6
+          age_max: 6
+      -   age_min: 7
+          age_max: 7
+    - age_min: 8
+      age_max: 9
+      sex: f
+      name: Nejmladší žákyně
+      distance: 300m
+      eval:
+      -   age_min: 8
+          age_max: 8
+      -   age_min: 9
+          age_max: 9
+    - age_min: 8
+      age_max: 9
+      sex: m
+      name: Nejmladší žáci
+      distance: 300m
+      eval:
+      -   age_min: 8
+          age_max: 8
+      -   age_min: 9
+          age_max: 9
+    - age_min: 10
+      age_max: 11
+      sex: f
+      name: Mladší žákyně
+      distance: 500m
+      eval:
+      -   age_min: 10
+          age_max: 10
+      -   age_min: 11
+          age_max: 11
+    - age_min: 10
+      age_max: 11
+      sex: m
+      name: Mladší žáci
+      distance: 500m
+      eval:
+      -   age_min: 10
+          age_max: 10
+      -   age_min: 11
+          age_max: 11
+    - age_min: 12
+      age_max: 13
+      sex: f
+      name: Starší žákyně
+      distance: 1000m
+      eval:
+      -   age_min: 12
+          age_max: 12
+      -   age_min: 13
+          age_max: 13
+    - age_min: 12
+      age_max: 13
+      sex: m
+      name: Starší žáci
+      distance: 1000m
+      eval:
+      -   age_min: 12
+          age_max: 12
+      -   age_min: 13
+          age_max: 13
+    - age_min: 14
+      age_max: 15
+      sex: f
+      name: Mladší dorostenky
+      distance: 1500m
+    - age_min: 14
+      age_max: 15
+      sex: m
+      name: Mladší dorostenci
+      distance: 1500m
+    - age_min: 16
+      age_max: 17
+      sex: f
+      name: Starší dorostenky
+      distance: 1500m
+    - age_min: 16
+      age_max: 17
+      sex: m
+      name: Starší dorostenci
+      distance: 1500m
+    - age_min: 18
+      age_max: 99
+      sex: f
+      name: Ženy
+      distance: 2000m
+    - age_min: 18
+      age_max: 99
+      sex: m
+      name: Muži
+      distance: 2000m

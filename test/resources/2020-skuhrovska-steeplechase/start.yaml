@@ -1,0 +1,1634 @@
+date: 2020-09-19
+mass: true
+name: Skuhrovská steeplechase
+races:
+-   athletes:
+    -   born: 2016
+        club: SWSL
+        id: 1
+        name: Aneta
+        start: 00:00:00
+        surname: Lipšová
+    -   born: 2016
+        club: VLCA
+        id: 2
+        name: Ella
+        start: 00:00:00
+        surname: Mečířová
+    -   born: 2015
+        club: SWSL
+        id: 8
+        name: Anna
+        start: 00:00:00
+        surname: Piskáčková
+    -   born: 2015
+        club: HSKB
+        id: 9
+        name: Pavlína
+        start: 00:00:00
+        surname: Šourková
+    -   born: 2015
+        club: ''
+        id: 10
+        name: Nela
+        start: 00:00:00
+        surname: Švermová
+    -   born: 2015
+        club: SOSK
+        id: 11
+        name: Tereza
+        start: 00:00:00
+        surname: Vavrušková
+    -   born: 2015
+        club: DULI
+        id: 12
+        name: Nina
+        start: 00:00:00
+        surname: Veselá
+    -   born: 2015
+        club: ''
+        id: 80
+        name: Emma
+        start: 00:00:00
+        surname: Pičmanová
+    -   born: 2017
+        club: SKHA
+        id: 88
+        name: Klára
+        start: 00:00:00
+        surname: Kmoníčková
+    -   born: 2016
+        club: ''
+        id: 92
+        name: Maja
+        start: 00:00:00
+        surname: Štosová
+    -   born: 2017
+        club: ''
+        id: 96
+        name: Anežka
+        start: 00:00:00
+        surname: Šatrová
+    -   born: 2018
+        club: DULI
+        id: 98
+        name: Anežka
+        start: 00:00:00
+        surname: Mládková
+    -   born: 2015
+        club: SOSK
+        id: 265
+        name: Annamarie
+        start: 00:00:00
+        surname: Havlasová
+    -   born: 2017
+        club: ''
+        id: 266
+        name: Jessica
+        start: 00:00:00
+        surname: Balatková
+    -   born: 2016
+        club: ''
+        id: 270
+        name: Lucie
+        start: 00:00:00
+        surname: Vopatová
+    -   born: 2016
+        club: SOSK
+        id: 273
+        name: Magdalena
+        start: 00:00:00
+        surname: Halamová
+    -   born: 2016
+        club: JBCN
+        id: 274
+        name: Kristýna
+        start: 00:00:00
+        surname: Pelouchová
+    -   born: 2016
+        club: SOSK
+        id: 277
+        name: Tereza
+        start: 00:00:00
+        surname: Jírová
+    -   born: 2016
+        club: SOSK
+        id: 281
+        name: Tereza
+        start: 00:00:00
+        surname: Ziková
+    -   born: 2015
+        club: SOVH
+        id: 282
+        name: Astrid
+        start: 00:00:00
+        surname: Berntová
+    distance: 50m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2016
+        club: SOSK
+        id: 4
+        name: Vojtěch
+        start: 00:00:00
+        surname: Jelínek
+    -   born: 2016
+        club: SWSL
+        id: 5
+        name: Jan
+        start: 00:00:00
+        surname: Piskáček
+    -   born: 2016
+        club: CSKV
+        id: 6
+        name: Viktor
+        start: 00:00:00
+        surname: Vaněk
+    -   born: 2015
+        club: SWSL
+        id: 7
+        name: Radim
+        start: 00:00:00
+        surname: Vyhnal
+    -   born: 2015
+        club: SOTE
+        id: 13
+        name: Petr
+        start: 00:00:00
+        surname: Beier
+    -   born: 2015
+        club: SKJA
+        id: 14
+        name: Matyáš
+        start: 00:00:00
+        surname: Car
+    -   born: 2015
+        club: SOTE
+        id: 15
+        name: Sebastian
+        start: 00:00:00
+        surname: Esselbach
+    -   born: 2015
+        club: SWSL
+        id: 16
+        name: David
+        start: 00:00:00
+        surname: Hūbner
+    -   born: 2015
+        club: SOVH
+        id: 17
+        name: Vilém
+        start: 00:00:00
+        surname: Peukert
+    -   born: 2016
+        club: SOSK
+        id: 77
+        name: Matouš
+        start: 00:00:00
+        surname: Fichtner
+    -   born: 2015
+        club: SKHA
+        id: 79
+        name: Samuel
+        start: 00:00:00
+        surname: Račák
+    -   born: 2016
+        club: JIJD
+        id: 87
+        name: Bohuslav
+        start: 00:00:00
+        surname: Štejfa
+    -   born: 2015
+        club: ''
+        id: 89
+        name: Vojtěch
+        start: 00:00:00
+        surname: Preissler
+    -   born: 2018
+        club: ''
+        id: 91
+        name: Patrik
+        start: 00:00:00
+        surname: Štos
+    -   born: 2015
+        club: TJSE
+        id: 94
+        name: Šimon
+        start: 00:00:00
+        surname: Plíhal
+    -   born: 2015
+        club: ''
+        id: 95
+        name: Štěpán
+        start: 00:00:00
+        surname: Šatra
+    -   born: 2016
+        club: ''
+        id: 97
+        name: Alexandr
+        start: 00:00:00
+        surname: Bryanyk
+    -   born: 2015
+        club: DULI
+        id: 99
+        name: Ondřej
+        start: 00:00:00
+        surname: Mládek
+    -   born: 2017
+        club: SOSK
+        id: 279
+        name: Bořek
+        start: 00:00:00
+        surname: Bodlák
+    -   born: 2018
+        club: SOSK
+        id: 280
+        name: Josef
+        start: 00:00:00
+        surname: Roubínek
+    distance: 50m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2014
+        club: DULI
+        id: 18
+        name: Kateřina
+        start: 00:00:00
+        surname: Endrychová
+    -   born: 2014
+        club: SKHA
+        id: 19
+        name: Kamila
+        start: 00:00:00
+        surname: Kmoníčková
+    -   born: 2014
+        club: DULI
+        id: 20
+        name: Marie
+        start: 00:00:00
+        surname: Mečířová
+    -   born: 2014
+        club: SOVH
+        id: 21
+        name: Emma
+        start: 00:00:00
+        surname: Peukertová
+    -   born: 2014
+        club: HSKB
+        id: 22
+        name: Štěpánka
+        start: 00:00:00
+        surname: Šourková
+    -   born: 2014
+        club: SWSL
+        id: 23
+        name: Anička
+        start: 00:00:00
+        surname: Vlková
+    -   born: 2013
+        club: SPVR
+        id: 34
+        name: Ema
+        start: 00:00:00
+        surname: Heřmanská
+    -   born: 2013
+        club: SWSL
+        id: 35
+        name: Stella
+        start: 00:00:00
+        surname: Huková
+    -   born: 2013
+        club: ACJB
+        id: 36
+        name: Amálie
+        start: 00:00:00
+        surname: Křelinová
+    -   born: 2013
+        club: SKJA
+        id: 37
+        name: Natálka
+        start: 00:00:00
+        surname: Kuncová
+    -   born: 2014
+        club: SOSK
+        id: 83
+        name: Agáta
+        start: 00:00:00
+        surname: Malá
+    -   born: 2014
+        club: JIJD
+        id: 86
+        name: Antonie
+        start: 00:00:00
+        surname: Štejfová
+    -   born: 2013
+        club: SOZB
+        id: 93
+        name: Karla
+        start: 00:00:00
+        surname: Jakubíčková
+    -   born: 2014
+        club: ''
+        id: 267
+        name: Týna
+        start: 00:00:00
+        surname: Balatková
+    -   born: 2014
+        club: SOSK
+        id: 278
+        name: Lucie
+        start: 00:00:00
+        surname: Jírová
+    distance: 300m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: ''
+        id: 24
+        name: Radek
+        start: 00:00:00
+        surname: Duda
+    -   born: 2014
+        club: SOVH
+        id: 25
+        name: Jiří
+        start: 00:00:00
+        surname: Fejfar
+    -   born: 2014
+        club: SOSK
+        id: 26
+        name: Jakub
+        start: 00:00:00
+        surname: Chupek
+    -   born: 2014
+        club: SOSK
+        id: 27
+        name: Filip
+        start: 00:00:00
+        surname: Chupek
+    -   born: 2014
+        club: SOSK
+        id: 28
+        name: Jakub
+        start: 00:00:00
+        surname: Jelínek
+    -   born: 2014
+        club: TJTA
+        id: 29
+        name: Vít
+        start: 00:00:00
+        surname: Kubín
+    -   born: 2014
+        club: SWSL
+        id: 30
+        name: Jakub
+        start: 00:00:00
+        surname: Lipš
+    -   born: 2014
+        club: SWSL
+        id: 31
+        name: Petr
+        start: 00:00:00
+        surname: Piskáček
+    -   born: 2014
+        club: SOSK
+        id: 32
+        name: Ondřej
+        start: 00:00:00
+        surname: Tomášek
+    -   born: 2013
+        club: SKJA
+        id: 38
+        name: Mikuláš
+        start: 00:00:00
+        surname: Car
+    -   born: 2013
+        club: SKHA
+        id: 39
+        name: Jiří
+        start: 00:00:00
+        surname: Čermák
+    -   born: 2013
+        club: ''
+        id: 40
+        name: Matěj
+        start: 00:00:00
+        surname: Dvořák
+    -   born: 2013
+        club: FRYD
+        id: 41
+        name: Viktor
+        start: 00:00:00
+        surname: Hilpert
+    -   born: 2013
+        club: SKHA
+        id: 43
+        name: Tadeáš
+        start: 00:00:00
+        surname: Račák
+    -   born: 2013
+        club: SKJA
+        id: 44
+        name: Pepa
+        start: 00:00:00
+        surname: Šnytr
+    -   born: 2013
+        club: SKHA
+        id: 45
+        name: Štěpán
+        start: 00:00:00
+        surname: Vaněček
+    -   born: 2013
+        club: SKJA
+        id: 84
+        name: Matyáš
+        start: 00:00:00
+        surname: Svoboda
+    -   born: 2013
+        club: JBCN
+        id: 275
+        name: Adam
+        start: 00:00:00
+        surname: Pelouch
+    -   born: 2014
+        club: ''
+        id: 284
+        name: Tobiáš
+        start: 00:00:00
+        surname: Tryzna
+    -   born: 2013
+        club: ''
+        id: 287
+        name: Jiří
+        start: 00:00:00
+        surname: Svoboda
+    distance: 300m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: SOSK
+        id: 46
+        name: Anežka
+        start: 00:00:00
+        surname: Halamová
+    -   born: 2012
+        club: HSKB
+        id: 47
+        name: Anna
+        start: 00:00:00
+        surname: Hanušová
+    -   born: 2012
+        club: DULI
+        id: 48
+        name: Eliška
+        start: 00:00:00
+        surname: Heindorfer
+    -   born: 2012
+        club: TJSE
+        id: 51
+        name: Šárka
+        start: 00:00:00
+        surname: Plíhalová
+    -   born: 2012
+        club: ''
+        id: 52
+        name: Josephine
+        start: 00:00:00
+        surname: Singh
+    -   born: 2012
+        club: ''
+        id: 53
+        name: Ema
+        start: 00:00:00
+        surname: Švermová
+    -   born: 2012
+        club: SOSK
+        id: 54
+        name: Amálie
+        start: 00:00:00
+        surname: Tomášková
+    -   born: 2012
+        club: SOSK
+        id: 55
+        name: Barbora
+        start: 00:00:00
+        surname: Vavrušková
+    -   born: 2011
+        club: SOVH
+        id: 60
+        name: Ela
+        start: 00:00:00
+        surname: Berntová
+    -   born: 2011
+        club: TJTA
+        id: 61
+        name: Veronika
+        start: 00:00:00
+        surname: Bervicová
+    -   born: 2011
+        club: ''
+        id: 62
+        name: Viktorie
+        start: 00:00:00
+        surname: Dudová
+    -   born: 2011
+        club: SOVH
+        id: 63
+        name: Sofie
+        start: 00:00:00
+        surname: Fejfarová
+    -   born: 2011
+        club: SKHA
+        id: 64
+        name: Adéla
+        start: 00:00:00
+        surname: Hančová
+    -   born: 2011
+        club: SWSL
+        id: 65
+        name: Terezie
+        start: 00:00:00
+        surname: Hübnerová
+    -   born: 2011
+        club: SKHA
+        id: 66
+        name: Nikola
+        start: 00:00:00
+        surname: Lukešová
+    -   born: 2011
+        club: TJTA
+        id: 67
+        name: Beáta
+        start: 00:00:00
+        surname: Melichová
+    -   born: 2011
+        club: HSKB
+        id: 68
+        name: Anežka
+        start: 00:00:00
+        surname: Mohvaldová
+    -   born: 2011
+        club: DULI
+        id: 69
+        name: Eliška
+        start: 00:00:00
+        surname: Poeková
+    -   born: 2012
+        club: STUD
+        id: 81
+        name: Alice
+        start: 00:00:00
+        surname: Kosáčková
+    distance: 300m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: SKIJ
+        id: 56
+        name: Šimon
+        start: 00:00:00
+        surname: Bárta
+    -   born: 2012
+        club: DULI
+        id: 57
+        name: Vincent
+        start: 00:00:00
+        surname: Ježek
+    -   born: 2012
+        club: HSKB
+        id: 59
+        name: Vojtěch
+        start: 00:00:00
+        surname: Šochovský
+    -   born: 2011
+        club: SOSK
+        id: 71
+        name: Tobiáš
+        start: 00:00:00
+        surname: Černý
+    -   born: 2011
+        club: SOSK
+        id: 72
+        name: Tomáš
+        start: 00:00:00
+        surname: Helísek
+    -   born: 2011
+        club: VLCA
+        id: 73
+        name: Jakub
+        start: 00:00:00
+        surname: Mečíř
+    -   born: 2011
+        club: SKHA
+        id: 74
+        name: Jaroslav
+        start: 00:00:00
+        surname: Uman
+    -   born: 2011
+        club: TJTA
+        id: 75
+        name: Lukáš
+        start: 00:00:00
+        surname: Valeš
+    -   born: 2011
+        club: SOSK
+        id: 76
+        name: Tomáš
+        start: 00:00:00
+        surname: Zurynek
+    -   born: 2012
+        club: ''
+        id: 78
+        name: Ondřej
+        start: 00:00:00
+        surname: Šrejma
+    -   born: 2011
+        club: LSKL
+        id: 82
+        name: Kryštof
+        start: 00:00:00
+        surname: Lukavec
+    -   born: 2012
+        club: SOHU
+        id: 85
+        name: Tomáš
+        start: 00:00:00
+        surname: Pavlata
+    -   born: 2011
+        club: DULI
+        id: 100
+        name: Matyáš
+        start: 00:00:00
+        surname: Mládek
+    -   born: 2011
+        club: CSKV
+        id: 271
+        name: Metoděj
+        start: 00:00:00
+        surname: Novotný
+    -   born: 2011
+        club: JBCN
+        id: 276
+        name: Filip
+        start: 00:00:00
+        surname: Pelouch
+    -   born: 2012
+        club: SOSK
+        id: 291
+        name: Tomáš
+        start: 00:00:00
+        surname: Motl
+    distance: 300m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2010
+        club: SOSK
+        id: 102
+        name: Elena
+        start: 00:00:00
+        surname: Dubská
+    -   born: 2010
+        club: DULI
+        id: 103
+        name: Veronika
+        start: 00:00:00
+        surname: Endrychová
+    -   born: 2010
+        club: SWSL
+        id: 105
+        name: Nella
+        start: 00:00:00
+        surname: Huková
+    -   born: 2010
+        club: DULI
+        id: 107
+        name: Kristýna
+        start: 00:00:00
+        surname: Kerelová
+    -   born: 2010
+        club: SWSL
+        id: 108
+        name: Kateřina
+        start: 00:00:00
+        surname: Kremsová
+    -   born: 2010
+        club: SKJA
+        id: 109
+        name: Aneta
+        start: 00:00:00
+        surname: Lederová
+    -   born: 2010
+        club: HSKB
+        id: 110
+        name: Vendula
+        start: 00:00:00
+        surname: Mohvaldová
+    -   born: 2010
+        club: DULI
+        id: 111
+        name: Alžběta
+        start: 00:00:00
+        surname: Nebusová
+    -   born: 2010
+        club: CKLH
+        id: 112
+        name: Magdaléna
+        start: 00:00:00
+        surname: Rázlová
+    -   born: 2010
+        club: SWSL
+        id: 113
+        name: Barbora
+        start: 00:00:00
+        surname: Slezáková
+    -   born: 2010
+        club: SWSL
+        id: 114
+        name: Veronika
+        start: 00:00:00
+        surname: Syrovátková
+    -   born: 2010
+        club: SOSK
+        id: 115
+        name: Amálie
+        start: 00:00:00
+        surname: Vavřačová
+    -   born: 2009
+        club: SOVH
+        id: 137
+        name: Denisa
+        start: 00:00:00
+        surname: Borčická
+    -   born: 2009
+        club: TJSE
+        id: 138
+        name: Andrea
+        start: 00:00:00
+        surname: Halamová
+    -   born: 2009
+        club: SOSK
+        id: 139
+        name: Barbora
+        start: 00:00:00
+        surname: Helísková
+    -   born: 2009
+        club: SWSL
+        id: 140
+        name: Aneta
+        start: 00:00:00
+        surname: Jelínková
+    -   born: 2009
+        club: SKHA
+        id: 141
+        name: Amálie
+        start: 00:00:00
+        surname: Jeníková
+    -   born: 2009
+        club: SOVH
+        id: 143
+        name: Zuzana
+        start: 00:00:00
+        surname: Jodasová
+    -   born: 2009
+        club: ZDRP
+        id: 144
+        name: Simona
+        start: 00:00:00
+        surname: Kuiper
+    -   born: 2009
+        club: HSKB
+        id: 146
+        name: Zuzana
+        start: 00:00:00
+        surname: Mrázová
+    -   born: 2009
+        club: SOSK
+        id: 148
+        name: Sofie
+        start: 00:00:00
+        surname: Yucel
+    -   born: 2009
+        club: SOSK
+        id: 149
+        name: Lenka
+        start: 00:00:00
+        surname: Zurynková
+    -   born: 2009
+        club: DULI
+        id: 242
+        name: Terezie
+        start: 00:00:00
+        surname: Blažejová
+    -   born: 2010
+        club: JBCN
+        id: 253
+        name: Kristýna
+        start: 00:00:00
+        surname: Bartošová
+    -   born: 2009
+        club: JBCN
+        id: 254
+        name: Julie
+        start: 00:00:00
+        surname: Procházková
+    -   born: 2010
+        club: SKHA
+        id: 256
+        name: Markéta
+        start: 00:00:00
+        surname: Kmoníčková
+    -   born: 2010
+        club: SKIJ
+        id: 257
+        name: Karolína
+        start: 00:00:00
+        surname: Preisslerová
+    -   born: 2010
+        club: SKIJ
+        id: 258
+        name: Johanka
+        start: 00:00:00
+        surname: Krtičková
+    -   born: 2010
+        club: DULI
+        id: 260
+        name: Kristýna
+        start: 00:00:00
+        surname: Kellerová
+    -   born: 2009
+        club: SKIJ
+        id: 268
+        name: Pavlína
+        start: 00:00:00
+        surname: Salabová
+    -   born: 2009
+        club: CSKV
+        id: 272
+        name: Marie
+        start: 00:00:00
+        surname: Novotná
+    -   born: 2010
+        club: ''
+        id: 290
+        name: Jasmine
+        start: 00:00:00
+        surname: Singh
+    distance: 500m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: SKJA
+        id: 116
+        name: Filip
+        start: 00:00:00
+        surname: Drda
+    -   born: 2010
+        club: SOTE
+        id: 117
+        name: Jakub
+        start: 00:00:00
+        surname: Esselbach
+    -   born: 2010
+        club: HSKB
+        id: 118
+        name: Jan
+        start: 00:00:00
+        surname: Hanuš
+    -   born: 2010
+        club: TJSE
+        id: 119
+        name: Jan
+        start: 00:00:00
+        surname: Hassa
+    -   born: 2010
+        club: FRYD
+        id: 120
+        name: Oliver
+        start: 00:00:00
+        surname: Hilpert
+    -   born: 2010
+        club: SKJA
+        id: 121
+        name: Adam
+        start: 00:00:00
+        surname: Kohout
+    -   born: 2010
+        club: SWSL
+        id: 122
+        name: Petr
+        start: 00:00:00
+        surname: Kopecký
+    -   born: 2010
+        club: TJTA
+        id: 123
+        name: Jan
+        start: 00:00:00
+        surname: Kubín
+    -   born: 2010
+        club: SWSL
+        id: 124
+        name: Mikuláš
+        start: 00:00:00
+        surname: Mazáč
+    -   born: 2010
+        club: SOSK
+        id: 125
+        name: Václav
+        start: 00:00:00
+        surname: Motl
+    -   born: 2010
+        club: SOSK
+        id: 128
+        name: František
+        start: 00:00:00
+        surname: Procházka
+    -   born: 2010
+        club: SWSL
+        id: 129
+        name: Lukáš
+        start: 00:00:00
+        surname: Savruk
+    -   born: 2010
+        club: DULI
+        id: 130
+        name: Josef
+        start: 00:00:00
+        surname: Schäfer
+    -   born: 2010
+        club: SOSK
+        id: 131
+        name: Matouš
+        start: 00:00:00
+        surname: Skrbek
+    -   born: 2010
+        club: SKJA
+        id: 132
+        name: Antonín
+        start: 00:00:00
+        surname: Šnytr
+    -   born: 2010
+        club: DULI
+        id: 133
+        name: Jáchym
+        start: 00:00:00
+        surname: Tandler
+    -   born: 2010
+        club: HSKB
+        id: 134
+        name: Filip
+        start: 00:00:00
+        surname: Trýzna
+    -   born: 2010
+        club: SKHA
+        id: 135
+        name: Michal
+        start: 00:00:00
+        surname: Vaněček
+    -   born: 2010
+        club: SWSL
+        id: 136
+        name: Ondřej
+        start: 00:00:00
+        surname: Vlk
+    -   born: 2009
+        club: SOTE
+        id: 150
+        name: Adam
+        start: 00:00:00
+        surname: Beier
+    -   born: 2009
+        club: SOVH
+        id: 151
+        name: Bartoloměj
+        start: 00:00:00
+        surname: Bernt
+    -   born: 2009
+        club: DULI
+        id: 152
+        name: Matyáš
+        start: 00:00:00
+        surname: Brož
+    -   born: 2009
+        club: SKJA
+        id: 154
+        name: Bartoloměj
+        start: 00:00:00
+        surname: Čapek
+    -   born: 2009
+        club: SOTE
+        id: 156
+        name: Michal
+        start: 00:00:00
+        surname: Donát
+    -   born: 2009
+        club: SOSK
+        id: 157
+        name: Vojtěch
+        start: 00:00:00
+        surname: Halama
+    -   born: 2009
+        club: SKHA
+        id: 158
+        name: Jakub
+        start: 00:00:00
+        surname: Hanč
+    -   born: 2009
+        club: HSKB
+        id: 159
+        name: Václav
+        start: 00:00:00
+        surname: Holubec
+    -   born: 2009
+        club: TJTA
+        id: 161
+        name: Kryštof
+        start: 00:00:00
+        surname: Melich
+    -   born: 2009
+        club: LSKL
+        id: 162
+        name: Marek
+        start: 00:00:00
+        surname: Škorpil
+    -   born: 2009
+        club: SOSK
+        id: 163
+        name: Tomáš
+        start: 00:00:00
+        surname: Udatný
+    -   born: 2009
+        club: DULI
+        id: 164
+        name: Mikoláš
+        start: 00:00:00
+        surname: Valoušek
+    -   born: 2009
+        club: CSKV
+        id: 165
+        name: Hugo
+        start: 00:00:00
+        surname: Vaněk
+    -   born: 2009
+        club: KBJI
+        id: 252
+        name: Matyáš
+        start: 00:00:00
+        surname: Bárta
+    -   born: 2010
+        club: DULI
+        id: 261
+        name: Tomáš
+        start: 00:00:00
+        surname: Plachý
+    -   born: 2010
+        club: SOSK
+        id: 292
+        name: Vasyl
+        start: 00:00:00
+        surname: Bryanyk
+    distance: 500m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2008
+        club: TJSE
+        id: 166
+        name: Ema
+        start: 00:00:00
+        surname: Frenclová
+    -   born: 2008
+        club: DULI
+        id: 167
+        name: Alžběta
+        start: 00:00:00
+        surname: Havlasová
+    -   born: 2008
+        club: SWSL
+        id: 170
+        name: Karla
+        start: 00:00:00
+        surname: Kopecká
+    -   born: 2008
+        club: DULI
+        id: 171
+        name: Anna
+        start: 00:00:00
+        surname: Mládková
+    -   born: 2008
+        club: SOVH
+        id: 174
+        name: Kristýna
+        start: 00:00:00
+        surname: Nováková
+    -   born: 2008
+        club: DULI
+        id: 175
+        name: Magdaléna
+        start: 00:00:00
+        surname: Schäferová
+    -   born: 2008
+        club: DULI
+        id: 176
+        name: Johanka
+        start: 00:00:00
+        surname: Tandlerová
+    -   born: 2008
+        club: TJSE
+        id: 177
+        name: Barbora
+        start: 00:00:00
+        surname: Trýznová
+    -   born: 2007
+        club: SOVH
+        id: 192
+        name: Anna
+        start: 00:00:00
+        surname: Cilichová
+    -   born: 2007
+        club: SOSK
+        id: 194
+        name: Johanka
+        start: 00:00:00
+        surname: Michalenková
+    -   born: 2007
+        club: DULI
+        id: 195
+        name: Eliška
+        start: 00:00:00
+        surname: Plachá
+    -   born: 2007
+        club: SKHA
+        id: 196
+        name: Věra
+        start: 00:00:00
+        surname: Vaněčková
+    -   born: 2008
+        club: LSKL
+        id: 246
+        name: Marcela
+        start: 00:00:00
+        surname: Nosková
+    -   born: 2007
+        club: LSKL
+        id: 247
+        name: Aneta
+        start: 00:00:00
+        surname: Ježková
+    -   born: 2007
+        club: LSKL
+        id: 248
+        name: Simona
+        start: 00:00:00
+        surname: Řeháková
+    -   born: 2007
+        club: LSKL
+        id: 249
+        name: Sofie
+        start: 00:00:00
+        surname: Vyhlídková
+    -   born: 2008
+        club: DULI
+        id: 263
+        name: Magdalena
+        start: 00:00:00
+        surname: Schäferová
+    distance: 1000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2008
+        club: SOSK
+        id: 178
+        name: Matěj
+        start: 00:00:00
+        surname: Brožek
+    -   born: 2008
+        club: SKHA
+        id: 179
+        name: Hynek
+        start: 00:00:00
+        surname: Dostalík
+    -   born: 2008
+        club: CSKV
+        id: 180
+        name: Matěj
+        start: 00:00:00
+        surname: Koňák
+    -   born: 2008
+        club: SWSL
+        id: 181
+        name: Petr
+        start: 00:00:00
+        surname: Kremsa
+    -   born: 2008
+        club: TJTA
+        id: 182
+        name: Ota
+        start: 00:00:00
+        surname: Kubín
+    -   born: 2008
+        club: DULI
+        id: 183
+        name: Dalibor
+        start: 00:00:00
+        surname: Novotný
+    -   born: 2008
+        club: SOSK
+        id: 184
+        name: Jakub
+        start: 00:00:00
+        surname: Novotný
+    -   born: 2008
+        club: SOSK
+        id: 185
+        name: Josef
+        start: 00:00:00
+        surname: Plesl
+    -   born: 2008
+        club: DULI
+        id: 186
+        name: Tomáš
+        start: 00:00:00
+        surname: Pokorný
+    -   born: 2008
+        club: DULI
+        id: 188
+        name: Matouš
+        start: 00:00:00
+        surname: Půbal
+    -   born: 2008
+        club: SKJA
+        id: 189
+        name: Václav
+        start: 00:00:00
+        surname: Šnytr
+    -   born: 2008
+        club: SKHA
+        id: 190
+        name: Jakub
+        start: 00:00:00
+        surname: Uman
+    -   born: 2008
+        club: TJSE
+        id: 191
+        name: David
+        start: 00:00:00
+        surname: Vaňátko
+    -   born: 2007
+        club: DULI
+        id: 197
+        name: Harry
+        start: 00:00:00
+        surname: Deimling
+    -   born: 2007
+        club: DULI
+        id: 198
+        name: Matěj
+        start: 00:00:00
+        surname: Endrych
+    -   born: 2007
+        club: DULI
+        id: 199
+        name: Vojtěch
+        start: 00:00:00
+        surname: Mečíř
+    -   born: 2007
+        club: CSKV
+        id: 200
+        name: Mikuláš
+        start: 00:00:00
+        surname: Novotný
+    -   born: 2007
+        club: SOSK
+        id: 201
+        name: Šimon
+        start: 00:00:00
+        surname: Vavřač
+    -   born: 2008
+        club: SOSK
+        id: 244
+        name: Sebastian
+        start: 00:00:00
+        surname: Skrbek
+    -   born: 2008
+        club: LSKL
+        id: 245
+        name: Albert
+        start: 00:00:00
+        surname: Lukavec
+    -   born: 2007
+        club: LSKL
+        id: 250
+        name: Martin
+        start: 00:00:00
+        surname: Dlouhý
+    -   born: 2007
+        club: LSKL
+        id: 251
+        name: Tomáš
+        start: 00:00:00
+        surname: Pekárek
+    -   born: 2007
+        club: JIJD
+        id: 255
+        name: Miroslav
+        start: 00:00:00
+        surname: Štejfa
+    -   born: 2008
+        club: DULI
+        id: 262
+        name: Saša
+        start: 00:00:00
+        surname: Velecký
+    -   born: 2008
+        club: ''
+        id: 288
+        name: Jan
+        start: 00:00:00
+        surname: Svoboda
+    distance: 1000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2006
+        club: SKJA
+        id: 203
+        name: Zuzka
+        start: 00:00:00
+        surname: Kohoutová
+    -   born: 2006
+        club: SOSK
+        id: 205
+        name: Anna
+        start: 00:00:00
+        surname: Novotná
+    -   born: 2006
+        club: DULI
+        id: 206
+        name: Ema
+        start: 00:00:00
+        surname: Pokorná
+    -   born: 2006
+        club: DULI
+        id: 207
+        name: Anna
+        start: 00:00:00
+        surname: Šírová
+    -   born: 2005
+        club: SGJB
+        id: 216
+        name: Lucie
+        start: 00:00:00
+        surname: Dubská
+    -   born: 2005
+        club: SGJB
+        id: 217
+        name: Adéla
+        start: 00:00:00
+        surname: Fichtnerová
+    -   born: 2005
+        club: SOSK
+        id: 218
+        name: Karolína
+        start: 00:00:00
+        surname: Hübnerová
+    -   born: 2005
+        club: SOTE
+        id: 220
+        name: Petra
+        start: 00:00:00
+        surname: Ouhrabková
+    -   born: 2005
+        club: SOTE
+        id: 221
+        name: Hedvika
+        start: 00:00:00
+        surname: Vosáhlová
+    distance: 1500m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2006
+        club: DULI
+        id: 209
+        name: Adam
+        start: 00:00:00
+        surname: Brož
+    -   born: 2006
+        club: SKJA
+        id: 210
+        name: Theodor
+        start: 00:00:00
+        surname: Čapek
+    -   born: 2006
+        club: SOSK
+        id: 211
+        name: Štěpán
+        start: 00:00:00
+        surname: Dubský
+    -   born: 2006
+        club: SOSK
+        id: 212
+        name: Filip
+        start: 00:00:00
+        surname: Hloušek
+    -   born: 2006
+        club: HSKB
+        id: 213
+        name: František
+        start: 00:00:00
+        surname: Holubec
+    -   born: 2006
+        club: TJSE
+        id: 214
+        name: Petr
+        start: 00:00:00
+        surname: Pavlata
+    -   born: 2006
+        club: DULI
+        id: 264
+        name: Kryštof
+        start: 00:00:00
+        surname: Velecký
+    distance: 1500m
+    name: Mladší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2004
+        club: SOSK
+        id: 222
+        name: Nikola
+        start: 00:00:00
+        surname: Nikodýmová
+    -   born: 2003
+        club: SGJB
+        id: 225
+        name: Nina
+        start: 00:00:00
+        surname: Bureš
+    -   born: 2003
+        club: SGJB
+        id: 226
+        name: Natálie
+        start: 00:00:00
+        surname: Kurfiřtová
+    distance: 1500m
+    name: Starší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2004
+        club: SOSK
+        id: 224
+        name: Jakub
+        start: 00:00:00
+        surname: Michalenko
+    -   born: 2003
+        club: SGJB
+        id: 227
+        name: Tomáš
+        start: 00:00:00
+        surname: Preissler
+    -   born: 2004
+        club: SKIJ
+        id: 269
+        name: Dan
+        start: 00:00:00
+        surname: Salaba
+    distance: 1500m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2002
+        club: SOSK
+        id: 228
+        name: Denisa
+        start: 00:00:00
+        surname: Nikodýmová
+    -   born: 1982
+        club: FRYD
+        id: 232
+        name: Olga
+        start: 00:00:00
+        surname: Čechová
+    -   born: 1998
+        club: SOTE
+        id: 233
+        name: Dagmar
+        start: 00:00:00
+        surname: Sobotková
+    -   born: 1996
+        club: SGJB
+        id: 234
+        name: Anna
+        start: 00:00:00
+        surname: Sixtová
+    -   born: 1981
+        club: SOSK
+        id: 236
+        name: Jana
+        start: 00:00:00
+        surname: Tomášková
+    -   born: 1974
+        club: LSKL
+        id: 237
+        name: Jana
+        start: 00:00:00
+        surname: Škorpilová
+    -   born: 1995
+        club: SOSK
+        id: 239
+        name: Petra
+        start: 00:00:00
+        surname: Nikodýmová
+    -   born: 1982
+        club: SOZB
+        id: 243
+        name: Lenka
+        start: 00:00:00
+        surname: Skrbková
+    -   born: 1988
+        club: SOSK
+        id: 289
+        name: Lucie
+        start: 00:00:00
+        surname: Roubínková
+    distance: 2000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 1976
+        club: SOSK
+        id: 153
+        name: Jiří
+        start: 00:00:00
+        surname: Dubský
+    -   born: 2002
+        club: SGJB
+        id: 229
+        name: Ondřej
+        start: 00:00:00
+        surname: Sixta
+    -   born: 2001
+        club: SGJB
+        id: 230
+        name: Jakub
+        start: 00:00:00
+        surname: Augsten
+    -   born: 2001
+        club: SGJB
+        id: 231
+        name: Matěj
+        start: 00:00:00
+        surname: Bříza
+    -   born: 1967
+        club: ''
+        id: 238
+        name: Petr
+        start: 00:00:00
+        surname: Hlaváček
+    -   born: 1970
+        club: SOSK
+        id: 240
+        name: Robert
+        start: 00:00:00
+        surname: Procházka
+    -   born: 1976
+        club: SWSL
+        id: 241
+        name: Petr
+        start: 00:00:00
+        surname: Huk
+    -   born: 1980
+        club: ''
+        id: 259
+        name: Adam
+        start: 00:00:00
+        surname: Hübner
+    -   born: 1975
+        club: ''
+        id: 283
+        name: Josef
+        start: 00:00:00
+        surname: Valeš
+    -   born: 1991
+        club: ''
+        id: 285
+        name: Martin
+        start: 00:00:00
+        surname: Tryzna
+    -   born: 1981
+        club: ''
+        id: 286
+        name: Jan
+        start: 00:00:00
+        surname: Tryzna
+    distance: 2000m
+    name: Muži
+    sex: m

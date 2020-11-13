@@ -1,0 +1,101 @@
+version: "1.0"
+clubs:
+    - id: SOSK
+      name: TJ Sokol Skuhrov
+      isSokol: true
+    - id: SOVH
+      name: TJ Sokol Velké Hamry
+      isSokol: true
+    - id: SOZB
+      name: Sokol Železný Brod
+      isSokol: true
+    - id: SOZO
+      name: Sokol Zlatá Olešnice
+      isSokol: true
+    - id: FRYD
+      name: Sokol Frýdštejn
+      isSokol: true
+    - id: SOVA
+      name: Sokol Valteřice
+      isSokol: true
+    - id: STUD
+      name: Sokol Studenec
+      isSokol: true
+    - id: HBRA
+      name: Sokol Horní Branná
+      isSokol: true
+    - id: SOVI
+      name: Sokol Víchová nad Jizerou
+      isSokol: true
+    - id: SOBE
+      name: Sokol Benešov u Semil
+      isSokol: true
+    - id: SOTE
+      name: Sokol Těpeře
+      isSokol: true
+    - id: SOHU
+      name: Sokol Huntířov
+      isSokol: true
+    - id: JBCN
+      name: SKI klub Jablonec n.N.
+      isSokol: false
+    - id: LIAZ
+      name: LIAZ Jablonec n.N.
+    - id: DULI
+      name: Dukla Liberec
+    - id: ACLI
+      name: Atletický club liberec
+    - id: BILB
+      name: Biatlon Liberec
+    - id: SKHA
+      name: SKI klub Harrachov
+    - id: SKPH
+      name: Sportovní klub policie Harrachov
+    - id: CKLH
+      name: Český klub lyžařů Harrachov
+    - id: HAHA
+      name: Harranti Harrachov
+    - id: JKLD
+      name: JKL Desná
+    - id: SLKO
+      name: Slavoj Kořenov
+    - id: JABC
+      name: JABC
+    - id: SPRO
+      name: Spartak Rokytnice n.Jizerou
+    - id: SKIJ
+      name: ČKS SKI Jilemnice
+    - id: KBJI
+      name: Klub biatlonu Jilemnice
+    - id: AKSE
+      name: Atletický klub Semily
+    - id: TJSE
+      name: TJ Semily
+    - id: VLCA
+      name: Vlčáci
+    - id: CSKV
+      name: Český SKI Vysoké n.J.
+    - id: JIJD
+      name: Jiskra Josefův Důl
+    - id: HSKB
+      name: Hančův sport. klub Benecko
+    - id: SWSL
+      name: Ski klub W.Samesche Lučany
+    - id: TJTA
+      name: Tělovýchovná jednota Tanvald
+    - id: SKJA
+      name: SK SKI Janov - Bedřichov
+    - id: LSKL
+      name: LSK Lomnice n.P.
+    - id: KBTR
+      name: KB Trefa
+    - id: SOMA
+      name: Sokol Maxičky
+    - id: ACJB
+      name: AC Jablonec nad Nisou
+    - id: SPVR
+      name: Spartak Vrchlabí
+    - id: SGJB
+      name: Klub lyžování při sportovním gymnáziu Jablonec nad Nisou
+    - id: ZDRP
+      name: TJ Slovan Praha Zdravotník
