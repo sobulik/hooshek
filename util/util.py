@@ -25,14 +25,20 @@ def format_delta(t):
     seconds = seconds - minutes * 60
     value = ""
     if hours > 0:
-        value = str(hours) + ":"
-    if minutes > 0:
-        value += str(minutes).rjust(2, "0") + ":"
+        value += str(hours)
+        value += ":"
+    if hours > 0 or minutes > 9:
+        value += str(minutes).rjust(2, "0")
+        value += ":"
+    else:
+        if minutes > 0:
+            value += str(minutes)
+            value += ":"
+    if hours > 0 or minutes > 0 or seconds > 9:
         value += str(seconds).rjust(2, "0")
     else:
-        value += str(seconds)
-    if microseconds > 0:
-        value += "." + str(microseconds)[0]
-    else:
-        value += ".0"
+        if seconds > 0:
+            value += str(seconds)
+    value += "."
+    value += str(microseconds)[0]
     return value

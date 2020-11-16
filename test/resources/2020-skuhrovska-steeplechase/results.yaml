@@ -4,7 +4,7 @@ races:
 -   athletes:
     -   born: 2015
         club: SOSK
-        diff: '0.0'
+        diff: '.0'
         finish: 00:00:15
         name: Etzear
         rank: 1
@@ -209,7 +209,7 @@ races:
 -   athletes:
     -   born: 2015
         club: SKHA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:00:14
         name: Sualme
         rank: 1
@@ -406,7 +406,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tšso
-        time: '01:07.5'
+        time: '1:07.5'
     desc: ''
     distance: 50m
     name: Benjamínci
@@ -414,14 +414,14 @@ races:
 -   athletes:
     -   born: 2014
         club: SKHA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:02:11
         name: Limkaa
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Ovíkáčomkn
-        time: '02:11.2'
+        time: '2:11.2'
     -   born: 2014
         club: DULI
         diff: '3.9'
@@ -431,7 +431,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Eíčmváoř
-        time: '02:15.1'
+        time: '2:15.1'
     -   born: 2014
         club: SOSK
         diff: '6.3'
@@ -441,7 +441,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Áalm
-        time: '02:17.5'
+        time: '2:17.5'
     -   born: 2014
         club: SOVH
         diff: '8.3'
@@ -451,7 +451,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Etkoáepurv
-        time: '02:19.5'
+        time: '2:19.5'
     -   born: 2014
         club: SWSL
         diff: '13.7'
@@ -461,7 +461,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vvkáol
-        time: '02:24.9'
+        time: '2:24.9'
     -   born: 2014
         club: DULI
         diff: '15.5'
@@ -471,7 +471,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Eodnvhácyr
-        time: '02:26.7'
+        time: '2:26.7'
     -   born: 2014
         club: SOSK
         diff: '24.7'
@@ -481,7 +481,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Árvojí
-        time: '02:35.9'
+        time: '2:35.9'
     -   born: 2014
         club: HSKB
         diff: '35.0'
@@ -491,7 +491,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vouošrák
-        time: '02:46.2'
+        time: '2:46.2'
     -   born: 2014
         club: JIJD
         diff: '46.1'
@@ -501,7 +501,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tášvjefo
-        time: '02:57.3'
+        time: '2:57.3'
     -   born: 2014
         club: ''
         diff: '47.0'
@@ -511,7 +511,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kltábovaa
-        time: '02:58.2'
+        time: '2:58.2'
     desc: '2014'
     distance: 300m
     name: Minižačky
@@ -519,14 +519,14 @@ races:
 -   athletes:
     -   born: 2013
         club: SPVR
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:52
         name: Mea
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Khsaářnem
-        time: '01:52.0'
+        time: '1:52.0'
     -   born: 2013
         club: SWSL
         diff: '11.9'
@@ -536,7 +536,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ukhávo
-        time: '02:03.9'
+        time: '2:03.9'
     -   born: 2013
         club: ACJB
         diff: '14.5'
@@ -546,7 +546,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Eřilvkoná
-        time: '02:06.5'
+        time: '2:06.5'
     -   born: 2013
         club: SOZB
         diff: '31.2'
@@ -556,7 +556,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Čkvoájuíbak
-        time: '02:23.2'
+        time: '2:23.2'
     -   born: 2013
         club: SKJA
         diff: ''
@@ -574,14 +574,14 @@ races:
 -   athletes:
     -   born: 2014
         club: SWSL
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:57
         name: Eprt
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Čkáiskep
-        time: '01:57.1'
+        time: '1:57.1'
     -   born: 2014
         club: TJTA
         diff: '3.7'
@@ -591,7 +591,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Bkuní
-        time: '02:00.8'
+        time: '2:00.8'
     -   born: 2014
         club: SOVH
         diff: '8.5'
@@ -601,7 +601,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Jrefaf
-        time: '02:05.6'
+        time: '2:05.6'
     -   born: 2014
         club: SOSK
         diff: '10.2'
@@ -611,7 +611,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Kcpueh
-        time: '02:07.3'
+        time: '2:07.3'
     -   born: 2014
         club: SOSK
         diff: '12.5'
@@ -621,7 +621,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Kjínele
-        time: '02:09.6'
+        time: '2:09.6'
     -   born: 2014
         club: SOSK
         diff: '13.2'
@@ -631,7 +631,7 @@ races:
         rank_sokol: 4
         start: 00:00:00
         surname: Pceuhk
-        time: '02:10.3'
+        time: '2:10.3'
     -   born: 2014
         club: ''
         diff: '15.0'
@@ -641,7 +641,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ntyrza
-        time: '02:12.1'
+        time: '2:12.1'
     -   born: 2014
         club: SOSK
         diff: '19.0'
@@ -651,7 +651,7 @@ races:
         rank_sokol: 5
         start: 00:00:00
         surname: Eákšmot
-        time: '02:16.1'
+        time: '2:16.1'
     -   born: 2014
         club: SWSL
         diff: '40.9'
@@ -661,7 +661,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Pliš
-        time: '02:38.0'
+        time: '2:38.0'
     -   born: 2014
         club: ''
         diff: ''
@@ -679,24 +679,24 @@ races:
 -   athletes:
     -   born: 2013
         club: JBCN
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:53
         name: Daam
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Peulhoc
-        time: '01:53.6'
+        time: '1:53.6'
     -   born: 2013
         club: SKHA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:53
         name: Pněštá
         rank: 2
         rank_sokol: ''
         start: 00:00:00
         surname: Avěkneč
-        time: '01:53.6'
+        time: '1:53.6'
     -   born: 2013
         club: ''
         diff: '8.3'
@@ -706,7 +706,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Bsvdoao
-        time: '02:01.9'
+        time: '2:01.9'
     -   born: 2013
         club: SKJA
         diff: '11.1'
@@ -716,7 +716,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Voobdas
-        time: '02:04.7'
+        time: '2:04.7'
     -   born: 2013
         club: SKJA
         diff: '12.5'
@@ -726,7 +726,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tnyšr
-        time: '02:06.1'
+        time: '2:06.1'
     -   born: 2013
         club: ''
         diff: '16.1'
@@ -736,7 +736,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vodákř
-        time: '02:09.7'
+        time: '2:09.7'
     -   born: 2013
         club: SKHA
         diff: '17.3'
@@ -746,7 +746,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Čákrme
-        time: '02:10.9'
+        time: '2:10.9'
     -   born: 2013
         club: SKHA
         diff: '18.7'
@@ -756,7 +756,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kaáčr
-        time: '02:12.3'
+        time: '2:12.3'
     -   born: 2013
         club: FRYD
         diff: '30.4'
@@ -766,7 +766,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Iplhtre
-        time: '02:24.0'
+        time: '2:24.0'
     -   born: 2013
         club: SKJA
         diff: ''
@@ -784,14 +784,14 @@ races:
 -   athletes:
     -   born: 2012
         club: SOSK
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:54
         name: Aemáil
         rank: 1
         rank_sokol: 1
         start: 00:00:00
         surname: Távákmošo
-        time: '01:54.3'
+        time: '1:54.3'
     -   born: 2012
         club: STUD
         diff: '3.2'
@@ -801,7 +801,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Očsááovkk
-        time: '01:57.5'
+        time: '1:57.5'
     -   born: 2012
         club: SOSK
         diff: '4.2'
@@ -811,7 +811,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Šoavvukráv
-        time: '01:58.5'
+        time: '1:58.5'
     -   born: 2012
         club: TJSE
         diff: '7.3'
@@ -821,7 +821,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Avíohlplá
-        time: '02:01.6'
+        time: '2:01.6'
     -   born: 2012
         club: SOSK
         diff: '11.9'
@@ -831,7 +831,7 @@ races:
         rank_sokol: 4
         start: 00:00:00
         surname: Aoáalhmv
-        time: '02:06.2'
+        time: '2:06.2'
     -   born: 2012
         club: ''
         diff: '14.3'
@@ -841,7 +841,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nsghi
-        time: '02:08.6'
+        time: '2:08.6'
     -   born: 2012
         club: HSKB
         diff: '19.8'
@@ -851,7 +851,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Hšaváonu
-        time: '02:14.1'
+        time: '2:14.1'
     -   born: 2012
         club: DULI
         diff: '24.6'
@@ -861,7 +861,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Edoerrnhif
-        time: '02:18.9'
+        time: '2:18.9'
     -   born: 2012
         club: ''
         diff: '28.3'
@@ -871,7 +871,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Švárevmo
-        time: '02:22.6'
+        time: '2:22.6'
     desc: '2012'
     distance: 300m
     name: Nejmladší žákyně
@@ -879,14 +879,14 @@ races:
 -   athletes:
     -   born: 2011
         club: TJTA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:38
         name: Nvreikao
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Vberiáocv
-        time: '01:38.6'
+        time: '1:38.6'
     -   born: 2011
         club: ''
         diff: '1.7'
@@ -896,7 +896,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Oávudd
-        time: '01:40.3'
+        time: '1:40.3'
     -   born: 2011
         club: SKHA
         diff: '6.8'
@@ -906,7 +906,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Áahnčov
-        time: '01:45.4'
+        time: '1:45.4'
     -   born: 2011
         club: SOVH
         diff: '9.0'
@@ -916,7 +916,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Nrávoebt
-        time: '01:47.6'
+        time: '1:47.6'
     -   born: 2011
         club: TJTA
         diff: '12.2'
@@ -926,7 +926,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ecávholim
-        time: '01:50.8'
+        time: '1:50.8'
     -   born: 2011
         club: SOVH
         diff: '13.6'
@@ -936,7 +936,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Rfjáefvoa
-        time: '01:52.2'
+        time: '1:52.2'
     -   born: 2011
         club: DULI
         diff: '16.8'
@@ -946,7 +946,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Áoeopkv
-        time: '01:55.4'
+        time: '1:55.4'
     -   born: 2011
         club: HSKB
         diff: '18.3'
@@ -956,7 +956,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Oolhámdvav
-        time: '01:56.9'
+        time: '1:56.9'
     -   born: 2011
         club: SKHA
         diff: '19.3'
@@ -966,7 +966,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Šoluávek
-        time: '01:57.9'
+        time: '1:57.9'
     -   born: 2011
         club: SWSL
         diff: '21.1'
@@ -976,7 +976,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vhüáernob
-        time: '01:59.7'
+        time: '1:59.7'
     desc: '2011'
     distance: 300m
     name: Nejmladší žákyně
@@ -984,14 +984,14 @@ races:
 -   athletes:
     -   born: 2012
         club: DULI
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:43
         name: Innevtc
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Žkeje
-        time: '01:43.9'
+        time: '1:43.9'
     -   born: 2012
         club: HSKB
         diff: '4.7'
@@ -1001,7 +1001,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Svocýkošh
-        time: '01:48.6'
+        time: '1:48.6'
     -   born: 2012
         club: SOHU
         diff: '5.3'
@@ -1011,7 +1011,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Apatval
-        time: '01:49.2'
+        time: '1:49.2'
     -   born: 2012
         club: SOSK
         diff: '10.9'
@@ -1021,7 +1021,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Omlt
-        time: '01:54.8'
+        time: '1:54.8'
     -   born: 2012
         club: SKIJ
         diff: '31.7'
@@ -1031,7 +1031,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tabrá
-        time: '02:15.6'
+        time: '2:15.6'
     -   born: 2012
         club: ''
         diff: '49.2'
@@ -1041,7 +1041,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Armšej
-        time: '02:33.1'
+        time: '2:33.1'
     desc: '2012'
     distance: 300m
     name: Nejmladší žáci
@@ -1049,14 +1049,14 @@ races:
 -   athletes:
     -   born: 2011
         club: VLCA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:01:38
         name: Aujbk
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Íčřem
-        time: '01:38.4'
+        time: '1:38.4'
     -   born: 2011
         club: JBCN
         diff: '4.4'
@@ -1066,7 +1066,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Culhpoe
-        time: '01:42.8'
+        time: '1:42.8'
     -   born: 2011
         club: DULI
         diff: '5.7'
@@ -1076,7 +1076,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kálemd
-        time: '01:44.1'
+        time: '1:44.1'
     -   born: 2011
         club: SOSK
         diff: '7.5'
@@ -1086,7 +1086,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Selheík
-        time: '01:45.9'
+        time: '1:45.9'
     -   born: 2011
         club: TJTA
         diff: '8.8'
@@ -1096,7 +1096,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Evalš
-        time: '01:47.2'
+        time: '1:47.2'
     -   born: 2011
         club: SOSK
         diff: '9.4'
@@ -1106,7 +1106,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Eýnčr
-        time: '01:47.8'
+        time: '1:47.8'
     -   born: 2011
         club: LSKL
         diff: '10.7'
@@ -1116,7 +1116,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Alkeuvc
-        time: '01:49.1'
+        time: '1:49.1'
     -   born: 2011
         club: CSKV
         diff: '21.5'
@@ -1126,7 +1126,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Onýntov
-        time: '01:59.9'
+        time: '1:59.9'
     -   born: 2011
         club: SOSK
         diff: '23.3'
@@ -1136,7 +1136,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Enuzkry
-        time: '02:01.7'
+        time: '2:01.7'
     -   born: 2011
         club: SKHA
         diff: '26.9'
@@ -1146,7 +1146,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Muan
-        time: '02:05.3'
+        time: '2:05.3'
     desc: '2011'
     distance: 300m
     name: Nejmladší žáci
@@ -1154,14 +1154,14 @@ races:
 -   athletes:
     -   born: 2010
         club: SWSL
-        diff: '0.0'
+        diff: '.0'
         finish: 00:02:43
         name: Eaonkrvi
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Vkovátásryo
-        time: '02:43.3'
+        time: '2:43.3'
     -   born: 2010
         club: CKLH
         diff: '7.1'
@@ -1171,7 +1171,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ázávlro
-        time: '02:50.4'
+        time: '2:50.4'
     -   born: 2010
         club: SWSL
         diff: '8.2'
@@ -1181,7 +1181,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Srmoevká
-        time: '02:51.5'
+        time: '2:51.5'
     -   born: 2010
         club: DULI
         diff: '9.9'
@@ -1191,7 +1191,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Eároekllv
-        time: '02:53.2'
+        time: '2:53.2'
     -   born: 2010
         club: SKHA
         diff: '12.9'
@@ -1201,7 +1201,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nkáčkoívmo
-        time: '02:56.2'
+        time: '2:56.2'
     -   born: 2010
         club: SKIJ
         diff: '16.2'
@@ -1211,7 +1211,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ivkokrčtá
-        time: '02:59.5'
+        time: '2:59.5'
     -   born: 2010
         club: JBCN
         diff: '16.6'
@@ -1221,7 +1221,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Šaobtráov
-        time: '02:59.9'
+        time: '2:59.9'
     -   born: 2010
         club: SOSK
         diff: '22.8'
@@ -1231,7 +1231,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Řačováavv
-        time: '03:06.1'
+        time: '3:06.1'
     -   born: 2010
         club: DULI
         diff: '30.1'
@@ -1241,7 +1241,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Reydnoáchv
-        time: '03:13.4'
+        time: '3:13.4'
     -   born: 2010
         club: HSKB
         diff: '36.8'
@@ -1251,7 +1251,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vvhdlámooa
-        time: '03:20.1'
+        time: '3:20.1'
     -   born: 2010
         club: SWSL
         diff: '38.0'
@@ -1261,7 +1261,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Voukhá
-        time: '03:21.3'
+        time: '3:21.3'
     -   born: 2010
         club: SWSL
         diff: '40.1'
@@ -1271,7 +1271,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kvsáozále
-        time: '03:23.4'
+        time: '3:23.4'
     -   born: 2010
         club: SOSK
         diff: '43.5'
@@ -1281,7 +1281,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Udáksb
-        time: '03:26.8'
+        time: '3:26.8'
     -   born: 2010
         club: SKJA
         diff: '47.5'
@@ -1291,7 +1291,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Deeárovl
-        time: '03:30.8'
+        time: '3:30.8'
     -   born: 2010
         club: SKIJ
         diff: '48.1'
@@ -1301,7 +1301,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Esrplovsreái
-        time: '03:31.4'
+        time: '3:31.4'
     -   born: 2010
         club: ''
         diff: '50.4'
@@ -1311,7 +1311,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Gsihn
-        time: '03:33.7'
+        time: '3:33.7'
     -   born: 2010
         club: DULI
         diff: ''
@@ -1339,24 +1339,24 @@ races:
 -   athletes:
     -   born: 2009
         club: SOVH
-        diff: '0.0'
+        diff: '.0'
         finish: 00:02:35
         name: Nzauza
         rank: 1
         rank_sokol: 1
         start: 00:00:00
         surname: Sjoávdao
-        time: '02:35.4'
+        time: '2:35.4'
     -   born: 2009
         club: TJSE
-        diff: '0.4'
+        diff: '.4'
         finish: 00:02:35
         name: Daearn
         rank: 2
         rank_sokol: ''
         start: 00:00:00
         surname: Oaamávlh
-        time: '02:35.8'
+        time: '2:35.8'
     -   born: 2009
         club: SKIJ
         diff: '2.1'
@@ -1366,7 +1366,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Savaolbá
-        time: '02:37.5'
+        time: '2:37.5'
     -   born: 2009
         club: SOSK
         diff: '17.2'
@@ -1376,7 +1376,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Rkznváyou
-        time: '02:52.6'
+        time: '2:52.6'
     -   born: 2009
         club: HSKB
         diff: '23.5'
@@ -1386,7 +1386,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Zráámov
-        time: '02:58.9'
+        time: '2:58.9'
     -   born: 2009
         club: DULI
         diff: '25.8'
@@ -1396,7 +1396,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Váobajelž
-        time: '03:01.2'
+        time: '3:01.2'
     -   born: 2009
         club: SOSK
         diff: '26.5'
@@ -1406,7 +1406,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Sevoáíhlk
-        time: '03:01.9'
+        time: '3:01.9'
     -   born: 2009
         club: CSKV
         diff: '28.8'
@@ -1416,7 +1416,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nvootná
-        time: '03:04.2'
+        time: '3:04.2'
     -   born: 2009
         club: SOVH
         diff: '30.8'
@@ -1426,7 +1426,7 @@ races:
         rank_sokol: 4
         start: 00:00:00
         surname: Bcrčáiko
-        time: '03:06.2'
+        time: '3:06.2'
     -   born: 2009
         club: ZDRP
         diff: '33.7'
@@ -1436,7 +1436,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Rkuiep
-        time: '03:09.1'
+        time: '3:09.1'
     -   born: 2009
         club: SWSL
         diff: '38.0'
@@ -1446,7 +1446,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Okjáevlín
-        time: '03:13.4'
+        time: '3:13.4'
     -   born: 2009
         club: JBCN
         diff: '40.4'
@@ -1456,7 +1456,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Pzrvoáckohá
-        time: '03:15.8'
+        time: '3:15.8'
     -   born: 2009
         club: SKHA
         diff: '46.7'
@@ -1466,7 +1466,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Jánvoekí
-        time: '03:22.1'
+        time: '3:22.1'
     -   born: 2009
         club: SOSK
         diff: ''
@@ -1484,14 +1484,14 @@ races:
 -   athletes:
     -   born: 2010
         club: SKJA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:02:25
         name: Iflip
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Drda
-        time: '02:25.0'
+        time: '2:25.0'
     -   born: 2010
         club: SWSL
         diff: '9.0'
@@ -1501,7 +1501,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vrkusa
-        time: '02:34.0'
+        time: '2:34.0'
     -   born: 2010
         club: FRYD
         diff: '10.2'
@@ -1511,7 +1511,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Thpleri
-        time: '02:35.2'
+        time: '2:35.2'
     -   born: 2010
         club: DULI
         diff: '14.0'
@@ -1521,7 +1521,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Lýhcpa
-        time: '02:39.0'
+        time: '2:39.0'
     -   born: 2010
         club: DULI
         diff: '15.7'
@@ -1531,7 +1531,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Äcsfher
-        time: '02:40.7'
+        time: '2:40.7'
     -   born: 2010
         club: SKJA
         diff: '18.1'
@@ -1541,7 +1541,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Uokoth
-        time: '02:43.1'
+        time: '2:43.1'
     -   born: 2010
         club: TJTA
         diff: '20.9'
@@ -1551,7 +1551,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nkíub
-        time: '02:45.9'
+        time: '2:45.9'
     -   born: 2010
         club: SKHA
         diff: '25.5'
@@ -1561,7 +1561,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ěaenčvk
-        time: '02:50.5'
+        time: '2:50.5'
     -   born: 2010
         club: TJSE
         diff: '26.8'
@@ -1571,7 +1571,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Aashs
-        time: '02:51.8'
+        time: '2:51.8'
     -   born: 2010
         club: SOSK
         diff: '27.9'
@@ -1581,7 +1581,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Zpcákarho
-        time: '02:52.9'
+        time: '2:52.9'
     -   born: 2010
         club: DULI
         diff: '30.3'
@@ -1591,7 +1591,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nleadtr
-        time: '02:55.3'
+        time: '2:55.3'
     -   born: 2010
         club: SOSK
         diff: '32.9'
@@ -1601,7 +1601,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Rbkesk
-        time: '02:57.9'
+        time: '2:57.9'
     -   born: 2010
         club: SWSL
         diff: '39.2'
@@ -1611,7 +1611,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Oekýkcp
-        time: '03:04.2'
+        time: '3:04.2'
     -   born: 2010
         club: SWSL
         diff: '39.7'
@@ -1621,7 +1621,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Mčáza
-        time: '03:04.7'
+        time: '3:04.7'
     -   born: 2010
         club: HSKB
         diff: '42.7'
@@ -1631,7 +1631,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Šauhn
-        time: '03:07.7'
+        time: '3:07.7'
     -   born: 2010
         club: SOSK
         diff: '45.4'
@@ -1641,7 +1641,7 @@ races:
         rank_sokol: 4
         start: 00:00:00
         surname: Mlto
-        time: '03:10.4'
+        time: '3:10.4'
     -   born: 2010
         club: SKJA
         diff: '46.2'
@@ -1651,7 +1651,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ytnrš
-        time: '03:11.2'
+        time: '3:11.2'
     -   born: 2010
         club: SWSL
         diff: '47.0'
@@ -1661,37 +1661,37 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vlk
-        time: '03:12.0'
+        time: '3:12.0'
     -   born: 2010
         club: HSKB
-        diff: '01:32.5'
+        diff: '1:32.5'
         finish: 00:03:57
         name: Ilfip
         rank: 19
         rank_sokol: ''
         start: 00:00:00
         surname: Tnýrza
-        time: '03:57.5'
+        time: '3:57.5'
     -   born: 2010
         club: SOSK
-        diff: '01:49.1'
+        diff: '1:49.1'
         finish: 00:04:14
         name: Vylsa
         rank: 20
         rank_sokol: 5
         start: 00:00:00
         surname: Ynybkra
-        time: '04:14.1'
+        time: '4:14.1'
     -   born: 2010
         club: SOTE
-        diff: '01:50.2'
+        diff: '1:50.2'
         finish: 00:04:15
         name: Buajk
         rank: 21
         rank_sokol: 6
         start: 00:00:00
         surname: Csaehbles
-        time: '04:15.2'
+        time: '4:15.2'
     desc: '2010'
     distance: 500m
     name: Mladší žáci
@@ -1699,14 +1699,14 @@ races:
 -   athletes:
     -   born: 2009
         club: SKJA
-        diff: '0.0'
+        diff: '.0'
         finish: 00:02:28
         name: Rbtoalmojě
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Čekap
-        time: '02:28.8'
+        time: '2:28.8'
     -   born: 2009
         club: SOVH
         diff: '1.5'
@@ -1716,7 +1716,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Brnet
-        time: '02:30.3'
+        time: '2:30.3'
     -   born: 2009
         club: LSKL
         diff: '5.9'
@@ -1726,7 +1726,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Rplkišo
-        time: '02:34.7'
+        time: '2:34.7'
     -   born: 2009
         club: KBJI
         diff: '14.0'
@@ -1736,7 +1736,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tábra
-        time: '02:42.8'
+        time: '2:42.8'
     -   born: 2009
         club: SKHA
         diff: '18.7'
@@ -1746,7 +1746,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nhač
-        time: '02:47.5'
+        time: '2:47.5'
     -   born: 2009
         club: SOTE
         diff: '22.0'
@@ -1756,7 +1756,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Ieerb
-        time: '02:50.8'
+        time: '2:50.8'
     -   born: 2009
         club: DULI
         diff: '25.7'
@@ -1766,7 +1766,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Žrbo
-        time: '02:54.5'
+        time: '2:54.5'
     -   born: 2009
         club: SOSK
         diff: '26.5'
@@ -1776,7 +1776,7 @@ races:
         rank_sokol: 3
         start: 00:00:00
         surname: Maaalh
-        time: '02:55.3'
+        time: '2:55.3'
     -   born: 2009
         club: HSKB
         diff: '26.9'
@@ -1786,7 +1786,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Hcoleub
-        time: '02:55.7'
+        time: '2:55.7'
     -   born: 2009
         club: TJTA
         diff: '29.5'
@@ -1796,7 +1796,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Clihem
-        time: '02:58.3'
+        time: '2:58.3'
     -   born: 2009
         club: CSKV
         diff: '34.5'
@@ -1806,7 +1806,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Avkně
-        time: '03:03.3'
+        time: '3:03.3'
     -   born: 2009
         club: DULI
         diff: '42.6'
@@ -1816,7 +1816,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Uekaolšv
-        time: '03:11.4'
+        time: '3:11.4'
     -   born: 2009
         club: SOSK
         diff: '44.4'
@@ -1826,7 +1826,7 @@ races:
         rank_sokol: 4
         start: 00:00:00
         surname: Týuand
-        time: '03:13.2'
+        time: '3:13.2'
     -   born: 2009
         club: SOTE
         diff: '48.6'
@@ -1836,7 +1836,7 @@ races:
         rank_sokol: 5
         start: 00:00:00
         surname: Tondá
-        time: '03:17.4'
+        time: '3:17.4'
     desc: '2009'
     distance: 500m
     name: Mladší žáci
@@ -1844,14 +1844,14 @@ races:
 -   athletes:
     -   born: 2008
         club: DULI
-        diff: '0.0'
+        diff: '.0'
         finish: 00:04:55
         name: Nnaa
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Kláodámv
-        time: '04:55.8'
+        time: '4:55.8'
     -   born: 2008
         club: SOVH
         diff: '14.5'
@@ -1861,7 +1861,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Oávvnkoá
-        time: '05:10.3'
+        time: '5:10.3'
     -   born: 2008
         club: SWSL
         diff: '15.9'
@@ -1871,7 +1871,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Áokpkec
-        time: '05:11.7'
+        time: '5:11.7'
     -   born: 2008
         club: DULI
         diff: '20.7'
@@ -1881,7 +1881,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vhoásalva
-        time: '05:16.5'
+        time: '5:16.5'
     -   born: 2008
         club: DULI
         diff: '31.6'
@@ -1891,7 +1891,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ceosäárvhf
-        time: '05:27.4'
+        time: '5:27.4'
     -   born: 2008
         club: LSKL
         diff: '39.8'
@@ -1901,7 +1901,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nsvkáoo
-        time: '05:35.6'
+        time: '5:35.6'
     -   born: 2008
         club: DULI
         diff: '53.1'
@@ -1911,7 +1911,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Troádlavne
-        time: '05:48.9'
+        time: '5:48.9'
     -   born: 2008
         club: TJSE
         diff: '58.7'
@@ -1921,17 +1921,17 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vcáforlne
-        time: '05:54.5'
+        time: '5:54.5'
     -   born: 2008
         club: TJSE
-        diff: '01:19.1'
+        diff: '1:19.1'
         finish: 00:06:14
         name: Rbboaar
         rank: 9
         rank_sokol: ''
         start: 00:00:00
         surname: Áznoývrt
-        time: '06:14.9'
+        time: '6:14.9'
     -   born: 2008
         club: DULI
         diff: ''
@@ -1949,14 +1949,14 @@ races:
 -   athletes:
     -   born: 2007
         club: SOVH
-        diff: '0.0'
+        diff: '.0'
         finish: 00:04:48
         name: Nnaa
         rank: 1
         rank_sokol: 1
         start: 00:00:00
         surname: Iohilcvcá
-        time: '04:48.2'
+        time: '4:48.2'
     -   born: 2007
         club: LSKL
         diff: '1.4'
@@ -1966,7 +1966,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Vldáhykvío
-        time: '04:49.6'
+        time: '4:49.6'
     -   born: 2007
         club: DULI
         diff: '21.0'
@@ -1976,7 +1976,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Cáhpal
-        time: '05:09.2'
+        time: '5:09.2'
     -   born: 2007
         club: SKHA
         diff: '40.4'
@@ -1986,7 +1986,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ávěanvkoč
-        time: '05:28.6'
+        time: '5:28.6'
     -   born: 2007
         club: LSKL
         diff: '57.4'
@@ -1996,27 +1996,27 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kjvžeoá
-        time: '05:45.6'
+        time: '5:45.6'
     -   born: 2007
         club: LSKL
-        diff: '01:06.7'
+        diff: '1:06.7'
         finish: 00:05:54
         name: Inaoms
         rank: 6
         rank_sokol: ''
         start: 00:00:00
         surname: Hvořááek
-        time: '05:54.9'
+        time: '5:54.9'
     -   born: 2007
         club: SOSK
-        diff: '01:19.5'
+        diff: '1:19.5'
         finish: 00:06:07
         name: Aaojnhk
         rank: 7
         rank_sokol: 2
         start: 00:00:00
         surname: Cámhvlaoneki
-        time: '06:07.7'
+        time: '6:07.7'
     desc: '2007'
     distance: 1000m
     name: Starší žákyně
@@ -2024,14 +2024,14 @@ races:
 -   athletes:
     -   born: 2008
         club: DULI
-        diff: '0.0'
+        diff: '.0'
         finish: 00:04:27
         name: Ašutom
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Blapů
-        time: '04:27.5'
+        time: '4:27.5'
     -   born: 2008
         club: SOSK
         diff: '8.9'
@@ -2041,7 +2041,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Ekrobž
-        time: '04:36.4'
+        time: '4:36.4'
     -   born: 2008
         club: TJTA
         diff: '14.7'
@@ -2051,7 +2051,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ubnkí
-        time: '04:42.2'
+        time: '4:42.2'
     -   born: 2008
         club: LSKL
         diff: '20.1'
@@ -2061,7 +2061,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Culkaev
-        time: '04:47.6'
+        time: '4:47.6'
     -   born: 2008
         club: DULI
         diff: '28.5'
@@ -2071,7 +2071,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Noontvý
-        time: '04:56.0'
+        time: '4:56.0'
     -   born: 2008
         club: DULI
         diff: '32.1'
@@ -2081,7 +2081,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Oýopnkr
-        time: '04:59.6'
+        time: '4:59.6'
     -   born: 2008
         club: SKHA
         diff: '35.7'
@@ -2091,7 +2091,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kaítslod
-        time: '05:03.2'
+        time: '5:03.2'
     -   born: 2008
         club: SOSK
         diff: '40.4'
@@ -2101,7 +2101,7 @@ races:
         rank_sokol: 2
         start: 00:00:00
         surname: Slelp
-        time: '05:07.9'
+        time: '5:07.9'
     -   born: 2008
         club: SKHA
         diff: '50.1'
@@ -2111,7 +2111,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Numa
-        time: '05:17.6'
+        time: '5:17.6'
     -   born: 2008
         club: DULI
         diff: '55.2'
@@ -2121,7 +2121,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ekvclýe
-        time: '05:22.7'
+        time: '5:22.7'
     -   born: 2008
         club: CSKV
         diff: '57.4'
@@ -2131,7 +2131,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Kokáň
-        time: '05:24.9'
+        time: '5:24.9'
     -   born: 2008
         club: SKJA
         diff: '59.4'
@@ -2141,57 +2141,57 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nšrty
-        time: '05:26.9'
+        time: '5:26.9'
     -   born: 2008
         club: SOSK
-        diff: '01:00.8'
+        diff: '1:00.8'
         finish: 00:05:28
         name: Baitsasen
         rank: 13
         rank_sokol: 3
         start: 00:00:00
         surname: Skkber
-        time: '05:28.3'
+        time: '5:28.3'
     -   born: 2008
         club: SWSL
-        diff: '01:19.2'
+        diff: '1:19.2'
         finish: 00:05:46
         name: Tepr
         rank: 14
         rank_sokol: ''
         start: 00:00:00
         surname: Kreasm
-        time: '05:46.7'
+        time: '5:46.7'
     -   born: 2008
         club: TJSE
-        diff: '01:28.7'
+        diff: '1:28.7'
         finish: 00:05:56
         name: Ddaiv
         rank: 15
         rank_sokol: ''
         start: 00:00:00
         surname: Oaňvták
-        time: '05:56.2'
+        time: '5:56.2'
     -   born: 2008
         club: SOSK
-        diff: '01:41.8'
+        diff: '1:41.8'
         finish: 00:06:09
         name: Ujkba
         rank: 16
         rank_sokol: 4
         start: 00:00:00
         surname: Oýonnvt
-        time: '06:09.3'
+        time: '6:09.3'
     -   born: 2008
         club: ''
-        diff: '02:45.3'
+        diff: '2:45.3'
         finish: 00:07:12
         name: Anj
         rank: 17
         rank_sokol: ''
         start: 00:00:00
         surname: Adbsovo
-        time: '07:12.8'
+        time: '7:12.8'
     desc: '2008'
     distance: 1000m
     name: Starší žáci
@@ -2199,14 +2199,14 @@ races:
 -   athletes:
     -   born: 2007
         club: JIJD
-        diff: '0.0'
+        diff: '.0'
         finish: 00:04:40
         name: Vsrmloai
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Tjašef
-        time: '04:40.7'
+        time: '4:40.7'
     -   born: 2007
         club: DULI
         diff: '16.6'
@@ -2216,7 +2216,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Nyehdcr
-        time: '04:57.3'
+        time: '4:57.3'
     -   born: 2007
         club: LSKL
         diff: '24.7'
@@ -2226,7 +2226,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ekáperk
-        time: '05:05.4'
+        time: '5:05.4'
     -   born: 2007
         club: DULI
         diff: '31.4'
@@ -2236,7 +2236,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Diimngel
-        time: '05:12.1'
+        time: '5:12.1'
     -   born: 2007
         club: LSKL
         diff: '48.4'
@@ -2246,7 +2246,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Olhuýd
-        time: '05:29.1'
+        time: '5:29.1'
     -   born: 2007
         club: DULI
         diff: '48.8'
@@ -2256,7 +2256,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Řečím
-        time: '05:29.5'
+        time: '5:29.5'
     -   born: 2007
         club: CSKV
         diff: '50.4'
@@ -2266,17 +2266,17 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Tnnoýov
-        time: '05:31.1'
+        time: '5:31.1'
     -   born: 2007
         club: SOSK
-        diff: '01:11.3'
+        diff: '1:11.3'
         finish: 00:05:52
         name: Mšoni
         rank: 8
         rank_sokol: 1
         start: 00:00:00
         surname: Avařčv
-        time: '05:52.0'
+        time: '5:52.0'
     desc: '2007'
     distance: 1000m
     name: Starší žáci
@@ -2284,14 +2284,14 @@ races:
 -   athletes:
     -   born: 2006
         club: DULI
-        diff: '0.0'
+        diff: '.0'
         finish: 00:07:23
         name: Ame
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Ápokonr
-        time: '07:23.2'
+        time: '7:23.2'
     -   born: 2006
         club: DULI
         diff: '12.7'
@@ -2301,7 +2301,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Oáívrš
-        time: '07:35.9'
+        time: '7:35.9'
     -   born: 2005
         club: SGJB
         diff: '16.5'
@@ -2311,7 +2311,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Sdákub
-        time: '07:39.7'
+        time: '7:39.7'
     -   born: 2006
         club: SKJA
         diff: '48.7'
@@ -2321,30 +2321,30 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Hákuotvoo
-        time: '08:11.9'
+        time: '8:11.9'
     -   born: 2005
         club: SOSK
-        diff: '01:09.3'
+        diff: '1:09.3'
         finish: 00:08:32
         name: Rlníaoak
         rank: 5
         rank_sokol: 1
         start: 00:00:00
         surname: Nvroáehbü
-        time: '08:32.5'
+        time: '8:32.5'
     -   born: 2006
         club: SOSK
-        diff: '02:05.7'
+        diff: '2:05.7'
         finish: 00:09:28
         name: Nana
         rank: 6
         rank_sokol: 2
         start: 00:00:00
         surname: Nvtnáoo
-        time: '09:28.9'
+        time: '9:28.9'
     -   born: 2005
         club: SGJB
-        diff: '02:41.1'
+        diff: '2:41.1'
         finish: 00:10:04
         name: Éaald
         rank: 7
@@ -2354,7 +2354,7 @@ races:
         time: '10:04.3'
     -   born: 2005
         club: SOTE
-        diff: '05:17.1'
+        diff: '5:17.1'
         finish: 00:12:40
         name: Etarp
         rank: 8
@@ -2379,14 +2379,14 @@ races:
 -   athletes:
     -   born: 2006
         club: SOSK
-        diff: '0.0'
+        diff: '.0'
         finish: 00:06:39
         name: Lipif
         rank: 1
         rank_sokol: 1
         start: 00:00:00
         surname: Kšholue
-        time: '06:39.2'
+        time: '6:39.2'
     -   born: 2006
         club: DULI
         diff: '20.9'
@@ -2396,7 +2396,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Žbor
-        time: '07:00.1'
+        time: '7:00.1'
     -   born: 2006
         club: DULI
         diff: '33.6'
@@ -2406,40 +2406,40 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Cýeevlk
-        time: '07:12.8'
+        time: '7:12.8'
     -   born: 2006
         club: HSKB
-        diff: '01:02.6'
+        diff: '1:02.6'
         finish: 00:07:41
         name: Tikšnreaf
         rank: 4
         rank_sokol: ''
         start: 00:00:00
         surname: Eclbuho
-        time: '07:41.8'
+        time: '7:41.8'
     -   born: 2006
         club: SKJA
-        diff: '02:11.5'
+        diff: '2:11.5'
         finish: 00:08:50
         name: Erohdto
         rank: 5
         rank_sokol: ''
         start: 00:00:00
         surname: Ačepk
-        time: '08:50.7'
+        time: '8:50.7'
     -   born: 2006
         club: SOSK
-        diff: '02:12.1'
+        diff: '2:12.1'
         finish: 00:08:51
         name: Áěnštp
         rank: 6
         rank_sokol: 2
         start: 00:00:00
         surname: Uýbskd
-        time: '08:51.3'
+        time: '8:51.3'
     -   born: 2006
         club: TJSE
-        diff: '03:33.2'
+        diff: '3:33.2'
         finish: 00:10:12
         name: Retp
         rank: 7
@@ -2454,14 +2454,14 @@ races:
 -   athletes:
     -   born: 2003
         club: SGJB
-        diff: '0.0'
+        diff: '.0'
         finish: 00:07:53
         name: Láteani
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Itvřrákouf
-        time: '07:53.2'
+        time: '7:53.2'
     -   born: 2004
         club: SOSK
         diff: '37.4'
@@ -2471,10 +2471,10 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Oývádiomnk
-        time: '08:30.6'
+        time: '8:30.6'
     -   born: 2003
         club: SGJB
-        diff: '02:16.2'
+        diff: '2:16.2'
         finish: 00:10:09
         name: Inna
         rank: 3
@@ -2489,14 +2489,14 @@ races:
 -   athletes:
     -   born: 2003
         club: SGJB
-        diff: '0.0'
+        diff: '.0'
         finish: 00:06:17
         name: Áotšm
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Iereprsls
-        time: '06:17.2'
+        time: '6:17.2'
     -   born: 2004
         club: SKIJ
         diff: '9.9'
@@ -2506,7 +2506,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Bsaaal
-        time: '06:27.1'
+        time: '6:27.1'
     -   born: 2004
         club: SOSK
         diff: '31.2'
@@ -2516,7 +2516,7 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Nloikhmeac
-        time: '06:48.4'
+        time: '6:48.4'
     desc: ''
     distance: 1500m
     name: Starší dorostenci
@@ -2524,14 +2524,14 @@ races:
 -   athletes:
     -   born: 1996
         club: SGJB
-        diff: '0.0'
+        diff: '.0'
         finish: 00:09:38
         name: Nnaa
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Áistvxo
-        time: '09:38.5'
+        time: '9:38.5'
     -   born: 1982
         club: SOZB
         diff: '20.5'
@@ -2541,10 +2541,10 @@ races:
         rank_sokol: 1
         start: 00:00:00
         surname: Bkrvoská
-        time: '09:59.0'
+        time: '9:59.0'
     -   born: 1982
         club: FRYD
-        diff: '01:02.2'
+        diff: '1:02.2'
         finish: 00:10:40
         name: Oagl
         rank: 3
@@ -2554,7 +2554,7 @@ races:
         time: '10:40.7'
     -   born: 1981
         club: SOSK
-        diff: '01:10.9'
+        diff: '1:10.9'
         finish: 00:10:49
         name: Jana
         rank: 4
@@ -2564,7 +2564,7 @@ races:
         time: '10:49.4'
     -   born: 1974
         club: LSKL
-        diff: '02:08.3'
+        diff: '2:08.3'
         finish: 00:11:46
         name: Jaan
         rank: 5
@@ -2574,7 +2574,7 @@ races:
         time: '11:46.8'
     -   born: 1988
         club: SOSK
-        diff: '03:07.5'
+        diff: '3:07.5'
         finish: 00:12:46
         name: Icelu
         rank: 6
@@ -2584,7 +2584,7 @@ races:
         time: '12:46.0'
     -   born: 1995
         club: SOSK
-        diff: '04:42.1'
+        diff: '4:42.1'
         finish: 00:14:20
         name: Taerp
         rank: 7
@@ -2594,7 +2594,7 @@ races:
         time: '14:20.6'
     -   born: 2002
         club: SOSK
-        diff: '05:00.0'
+        diff: '5:00.0'
         finish: 00:14:38
         name: Eainsd
         rank: 8
@@ -2604,7 +2604,7 @@ races:
         time: '14:38.5'
     -   born: 1998
         club: SOTE
-        diff: '07:59.5'
+        diff: '7:59.5'
         finish: 00:17:38
         name: Rgamda
         rank: 9
@@ -2619,14 +2619,14 @@ races:
 -   athletes:
     -   born: 2001
         club: SGJB
-        diff: '0.0'
+        diff: '.0'
         finish: 00:08:17
         name: Ěmajt
         rank: 1
         rank_sokol: ''
         start: 00:00:00
         surname: Azříb
-        time: '08:17.2'
+        time: '8:17.2'
     -   born: 2001
         club: SGJB
         diff: '11.1'
@@ -2636,7 +2636,7 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Setuang
-        time: '08:28.3'
+        time: '8:28.3'
     -   born: 1975
         club: ''
         diff: '36.3'
@@ -2646,60 +2646,60 @@ races:
         rank_sokol: ''
         start: 00:00:00
         surname: Ševal
-        time: '08:53.5'
+        time: '8:53.5'
     -   born: 2002
         club: SGJB
-        diff: '01:04.8'
+        diff: '1:04.8'
         finish: 00:09:22
         name: Djoneř
         rank: 4
         rank_sokol: ''
         start: 00:00:00
         surname: Astxi
-        time: '09:22.0'
+        time: '9:22.0'
     -   born: 1967
         club: ''
-        diff: '01:05.2'
+        diff: '1:05.2'
         finish: 00:09:22
         name: Eptr
         rank: 5
         rank_sokol: ''
         start: 00:00:00
         surname: Eklávčah
-        time: '09:22.4'
+        time: '9:22.4'
     -   born: 1981
         club: ''
-        diff: '01:05.7'
+        diff: '1:05.7'
         finish: 00:09:22
         name: Ajn
         rank: 6
         rank_sokol: ''
         start: 00:00:00
         surname: Nytzar
-        time: '09:22.9'
+        time: '9:22.9'
     -   born: 1976
         club: SWSL
-        diff: '01:26.2'
+        diff: '1:26.2'
         finish: 00:09:43
         name: Retp
         rank: 7
         rank_sokol: ''
         start: 00:00:00
         surname: Hku
-        time: '09:43.4'
+        time: '9:43.4'
     -   born: 1991
         club: ''
-        diff: '01:36.8'
+        diff: '1:36.8'
         finish: 00:09:54
         name: Ainmrt
         rank: 8
         rank_sokol: ''
         start: 00:00:00
         surname: Ynzrta
-        time: '09:54.0'
+        time: '9:54.0'
     -   born: 1970
         club: SOSK
-        diff: '01:43.8'
+        diff: '1:43.8'
         finish: 00:10:01
         name: Orebtr
         rank: 9
@@ -2709,7 +2709,7 @@ races:
         time: '10:01.0'
     -   born: 1976
         club: SOSK
-        diff: '03:14.0'
+        diff: '3:14.0'
         finish: 00:11:31
         name: Ijíř
         rank: 10
@@ -2719,7 +2719,7 @@ races:
         time: '11:31.2'
     -   born: 1980
         club: ''
-        diff: '04:40.7'
+        diff: '4:40.7'
         finish: 00:12:57
         name: Adam
         rank: 11
