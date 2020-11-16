@@ -15,9 +15,9 @@ def dump_start(o, ofile, encoding_print):
                 athletes = list()
                 for a in race["athletes"]:
                     if o["mass"]:
-                        l = (a["id"], (a["name"] + " " + a["surname"])[:21], a["born"], a["club"], "")
+                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], "")
                     else:
-                        l = (a["id"], (a["name"] + " " + a["surname"])[:21], a["born"], a["club"], a["start"], "")
+                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], a["start"], "")
                     athletes.append(l)
                 if o["mass"]:
                     alignment = "rlccr"
@@ -29,14 +29,14 @@ def dump_start(o, ofile, encoding_print):
 
 def dump_finish(o, ofile, encoding_print):
     """dump finish object to an output file"""
-    header = [" #", " S", "        jméno        ", "ročník", "klub", "čas  ", "ztráta"]
+    header = [" #", " S", "        jméno        ", "nar.", "klub", "čas  ", "ztráta"]
     with open(ofile, "w", encoding=encoding_print) as f:
         for race in o["races"]:
             f.write("Kategorie: {0} {1}  Trať: {2}\n".format(race["name"], race["desc"], race["distance"]))
             if len(race["athletes"]) > 0:
                 athletes = list()
                 for a in race["athletes"]:
-                    l = (a["rank"], a["rank_sokol"], (a["name"] + " " + a["surname"])[:21], a["born"], a["club"], a["time"], a["diff"])
+                    l = (str(a["rank"])[:2], str(a["rank_sokol"])[:2], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], a["time"], a["diff"])
                     athletes.append(l)
                 f.write(termtables.to_string(athletes, header=header, alignment="rrlccrr"))
             f.write("\n\n")
