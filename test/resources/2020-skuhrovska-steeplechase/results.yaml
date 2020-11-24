@@ -2303,7 +2303,7 @@ races:
         surname: Oáívrš
         time: '7:35.9'
     -   born: 2005
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '16.5'
         finish: 00:07:39
         name: Lceiu
@@ -2343,7 +2343,7 @@ races:
         surname: Nvtnáoo
         time: '9:28.9'
     -   born: 2005
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '2:41.1'
         finish: 00:10:04
         name: Éaald
@@ -2453,7 +2453,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2003
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '.0'
         finish: 00:07:53
         name: Láteani
@@ -2473,7 +2473,7 @@ races:
         surname: Oývádiomnk
         time: '8:30.6'
     -   born: 2003
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '2:16.2'
         finish: 00:10:09
         name: Inna
@@ -2488,7 +2488,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2003
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '.0'
         finish: 00:06:17
         name: Áotšm
@@ -2523,7 +2523,7 @@ races:
     sex: m
 -   athletes:
     -   born: 1996
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '.0'
         finish: 00:09:38
         name: Nnaa
@@ -2618,7 +2618,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2001
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '.0'
         finish: 00:08:17
         name: Ěmajt
@@ -2628,7 +2628,7 @@ races:
         surname: Azříb
         time: '8:17.2'
     -   born: 2001
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '11.1'
         finish: 00:08:28
         name: Jbaku
@@ -2648,7 +2648,7 @@ races:
         surname: Ševal
         time: '8:53.5'
     -   born: 2002
-        club: Sp. gymn. Jabl.
+        club: SG Jablonec
         diff: '1:04.8'
         finish: 00:09:22
         name: Djoneř
