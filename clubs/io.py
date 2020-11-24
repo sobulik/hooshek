@@ -33,3 +33,9 @@ def sanity_check(raw):
             raise Exception("Clubs file club id missing")
         if ids.count(i) > 1:
             raise Exception("Clubs file club id " + i + " defined " + str(ids.count(i)) + " times")
+    for club in raw["clubs"]:
+        if not "abb15" in club:
+            raise Exception("No abb15 for club " + club["id"])
+        else:
+            if len(club["abb15"]) > 15:
+                raise Exception("Clubs abb " + club["abb15"] + " is " + str(len(club["abb15"])) + " chars long")
