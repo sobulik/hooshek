@@ -38,7 +38,7 @@ def dump(start, encoding_print):
             a["name"] = athlete.name
             a["surname"] = athlete.surname
             a["born"] = athlete.born
-            a["club"] = athlete.club.id if athlete.club is not None else ""
+            a["club"] = athlete.club.abb15 if athlete.club is not None else ""
             a["start"] = athlete.start.strftime("%H:%M:%S")
             r["athletes"].append(a)
         o["races"].append(r)

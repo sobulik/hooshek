@@ -5,9 +5,9 @@ import termtables
 def dump_start(o, ofile, encoding_print):
     """dump start object to an output file"""
     if o["mass"]:
-        header = ["  #", "        jméno        ", "ročník", "klub", "       čas       "]
+        header = ["  #", "        jméno        ", "ročník", "     klub      ", "       čas       "]
     else:
-        header = ["  #", "        jméno        ", "ročník", "klub", "start  ", "       cíl       "]
+        header = ["  #", "        jméno        ", "ročník", "     klub      ", "start  ", "       cíl       "]
     with open(ofile, "w", encoding=encoding_print) as f:
         for race in o["races"]:
             f.write("Kategorie: {0}   Trať: {1}\n".format(race["name"], race["distance"]))
@@ -20,9 +20,9 @@ def dump_start(o, ofile, encoding_print):
                         l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], str(a["club"])[:15], str(a["start"])[:8], "")
                     athletes.append(l)
                 if o["mass"]:
-                    alignment = "rlccr"
+                    alignment = "rlclr"
                 else:
-                    alignment = "rlccrr"
+                    alignment = "rlclrr"
                 f.write(termtables.to_string(athletes, header=header, alignment=alignment))
             f.write("\n\n")
         f.write("Powered by hooshek\n")

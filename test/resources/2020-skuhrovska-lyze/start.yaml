@@ -4,37 +4,37 @@ name: Skuhrovská lyže
 races:
 -   athletes:
     -   born: 2015
-        club: SOSK
+        club: Sokol Skuhrov
         id: 2
         name: Aieeml
         start: 09:30:00
         surname: Árodolv
     -   born: 2014
-        club: KBTR
+        club: KB Trefa
         id: 3
         name: Leanmd
         start: 09:30:20
         surname: Kkreávoif
     -   born: 2014
-        club: DULI
+        club: Dukla Liberec
         id: 4
         name: Aeirm
         start: 09:30:40
         surname: Ímoečřáv
     -   born: 2014
-        club: SWSL
+        club: Ski klub Lučany
         id: 90
         name: Ančiak
         start: 09:31:00
         surname: Kolváv
     -   born: 2017
-        club: SWSL
+        club: Ski klub Lučany
         id: 91
         name: Rkoeivan
         start: 09:31:20
         surname: Uvšápo
     -   born: 2015
-        club: SOSK
+        club: Sokol Skuhrov
         id: 93
         name: Rzteea
         start: 09:31:40
@@ -44,31 +44,31 @@ races:
     sex: f
 -   athletes:
     -   born: 2016
-        club: SOVH
+        club: S. Velké Hamry
         id: 1
         name: Aštáed
         start: 09:34:40
         surname: Dbnea
     -   born: 2014
-        club: SOVH
+        club: S. Velké Hamry
         id: 5
         name: Iíjř
         start: 09:35:00
         surname: Ffreja
     -   born: 2014
-        club: SOSK
+        club: Sokol Skuhrov
         id: 6
         name: Odřejn
         start: 09:35:20
         surname: Šoámtke
     -   born: 2014
-        club: STUD
+        club: Sokol Studenec
         id: 82
         name: Tíanonn
         start: 09:35:40
         surname: Ebtlarj
     -   born: 2014
-        club: SWSL
+        club: Ski klub Lučany
         id: 88
         name: Dořnje
         start: 09:36:00
@@ -78,37 +78,37 @@ races:
     sex: m
 -   athletes:
     -   born: 2013
-        club: SOVH
+        club: S. Velké Hamry
         id: 7
         name: Ztaree
         start: 09:39:00
         surname: Odnebvá
     -   born: 2012
-        club: STUD
+        club: Sokol Studenec
         id: 8
         name: Haajon
         start: 09:39:20
         surname: Hvkáoá
     -   born: 2012
-        club: STUD
+        club: Sokol Studenec
         id: 9
         name: Uaznaz
         start: 09:39:40
         surname: Kvoháá
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         id: 10
         name: Aežkna
         start: 09:40:00
         surname: Ahalvomá
     -   born: 2012
-        club: DULI
+        club: Dukla Liberec
         id: 11
         name: Chemalia
         start: 09:40:20
         surname: Řmeoáčív
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         id: 13
         name: Rbaarob
         start: 09:40:40
@@ -118,13 +118,13 @@ races:
     sex: f
 -   athletes:
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         id: 15
         name: Vlorie
         start: 09:43:40
         surname: Lord
     -   born: 2012
-        club: DULI
+        club: Dukla Liberec
         id: 86
         name: Cievntn
         start: 09:44:00
@@ -134,55 +134,55 @@ races:
     sex: m
 -   athletes:
     -   born: 2011
-        club: SOVH
+        club: S. Velké Hamry
         id: 17
         name: Eal
         start: 09:47:00
         surname: Vebnárto
     -   born: 2011
-        club: SOVH
+        club: S. Velké Hamry
         id: 18
         name: Oisef
         start: 09:47:20
         surname: Fáeoajfvr
     -   born: 2011
-        club: STUD
+        club: Sokol Studenec
         id: 19
         name: Plava
         start: 09:47:40
         surname: Ávktoáub
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         id: 24
         name: Eelan
         start: 09:48:00
         surname: Bukáds
     -   born: 2010
-        club: SOVH
+        club: S. Velké Hamry
         id: 25
         name: Ašpěkánt
         start: 09:48:20
         surname: Áoošjnáv
     -   born: 2010
-        club: STUD
+        club: Sokol Studenec
         id: 26
         name: Laamki
         start: 09:48:40
         surname: Zváokolu
     -   born: 2010
-        club: KBTR
+        club: KB Trefa
         id: 27
         name: Nana
         start: 09:49:00
         surname: Uvánoormša
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         id: 28
         name: Leáima
         start: 09:49:20
         surname: Aovřávavč
     -   born: 2010
-        club: STUD
+        club: Sokol Studenec
         id: 84
         name: Rbaabro
         start: 09:49:40
@@ -192,55 +192,55 @@ races:
     sex: f
 -   athletes:
     -   born: 2011
-        club: SOSK
+        club: Sokol Skuhrov
         id: 21
         name: Bšáoti
         start: 09:52:40
         surname: Ečýnr
     -   born: 2011
-        club: SOSK
+        club: Sokol Skuhrov
         id: 22
         name: Otámš
         start: 09:53:00
         surname: Rnzykue
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         id: 29
         name: Savly
         start: 09:53:20
         surname: Nyyrkab
     -   born: 2010
-        club: KBTR
+        club: KB Trefa
         id: 30
         name: Aasrovjl
         start: 09:53:40
         surname: Efkkir
     -   born: 2010
-        club: DULI
+        club: Dukla Liberec
         id: 31
         name: Uabkj
         start: 09:54:00
         surname: Akakf
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         id: 33
         name: Šaeikrftn
         start: 09:54:20
         surname: Acrpzákho
     -   born: 2010
-        club: SWSL
+        club: Ski klub Lučany
         id: 71
         name: Áukšl
         start: 09:54:40
         surname: Akrvus
     -   born: 2010
-        club: SOVH
+        club: S. Velké Hamry
         id: 79
         name: Válvac
         start: 09:55:00
         surname: Kánov
     -   born: 2010
-        club: SWSL
+        club: Ski klub Lučany
         id: 89
         name: Oředjn
         start: 09:55:20
@@ -250,55 +250,55 @@ races:
     sex: m
 -   athletes:
     -   born: 2009
-        club: SKJA
+        club: SK Janov - Bed.
         id: 34
         name: Naimok
         start: 09:58:20
         surname: Kaožlábv
     -   born: 2009
-        club: SOVH
+        club: S. Velké Hamry
         id: 35
         name: Sniade
         start: 09:58:40
         surname: Kirbcáoč
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         id: 36
         name: Brraabo
         start: 09:59:00
         surname: Eíkáhvosl
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         id: 38
         name: Eofsi
         start: 09:59:20
         surname: Cvuyeláo
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         id: 39
         name: Nealk
         start: 09:59:40
         surname: Ozkuánvry
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         id: 43
         name: Rkitiove
         start: '10:00:00'
         surname: Ffvjáerao
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         id: 44
         name: Milacahe
         start: '10:00:20'
         surname: Vovnáčiia
     -   born: 2008
-        club: STUD
+        club: Sokol Studenec
         id: 72
         name: Lrkáa
         start: '10:00:40'
         surname: Voátukáb
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         id: 78
         name: Nakrysýt
         start: '10:01:00'
@@ -308,49 +308,49 @@ races:
     sex: f
 -   athletes:
     -   born: 2009
-        club: SOVH
+        club: S. Velké Hamry
         id: 40
         name: Atrljěbmoo
         start: '10:04:00'
         surname: Nbter
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         id: 42
         name: Jhtoěcv
         start: '10:04:20'
         surname: Aahaml
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         id: 46
         name: Mjěat
         start: '10:04:40'
         surname: Rbžkoe
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         id: 47
         name: Jbauk
         start: '10:05:00'
         surname: Uitkřrf
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         id: 48
         name: Kabju
         start: '10:05:20'
         surname: Nýnvoot
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         id: 49
         name: Ejosf
         start: '10:05:40'
         surname: Elpls
     -   born: 2009
-        club: JIJD
+        club: Jiskra Jos. Důl
         id: 74
         name: Jříi
         start: '10:06:00'
         surname: Mznura
     -   born: 2009
-        club: STUD
+        club: Sokol Studenec
         id: 83
         name: Ukbaj
         start: '10:06:20'
@@ -360,37 +360,37 @@ races:
     sex: m
 -   athletes:
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         id: 50
         name: Anna
         start: '10:09:20'
         surname: Cioichláv
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         id: 51
         name: Mema
         start: '10:09:40'
         surname: Ubdksá
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         id: 52
         name: Anjkhoa
         start: '10:10:00'
         surname: Lcáakinomehv
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         id: 57
         name: Aann
         start: '10:10:20'
         surname: Voánnot
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         id: 58
         name: Tienařka
         start: '10:10:40'
         surname: Nokvytá
     -   born: 2007
-        club: STUD
+        club: Sokol Studenec
         id: 85
         name: Raolnkaí
         start: '10:11:00'
@@ -400,49 +400,49 @@ races:
     sex: f
 -   athletes:
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         id: 53
         name: Kryošft
         start: '10:14:00'
         surname: Tabnža
     -   born: 2007
-        club: DULI
+        club: Dukla Liberec
         id: 54
         name: Ěcohtjv
         start: '10:14:20'
         surname: Ířečm
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         id: 55
         name: Anrtmi
         start: '10:14:40'
         surname: Erškou
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         id: 56
         name: Iomnš
         start: '10:15:00'
         surname: Čavavř
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         id: 59
         name: Ěpnštá
         start: '10:15:20'
         surname: Ubdýks
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         id: 60
         name: Fpili
         start: '10:15:40'
         surname: Kluhešo
     -   born: 2006
-        club: SOVH
+        club: S. Velké Hamry
         id: 61
         name: Álvacv
         start: '10:16:00'
         surname: Hvíocaktrl
     -   born: 2007
-        club: JIJD
+        club: Jiskra Jos. Důl
         id: 75
         name: Samlvior
         start: '10:16:20'
@@ -452,19 +452,19 @@ races:
     sex: m
 -   athletes:
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         id: 63
         name: Ilcue
         start: '10:19:20'
         surname: Duksbá
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         id: 64
         name: Édala
         start: '10:19:40'
         surname: Ácoifnerthv
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         id: 65
         name: Akonlaír
         start: '10:20:00'
@@ -474,7 +474,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         id: 67
         name: Abkuj
         start: '10:23:00'
@@ -484,19 +484,19 @@ races:
     sex: m
 -   athletes:
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         id: 68
         name: Řtanikea
         start: '10:26:00'
         surname: Rvokáožb
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         id: 69
         name: Nlikao
         start: '10:26:20'
         surname: Niokýodvám
     -   born: 2004
-        club: SOMA
+        club: Sokol Maxičky
         id: 87
         name: Dmliaat
         start: '10:26:40'
@@ -506,13 +506,13 @@ races:
     sex: f
 -   athletes:
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         id: 70
         name: Kjuba
         start: '10:29:40'
         surname: Oecknmilha
     -   born: 2004
-        club: JIJD
+        club: Jiskra Jos. Důl
         id: 76
         name: Edark
         start: '10:30:00'
@@ -522,19 +522,19 @@ races:
     sex: m
 -   athletes:
     -   born: 2003
-        club: SOSK
+        club: Sokol Skuhrov
         id: 77
         name: Áelatni
         start: '10:33:00'
         surname: Třvrfáiuko
     -   born: 2002
-        club: SOSK
+        club: Sokol Skuhrov
         id: 80
         name: Eknaaž
         start: '10:33:20'
         surname: Ovčvřaváa
     -   born: 2002
-        club: SOSK
+        club: Sokol Skuhrov
         id: 81
         name: Insade
         start: '10:33:40'
@@ -544,7 +544,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2003
-        club: SOSK
+        club: Sokol Skuhrov
         id: 73
         name: Átošm
         start: '10:36:40'
@@ -570,7 +570,7 @@ races:
     sex: m
 -   athletes:
     -   born: 1985
-        club: SWSL
+        club: Ski klub Lučany
         id: 92
         name: Ahicemla
         start: '10:37:00'
@@ -580,19 +580,19 @@ races:
     sex: f
 -   athletes:
     -   born: 1970
-        club: SOSK
+        club: Sokol Skuhrov
         id: 94
         name: Etrobr
         start: '10:37:20'
         surname: Phzrkacoá
     -   born: 1983
-        club: SOVH
+        club: S. Velké Hamry
         id: 95
         name: Lhmiac
         start: '10:37:40'
         surname: Ebnda
     -   born: 1975
-        club: STUD
+        club: Sokol Studenec
         id: 96
         name: Mahcil
         start: '10:38:00'
