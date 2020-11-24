@@ -15,9 +15,9 @@ def dump_start(o, ofile, encoding_print):
                 athletes = list()
                 for a in race["athletes"]:
                     if o["mass"]:
-                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], "")
+                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], str(a["club"])[:15], "")
                     else:
-                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], str(a["start"])[:8], "")
+                        l = (str(a["id"])[:3], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], str(a["club"])[:15], str(a["start"])[:8], "")
                     athletes.append(l)
                 if o["mass"]:
                     alignment = "rlccr"
@@ -36,7 +36,7 @@ def dump_finish(o, ofile, encoding_print):
             if len(race["athletes"]) > 0:
                 athletes = list()
                 for a in race["athletes"]:
-                    l = (str(a["rank"])[:2], str(a["rank_sokol"])[:2], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], a["club"], str(a["time"])[:7], str(a["diff"])[:7])
+                    l = (str(a["rank"])[:2], str(a["rank_sokol"])[:2], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], str(a["club"])[:15], str(a["time"])[:7], str(a["diff"])[:7])
                     athletes.append(l)
                 f.write(termtables.to_string(athletes, header=header, alignment="rrlccrr"))
             f.write("\n\n")

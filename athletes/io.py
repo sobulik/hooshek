@@ -5,6 +5,23 @@ from .athlete import Athlete
 
 import os
 
+def build(clubs):
+    """return a list of Athlete instances"""
+    if os.path.exists("athletes.yaml"):
+        raw = yaml.load("athletes.yaml")
+    else:
+        raw = None
+
+    sanity_check(raw)
+
+    for a in raw["athletes"]:
+        if "club" in a:
+            if a["club"] in clubs:
+                a["club"] = clubs[a["club"]]
+            else:
+                raise Exception("Club " + a["club"] + " of athlete " + a["surname"] + "not defined in clubs")
+    return tuple(map(lambda x: Athlete(x), raw["athletes"]))
+
 def load():
     """return a list of Athlete instances"""
     if os.path.exists("athletes.yaml"):
@@ -63,8 +80,8 @@ def dump(athletes, filename="athletes-sorted.yaml"):
         a["surname"] = athlete.surname
         a["born"] = athlete.born
         a["sex"] = athlete.sex
-        if hasattr(athlete, "club"):
-            a["club"] = athlete.club
+        if athlete.club is not None:
+            a["club"] = athlete.club.id
         o["athletes"].append(a)
         
     yaml.dump(o, filename)

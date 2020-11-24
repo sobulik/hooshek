@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import clubs
 import athletes
 
 import argparse
@@ -11,7 +12,8 @@ try:
 except locale.Error:
     pass
 
-aths = athletes.load()
+clubs = clubs.load()
+aths = athletes.build(clubs)
 aths = sorted(aths, key=lambda athlete : locale.strxfrm(athlete.surname))
 aths = sorted(aths, key=lambda athlete : athlete.sex)
 aths = sorted(aths, key=lambda athlete : athlete.born, reverse=True)

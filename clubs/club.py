@@ -8,6 +8,9 @@ class Club:
         self.name = ""
         if "name" in i:
             self.name = i["name"]
+        self.abb15 = ""
+        if "abb15" in i:
+            self.abb15 = i["abb15"]
         self.isSokol = False
         if "isSokol" in i:
             self.isSokol = i["isSokol"]

@@ -10,6 +10,7 @@ class Athlete:
         self.surname = i["surname"]
         self.born = i["born"]
         self.sex = i["sex"]
+        self.club = None
         if "club" in i:
             self.club = i["club"]
         self.start = None

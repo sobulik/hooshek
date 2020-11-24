@@ -31,7 +31,7 @@ class Test(unittest.TestCase):
 
     def _test_athletes_sorted(self, dir_source):
         """Athletes are sorted correctly"""
-        for f in ("event.yaml", "athletes.yaml"):
+        for f in ("event.yaml", "clubs.yaml", "athletes.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "athletes.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "athletes-sorted.yaml"), os.path.join(self.dir_target, "athletes-sorted.yaml")))

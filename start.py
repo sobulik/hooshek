@@ -67,7 +67,7 @@ if args.clubs:
     aths = list()
     for race in startlist["races"]:
         for athlete in race.athletes:
-            if hasattr(athlete, "club"):
+            if athlete.club is not None:
                 aths.append(athlete)
     aths = sorted(aths, key=lambda athlete : athlete.id)
     aths = sorted(aths, key=lambda athlete : athlete.club)
