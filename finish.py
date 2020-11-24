@@ -14,7 +14,7 @@ clubs = clubs.load()
 start = start.load()
 flist = finish.load()
 
-aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.load()))
+aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.build(clubs)))
 results = dict()
 results["name"] = event.name
 results["date"] = event.date
@@ -72,7 +72,7 @@ for race in event.races:
         for athlete in e["athletes"]:
             rank += 1
             athlete.rank = rank
-            if hasattr(athlete, "club") and athlete.club in clubs and clubs[athlete.club].isSokol:
+            if athlete.club is not None and athlete.club.isSokol:
                 rank_sokol += 1
                 athlete.rank_sokol = rank_sokol
         e["athletes"].extend(unfinished)
