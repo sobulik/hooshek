@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import event
+import clubs
 import athletes
 import start
 
@@ -8,7 +9,8 @@ import argparse
 import datetime
 
 event = event.load()
-aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.load()))
+clubs = clubs.load()
+aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.build(clubs)))
 
 startlist = dict()
 startlist["name"] = event.name
@@ -70,12 +72,12 @@ if args.clubs:
             if athlete.club is not None:
                 aths.append(athlete)
     aths = sorted(aths, key=lambda athlete : athlete.id)
-    aths = sorted(aths, key=lambda athlete : athlete.club)
+    aths = sorted(aths, key=lambda athlete : athlete.club.id)
     club = ""
     with open("start-clubs.txt", "w", encoding=event.encoding_print) as f:
         for athlete in aths:
-            if club != athlete.club:
+            if club != athlete.club.id:
                 f.write("\n\n--------------------------------------------------------------------\n\n")
-                club = athlete.club
+                club = athlete.club.id
             f.write(athlete.toString())
             f.write("\n")
