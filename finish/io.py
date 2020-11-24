@@ -60,7 +60,7 @@ def dump(start, encoding_print):
             a["name"] = athlete.name
             a["surname"] = athlete.surname
             a["born"] = athlete.born
-            a["club"] = athlete.club.id if athlete.club is not None else ""
+            a["club"] = athlete.club.abb15 if athlete.club is not None else ""
             a["start"] = athlete.start
             a["finish"] = athlete.finish.strftime("%H:%M:%S") if hasattr(athlete, "finish") and athlete.finish is not None else ""
             a["time"] = util.format_delta(athlete.time) if hasattr(athlete, "time") and athlete.time is not None else ""

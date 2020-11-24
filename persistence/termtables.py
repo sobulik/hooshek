@@ -29,7 +29,7 @@ def dump_start(o, ofile, encoding_print):
 
 def dump_finish(o, ofile, encoding_print):
     """dump finish object to an output file"""
-    header = [" #", " S", "        jméno        ", "nar.", "klub", "  čas  ", "ztráta "]
+    header = [" #", " S", "        jméno        ", "nar.", "     klub      ", "  čas  ", "ztráta "]
     with open(ofile, "w", encoding=encoding_print) as f:
         for race in o["races"]:
             f.write("Kategorie: {0} {1}  Trať: {2}\n".format(race["name"], race["desc"], race["distance"]))
@@ -38,6 +38,6 @@ def dump_finish(o, ofile, encoding_print):
                 for a in race["athletes"]:
                     l = (str(a["rank"])[:2], str(a["rank_sokol"])[:2], (a["name"] + " " + a["surname"])[:21], str(a["born"])[:4], str(a["club"])[:15], str(a["time"])[:7], str(a["diff"])[:7])
                     athletes.append(l)
-                f.write(termtables.to_string(athletes, header=header, alignment="rrlccrr"))
+                f.write(termtables.to_string(athletes, header=header, alignment="rrlclrr"))
             f.write("\n\n")
         f.write("Powered by hooshek\n")

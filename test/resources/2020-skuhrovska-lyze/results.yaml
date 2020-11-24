@@ -3,7 +3,7 @@ name: Skuhrovská lyže
 races:
 -   athletes:
     -   born: 2014
-        club: KBTR
+        club: KB Trefa
         diff: '.0'
         finish: 09:31:35
         name: Leanmd
@@ -13,7 +13,7 @@ races:
         surname: Kkreávoif
         time: '1:15.5'
     -   born: 2014
-        club: DULI
+        club: Dukla Liberec
         diff: '3.1'
         finish: 09:31:58
         name: Aeirm
@@ -23,7 +23,7 @@ races:
         surname: Ímoečřáv
         time: '1:18.6'
     -   born: 2014
-        club: SWSL
+        club: Ski klub Lučany
         diff: '6.5'
         finish: 09:32:22
         name: Ančiak
@@ -33,7 +33,7 @@ races:
         surname: Kolváv
         time: '1:22.0'
     -   born: 2015
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:45.1'
         finish: 09:34:40
         name: Rzteea
@@ -43,7 +43,7 @@ races:
         surname: Vrávušoavk
         time: '3:00.6'
     -   born: 2017
-        club: SWSL
+        club: Ski klub Lučany
         diff: '6:46.0'
         finish: 09:39:21
         name: Rkoeivan
@@ -53,7 +53,7 @@ races:
         surname: Uvšápo
         time: '8:01.5'
     -   born: 2015
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Aieeml
@@ -68,7 +68,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2014
-        club: SOVH
+        club: S. Velké Hamry
         diff: '.0'
         finish: 09:36:18
         name: Iíjř
@@ -78,7 +78,7 @@ races:
         surname: Ffreja
         time: '1:18.0'
     -   born: 2014
-        club: SWSL
+        club: Ski klub Lučany
         diff: '15.8'
         finish: 09:37:33
         name: Dořnje
@@ -88,7 +88,7 @@ races:
         surname: Ušp
         time: '1:33.8'
     -   born: 2014
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '36.0'
         finish: 09:37:14
         name: Odřejn
@@ -98,7 +98,7 @@ races:
         surname: Šoámtke
         time: '1:54.0'
     -   born: 2014
-        club: STUD
+        club: Sokol Studenec
         diff: '2:03.3'
         finish: 09:39:01
         name: Tíanonn
@@ -108,7 +108,7 @@ races:
         surname: Ebtlarj
         time: '3:21.3'
     -   born: 2016
-        club: SOVH
+        club: S. Velké Hamry
         diff: '2:24.7'
         finish: 09:38:22
         name: Aštáed
@@ -123,7 +123,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2012
-        club: STUD
+        club: Sokol Studenec
         diff: '.0'
         finish: 09:41:44
         name: Haajon
@@ -133,7 +133,7 @@ races:
         surname: Hvkáoá
         time: '2:24.7'
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '13.4'
         finish: 09:42:38
         name: Aežkna
@@ -143,7 +143,7 @@ races:
         surname: Ahalvomá
         time: '2:38.1'
     -   born: 2013
-        club: SOVH
+        club: S. Velké Hamry
         diff: '20.5'
         finish: 09:41:45
         name: Ztaree
@@ -153,7 +153,7 @@ races:
         surname: Odnebvá
         time: '2:45.2'
     -   born: 2012
-        club: STUD
+        club: Sokol Studenec
         diff: '25.4'
         finish: 09:42:30
         name: Uaznaz
@@ -163,7 +163,7 @@ races:
         surname: Kvoháá
         time: '2:50.1'
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '53.1'
         finish: 09:43:57
         name: Rbaarob
@@ -173,7 +173,7 @@ races:
         surname: Vvošrkuváa
         time: '3:17.8'
     -   born: 2012
-        club: DULI
+        club: Dukla Liberec
         diff: '1:34.5'
         finish: 09:44:19
         name: Chemalia
@@ -188,7 +188,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2012
-        club: DULI
+        club: Dukla Liberec
         diff: '.0'
         finish: 09:45:57
         name: Cievntn
@@ -198,7 +198,7 @@ races:
         surname: Keežj
         time: '1:57.9'
     -   born: 2012
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '4.0'
         finish: 09:45:41
         name: Vlorie
@@ -213,7 +213,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2010
-        club: KBTR
+        club: KB Trefa
         diff: '.0'
         finish: 09:52:52
         name: Nana
@@ -223,7 +223,7 @@ races:
         surname: Uvánoormša
         time: '3:52.0'
     -   born: 2010
-        club: STUD
+        club: Sokol Studenec
         diff: '22.9'
         finish: 09:52:54
         name: Laamki
@@ -233,7 +233,7 @@ races:
         surname: Zváokolu
         time: '4:14.9'
     -   born: 2011
-        club: SOVH
+        club: S. Velké Hamry
         diff: '53.8'
         finish: 09:52:05
         name: Oisef
@@ -243,7 +243,7 @@ races:
         surname: Fáeoajfvr
         time: '4:45.8'
     -   born: 2011
-        club: STUD
+        club: Sokol Studenec
         diff: '59.1'
         finish: 09:52:31
         name: Plava
@@ -253,7 +253,7 @@ races:
         surname: Ávktoáub
         time: '4:51.1'
     -   born: 2010
-        club: SOVH
+        club: S. Velké Hamry
         diff: '1:03.6'
         finish: 09:53:15
         name: Ašpěkánt
@@ -263,7 +263,7 @@ races:
         surname: Áoošjnáv
         time: '4:55.6'
     -   born: 2010
-        club: STUD
+        club: Sokol Studenec
         diff: '1:07.6'
         finish: 09:54:39
         name: Rbaabro
@@ -273,7 +273,7 @@ races:
         surname: Káváho
         time: '4:59.6'
     -   born: 2011
-        club: SOVH
+        club: S. Velké Hamry
         diff: '1:37.0'
         finish: 09:52:29
         name: Eal
@@ -283,7 +283,7 @@ races:
         surname: Vebnárto
         time: '5:29.0'
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:40.8'
         finish: 09:54:52
         name: Leáima
@@ -293,7 +293,7 @@ races:
         surname: Aovřávavč
         time: '5:32.8'
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '2:04.0'
         finish: 09:53:56
         name: Eelan
@@ -308,7 +308,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: 09:58:31
         name: Šaeikrftn
@@ -318,7 +318,7 @@ races:
         surname: Acrpzákho
         time: '4:11.1'
     -   born: 2010
-        club: SWSL
+        club: Ski klub Lučany
         diff: '3.5'
         finish: 09:59:34
         name: Oředjn
@@ -328,7 +328,7 @@ races:
         surname: Vkl
         time: '4:14.6'
     -   born: 2010
-        club: SWSL
+        club: Ski klub Lučany
         diff: '7.4'
         finish: 09:58:58
         name: Áukšl
@@ -338,7 +338,7 @@ races:
         surname: Akrvus
         time: '4:18.5'
     -   born: 2010
-        club: SOVH
+        club: S. Velké Hamry
         diff: '17.1'
         finish: 09:59:28
         name: Válvac
@@ -348,7 +348,7 @@ races:
         surname: Kánov
         time: '4:28.2'
     -   born: 2010
-        club: KBTR
+        club: KB Trefa
         diff: '51.1'
         finish: 09:58:42
         name: Aasrovjl
@@ -358,7 +358,7 @@ races:
         surname: Efkkir
         time: '5:02.2'
     -   born: 2011
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:10.4'
         finish: 09:58:01
         name: Bšáoti
@@ -368,7 +368,7 @@ races:
         surname: Ečýnr
         time: '5:21.5'
     -   born: 2011
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:19.1'
         finish: 09:58:30
         name: Otámš
@@ -378,7 +378,7 @@ races:
         surname: Rnzykue
         time: '5:30.2'
     -   born: 2010
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Savly
@@ -388,7 +388,7 @@ races:
         surname: Nyyrkab
         time: ''
     -   born: 2010
-        club: DULI
+        club: Dukla Liberec
         diff: ''
         finish: ''
         name: Uabkj
@@ -403,7 +403,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         diff: '.0'
         finish: '10:08:12'
         name: Nakrysýt
@@ -413,7 +413,7 @@ races:
         surname: Ovákávno
         time: '7:12.0'
     -   born: 2009
-        club: SKJA
+        club: SK Janov - Bed.
         diff: '2.8'
         finish: '10:05:34'
         name: Naimok
@@ -423,7 +423,7 @@ races:
         surname: Kaožlábv
         time: '7:14.8'
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         diff: '38.3'
         finish: '10:07:50'
         name: Rkitiove
@@ -433,7 +433,7 @@ races:
         surname: Ffvjáerao
         time: '7:50.3'
     -   born: 2009
-        club: SOVH
+        club: S. Velké Hamry
         diff: '45.7'
         finish: '10:06:37'
         name: Sniade
@@ -443,7 +443,7 @@ races:
         surname: Kirbcáoč
         time: '7:57.7'
     -   born: 2008
-        club: STUD
+        club: Sokol Studenec
         diff: '57.2'
         finish: '10:08:49'
         name: Lrkáa
@@ -453,7 +453,7 @@ races:
         surname: Voátukáb
         time: '8:09.2'
     -   born: 2008
-        club: SOVH
+        club: S. Velké Hamry
         diff: '1:00.9'
         finish: '10:08:32'
         name: Milacahe
@@ -463,7 +463,7 @@ races:
         surname: Vovnáčiia
         time: '8:12.9'
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:31.5'
         finish: '10:08:23'
         name: Nealk
@@ -473,7 +473,7 @@ races:
         surname: Ozkuánvry
         time: '8:43.5'
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '3:06.9'
         finish: '10:09:38'
         name: Eofsi
@@ -483,7 +483,7 @@ races:
         surname: Cvuyeláo
         time: '10:18.9'
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Brraabo
@@ -498,7 +498,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:11:55'
         name: Mjěat
@@ -508,7 +508,7 @@ races:
         surname: Rbžkoe
         time: '7:15.8'
     -   born: 2009
-        club: SOVH
+        club: S. Velké Hamry
         diff: '9.3'
         finish: '10:11:25'
         name: Atrljěbmoo
@@ -518,7 +518,7 @@ races:
         surname: Nbter
         time: '7:25.1'
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '16.0'
         finish: '10:12:31'
         name: Jbauk
@@ -528,7 +528,7 @@ races:
         surname: Uitkřrf
         time: '7:31.8'
     -   born: 2009
-        club: STUD
+        club: Sokol Studenec
         diff: '40.1'
         finish: '10:14:15'
         name: Ukbaj
@@ -538,7 +538,7 @@ races:
         surname: Etalrjb
         time: '7:55.9'
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '46.2'
         finish: '10:13:42'
         name: Ejosf
@@ -548,7 +548,7 @@ races:
         surname: Elpls
         time: '8:02.0'
     -   born: 2009
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:19.6'
         finish: '10:12:55'
         name: Jhtoěcv
@@ -558,7 +558,7 @@ races:
         surname: Aahaml
         time: '8:35.4'
     -   born: 2009
-        club: JIJD
+        club: Jiskra Jos. Důl
         diff: '1:43.5'
         finish: '10:14:59'
         name: Jříi
@@ -568,7 +568,7 @@ races:
         surname: Mznura
         time: '8:59.3'
     -   born: 2008
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Kabju
@@ -583,7 +583,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:20:19'
         name: Tienařka
@@ -593,7 +593,7 @@ races:
         surname: Nokvytá
         time: '9:39.2'
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         diff: '2.1'
         finish: '10:19:01'
         name: Anna
@@ -603,7 +603,7 @@ races:
         surname: Cioichláv
         time: '9:41.3'
     -   born: 2007
-        club: STUD
+        club: Sokol Studenec
         diff: '40.6'
         finish: '10:21:19'
         name: Raolnkaí
@@ -613,7 +613,7 @@ races:
         surname: Vvpoaál
         time: '10:19.8'
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:06.5'
         finish: '10:21:05'
         name: Aann
@@ -623,7 +623,7 @@ races:
         surname: Voánnot
         time: '10:45.7'
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:53.5'
         finish: '10:21:12'
         name: Mema
@@ -633,7 +633,7 @@ races:
         surname: Ubdksá
         time: '11:32.7'
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Anjkhoa
@@ -648,7 +648,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:24:28'
         name: Fpili
@@ -658,7 +658,7 @@ races:
         surname: Kluhešo
         time: '8:48.9'
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         diff: '36.3'
         finish: '10:23:25'
         name: Kryošft
@@ -668,7 +668,7 @@ races:
         surname: Tabnža
         time: '9:25.2'
     -   born: 2007
-        club: JIJD
+        club: Jiskra Jos. Důl
         diff: '57.4'
         finish: '10:26:06'
         name: Samlvior
@@ -678,7 +678,7 @@ races:
         surname: Jeftša
         time: '9:46.3'
     -   born: 2007
-        club: DULI
+        club: Dukla Liberec
         diff: '1:26.4'
         finish: '10:24:35'
         name: Ěcohtjv
@@ -688,7 +688,7 @@ races:
         surname: Ířečm
         time: '10:15.3'
     -   born: 2006
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:27.2'
         finish: '10:25:36'
         name: Ěpnštá
@@ -698,7 +698,7 @@ races:
         surname: Ubdýks
         time: '10:16.1'
     -   born: 2006
-        club: SOVH
+        club: S. Velké Hamry
         diff: '1:31.4'
         finish: '10:26:20'
         name: Álvacv
@@ -708,7 +708,7 @@ races:
         surname: Hvíocaktrl
         time: '10:20.3'
     -   born: 2007
-        club: SOVH
+        club: S. Velké Hamry
         diff: '1:32.8'
         finish: '10:25:01'
         name: Anrtmi
@@ -718,7 +718,7 @@ races:
         surname: Erškou
         time: '10:21.7'
     -   born: 2007
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '3:38.7'
         finish: '10:27:27'
         name: Iomnš
@@ -733,7 +733,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:29:17'
         name: Ilcue
@@ -743,7 +743,7 @@ races:
         surname: Duksbá
         time: '9:57.1'
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '8.2'
         finish: '10:30:05'
         name: Akonlaír
@@ -753,7 +753,7 @@ races:
         surname: Bhüáveonr
         time: '10:05.3'
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '1:03.1'
         finish: '10:30:40'
         name: Édala
@@ -768,7 +768,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2005
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Abkuj
@@ -783,7 +783,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2004
-        club: SOMA
+        club: Sokol Maxičky
         diff: '.0'
         finish: '10:41:26'
         name: Dmliaat
@@ -793,7 +793,7 @@ races:
         surname: Joevžák
         time: '14:46.5'
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '2:37.1'
         finish: '10:43:43'
         name: Nlikao
@@ -803,7 +803,7 @@ races:
         surname: Niokýodvám
         time: '17:23.6'
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         diff: ''
         finish: ''
         name: Řtanikea
@@ -818,7 +818,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2004
-        club: JIJD
+        club: Jiskra Jos. Důl
         diff: '.0'
         finish: '10:45:47'
         name: Edark
@@ -828,7 +828,7 @@ races:
         surname: Mryl
         time: '15:47.7'
     -   born: 2004
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '6.2'
         finish: '10:45:33'
         name: Kjuba
@@ -843,7 +843,7 @@ races:
     sex: m
 -   athletes:
     -   born: 2003
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:48:00'
         name: Áelatni
@@ -853,7 +853,7 @@ races:
         surname: Třvrfáiuko
         time: '15:00.3'
     -   born: 2002
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '6:13.0'
         finish: '10:54:53'
         name: Insade
@@ -863,7 +863,7 @@ races:
         surname: Iýodvnmoák
         time: '21:13.3'
     -   born: 2002
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '9:35.8'
         finish: '10:57:56'
         name: Eknaaž
@@ -878,7 +878,7 @@ races:
     sex: f
 -   athletes:
     -   born: 2003
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '.0'
         finish: '10:47:59'
         name: Átošm
@@ -913,7 +913,7 @@ races:
     sex: m
 -   athletes:
     -   born: 1985
-        club: SWSL
+        club: Ski klub Lučany
         diff: '.0'
         finish: '10:53:16'
         name: Ahicemla
@@ -928,7 +928,7 @@ races:
     sex: f
 -   athletes:
     -   born: 1983
-        club: SOVH
+        club: S. Velké Hamry
         diff: '.0'
         finish: '10:50:33'
         name: Lhmiac
@@ -938,7 +938,7 @@ races:
         surname: Ebnda
         time: '12:53.2'
     -   born: 1975
-        club: STUD
+        club: Sokol Studenec
         diff: '2.9'
         finish: '10:50:56'
         name: Mahcil
@@ -948,7 +948,7 @@ races:
         surname: Hká
         time: '12:56.1'
     -   born: 1970
-        club: SOSK
+        club: Sokol Skuhrov
         diff: '6:08.1'
         finish: '10:56:21'
         name: Etrobr
