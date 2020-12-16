@@ -1,41 +1,58 @@
 #!/usr/bin/env python3
 
 from persistence import yaml
+from cerberus import Validator
 from .club import Club
 
 import os
 
 def load():
     """return a dictionary of Club instances"""
-    if os.path.exists("clubs.yaml"):
-        raw = yaml.load("clubs.yaml")
-    else:
-        raw = None
+    clubs = yaml.load("clubs.yaml")
+    clubs = validate(clubs)
 
-    sanity_check(raw)
-
-    return {c.id: c for c in map(lambda x: Club(x), raw["clubs"])}
-
-def sanity_check(raw):
-    if raw is None:
-        raise Exception("Clubs file not found")
-    if "version" not in raw:
-        raise Exception("Clubs file version missing")
-    if raw["version"] != "1.0":
-        raise Exception("Clubs file version " + raw["version"] + " not supported")
-    if "clubs" not in raw:
-        raise Exception("Clubs file clubs missing")
-    if len(raw["clubs"]) == 0:
-        raise Exception("Clubs file clubs empty")
-    ids = list(map(lambda x: x["id"], raw["clubs"]))
+    ids = list(map(lambda x: x["id"], clubs["clubs"]))
     for i in ids:
-        if i is None:
-            raise Exception("Clubs file club id missing")
         if ids.count(i) > 1:
             raise Exception("Clubs file club id " + i + " defined " + str(ids.count(i)) + " times")
-    for club in raw["clubs"]:
-        if not "abb15" in club:
-            raise Exception("No abb15 for club " + club["id"])
-        else:
-            if len(club["abb15"]) > 15:
-                raise Exception("Clubs abb " + club["abb15"] + " is " + str(len(club["abb15"])) + " chars long")
+
+    return {c.id: c for c in map(lambda x: Club(x), clubs["clubs"])}
+
+def validate(raw):
+    schema = {
+        "version": {
+            "type": "string",
+            "allowed": ["1.0"]
+        },
+        "clubs": {
+            "type": "list",
+            "minlength": 1,
+            "schema": {
+                "type": "dict",
+                "schema": {
+                    "id": {
+                        "type": "string",
+                        "minlength": 4,
+                        "maxlength": 4
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "abb15": {
+                        "type": "string",
+                        "maxlength": 15
+                    },
+                    "isSokol": {
+                        "type": "boolean",
+                        "required": False
+                    }
+                }
+            }
+        }
+    }
+
+    v = Validator(schema, require_all=True)
+    if not v.validate(raw):
+        print(v.errors)
+        raise Exception("Clubs file does not validate")
+    return v.document
