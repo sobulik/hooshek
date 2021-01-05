@@ -23,16 +23,6 @@ def build(clubs):
     return tuple(map(lambda x: Athlete(x), athletes["athletes"]))
 
 def validate(raw):
-    if raw is None:
-        raise Exception("Athletes file not found")
-    if "version" not in raw:
-        raise Exception("Athletes file version missing")
-    if raw["version"] != "1.0":
-        raise Exception("Athetes file version " + raw["version"] + " not supported")
-    if "athletes" not in raw:
-        raise Exception("Athletes file athletes missing")
-    if len(raw["athletes"]) == 0:
-        raise Exception("Athletes file athletes empty")
     for athlete in raw["athletes"]:
         if "name" not in athlete:
             raise Exception("Missing name for an athlete")
@@ -55,7 +45,52 @@ def validate(raw):
     for i in uniquekeys:
         if uniquekeys.count(i) > 1:
             raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
-    return raw
+    schema = {
+        "version": {
+            "type": "string",
+            "allowed": ["1.0"]
+        },
+        "athletes": {
+            "type": "list",
+            "minlength": 1,
+            "schema": {
+                "type": "dict",
+                "schema": {
+                    "born": {
+                        "type": "integer",
+                        "min": 1900,
+                        "max": 2100
+                    },
+                    "club": {
+                        "type": "string",
+                        "minlength": 4,
+                        "maxlength": 4,
+                        "required": False
+                    },
+                    "id": {
+                        "type": "integer",
+                        "required": False
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "sex": {
+                        "type": "string",
+                        "allowed": ["f", "m"]
+                    },
+                    "surname": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+
+    v = Validator(schema, require_all=True)
+    if not v.validate(raw):
+        print(v.errors)
+        raise Exception("Athletes file does not validate")
+    return v.document
 
 def dump(athletes, filename="athletes-sorted.yaml"):
     """write athletes"""
