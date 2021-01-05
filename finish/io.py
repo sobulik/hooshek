@@ -4,40 +4,50 @@ from persistence import yaml
 from persistence import termtables
 from util import util
 
+from cerberus import Validator
+
 import datetime
 import os
 
 def load():
     """return a list of finish times"""
-    if os.path.exists("finish.yaml"):
-        raw = yaml.load("finish.yaml")
-    else:
-        raw = None
-
-    sanity_check(raw)
-
-    return tuple(raw)
-
-def sanity_check(raw):
-    if raw is None:
-        raise Exception("Finish file not found")
-    if len(raw) == 0:
-        raise Exception("Finish file empty")
-    for result in raw:
-        if "id" not in result:
-            raise Exception("Missing id for a result")
-        if "time" not in result:
-            raise Exception("Missing time for a result")
-        try:
-            util.parseTime(result["time"])
-        except (ValueError, IndexError):
-            raise Exception("Invalid time value in finish file")
+    finish = yaml.load("finish.yaml")
+    finish = validate(finish)
         
-    # primary key check
-    ids = list(map(lambda x: x["id"], raw))
+    # id duplicity check
+    ids = list(map(lambda x: x["id"], finish))
     for i in ids:
         if ids.count(i) > 1:
             raise Exception("Finish file result for id " + str(i) + " defined " + str(ids.count(i)) + " times")
+
+    return tuple(finish)
+
+def validate(raw):
+    schema = {
+        "aux": {
+            "type": "list",
+            "minlength": 1,
+            "schema": {
+                "type": "dict",
+                "schema": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "time": {
+                        "type": "string",
+                        "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9].[0-9]$"
+                    }
+                }
+            }
+        }
+    }
+
+    v = Validator(schema, require_all=True)
+    d = {"aux": raw}
+    if not v.validate(d):
+        print(v.errors)
+        raise Exception("Finish file does not validate")
+    return v.document["aux"]
 
 def dump(start, encoding_print):
     """write results"""

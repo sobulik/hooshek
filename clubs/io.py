@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 from persistence import yaml
-from cerberus import Validator
 from .club import Club
+
+from cerberus import Validator
 
 import os
 
