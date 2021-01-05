@@ -3,37 +3,26 @@
 from persistence import yaml
 from .athlete import Athlete
 
+from cerberus import Validator
+
 import os
 
 def build(clubs):
     """return a list of Athlete instances"""
-    if os.path.exists("athletes.yaml"):
-        raw = yaml.load("athletes.yaml")
-    else:
-        raw = None
+    athletes = yaml.load("athletes.yaml")
+    athletes = validate(athletes)
 
-    sanity_check(raw)
-
-    for a in raw["athletes"]:
+    # associate clubs
+    for a in athletes["athletes"]:
         if "club" in a:
             if a["club"] in clubs:
                 a["club"] = clubs[a["club"]]
             else:
                 raise Exception("Club " + a["club"] + " of athlete " + a["surname"] + "not defined in clubs")
-    return tuple(map(lambda x: Athlete(x), raw["athletes"]))
 
-def load():
-    """return a list of Athlete instances"""
-    if os.path.exists("athletes.yaml"):
-        raw = yaml.load("athletes.yaml")
-    else:
-        raw = None
+    return tuple(map(lambda x: Athlete(x), athletes["athletes"]))
 
-    sanity_check(raw)
-
-    return tuple(map(lambda x: Athlete(x), raw["athletes"]))
-
-def sanity_check(raw):
+def validate(raw):
     if raw is None:
         raise Exception("Athletes file not found")
     if "version" not in raw:
@@ -66,6 +55,7 @@ def sanity_check(raw):
     for i in uniquekeys:
         if uniquekeys.count(i) > 1:
             raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
+    return raw
 
 def dump(athletes, filename="athletes-sorted.yaml"):
     """write athletes"""
