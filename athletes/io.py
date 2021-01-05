@@ -12,6 +12,18 @@ def build(clubs):
     athletes = yaml.load("athletes.yaml")
     athletes = validate(athletes)
 
+    # primary key check
+    ids = list(map(lambda x: x["id"], filter(lambda x: "id" in x, athletes["athletes"])))
+    for i in ids:
+        if ids.count(i) > 1:
+            raise Exception("Athletes file athlete id " + str(i) + " defined " + str(ids.count(i)) + " times")
+
+    # unique key check
+    uniquekeys = list(map(lambda x: (x["name"], x["surname"], x["born"]), athletes["athletes"]))
+    for i in uniquekeys:
+        if uniquekeys.count(i) > 1:
+            raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
+
     # associate clubs
     for a in athletes["athletes"]:
         if "club" in a:
@@ -23,28 +35,6 @@ def build(clubs):
     return tuple(map(lambda x: Athlete(x), athletes["athletes"]))
 
 def validate(raw):
-    for athlete in raw["athletes"]:
-        if "name" not in athlete:
-            raise Exception("Missing name for an athlete")
-        if "surname" not in athlete:
-            raise Exception("Missing surname for an athlete")
-        if "born" not in athlete:
-            raise Exception("Missing born field for an athlete")
-        if "sex" not in athlete:
-            raise Exception("Missing sex field for an athlete")
-        if athlete["sex"] not in ("f", "m"):
-            raise Exception("Invalid sex field for an athlete")
-        
-    # primary key check
-    ids = list(map(lambda x: x["id"], filter(lambda x: "id" in x, raw["athletes"])))
-    for i in ids:
-        if ids.count(i) > 1:
-            raise Exception("Athletes file athlete id " + str(i) + " defined " + str(ids.count(i)) + " times")
-    # unique key check
-    uniquekeys = list(map(lambda x: (x["name"], x["surname"], x["born"]), raw["athletes"]))
-    for i in uniquekeys:
-        if uniquekeys.count(i) > 1:
-            raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
     schema = {
         "version": {
             "type": "string",
