@@ -6,6 +6,7 @@ from util import util
 
 from cerberus import Validator
 
+import collections
 import datetime
 import os
 
@@ -14,11 +15,11 @@ def load():
     finish = yaml.load("finish.yaml")
     finish = validate(finish)
         
-    # id duplicity check
-    ids = list(map(lambda x: x["id"], finish))
-    for i in ids:
-        if ids.count(i) > 1:
-            raise Exception("Finish file result for id " + str(i) + " defined " + str(ids.count(i)) + " times")
+    # primary key check
+    idCounter = collections.Counter(map(lambda x: x["id"], finish))
+    for i in idCounter:
+        if idCounter[i] > 1:
+            raise Exception("Finish file result for id " + str(i) + " defined " + str(idCounter[i]) + " times")
 
     return tuple(finish)
 

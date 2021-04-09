@@ -5,6 +5,7 @@ from .athlete import Athlete
 
 from cerberus import Validator
 
+import collections
 import os
 
 def build(clubs):
@@ -13,16 +14,16 @@ def build(clubs):
     athletes = validate(athletes)
 
     # primary key check
-    ids = list(map(lambda x: x["id"], filter(lambda x: "id" in x, athletes["athletes"])))
-    for i in ids:
-        if ids.count(i) > 1:
-            raise Exception("Athletes file athlete id " + str(i) + " defined " + str(ids.count(i)) + " times")
+    idCounter = collections.Counter(map(lambda x: x["id"], filter(lambda x: "id" in x, athletes["athletes"])))
+    for i in idCounter:
+        if idCounter[i] > 1:
+            raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times")
 
     # unique key check
-    uniquekeys = list(map(lambda x: (x["name"], x["surname"], x["born"]), athletes["athletes"]))
-    for i in uniquekeys:
-        if uniquekeys.count(i) > 1:
-            raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
+    uniqueCounter = collections.Counter(map(lambda x: (x["name"], x["surname"], x["born"]), athletes["athletes"]))
+    for i in uniqueCounter:
+        if uniqueCounter[i] > 1:
+            raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniqueCounter[i]) + " times")
 
     # associate clubs
     for a in athletes["athletes"]:

@@ -5,6 +5,7 @@ from .club import Club
 
 from cerberus import Validator
 
+import collections
 import os
 
 def load():
@@ -12,10 +13,11 @@ def load():
     clubs = yaml.load("clubs.yaml")
     clubs = validate(clubs)
 
-    ids = list(map(lambda x: x["id"], clubs["clubs"]))
-    for i in ids:
-        if ids.count(i) > 1:
-            raise Exception("Clubs file club id " + i + " defined " + str(ids.count(i)) + " times")
+    # primary key check
+    idCounter = collections.Counter(map(lambda x: x["id"], clubs["clubs"]))
+    for i in idCounter:
+        if idCounter[i] > 1:
+            raise Exception("Clubs file club id " + i + " defined " + str(idCounter[i]) + " times")
 
     return {c.id: c for c in map(lambda x: Club(x), clubs["clubs"])}
 

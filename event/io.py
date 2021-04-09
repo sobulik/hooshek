@@ -6,6 +6,7 @@ from .event import Event
 
 from cerberus import Validator
 
+import collections
 import datetime
 import os
 
@@ -15,10 +16,10 @@ def load():
     event = validate(event)
 
     # unique key check
-    uniquekeys = list(map(lambda x: (x["age_min"], x["age_max"], x["sex"]), event["races"]))
-    for i in uniquekeys:
-        if uniquekeys.count(i) > 1:
-            raise Exception("Event file race " + str(i) + " defined " + str(uniquekeys.count(i)) + " times")
+    uniqueCounter = collections.Counter(map(lambda x: (x["age_min"], x["age_max"], x["sex"]), event["races"]))
+    for i in uniqueCounter:
+        if uniqueCounter[i] > 1:
+            raise Exception("Event file race " + str(i) + " defined " + str(uniqueCounter[i]) + " times")
 
     for race in event["races"]:
         if (int(race["age_min"]) > int(race["age_max"])):
