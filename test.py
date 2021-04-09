@@ -33,6 +33,7 @@ class Test(unittest.TestCase):
         """Athletes are sorted correctly"""
         for f in ("event.yaml", "clubs.yaml", "athletes.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "athletes.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "athletes-sorted.yaml"), os.path.join(self.dir_target, "athletes-sorted.yaml")))
 
@@ -40,6 +41,7 @@ class Test(unittest.TestCase):
         """Start list is correct"""
         for f in ("event.yaml", "clubs.yaml", "athletes.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "start.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "start.yaml"), os.path.join(self.dir_target, "start.yaml")))
 
@@ -47,6 +49,7 @@ class Test(unittest.TestCase):
         """Start list text file is correct"""
         for f in ("event.yaml", "clubs.yaml", "athletes.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "start.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "start.txt"), os.path.join(self.dir_target, "start.txt")))
 
@@ -54,6 +57,7 @@ class Test(unittest.TestCase):
         """Start list grouped by club file is correct"""
         for f in ("event.yaml", "clubs.yaml", "athletes.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "start.py"), "--clubs"], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "start-clubs.txt"), os.path.join(self.dir_target, "start-clubs.txt")))
 
@@ -61,6 +65,7 @@ class Test(unittest.TestCase):
         """Result list is correct"""
         for f in ("event.yaml", "clubs.yaml", "athletes.yaml", "start.yaml", "finish.yaml"):
             shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "finish.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "results.yaml"), os.path.join(self.dir_target, "results.yaml")))
 
@@ -72,6 +77,17 @@ class Test(unittest.TestCase):
         subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "finish.py")], cwd=self.dir_target)
         self.assertTrue(filecmp.cmp(os.path.join(dir_source, "results.txt"), os.path.join(self.dir_target, "results.txt")))
 
+
+    def _test_numerate(self, dir_source):
+        """Numeration is correct"""
+        for f in ("event.yaml", "clubs.yaml"):
+            shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
+        if os.path.exists(os.path.join(dir_source, "athletes-without-numbers.yaml")):
+            shutil.copy(os.path.join(dir_source, "athletes-without-numbers.yaml"), os.path.join(self.dir_target, "athletes.yaml"))
+
+            subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "numerate.py")], cwd=self.dir_target)
+            self.assertTrue(filecmp.cmp(os.path.join(dir_source, "athletes-with-numbers.yaml"), os.path.join(self.dir_target, "athletes-with-numbers.yaml")))
 
 if __name__ == "__main__":
 

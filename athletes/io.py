@@ -8,16 +8,17 @@ from cerberus import Validator
 import collections
 import os
 
-def build(clubs):
+def build(clubs, primaryKeyCheck=True):
     """return a list of Athlete instances"""
     athletes = yaml.load("athletes.yaml")
     athletes = validate(athletes)
 
     # primary key check
-    idCounter = collections.Counter(map(lambda x: x["id"], filter(lambda x: "id" in x, athletes["athletes"])))
-    for i in idCounter:
-        if idCounter[i] > 1:
-            raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times")
+    if primaryKeyCheck:
+        idCounter = collections.Counter(map(lambda x: x["id"], filter(lambda x: "id" in x, athletes["athletes"])))
+        for i in idCounter:
+            if idCounter[i] > 1:
+                raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times")
 
     # unique key check
     uniqueCounter = collections.Counter(map(lambda x: (x["name"], x["surname"], x["born"]), athletes["athletes"]))

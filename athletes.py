@@ -28,12 +28,5 @@ if args.shuffle:
         athlete.name = ''.join(random.sample(athlete.name, len(athlete.name))).lower().title()
         athlete.surname = ''.join(random.sample(athlete.surname, len(athlete.surname))).lower().title()
     athletes.dump(aths, args.shuffle)
-elif args.renumber:
-    number = 0
-    for athlete in aths:
-        if hasattr(athlete, "id"):
-            number += 1
-            athlete.id = number
-    athletes.dump(aths, args.renumber)
 else:
     athletes.dump(aths)
