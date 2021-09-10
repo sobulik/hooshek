@@ -20,7 +20,6 @@ aths = sorted(aths, key=lambda athlete : athlete.born, reverse=True)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--shuffle", help="shuffle names to anonymize and store as file SHUFFLE")
-parser.add_argument("--renumber", help="renumber ids based on default sort and store as file RENUMBER")
 args = parser.parse_args()
 
 if args.shuffle:
