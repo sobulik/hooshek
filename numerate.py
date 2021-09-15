@@ -19,7 +19,8 @@ for i in idCounter:
     if i != 0 and idCounter[i] > 0:
         raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times. Only zeros are expected!")
 
-number = 0
+number_red = 0
+number_black = 100
 for race in event.races:
     raceAths = list()
     for athlete in athsWithId:
@@ -29,8 +30,14 @@ for race in event.races:
             raceAths.append((athlete, hashlib.md5("{0}{1}{2}".format(athlete.name, athlete.surname, event.date).encode()).hexdigest()))
     raceAths.sort(key=lambda t: t[1])
     for t in raceAths:
-        number += 1
-        t[0].id = number
+        if t[0].born > event.eff_year - 10:
+            number_red += 1
+            t[0].id = number_red
+        else:
+            number_black += 1
+            while number_black in (216, 235):
+                number_black += 1
+            t[0].id = number_black
 
 # assert
 idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
@@ -42,4 +49,4 @@ for i in idCounter:
 
 athletes.dump(aths, "athletes-with-numbers.yaml")
 
-#print("The last number assigned is {0}".format(str(number)))
+#print("The last numbers assigned are {0} and {1}".format(str(number_red), str(number_black)))
