@@ -28,4 +28,4 @@ if args.shuffle:
         athlete.surname = ''.join(random.sample(athlete.surname, len(athlete.surname))).lower().title()
     athletes.dump(aths, args.shuffle)
 else:
-    athletes.dump(aths)
+    athletes.dump(aths, "athletes-sorted.yaml")

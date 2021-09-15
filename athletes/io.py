@@ -84,7 +84,7 @@ def validate(raw):
         raise Exception("Athletes file does not validate")
     return v.document
 
-def dump(athletes, filename="athletes-sorted.yaml"):
+def dump(athletes, filename):
     """write athletes"""
     o = dict()
     o["version"] = "1.0"
