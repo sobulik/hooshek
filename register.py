@@ -16,7 +16,7 @@ args = parser.parse_args()
 event = event.load()
 clubs = clubs.load()
 
-aths = list(athletes.build(clubs))
+aths = list(athletes.build(clubs, False))
 
 with open(args.file, newline='') as f:
     reader = csv.reader(f)
