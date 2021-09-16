@@ -4,7 +4,7 @@ races:
 -   athletes:
     -   born: 2015
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: 00:00:15
         name: Etzear
         rank: 1
@@ -209,7 +209,7 @@ races:
 -   athletes:
     -   born: 2015
         club: SKI klub Harr.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:00:14
         name: Sualme
         rank: 1
@@ -414,7 +414,7 @@ races:
 -   athletes:
     -   born: 2014
         club: SKI klub Harr.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:02:11
         name: Limkaa
         rank: 1
@@ -519,7 +519,7 @@ races:
 -   athletes:
     -   born: 2013
         club: Spart. Vrchlabí
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:52
         name: Mea
         rank: 1
@@ -574,7 +574,7 @@ races:
 -   athletes:
     -   born: 2014
         club: Ski klub Lučany
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:57
         name: Eprt
         rank: 1
@@ -679,7 +679,7 @@ races:
 -   athletes:
     -   born: 2013
         club: SKI klub Jabl.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:53
         name: Daam
         rank: 1
@@ -689,7 +689,7 @@ races:
         time: '1:53.6'
     -   born: 2013
         club: SKI klub Harr.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:53
         name: Pněštá
         rank: 2
@@ -784,7 +784,7 @@ races:
 -   athletes:
     -   born: 2012
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:54
         name: Aemáil
         rank: 1
@@ -879,7 +879,7 @@ races:
 -   athletes:
     -   born: 2011
         club: TJ Tanvald
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:38
         name: Nvreikao
         rank: 1
@@ -984,7 +984,7 @@ races:
 -   athletes:
     -   born: 2012
         club: Dukla Liberec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:43
         name: Innevtc
         rank: 1
@@ -1049,7 +1049,7 @@ races:
 -   athletes:
     -   born: 2011
         club: Vlčáci
-        diff: '.0'
+        diff: '0.0'
         finish: 00:01:38
         name: Aujbk
         rank: 1
@@ -1154,7 +1154,7 @@ races:
 -   athletes:
     -   born: 2010
         club: Ski klub Lučany
-        diff: '.0'
+        diff: '0.0'
         finish: 00:02:43
         name: Eaonkrvi
         rank: 1
@@ -1339,7 +1339,7 @@ races:
 -   athletes:
     -   born: 2009
         club: S. Velké Hamry
-        diff: '.0'
+        diff: '0.0'
         finish: 00:02:35
         name: Nzauza
         rank: 1
@@ -1349,7 +1349,7 @@ races:
         time: '2:35.4'
     -   born: 2009
         club: TJ Semily
-        diff: '.4'
+        diff: '0.4'
         finish: 00:02:35
         name: Daearn
         rank: 2
@@ -1484,7 +1484,7 @@ races:
 -   athletes:
     -   born: 2010
         club: SK Janov - Bed.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:02:25
         name: Iflip
         rank: 1
@@ -1699,7 +1699,7 @@ races:
 -   athletes:
     -   born: 2009
         club: SK Janov - Bed.
-        diff: '.0'
+        diff: '0.0'
         finish: 00:02:28
         name: Rbtoalmojě
         rank: 1
@@ -1844,7 +1844,7 @@ races:
 -   athletes:
     -   born: 2008
         club: Dukla Liberec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:04:55
         name: Nnaa
         rank: 1
@@ -1949,7 +1949,7 @@ races:
 -   athletes:
     -   born: 2007
         club: S. Velké Hamry
-        diff: '.0'
+        diff: '0.0'
         finish: 00:04:48
         name: Nnaa
         rank: 1
@@ -2024,7 +2024,7 @@ races:
 -   athletes:
     -   born: 2008
         club: Dukla Liberec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:04:27
         name: Ašutom
         rank: 1
@@ -2199,7 +2199,7 @@ races:
 -   athletes:
     -   born: 2007
         club: Jiskra Jos. Důl
-        diff: '.0'
+        diff: '0.0'
         finish: 00:04:40
         name: Vsrmloai
         rank: 1
@@ -2284,7 +2284,7 @@ races:
 -   athletes:
     -   born: 2006
         club: Dukla Liberec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:07:23
         name: Ame
         rank: 1
@@ -2379,7 +2379,7 @@ races:
 -   athletes:
     -   born: 2006
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: 00:06:39
         name: Lipif
         rank: 1
@@ -2454,7 +2454,7 @@ races:
 -   athletes:
     -   born: 2003
         club: SG Jablonec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:07:53
         name: Láteani
         rank: 1
@@ -2489,7 +2489,7 @@ races:
 -   athletes:
     -   born: 2003
         club: SG Jablonec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:06:17
         name: Áotšm
         rank: 1
@@ -2524,7 +2524,7 @@ races:
 -   athletes:
     -   born: 1996
         club: SG Jablonec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:09:38
         name: Nnaa
         rank: 1
@@ -2619,7 +2619,7 @@ races:
 -   athletes:
     -   born: 2001
         club: SG Jablonec
-        diff: '.0'
+        diff: '0.0'
         finish: 00:08:17
         name: Ěmajt
         rank: 1

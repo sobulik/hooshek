@@ -4,7 +4,7 @@ races:
 -   athletes:
     -   born: 2014
         club: KB Trefa
-        diff: '.0'
+        diff: '0.0'
         finish: 09:31:35
         name: Leanmd
         rank: 1
@@ -69,7 +69,7 @@ races:
 -   athletes:
     -   born: 2014
         club: S. Velké Hamry
-        diff: '.0'
+        diff: '0.0'
         finish: 09:36:18
         name: Iíjř
         rank: 1
@@ -124,7 +124,7 @@ races:
 -   athletes:
     -   born: 2012
         club: Sokol Studenec
-        diff: '.0'
+        diff: '0.0'
         finish: 09:41:44
         name: Haajon
         rank: 1
@@ -189,7 +189,7 @@ races:
 -   athletes:
     -   born: 2012
         club: Dukla Liberec
-        diff: '.0'
+        diff: '0.0'
         finish: 09:45:57
         name: Cievntn
         rank: 1
@@ -214,7 +214,7 @@ races:
 -   athletes:
     -   born: 2010
         club: KB Trefa
-        diff: '.0'
+        diff: '0.0'
         finish: 09:52:52
         name: Nana
         rank: 1
@@ -309,7 +309,7 @@ races:
 -   athletes:
     -   born: 2010
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: 09:58:31
         name: Šaeikrftn
         rank: 1
@@ -404,7 +404,7 @@ races:
 -   athletes:
     -   born: 2008
         club: S. Velké Hamry
-        diff: '.0'
+        diff: '0.0'
         finish: '10:08:12'
         name: Nakrysýt
         rank: 1
@@ -499,7 +499,7 @@ races:
 -   athletes:
     -   born: 2008
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:11:55'
         name: Mjěat
         rank: 1
@@ -584,7 +584,7 @@ races:
 -   athletes:
     -   born: 2006
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:20:19'
         name: Tienařka
         rank: 1
@@ -649,7 +649,7 @@ races:
 -   athletes:
     -   born: 2006
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:24:28'
         name: Fpili
         rank: 1
@@ -734,7 +734,7 @@ races:
 -   athletes:
     -   born: 2005
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:29:17'
         name: Ilcue
         rank: 1
@@ -784,7 +784,7 @@ races:
 -   athletes:
     -   born: 2004
         club: Sokol Maxičky
-        diff: '.0'
+        diff: '0.0'
         finish: '10:41:26'
         name: Dmliaat
         rank: 1
@@ -819,7 +819,7 @@ races:
 -   athletes:
     -   born: 2004
         club: Jiskra Jos. Důl
-        diff: '.0'
+        diff: '0.0'
         finish: '10:45:47'
         name: Edark
         rank: 1
@@ -844,7 +844,7 @@ races:
 -   athletes:
     -   born: 2003
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:48:00'
         name: Áelatni
         rank: 1
@@ -879,7 +879,7 @@ races:
 -   athletes:
     -   born: 2003
         club: Sokol Skuhrov
-        diff: '.0'
+        diff: '0.0'
         finish: '10:47:59'
         name: Átošm
         rank: 1
@@ -914,7 +914,7 @@ races:
 -   athletes:
     -   born: 1985
         club: Ski klub Lučany
-        diff: '.0'
+        diff: '0.0'
         finish: '10:53:16'
         name: Ahicemla
         rank: 1
@@ -929,7 +929,7 @@ races:
 -   athletes:
     -   born: 1983
         club: S. Velké Hamry
-        diff: '.0'
+        diff: '0.0'
         finish: '10:50:33'
         name: Lhmiac
         rank: 1

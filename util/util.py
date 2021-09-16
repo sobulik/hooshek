@@ -37,8 +37,7 @@ def format_delta(t):
     if hours > 0 or minutes > 0 or seconds > 9:
         value += str(seconds).rjust(2, "0")
     else:
-        if seconds > 0:
-            value += str(seconds)
+        value += str(seconds)
     value += "."
     value += str(microseconds)[0]
     return value
