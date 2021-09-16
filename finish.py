@@ -60,7 +60,7 @@ for race in event.races:
                 if athlete.start is not None:
                     break
             result = list(filter(lambda x: x["id"] == athlete.id, flist))
-            if (len(result) == 1 and athlete.start is not None):
+            if (len(result) == 1 and athlete.start is not None and result[0]["time"] != "00:00:00.0"):
                 athlete.finish = util.parseTime(result[0]["time"])
                 athlete.time = datetime.datetime.combine(event.date, athlete.finish) - datetime.datetime.combine(event.date, util.parseTime(athlete.start))
 
