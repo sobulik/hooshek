@@ -1,0 +1,1442 @@
+date: 2021-09-18
+mass: true
+name: Skuhrovská steeplechase
+races:
+-   athletes:
+    -   born: 2016
+        club: SKI klub Jabl.
+        id: 1
+        name: Mae
+        start: 00:00:00
+        surname: Vnojíláek
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: 2
+        name: Nasbai
+        start: 00:00:00
+        surname: Ácerlovsí
+    -   born: 2016
+        club: Vlčáci
+        id: 3
+        name: Llea
+        start: 00:00:00
+        surname: Řomveáíč
+    -   born: 2017
+        club: ''
+        id: 4
+        name: Eajiscs
+        start: 00:00:00
+        surname: Tlboaákva
+    -   born: 2016
+        club: Spart. Vrchlabí
+        id: 5
+        name: Anřaetki
+        start: 00:00:00
+        surname: Kovkcráaí
+    -   born: 2017
+        club: Ski klub Lučany
+        id: 6
+        name: Aerovnik
+        start: 00:00:00
+        surname: Pošuáv
+    -   born: 2016
+        club: SKI klub Jabl.
+        id: 7
+        name: Iulec
+        start: 00:00:00
+        surname: Ouátrhv
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: 8
+        name: Kmaaért
+        start: 00:00:00
+        surname: Aomrváx
+    -   born: 2018
+        club: Dukla Liberec
+        id: 68
+        name: Eažkna
+        start: 00:00:00
+        surname: Komálávd
+    -   born: 2016
+        club: Sokol Skuhrov
+        id: 89
+        name: Ztaeer
+        start: 00:00:00
+        surname: Izoákv
+    -   born: 2017
+        club: SKI klub Harr.
+        id: 232
+        name: Lkára
+        start: 00:00:00
+        surname: Ímkčnvkoáo
+    -   born: 2018
+        club: ''
+        id: 239
+        name: Ahte
+        start: 00:00:00
+        surname: Avmoázrý
+    -   born: 2016
+        club: SKI klub Jabl.
+        id: 241
+        name: Itskýanr
+        start: 00:00:00
+        surname: Baveoájl
+    -   born: 2017
+        club: ''
+        id: 243
+        name: Nana
+        start: 00:00:00
+        surname: Vltroád
+    -   born: 2019
+        club: ''
+        id: 244
+        name: Dléaa
+        start: 00:00:00
+        surname: Ádtlorv
+    distance: 50m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2019
+        club: Sokol Skuhrov
+        id: 9
+        name: Piilf
+        start: 00:00:00
+        surname: Irkřtuf
+    -   born: 2017
+        club: Ski klub Lučany
+        id: 10
+        name: Nkomdii
+        start: 00:00:00
+        surname: Khu
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: 11
+        name: Ášlukim
+        start: 00:00:00
+        surname: Aalshv
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: 13
+        name: Eobkř
+        start: 00:00:00
+        surname: Bdláok
+    -   born: 2016
+        club: Ski klub Lučany
+        id: 14
+        name: Jna
+        start: 00:00:00
+        surname: Ápkkčies
+    -   born: 2019
+        club: SK Rokytnice
+        id: 15
+        name: Dea
+        start: 00:00:00
+        surname: Apčnim
+    -   born: 2018
+        club: Sokol Skuhrov
+        id: 16
+        name: Piifl
+        start: 00:00:00
+        surname: Laaahm
+    -   born: 2020
+        club: Sokol Skuhrov
+        id: 17
+        name: Jan
+        start: 00:00:00
+        surname: Mrax
+    -   born: 2019
+        club: Sokol Skuhrov
+        id: 18
+        name: Elrtab
+        start: 00:00:00
+        surname: Oádklb
+    -   born: 2016
+        club: ''
+        id: 90
+        name: Dalialsv
+        start: 00:00:00
+        surname: Meěnc
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: 95
+        name: Ořdejn
+        start: 00:00:00
+        surname: Lhcamo
+    -   born: 2017
+        club: SKI klub Jabl.
+        id: 96
+        name: Rměooltajb
+        start: 00:00:00
+        surname: Rákškbe
+    -   born: 2016
+        club: Sokol Skuhrov
+        id: 110
+        name: Daam
+        start: 00:00:00
+        surname: Skntamí
+    -   born: 2016
+        club: ''
+        id: 230
+        name: Rmkae
+        start: 00:00:00
+        surname: Trdsan
+    -   born: 2020
+        club: ''
+        id: 231
+        name: Tnšeiarfk
+        start: 00:00:00
+        surname: Adntrs
+    -   born: 2020
+        club: Sokol Skuhrov
+        id: 233
+        name: Íamdrlvi
+        start: 00:00:00
+        surname: Omurar
+    -   born: 2018
+        club: ''
+        id: 238
+        name: Ášmyat
+        start: 00:00:00
+        surname: Očutkhy
+    distance: 50m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: 19
+        name: Tzreae
+        start: 00:00:00
+        surname: Ovvuaškávr
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 21
+        name: Eiorzlá
+        start: 00:00:00
+        surname: Kášáolvoť
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 22
+        name: Aágat
+        start: 00:00:00
+        surname: Áaml
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 23
+        name: Anna
+        start: 00:00:00
+        surname: Vmlhaáao
+    -   born: 2014
+        club: Dukla Liberec
+        id: 24
+        name: Iařkeant
+        start: 00:00:00
+        surname: Dechyroávn
+    -   born: 2014
+        club: Hanč. klub Ben.
+        id: 25
+        name: Tknšapáě
+        start: 00:00:00
+        surname: Oorkušáv
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: 26
+        name: Seoif
+        start: 00:00:00
+        surname: Cásívloer
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: 27
+        name: Ninraamae
+        start: 00:00:00
+        surname: Havlvoása
+    -   born: 2014
+        club: ''
+        id: 29
+        name: Nita
+        start: 00:00:00
+        surname: Kbatávola
+    -   born: 2015
+        club: SK Rokytnice
+        id: 30
+        name: Emam
+        start: 00:00:00
+        surname: Anmváočip
+    -   born: 2014
+        club: SKI klub Harr.
+        id: 31
+        name: Maiakl
+        start: 00:00:00
+        surname: Kávokčínom
+    -   born: 2015
+        club: Hanč. klub Ben.
+        id: 32
+        name: Víplaan
+        start: 00:00:00
+        surname: Ášookvru
+    -   born: 2015
+        club: S. Velké Hamry
+        id: 33
+        name: Airstd
+        start: 00:00:00
+        surname: Rbátvneo
+    -   born: 2015
+        club: Ski klub Lučany
+        id: 34
+        name: Aann
+        start: 00:00:00
+        surname: Váčpkiksáo
+    -   born: 2014
+        club: Ski klub Lučany
+        id: 35
+        name: Naan
+        start: 00:00:00
+        surname: Kávolv
+    -   born: 2015
+        club: Dukla Liberec
+        id: 93
+        name: Iann
+        start: 00:00:00
+        surname: Eláesv
+    -   born: 2015
+        club: ''
+        id: 227
+        name: Trees
+        start: 00:00:00
+        surname: Báávtrlo
+    -   born: 2015
+        club: ''
+        id: 237
+        name: Orzeáil
+        start: 00:00:00
+        surname: Veobšnáe
+    distance: 300m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2015
+        club: Ski klub Lučany
+        id: 39
+        name: Dadvi
+        start: 00:00:00
+        surname: Nūebhr
+    -   born: 2015
+        club: Ski klub Lučany
+        id: 40
+        name: Imdra
+        start: 00:00:00
+        surname: Lnhavy
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 41
+        name: Eojřnd
+        start: 00:00:00
+        surname: Keotámš
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 42
+        name: Fliip
+        start: 00:00:00
+        surname: Ekuhpc
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 43
+        name: Kbauj
+        start: 00:00:00
+        surname: Puechk
+    -   born: 2015
+        club: SK Janov - Bed.
+        id: 44
+        name: Tškniafer
+        start: 00:00:00
+        surname: Jrkčaue
+    -   born: 2014
+        club: ''
+        id: 45
+        name: Rpte
+        start: 00:00:00
+        surname: Voatav
+    -   born: 2014
+        club: S. Velké Hamry
+        id: 46
+        name: Jíři
+        start: 00:00:00
+        surname: Jfefar
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: 47
+        name: Ilrvoe
+        start: 00:00:00
+        surname: Líkuk
+    -   born: 2014
+        club: Ski klub Lučany
+        id: 48
+        name: Trep
+        start: 00:00:00
+        surname: Áeispkčk
+    -   born: 2014
+        club: Ski klub Lučany
+        id: 49
+        name: Kbuja
+        start: 00:00:00
+        surname: Lipš
+    -   born: 2014
+        club: Dukla Liberec
+        id: 50
+        name: Emark
+        start: 00:00:00
+        surname: Thru
+    -   born: 2015
+        club: ČKS SKI Jilem.
+        id: 91
+        name: Aabesnsti
+        start: 00:00:00
+        surname: Ytcrrh
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: 94
+        name: Máyatš
+        start: 00:00:00
+        surname: Cmlaoh
+    -   born: 2015
+        club: TJ Semily
+        id: 98
+        name: Nmoši
+        start: 00:00:00
+        surname: Alphíl
+    -   born: 2015
+        club: LIAZ Jablonec
+        id: 100
+        name: Naedli
+        start: 00:00:00
+        surname: Edöcrrsh
+    -   born: 2015
+        club: Dukla Liberec
+        id: 224
+        name: Odjřen
+        start: 00:00:00
+        surname: Ádlkem
+    -   born: 2015
+        club: ''
+        id: 240
+        name: Ykošrtf
+        start: 00:00:00
+        surname: Ýmraz
+    distance: 300m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: SKI klub Jabl.
+        id: 52
+        name: Enažak
+        start: 00:00:00
+        surname: Ilvkmihoaá
+    -   born: 2013
+        club: TJ Tanvald
+        id: 54
+        name: Vrěa
+        start: 00:00:00
+        surname: Áoánokvv
+    -   born: 2013
+        club: Spart. Vrchlabí
+        id: 55
+        name: Ema
+        start: 00:00:00
+        surname: Makheřsná
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: 57
+        name: Aoabbrr
+        start: 00:00:00
+        surname: Vvškvaráou
+    -   born: 2012
+        club: Spart. Vrchlabí
+        id: 58
+        name: Iorkveti
+        start: 00:00:00
+        surname: Áoaubnvr
+    -   born: 2013
+        club: Jiskra Jos. Důl
+        id: 59
+        name: Cihemella
+        start: 00:00:00
+        surname: Masrha
+    -   born: 2012
+        club: Č. SKI Vysoké
+        id: 60
+        name: Aterp
+        start: 00:00:00
+        surname: Áočurvek
+    -   born: 2012
+        club: TJ Semily
+        id: 61
+        name: Ákšra
+        start: 00:00:00
+        surname: Áolhíavlp
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: 62
+        name: Aálmei
+        start: 00:00:00
+        surname: Vámootkšá
+    -   born: 2012
+        club: TJ Tanvald
+        id: 63
+        name: Ualra
+        start: 00:00:00
+        surname: Áňuočkálv
+    -   born: 2012
+        club: Spart. Vrchlabí
+        id: 64
+        name: Tksairný
+        start: 00:00:00
+        surname: Kvcoaírká
+    -   born: 2012
+        club: SK Janov - Bed.
+        id: 65
+        name: Zukza
+        start: 00:00:00
+        surname: Kčoadávor
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: 66
+        name: Nakžae
+        start: 00:00:00
+        surname: Maáoavhl
+    -   born: 2013
+        club: SK Janov - Bed.
+        id: 67
+        name: Aneat
+        start: 00:00:00
+        surname: Vdšokoá
+    -   born: 2012
+        club: Sokol Studenec
+        id: 69
+        name: Lecai
+        start: 00:00:00
+        surname: Vosoáčkák
+    -   born: 2012
+        club: S. Velké Hamry
+        id: 70
+        name: Kloain
+        start: 00:00:00
+        surname: Aoevptáš
+    -   born: 2013
+        club: Sokol Skuhrov
+        id: 71
+        name: Laumdli
+        start: 00:00:00
+        surname: Lvpáseol
+    -   born: 2013
+        club: ČKS SKI Jilem.
+        id: 92
+        name: Girlaeba
+        start: 00:00:00
+        surname: Crrvtoyáh
+    -   born: 2012
+        club: LIAZ Jablonec
+        id: 99
+        name: Braobra
+        start: 00:00:00
+        surname: Áehdrrsöcvo
+    distance: 300m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: TJ Semily
+        id: 72
+        name: Ínnnaot
+        start: 00:00:00
+        surname: Němec
+    -   born: 2012
+        club: Hanč. klub Ben.
+        id: 73
+        name: Cěohjtv
+        start: 00:00:00
+        surname: Chokosšýv
+    -   born: 2012
+        club: TJ Tanvald
+        id: 74
+        name: Njoýrem
+        start: 00:00:00
+        surname: Ldeožla
+    -   born: 2013
+        club: ''
+        id: 75
+        name: Taměj
+        start: 00:00:00
+        surname: Řávokd
+    -   born: 2013
+        club: SKI klub Jabl.
+        id: 76
+        name: Iiflp
+        start: 00:00:00
+        surname: Dsehrtalo
+    -   born: 2012
+        club: ''
+        id: 77
+        name: Avveřinc
+        start: 00:00:00
+        surname: Vtýsa
+    -   born: 2013
+        club: SKI klub Harr.
+        id: 78
+        name: Íjiř
+        start: 00:00:00
+        surname: Rkáčme
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: 79
+        name: Šáotm
+        start: 00:00:00
+        surname: Lotm
+    -   born: 2013
+        club: SK Janov - Bed.
+        id: 80
+        name: Esofj
+        start: 00:00:00
+        surname: Tšrny
+    -   born: 2013
+        club: SKI klub Jabl.
+        id: 81
+        name: Jtamě
+        start: 00:00:00
+        surname: Jlkeení
+    -   born: 2012
+        club: SKI klub Jabl.
+        id: 82
+        name: Mkera
+        start: 00:00:00
+        surname: Bltšoa
+    -   born: 2013
+        club: SK Janov - Bed.
+        id: 83
+        name: Ámšiklu
+        start: 00:00:00
+        surname: Rkjuače
+    -   born: 2012
+        club: Ski klub Lučany
+        id: 84
+        name: Nja
+        start: 00:00:00
+        surname: Ljkneeí
+    -   born: 2013
+        club: Sokol Frýdštejn
+        id: 85
+        name: Voitkr
+        start: 00:00:00
+        surname: Teprihl
+    -   born: 2013
+        club: ''
+        id: 86
+        name: Soail
+        start: 00:00:00
+        surname: Stýva
+    -   born: 2013
+        club: SK Janov - Bed.
+        id: 87
+        name: Dama
+        start: 00:00:00
+        surname: Khu
+    -   born: 2012
+        club: SKI klub Jabl.
+        id: 88
+        name: Ilpif
+        start: 00:00:00
+        surname: Tbaolš
+    -   born: 2012
+        club: Sokol Huntířov
+        id: 97
+        name: Tášmo
+        start: 00:00:00
+        surname: Vaatlap
+    -   born: 2012
+        club: ''
+        id: 170
+        name: Vjěchot
+        start: 00:00:00
+        surname: Inshg
+    -   born: 2013
+        club: ''
+        id: 226
+        name: Etisanesb
+        start: 00:00:00
+        surname: Ltbár
+    -   born: 2013
+        club: SKI klub Jabl.
+        id: 242
+        name: Onejdř
+        start: 00:00:00
+        surname: Abjel
+    -   born: 2012
+        club: Dukla Liberec
+        id: 246
+        name: Vincetn
+        start: 00:00:00
+        surname: Ekžej
+    distance: 300m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2011
+        club: Ski klub Lučany
+        id: 101
+        name: Snkaiýtr
+        start: 00:00:00
+        surname: Evosáázlk
+    -   born: 2010
+        club: Dukla Liberec
+        id: 102
+        name: Eankža
+        start: 00:00:00
+        surname: Orodávhu
+    -   born: 2010
+        club: Ski klub Lučany
+        id: 103
+        name: Lnea
+        start: 00:00:00
+        surname: Ávkouh
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: 104
+        name: Nleea
+        start: 00:00:00
+        surname: Uáksbd
+    -   born: 2010
+        club: Ski klub Lučany
+        id: 106
+        name: Řtkaaien
+        start: 00:00:00
+        surname: Rskáemov
+    -   born: 2010
+        club: Dukla Liberec
+        id: 107
+        name: Aann
+        start: 00:00:00
+        surname: Icosáavmn
+    -   born: 2011
+        club: Ski klub Lučany
+        id: 108
+        name: Eeiretz
+        start: 00:00:00
+        surname: Ávürhbnoe
+    -   born: 2011
+        club: Sokol Studenec
+        id: 109
+        name: Ael
+        start: 00:00:00
+        surname: Iokroávčkvto
+    -   born: 2010
+        club: Dukla Liberec
+        id: 111
+        name: Aěžltba
+        start: 00:00:00
+        surname: Eánousbv
+    -   born: 2011
+        club: SKI klub Harr.
+        id: 112
+        name: Aldéa
+        start: 00:00:00
+        surname: Hčvoaán
+    -   born: 2011
+        club: Spart. Vrchlabí
+        id: 113
+        name: Soefi
+        start: 00:00:00
+        surname: Vnruoáab
+    -   born: 2010
+        club: Ski klub Lučany
+        id: 114
+        name: Aeikrvon
+        start: 00:00:00
+        surname: Yárksáovotv
+    -   born: 2011
+        club: Sokol Skuhrov
+        id: 115
+        name: Odatro
+        start: 00:00:00
+        surname: Kšoováláť
+    -   born: 2010
+        club: Dukla Liberec
+        id: 116
+        name: Instraký
+        start: 00:00:00
+        surname: Keovrleá
+    -   born: 2011
+        club: TJ Tanvald
+        id: 117
+        name: Onrvekia
+        start: 00:00:00
+        surname: Evbráociv
+    -   born: 2011
+        club: ČKS SKI Jilem.
+        id: 118
+        name: Fosie
+        start: 00:00:00
+        surname: Kuálovkík
+    -   born: 2010
+        club: Dukla Liberec
+        id: 119
+        name: Arenokiv
+        start: 00:00:00
+        surname: Oydrecvhná
+    -   born: 2010
+        club: Dukla Liberec
+        id: 120
+        name: Tilnaeá
+        start: 00:00:00
+        surname: Ěeádvnvod
+    -   born: 2010
+        club: Klub lyž. Harr.
+        id: 121
+        name: Gaadénlam
+        start: 00:00:00
+        surname: Zálovrá
+    -   born: 2010
+        club: Ski klub Lučany
+        id: 122
+        name: Rbboaar
+        start: 00:00:00
+        surname: Vzeolkáás
+    -   born: 2011
+        club: Hanč. klub Ben.
+        id: 123
+        name: Anežak
+        start: 00:00:00
+        surname: Ovomvhdláa
+    -   born: 2011
+        club: S. Velké Hamry
+        id: 124
+        name: Lae
+        start: 00:00:00
+        surname: Vbernoát
+    -   born: 2011
+        club: S. Velké Hamry
+        id: 126
+        name: Ifsoe
+        start: 00:00:00
+        surname: Faáverojf
+    -   born: 2011
+        club: Dukla Liberec
+        id: 127
+        name: Lšiaek
+        start: 00:00:00
+        surname: Ákstokov
+    -   born: 2010
+        club: Hanč. klub Ben.
+        id: 128
+        name: Endvual
+        start: 00:00:00
+        surname: Vlomvdohaá
+    -   born: 2010
+        club: S. Velké Hamry
+        id: 129
+        name: Pkněašát
+        start: 00:00:00
+        surname: Váoáojšn
+    -   born: 2010
+        club: Sokol Studenec
+        id: 225
+        name: Larua
+        start: 00:00:00
+        surname: Uvoáábkďr
+    -   born: 2011
+        club: ''
+        id: 236
+        name: Reaim
+        start: 00:00:00
+        surname: Eobešván
+    distance: 500m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: SK Janov - Bed.
+        id: 130
+        name: Aínnotn
+        start: 00:00:00
+        surname: Tršny
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: 131
+        name: Oknidmi
+        start: 00:00:00
+        surname: Eudhzla
+    -   born: 2011
+        club: Sokol Skuhrov
+        id: 132
+        name: Otášbi
+        start: 00:00:00
+        surname: Rýečn
+    -   born: 2011
+        club: SKI klub Harr.
+        id: 133
+        name: Rvjasalo
+        start: 00:00:00
+        surname: Aumn
+    -   born: 2010
+        club: Dukla Liberec
+        id: 134
+        name: Oesfj
+        start: 00:00:00
+        surname: Esrfchä
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: 135
+        name: Autšmo
+        start: 00:00:00
+        surname: Krbkse
+    -   born: 2010
+        club: TJ Tanvald
+        id: 136
+        name: Jan
+        start: 00:00:00
+        surname: Nbuík
+    -   born: 2010
+        club: TJ Tanvald
+        id: 137
+        name: Míojmr
+        start: 00:00:00
+        surname: Ldlaože
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: 138
+        name: Irašekftn
+        start: 00:00:00
+        surname: Ákorahcpz
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: 139
+        name: Cáalvv
+        start: 00:00:00
+        surname: Mtol
+    -   born: 2010
+        club: Ski klub Lučany
+        id: 140
+        name: Edjonř
+        start: 00:00:00
+        surname: Vkl
+    -   born: 2010
+        club: Dukla Liberec
+        id: 141
+        name: Áhycjm
+        start: 00:00:00
+        surname: Rltadne
+    -   born: 2010
+        club: TJ Semily
+        id: 142
+        name: Jbauk
+        start: 00:00:00
+        surname: Řaams
+    -   born: 2011
+        club: Vlčáci
+        id: 143
+        name: Juakb
+        start: 00:00:00
+        surname: Meířč
+    -   born: 2010
+        club: TJ Tanvald
+        id: 144
+        name: Loeš
+        start: 00:00:00
+        surname: Čňeáulk
+    -   born: 2011
+        club: Dukla Liberec
+        id: 223
+        name: Aymátš
+        start: 00:00:00
+        surname: Ekmdlá
+    distance: 500m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2009
+        club: S. Velké Hamry
+        id: 146
+        name: Znzuaa
+        start: 00:00:00
+        surname: Oaáovjsd
+    -   born: 2008
+        club: Dukla Liberec
+        id: 147
+        name: Gmaéaaldn
+        start: 00:00:00
+        surname: Rhäsfeávco
+    -   born: 2009
+        club: S. Velké Hamry
+        id: 148
+        name: Asendi
+        start: 00:00:00
+        surname: Káoircčb
+    -   born: 2008
+        club: S. Velké Hamry
+        id: 149
+        name: Iaeclmha
+        start: 00:00:00
+        surname: Avioávinč
+    -   born: 2008
+        club: Ski klub Lučany
+        id: 150
+        name: Raakl
+        start: 00:00:00
+        surname: Kopceká
+    -   born: 2009
+        club: Ski klub Lučany
+        id: 152
+        name: Atena
+        start: 00:00:00
+        surname: Eíávoklnj
+    -   born: 2008
+        club: Dukla Liberec
+        id: 154
+        name: Anjaoh
+        start: 00:00:00
+        surname: Etavrnldoá
+    -   born: 2008
+        club: Ski klub Lučany
+        id: 155
+        name: Anaj
+        start: 00:00:00
+        surname: Keourvoptá
+    -   born: 2008
+        club: TJ Semily
+        id: 157
+        name: Aem
+        start: 00:00:00
+        surname: Fleáncrvo
+    -   born: 2009
+        club: Sokol Skuhrov
+        id: 158
+        name: Braroba
+        start: 00:00:00
+        surname: Ehovkásíl
+    -   born: 2008
+        club: Ski klub Lučany
+        id: 160
+        name: Iealnda
+        start: 00:00:00
+        surname: Šáeovderr
+    -   born: 2008
+        club: Dukla Liberec
+        id: 161
+        name: Ariokn
+        start: 00:00:00
+        surname: Osnáevub
+    -   born: 2009
+        club: ČKS SKI Jilem.
+        id: 162
+        name: Artdook
+        start: 00:00:00
+        surname: Vobrutšá
+    -   born: 2008
+        club: Dukla Liberec
+        id: 163
+        name: Ěžtabla
+        start: 00:00:00
+        surname: Aovsáalhv
+    distance: 1000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2009
+        club: Sokol Skuhrov
+        id: 105
+        name: Omniš
+        start: 00:00:00
+        surname: Stakním
+    -   born: 2008
+        club: Dukla Liberec
+        id: 164
+        name: Tmoáš
+        start: 00:00:00
+        surname: Pkonrýo
+    -   born: 2008
+        club: TJ Tanvald
+        id: 165
+        name: Áětšnp
+        start: 00:00:00
+        surname: Ierlreps
+    -   born: 2008
+        club: Sokol Skuhrov
+        id: 166
+        name: Jfsoe
+        start: 00:00:00
+        surname: Splel
+    -   born: 2009
+        club: Ski klub Lučany
+        id: 167
+        name: Dama
+        start: 00:00:00
+        surname: Rtclyšn
+    -   born: 2008
+        club: Dukla Liberec
+        id: 168
+        name: Mšáot
+        start: 00:00:00
+        surname: Alkríva
+    -   born: 2008
+        club: Dukla Liberec
+        id: 169
+        name: Mauotš
+        start: 00:00:00
+        surname: Ůpabl
+    -   born: 2009
+        club: Jiskra Jos. Důl
+        id: 171
+        name: Řijí
+        start: 00:00:00
+        surname: Umzanr
+    -   born: 2009
+        club: S. Velké Hamry
+        id: 172
+        name: Brtoěajlom
+        start: 00:00:00
+        surname: Rbent
+    -   born: 2009
+        club: Hanč. klub Ben.
+        id: 173
+        name: Cváalv
+        start: 00:00:00
+        surname: Hluboce
+    -   born: 2009
+        club: S. Velké Hamry
+        id: 174
+        name: Dama
+        start: 00:00:00
+        surname: Nabrů
+    -   born: 2008
+        club: Sokol Skuhrov
+        id: 175
+        name: Jěamt
+        start: 00:00:00
+        surname: Kbžoer
+    -   born: 2009
+        club: TJ Tanvald
+        id: 176
+        name: Kfšyrto
+        start: 00:00:00
+        surname: Michle
+    -   born: 2008
+        club: SK Janov - Bed.
+        id: 177
+        name: Vcaláv
+        start: 00:00:00
+        surname: Nršty
+    -   born: 2008
+        club: SKI klub Harr.
+        id: 178
+        name: Uajkb
+        start: 00:00:00
+        surname: Unma
+    -   born: 2008
+        club: Dukla Liberec
+        id: 179
+        name: Hjvtěoc
+        start: 00:00:00
+        surname: Šeltcn
+    -   born: 2009
+        club: Dukla Liberec
+        id: 180
+        name: Chjovtě
+        start: 00:00:00
+        surname: Udravaob
+    -   born: 2009
+        club: Dukla Liberec
+        id: 181
+        name: Kálomši
+        start: 00:00:00
+        surname: Ouvešakl
+    -   born: 2009
+        club: Sokol Skuhrov
+        id: 182
+        name: Voětjch
+        start: 00:00:00
+        surname: Amahla
+    -   born: 2008
+        club: TJ Tanvald
+        id: 183
+        name: Ota
+        start: 00:00:00
+        surname: Íbkun
+    -   born: 2008
+        club: Sokol Skuhrov
+        id: 184
+        name: Ajubk
+        start: 00:00:00
+        surname: Rfktiřu
+    -   born: 2008
+        club: SKI klub Harr.
+        id: 185
+        name: Nykeh
+        start: 00:00:00
+        surname: Síkldtao
+    -   born: 2009
+        club: SKI klub Jabl.
+        id: 186
+        name: Mdaa
+        start: 00:00:00
+        surname: Oeahldrst
+    -   born: 2009
+        club: SKI klub Harr.
+        id: 187
+        name: Kjuab
+        start: 00:00:00
+        surname: Nhča
+    -   born: 2008
+        club: Sokol Skuhrov
+        id: 229
+        name: Sesaanbit
+        start: 00:00:00
+        surname: Rbksek
+    distance: 1000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2006
+        club: Dukla Liberec
+        id: 188
+        name: Nnaa
+        start: 00:00:00
+        surname: Roáívš
+    -   born: 2006
+        club: SKI klub Harr.
+        id: 190
+        name: Rása
+        start: 00:00:00
+        surname: Roámvkáče
+    -   born: 2006
+        club: Dukla Liberec
+        id: 191
+        name: Mea
+        start: 00:00:00
+        surname: Oronpká
+    -   born: 2007
+        club: SKI klub Harr.
+        id: 192
+        name: Vrěa
+        start: 00:00:00
+        surname: Nvávčaěok
+    -   born: 2006
+        club: Dukla Liberec
+        id: 193
+        name: Tzeera
+        start: 00:00:00
+        surname: Kvavalráío
+    -   born: 2007
+        club: S. Velké Hamry
+        id: 194
+        name: Ikeoavrn
+        start: 00:00:00
+        surname: Pděkonoávíl
+    -   born: 2007
+        club: S. Velké Hamry
+        id: 195
+        name: Anna
+        start: 00:00:00
+        surname: Covháciil
+    distance: 1500m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2007
+        club: Dukla Liberec
+        id: 196
+        name: Tášěpn
+        start: 00:00:00
+        surname: Kpíleču
+    -   born: 2006
+        club: Sokol Skuhrov
+        id: 197
+        name: Ětnápš
+        start: 00:00:00
+        surname: Sýkbud
+    -   born: 2007
+        club: Dukla Liberec
+        id: 198
+        name: Ryrha
+        start: 00:00:00
+        surname: Endilgim
+    -   born: 2007
+        club: Dukla Liberec
+        id: 199
+        name: Ětmja
+        start: 00:00:00
+        surname: Renchyd
+    -   born: 2007
+        club: Dukla Liberec
+        id: 200
+        name: Mnrati
+        start: 00:00:00
+        surname: Cýivska
+    -   born: 2006
+        club: Dukla Liberec
+        id: 201
+        name: Adam
+        start: 00:00:00
+        surname: Rbžo
+    -   born: 2006
+        club: Dukla Liberec
+        id: 203
+        name: Eovirl
+        start: 00:00:00
+        surname: Nbáah
+    -   born: 2006
+        club: Dukla Liberec
+        id: 204
+        name: Kjbua
+        start: 00:00:00
+        surname: Vhalas
+    -   born: 2006
+        club: TJ Semily
+        id: 205
+        name: Ptre
+        start: 00:00:00
+        surname: Avtplaa
+    -   born: 2007
+        club: Dukla Liberec
+        id: 206
+        name: Áklšu
+        start: 00:00:00
+        surname: Evkpá
+    -   born: 2007
+        club: TJ Semily
+        id: 207
+        name: Lpfii
+        start: 00:00:00
+        surname: Aydfnol
+    -   born: 2006
+        club: Dukla Liberec
+        id: 208
+        name: Kyortšf
+        start: 00:00:00
+        surname: Kcýleve
+    -   born: 2006
+        club: Sokol Skuhrov
+        id: 209
+        name: Fliip
+        start: 00:00:00
+        surname: Ekluohš
+    distance: 1500m
+    name: Mladší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2005
+        club: SG Jablonec
+        id: 145
+        name: Uelic
+        start: 00:00:00
+        surname: Ubksád
+    -   born: 2005
+        club: Sokol Skuhrov
+        id: 210
+        name: Raílnkao
+        start: 00:00:00
+        surname: Boenhüárv
+    -   born: 2004
+        club: Sokol Skuhrov
+        id: 248
+        name: Kinloa
+        start: 00:00:00
+        surname: Mivýkdooná
+    distance: 1500m
+    name: Starší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2005
+        club: Dukla Liberec
+        id: 211
+        name: Mtjěa
+        start: 00:00:00
+        surname: Alevokuš
+    -   born: 2004
+        club: Dukla Liberec
+        id: 212
+        name: Uaošmt
+        start: 00:00:00
+        surname: Kgeaš
+    -   born: 2005
+        club: Dukla Liberec
+        id: 213
+        name: Dořenj
+        start: 00:00:00
+        surname: Clšent
+    -   born: 2004
+        club: Jiskra Jos. Důl
+        id: 214
+        name: Deark
+        start: 00:00:00
+        surname: Myrl
+    -   born: 2004
+        club: Dukla Liberec
+        id: 215
+        name: Onšmi
+        start: 00:00:00
+        surname: Lahíldvo
+    -   born: 2005
+        club: Dukla Liberec
+        id: 217
+        name: Ájonš
+        start: 00:00:00
+        surname: Cimllhhe
+    distance: 1500m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 1981
+        club: Sokol Skuhrov
+        id: 218
+        name: Aanj
+        start: 00:00:00
+        surname: Omáoátšvk
+    -   born: 1985
+        club: Ski klub Lučany
+        id: 219
+        name: Ceahalim
+        start: 00:00:00
+        surname: Pávuoš
+    -   born: 1982
+        club: Sokol Žel. Brod
+        id: 228
+        name: Ekanl
+        start: 00:00:00
+        surname: Kvábrosk
+    -   born: 1995
+        club: Sokol Skuhrov
+        id: 234
+        name: Tarep
+        start: 00:00:00
+        surname: Umorar
+    -   born: 1982
+        club: Sokol Frýdštejn
+        id: 247
+        name: Gola
+        start: 00:00:00
+        surname: Áčvohce
+    distance: 2000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 2002
+        club: Dukla Liberec
+        id: 220
+        name: Tějcohv
+        start: 00:00:00
+        surname: Étkšar
+    -   born: 1983
+        club: Sokol Skuhrov
+        id: 222
+        name: Nja
+        start: 00:00:00
+        surname: Xram
+    -   born: 1977
+        club: Sokol Jablonec
+        id: 245
+        name: Pevla
+        start: 00:00:00
+        surname: Otalbš
+    distance: 2000m
+    name: Muži
+    sex: m
