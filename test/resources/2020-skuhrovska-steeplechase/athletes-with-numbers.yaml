@@ -24,7 +24,7 @@ athletes:
     surname: Číkmvánoko
 -   born: 2017
     club: SWSL
-    id: 1
+    id: '1'
     name: Aonerivk
     sex: f
     surname: Oáupvš
@@ -39,7 +39,7 @@ athletes:
     surname: Boádkl
 -   born: 2016
     club: SOSK
-    id: 2
+    id: '2'
     name: Naaledmag
     sex: f
     surname: Amholváa
@@ -271,13 +271,13 @@ athletes:
     surname: Jrefaf
 -   born: 2014
     club: SOSK
-    id: 5
+    id: '5'
     name: Kaujb
     sex: m
     surname: Kcpueh
 -   born: 2014
     club: SOSK
-    id: 3
+    id: '3'
     name: Flpii
     sex: m
     surname: Pceuhk
@@ -308,7 +308,7 @@ athletes:
     surname: Puš
 -   born: 2014
     club: SOSK
-    id: 4
+    id: '4'
     name: Řoednj
     sex: m
     surname: Eákšmot
@@ -416,7 +416,7 @@ athletes:
     surname: Kohává
 -   born: 2012
     club: SOSK
-    id: 9
+    id: '9'
     name: Ažaken
     sex: f
     surname: Aoáalhmv
@@ -432,7 +432,7 @@ athletes:
     surname: Edoerrnhif
 -   born: 2012
     club: SOVH
-    id: 7
+    id: '7'
     name: Kašlei
     sex: f
     surname: Áůolzhv
@@ -475,13 +475,13 @@ athletes:
     surname: Švárevmo
 -   born: 2012
     club: SOSK
-    id: 6
+    id: '6'
     name: Aemáil
     sex: f
     surname: Távákmošo
 -   born: 2012
     club: SOSK
-    id: 8
+    id: '8'
     name: Abrroab
     sex: f
     surname: Šoavvukráv
@@ -507,7 +507,7 @@ athletes:
     surname: Drlo
 -   born: 2012
     club: SOSK
-    id: 10
+    id: '10'
     name: Tomšá
     sex: m
     surname: Omlt

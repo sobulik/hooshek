@@ -32,7 +32,7 @@ def validate(raw):
                 "type": "dict",
                 "schema": {
                     "id": {
-                        "type": "integer"
+                        "type": "string"
                     },
                     "time": {
                         "type": "string",

@@ -60,7 +60,7 @@ def validate(raw):
                         "required": False
                     },
                     "id": {
-                        "type": "integer",
+                        "type": "string",
                         "required": False
                     },
                     "name": {

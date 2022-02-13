@@ -27,7 +27,7 @@ athletes:
     name: Aonerivk
     sex: f
     surname: Oáupvš
-    id: 0
+    id: '0'
 -   born: 2017
     name: Kanžae
     sex: f
@@ -42,7 +42,7 @@ athletes:
     name: Naaledmag
     sex: f
     surname: Amholváa
-    id: 0
+    id: '0'
 -   born: 2016
     club: SOSK
     name: Rzetea
@@ -274,13 +274,13 @@ athletes:
     name: Kaujb
     sex: m
     surname: Kcpueh
-    id: 0
+    id: '0'
 -   born: 2014
     club: SOSK
     name: Flpii
     sex: m
     surname: Pceuhk
-    id: 0
+    id: '0'
 -   born: 2014
     club: SOSK
     name: Ukbja
@@ -311,7 +311,7 @@ athletes:
     name: Řoednj
     sex: m
     surname: Eákšmot
-    id: 0
+    id: '0'
 -   born: 2014
     club: STUD
     name: Nntanío
@@ -419,7 +419,7 @@ athletes:
     name: Ažaken
     sex: f
     surname: Aoáalhmv
-    id: 0
+    id: '0'
 -   born: 2012
     club: HSKB
     name: Aann
@@ -435,7 +435,7 @@ athletes:
     name: Kašlei
     sex: f
     surname: Áůolzhv
-    id: 0
+    id: '0'
 -   born: 2012
     club: STUD
     name: Caile
@@ -478,13 +478,13 @@ athletes:
     name: Aemáil
     sex: f
     surname: Távákmošo
-    id: 0
+    id: '0'
 -   born: 2012
     club: SOSK
     name: Abrroab
     sex: f
     surname: Šoavvukráv
-    id: 0
+    id: '0'
 -   born: 2012
     club: SOSK
     name: Akubj
@@ -510,7 +510,7 @@ athletes:
     name: Tomšá
     sex: m
     surname: Omlt
-    id: 0
+    id: '0'
 -   born: 2012
     club: SOHU
     name: Otšmá

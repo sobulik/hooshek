@@ -13,11 +13,11 @@ clubs = clubs.load()
 aths = athletes.build(clubs, False)
 athsWithId = tuple(filter(lambda x: hasattr(x, "id"), aths))
 
-# expect no id or id == 0
+# expect no id or id == "0"
 idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
 for i in idCounter:
-    if i != 0 and idCounter[i] > 0:
-        raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times. Only zeros are expected!")
+    if i != "0" and idCounter[i] > 0:
+        raise Exception("Athletes file athlete id " + i + " defined " + str(idCounter[i]) + " times. Only zeros are expected!")
 
 number_red = 0
 number_black = 100
@@ -32,20 +32,20 @@ for race in event.races:
     for t in raceAths:
         if t[0].born > event.eff_year - 10:
             number_red += 1
-            t[0].id = number_red
+            t[0].id = str(number_red)
         else:
             number_black += 1
             while number_black in (216, 235):
                 number_black += 1
-            t[0].id = number_black
+            t[0].id = str(number_black)
 
 # assert
 idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
 for i in idCounter:
-    if i == 0:
-        raise Exception("Athletes file athlete id " + str(i) + " not numerated correctly")
+    if i == "0":
+        raise Exception("Athletes file athlete id " + i + " not numerated correctly")
     if idCounter[i] > 1:
-        raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times")
+        raise Exception("Athletes file athlete id " + i + " defined " + str(idCounter[i]) + " times")
 
 athletes.dump(aths, "athletes-with-numbers.yaml")
 
