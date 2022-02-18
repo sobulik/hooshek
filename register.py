@@ -31,7 +31,7 @@ with open(args.file, newline='') as f:
                         a.club = clubs[row[4]]
                     else:
                         raise Exception("Club " + row[4] + " of athlete " + row[0] + " not defined in clubs")
-                a.id = 0
+                a.id = "0"
                 print("{0} already present".format(row))
                 break
         if not present:
@@ -41,7 +41,7 @@ with open(args.file, newline='') as f:
                     club = clubs[row[4]]
                 else:
                     raise Exception("Club " + row[4] + " of athlete " + row[0] + " not defined in clubs")
-            a = Athlete({"id": 0, "name": row[1], "surname": row[0], "born": year, "sex": row[2], "club": club})
+            a = Athlete({"id": "0", "name": row[1], "surname": row[0], "born": year, "sex": row[2], "club": club})
             aths.append(a)
             print("{0} created".format(row))
 
