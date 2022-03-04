@@ -1,0 +1,158 @@
+version: "1.0"
+clubs:
+    - id: SOSK
+      name: TJ Sokol Skuhrov
+      abb15: Sokol Skuhrov
+      isSokol: true
+    - id: SOVH
+      name: TJ Sokol Velké Hamry
+      abb15: S. Velké Hamry
+      isSokol: true
+    - id: SOZB
+      name: Sokol Železný Brod
+      abb15: Sokol Žel. Brod
+      isSokol: true
+    - id: SOZO
+      name: Sokol Zlatá Olešnice
+      abb15: S. Zl. Olešnice
+      isSokol: true
+    - id: FRYD
+      name: Sokol Frýdštejn
+      abb15: Sokol Frýdštejn
+      isSokol: true
+    - id: SOVA
+      name: Sokol Valteřice
+      abb15: Sokol Valteřice
+      isSokol: true
+    - id: STUD
+      name: Sokol Studenec
+      abb15: Sokol Studenec
+      isSokol: true
+    - id: HBRA
+      name: Sokol Horní Branná
+      abb15: Sokol H. Branná
+      isSokol: true
+    - id: SOVI
+      name: Sokol Víchová nad Jizerou
+      abb15: Sok. Víchová
+      isSokol: true
+    - id: SOBE
+      name: Sokol Benešov u Semil
+      abb15: S. Benešov u S.
+      isSokol: true
+    - id: SOTE
+      name: Sokol Těpeře
+      abb15: Sokol Těpeře
+      isSokol: true
+    - id: SOHU
+      name: Sokol Huntířov
+      abb15: Sokol Huntířov
+      isSokol: true
+    - id: SOJB
+      name: Sokol Jablonec n. N.
+      abb15: Sokol Jablonec
+      isSokol: true
+    - id: SOZL
+      name: Sokol Zlíchov
+      abb15: Sokol Zlíchov
+      isSokol: true
+    - id: JBCN
+      name: SKI klub Jablonec n.N.
+      abb15: SKI klub Jabl.
+      isSokol: false
+    - id: LIAZ
+      name: LIAZ Jablonec n.N.
+      abb15: LIAZ Jablonec
+    - id: DULI
+      name: Dukla Liberec
+      abb15: Dukla Liberec
+    - id: ACLI
+      name: Atletický club Liberec
+      abb15: Atl. club Lib.
+    - id: BILB
+      name: Biatlon Liberec
+      abb15: Biatlon Liberec
+    - id: SKHA
+      name: SKI klub Harrachov
+      abb15: SKI klub Harr.
+    - id: SKPH
+      name: Sportovní klub policie Harrachov
+      abb15: Policie Harr.
+    - id: CKLH
+      name: Český klub lyžařů Harrachov
+      abb15: Klub lyž. Harr.
+    - id: HAHA
+      name: Harranti Harrachov
+      abb15: Harranti Harr.
+    - id: JKLD
+      name: JKL Desná
+      abb15: JKL Desná
+    - id: SLKO
+      name: Slavoj Kořenov
+      abb15: Slavoj Kořenov
+    - id: JABC
+      name: JABC
+      abb15: JABC
+    - id: SPRO
+      name: Spartak Rokytnice n.Jizerou
+      abb15: Spar. Rokytnice
+    - id: SKIJ
+      name: ČKS SKI Jilemnice
+      abb15: ČKS SKI Jilem.
+    - id: KBJI
+      name: Klub biatlonu Jilemnice
+      abb15: Biatlon Jilemn.
+    - id: AKSE
+      name: Atletický klub Semily
+      abb15: Atl. kl. Semily
+    - id: TJSE
+      name: TJ Semily
+      abb15: TJ Semily
+    - id: VLCA
+      name: Vlčáci
+      abb15: Vlčáci
+    - id: CSKV
+      name: Český SKI Vysoké n.J.
+      abb15: Č. SKI Vysoké
+    - id: JIJD
+      name: Jiskra Josefův Důl
+      abb15: Jiskra Jos. Důl
+    - id: HSKB
+      name: Hančův sport. klub Benecko
+      abb15: Hanč. klub Ben.
+    - id: SWSL
+      name: Ski klub W.Samesche Lučany
+      abb15: Ski klub Lučany
+    - id: TJTA
+      name: Tělovýchovná jednota Tanvald
+      abb15: TJ Tanvald
+    - id: SKJA
+      name: SK SKI Janov - Bedřichov
+      abb15: SK Janov - Bed.
+    - id: LSKL
+      name: LSK Lomnice n.P.
+      abb15: LSK Lomnice
+    - id: KBTR
+      name: KB Trefa
+      abb15: KB Trefa
+    - id: SOMA
+      name: Sokol Maxičky
+      abb15: Sokol Maxičky
+    - id: ACJB
+      name: AC Jablonec nad Nisou
+      abb15: AC Jablonec
+    - id: SPVR
+      name: Spartak Vrchlabí
+      abb15: Spart. Vrchlabí
+    - id: SGJB
+      name: Klub lyžování při sportovním gymnáziu Jablonec nad Nisou
+      abb15: SG Jablonec
+    - id: ZDRP
+      name: TJ Slovan Praha Zdravotník
+      abb15: TJ Slovan Praha
+    - id: SKRO
+      name: Ski klub Rokytnice nad Jizerou
+      abb15: SK Rokytnice
+    - id: PBKP
+      name: Pražský biatlonový klub
+      abb15: Pražský biatlon

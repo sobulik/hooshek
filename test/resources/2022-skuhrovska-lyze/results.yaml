@@ -1,0 +1,1573 @@
+date: 2022-02-20
+name: Skuhrovská lyže
+races:
+-   athletes:
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: 09:32:55
+        name: Adanmlega
+        rank: 1
+        rank_sokol: 1
+        start: 09:31:00
+        surname: Alhmvaáo
+        time: '1:55.0'
+    -   born: 2017
+        club: Ski klub Lučany
+        diff: '1.0'
+        finish: 09:34:36
+        name: Kvaneoir
+        rank: 2
+        rank_sokol: ''
+        start: 09:32:40
+        surname: Uápovš
+        time: '1:56.0'
+    -   born: 2016
+        club: ''
+        diff: '21.0'
+        finish: 09:32:36
+        name: Jfoaníes
+        rank: 3
+        rank_sokol: ''
+        start: 09:30:20
+        surname: Kkalváop
+        time: '2:16.0'
+    -   born: 2016
+        club: ''
+        diff: '39.0'
+        finish: 09:34:54
+        name: Akšlie
+        rank: 4
+        rank_sokol: ''
+        start: 09:32:20
+        surname: Lvoseák
+        time: '2:34.0'
+    -   born: 2016
+        club: Ski klub Lučany
+        diff: '43.0'
+        finish: 09:32:38
+        name: Imlaáe
+        rank: 5
+        rank_sokol: ''
+        start: 09:30:00
+        surname: Ávštkero
+        time: '2:38.0'
+    -   born: 2016
+        club: Ski klub Lučany
+        diff: '48.0'
+        finish: 09:33:23
+        name: Earetz
+        rank: 6
+        rank_sokol: ''
+        start: 09:30:40
+        surname: Švámoon
+        time: '2:43.0'
+    -   born: 2018
+        club: ''
+        diff: '1:12.0'
+        finish: 09:35:07
+        name: Akaežn
+        rank: 7
+        rank_sokol: ''
+        start: 09:32:00
+        surname: Ovečmříá
+        time: '3:07.0'
+    -   born: 2017
+        club: Sokol Skuhrov
+        diff: '1:16.0'
+        finish: 09:34:51
+        name: Sibana
+        rank: 8
+        rank_sokol: 2
+        start: 09:31:40
+        surname: Áríocvsle
+        time: '3:11.0'
+    -   born: 2017
+        club: Ski klub Lučany
+        diff: ''
+        finish: ''
+        name: Aedganmla
+        rank: ''
+        rank_sokol: ''
+        start: 09:31:20
+        surname: Eavthrdtrosá
+        time: ''
+    desc: ''
+    distance: 200m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2016
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 09:36:18
+        name: Jan
+        rank: 1
+        rank_sokol: ''
+        start: 09:34:40
+        surname: Áčekipks
+        time: '1:38.0'
+    -   born: 2016
+        club: S. Velké Hamry
+        diff: '24.0'
+        finish: 09:37:02
+        name: Ámštay
+        rank: 2
+        rank_sokol: 1
+        start: 09:35:00
+        surname: Amšek
+        time: '2:02.0'
+    desc: ''
+    distance: 200m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 09:39:51
+        name: Naan
+        rank: 1
+        rank_sokol: ''
+        start: 09:37:40
+        surname: Vkáovl
+        time: '2:11.0'
+    -   born: 2014
+        club: Dukla Liberec
+        diff: '12.0'
+        finish: 09:41:23
+        name: Earmi
+        rank: 2
+        rank_sokol: ''
+        start: 09:39:00
+        surname: Očemřáív
+        time: '2:23.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '26.0'
+        finish: 09:43:37
+        name: Anan
+        rank: 3
+        rank_sokol: 1
+        start: 09:41:00
+        surname: Hlamavoá
+        time: '2:37.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '30.0'
+        finish: 09:42:21
+        name: Irleoáz
+        rank: 4
+        rank_sokol: 2
+        start: 09:39:40
+        surname: Áoášťovkl
+        time: '2:41.0'
+    -   born: 2015
+        club: S. Velké Hamry
+        diff: '31.0'
+        finish: 09:44:42
+        name: Irdats
+        rank: 5
+        rank_sokol: 3
+        start: 09:42:00
+        surname: Náoervtb
+        time: '2:42.0'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '33.0'
+        finish: 09:44:24
+        name: Eialem
+        rank: 6
+        rank_sokol: 4
+        start: 09:41:40
+        surname: Orvodál
+        time: '2:44.0'
+    -   born: 2014
+        club: S. Velké Hamry
+        diff: '37.0'
+        finish: 09:45:08
+        name: Amem
+        rank: 7
+        rank_sokol: 5
+        start: 09:42:20
+        surname: Pruketvoeá
+        time: '2:48.0'
+    -   born: 2015
+        club: Sokol Studenec
+        diff: '43.0'
+        finish: 09:40:14
+        name: Žnakea
+        rank: 8
+        rank_sokol: 6
+        start: 09:37:20
+        surname: Kčáovsáko
+        time: '2:54.0'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '46.0'
+        finish: 09:39:57
+        name: Anan
+        rank: 9
+        rank_sokol: ''
+        start: 09:37:00
+        surname: Kposáčivká
+        time: '2:57.0'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '49.0'
+        finish: 09:43:20
+        name: Tezaer
+        rank: 10
+        rank_sokol: 7
+        start: 09:40:20
+        surname: Uváorvšavk
+        time: '3:00.0'
+    -   born: 2015
+        club: ''
+        diff: '55.0'
+        finish: 09:41:06
+        name: Áenstzaia
+        rank: 11
+        rank_sokol: ''
+        start: 09:38:00
+        surname: Lkoáapvk
+        time: '3:06.0'
+    -   born: 2015
+        club: Sokol Zlíchov
+        diff: '56.0'
+        finish: 09:42:27
+        name: Áklra
+        rank: 12
+        rank_sokol: 8
+        start: 09:39:20
+        surname: Ovhcšíá
+        time: '3:07.0'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '1:19.0'
+        finish: 09:43:30
+        name: Ankaež
+        rank: 13
+        rank_sokol: ''
+        start: 09:40:00
+        surname: Kvštáoer
+        time: '3:30.0'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '1:24.0'
+        finish: 09:44:15
+        name: Isofe
+        rank: 14
+        rank_sokol: 9
+        start: 09:40:40
+        surname: Oráeívlcs
+        time: '3:35.0'
+    -   born: 2015
+        club: ''
+        diff: '2:01.0'
+        finish: 09:45:32
+        name: Etaiařkn
+        rank: 15
+        rank_sokol: ''
+        start: 09:41:20
+        surname: Šíáovch
+        time: '4:12.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '2:02.0'
+        finish: 09:42:33
+        name: Lela
+        rank: 16
+        rank_sokol: 10
+        start: 09:38:20
+        surname: Colváho
+        time: '4:13.0'
+    -   born: 2014
+        club: ''
+        diff: '2:11.0'
+        finish: 09:47:22
+        name: Ažneak
+        rank: 17
+        rank_sokol: ''
+        start: 09:43:00
+        surname: Nhkídová
+        time: '4:22.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: ''
+        finish: ''
+        name: Lciue
+        rank: ''
+        rank_sokol: ''
+        start: 09:38:40
+        surname: Áíjvor
+        time: ''
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: ''
+        finish: ''
+        name: Oleýtann
+        rank: ''
+        rank_sokol: ''
+        start: 09:42:40
+        surname: Hotávrardest
+        time: ''
+    desc: ''
+    distance: 500m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 09:46:53
+        name: Jdořen
+        rank: 1
+        rank_sokol: ''
+        start: 09:45:00
+        surname: Upš
+        time: '1:53.0'
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '1.0'
+        finish: 09:48:14
+        name: Rtpe
+        rank: 2
+        rank_sokol: ''
+        start: 09:46:20
+        surname: Čkkiápes
+        time: '1:54.0'
+    -   born: 2015
+        club: ČKS SKI Jilem.
+        diff: '22.0'
+        finish: 09:47:35
+        name: Tjcvěho
+        rank: 3
+        rank_sokol: ''
+        start: 09:45:20
+        surname: Hcelšta
+        time: '2:15.0'
+    -   born: 2015
+        club: SK Janov - Bed.
+        diff: '26.0'
+        finish: 09:50:19
+        name: Aknrtešif
+        rank: 4
+        rank_sokol: ''
+        start: 09:48:00
+        surname: Erjkuač
+        time: '2:19.0'
+    -   born: 2014
+        club: S. Velké Hamry
+        diff: '26.0'
+        finish: 09:49:39
+        name: Ijří
+        rank: 5
+        rank_sokol: 1
+        start: 09:47:20
+        surname: Farejf
+        time: '2:19.0'
+    -   born: 2015
+        club: S. Velké Hamry
+        diff: '31.0'
+        finish: 09:48:24
+        name: Miévl
+        rank: 6
+        rank_sokol: 2
+        start: 09:46:00
+        surname: Ptuerek
+        time: '2:24.0'
+    -   born: 2015
+        club: SKI klub Harr.
+        diff: '36.0'
+        finish: 09:48:09
+        name: Lausem
+        rank: 7
+        rank_sokol: ''
+        start: 09:45:40
+        surname: Čáark
+        time: '2:29.0'
+    -   born: 2015
+        club: S. Velké Hamry
+        diff: '46.0'
+        finish: 09:50:19
+        name: Thjvcěo
+        rank: 8
+        rank_sokol: 3
+        start: 09:47:40
+        surname: Ckeav
+        time: '2:39.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '1:02.0'
+        finish: 09:49:35
+        name: Ojdřne
+        rank: 9
+        rank_sokol: 4
+        start: 09:46:40
+        surname: Mkešáto
+        time: '2:55.0'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '1:24.0'
+        finish: 09:50:17
+        name: Nja
+        rank: 10
+        rank_sokol: ''
+        start: 09:47:00
+        surname: Erkjzla
+        time: '3:17.0'
+    desc: ''
+    distance: 500m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: Sokol Studenec
+        diff: '0.0'
+        finish: 09:56:51
+        name: Oahanj
+        rank: 1
+        rank_sokol: 1
+        start: 09:53:40
+        surname: Káháov
+        time: '3:11.0'
+    -   born: 2013
+        club: S. Velké Hamry
+        diff: '2.0'
+        finish: 09:55:33
+        name: Teezar
+        rank: 2
+        rank_sokol: 2
+        start: 09:52:20
+        surname: Nebváod
+        time: '3:13.0'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '5.0'
+        finish: 09:57:56
+        name: Áleima
+        rank: 3
+        rank_sokol: 3
+        start: 09:54:40
+        surname: Áávkoomšt
+        time: '3:16.0'
+    -   born: 2012
+        club: Sokol Studenec
+        diff: '9.0'
+        finish: 09:53:40
+        name: Ailce
+        rank: 4
+        rank_sokol: 4
+        start: 09:50:20
+        surname: Oáskvákčo
+        time: '3:20.0'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '23.0'
+        finish: 09:55:34
+        name: Ttloa
+        rank: 5
+        rank_sokol: 5
+        start: 09:52:00
+        surname: Toiváv
+        time: '3:34.0'
+    -   born: 2012
+        club: Jiskra Jos. Důl
+        diff: '24.0'
+        finish: 09:54:15
+        name: Eakilš
+        rank: 6
+        rank_sokol: ''
+        start: 09:50:40
+        surname: Vržkeltpiáo
+        time: '3:35.0'
+    -   born: 2013
+        club: ''
+        diff: '25.0'
+        finish: 09:57:56
+        name: Ůeražn
+        rank: 7
+        rank_sokol: ''
+        start: 09:54:20
+        surname: Vlakpáok
+        time: '3:36.0'
+    -   born: 2012
+        club: Sokol Studenec
+        diff: '25.0'
+        finish: 09:54:36
+        name: Uzazna
+        rank: 8
+        rank_sokol: 6
+        start: 09:51:00
+        surname: Kvhoáá
+        time: '3:36.0'
+    -   born: 2013
+        club: SK Janov - Bed.
+        diff: '37.0'
+        finish: 09:57:48
+        name: Eatilán
+        rank: 9
+        rank_sokol: ''
+        start: 09:54:00
+        surname: Vcounák
+        time: '3:48.0'
+    -   born: 2012
+        club: LSK Lomnice
+        diff: '43.0'
+        finish: 09:56:54
+        name: Cilue
+        rank: 10
+        rank_sokol: ''
+        start: 09:53:00
+        surname: Odáhul
+        time: '3:54.0'
+    -   born: 2013
+        club: Sokol Skuhrov
+        diff: '55.0'
+        finish: 09:54:06
+        name: Eiofs
+        rank: 11
+        rank_sokol: 7
+        start: 09:50:00
+        surname: Hvtlááook
+        time: '4:06.0'
+    -   born: 2013
+        club: Jiskra Jos. Důl
+        diff: '55.0'
+        finish: 09:56:46
+        name: Mlialhece
+        rank: 12
+        rank_sokol: ''
+        start: 09:52:40
+        surname: Hsrama
+        time: '4:06.0'
+    -   born: 2012
+        club: SK Janov - Bed.
+        diff: '58.0'
+        finish: 09:57:29
+        name: Znuaaz
+        rank: 13
+        rank_sokol: ''
+        start: 09:53:20
+        surname: Ooávrdčka
+        time: '4:09.0'
+    -   born: 2013
+        club: S. Velké Hamry
+        diff: '1:17.0'
+        finish: 09:55:48
+        name: Akrál
+        rank: 14
+        rank_sokol: 8
+        start: 09:51:20
+        surname: Vpiikvčoná
+        time: '4:28.0'
+    -   born: 2013
+        club: S. Velké Hamry
+        diff: ''
+        finish: ''
+        name: Ěžabta
+        rank: ''
+        rank_sokol: ''
+        start: 09:51:40
+        surname: Vvaolnčpáovi
+        time: ''
+    -   born: 2013
+        club: SKI klub Harr.
+        diff: ''
+        finish: ''
+        name: Lea
+        rank: ''
+        rank_sokol: ''
+        start: 09:55:00
+        surname: Isnocb
+        time: ''
+    desc: ''
+    distance: 1000m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: '10:00:23'
+        name: Tnvinec
+        rank: 1
+        rank_sokol: ''
+        start: 09:57:40
+        surname: Ejžke
+        time: '2:43.0'
+    -   born: 2012
+        club: Ski klub Lučany
+        diff: '11.0'
+        finish: '10:01:34'
+        name: Anj
+        rank: 2
+        rank_sokol: ''
+        start: 09:58:40
+        surname: Jnkíele
+        time: '2:54.0'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '21.0'
+        finish: '10:01:24'
+        name: Lireov
+        rank: 3
+        rank_sokol: 1
+        start: 09:58:20
+        surname: Rold
+        time: '3:04.0'
+    -   born: 2013
+        club: ČKS SKI Jilem.
+        diff: '25.0'
+        finish: '10:02:48'
+        name: Adam
+        rank: 4
+        rank_sokol: ''
+        start: 09:59:40
+        surname: Cašetlh
+        time: '3:08.0'
+    -   born: 2013
+        club: SK Janov - Bed.
+        diff: '37.0'
+        finish: '10:02:20'
+        name: Áimšluk
+        rank: 5
+        rank_sokol: ''
+        start: 09:59:00
+        surname: Črujake
+        time: '3:20.0'
+    -   born: 2012
+        club: SKI klub Harr.
+        diff: '44.0'
+        finish: '10:02:47'
+        name: Ndsie
+        rank: 6
+        rank_sokol: ''
+        start: 09:59:20
+        surname: Rčáka
+        time: '3:27.0'
+    -   born: 2013
+        club: SK Janov - Bed.
+        diff: '1:07.0'
+        finish: '10:00:50'
+        name: Amkre
+        rank: 7
+        rank_sokol: ''
+        start: 09:57:00
+        surname: Leedr
+        time: '3:50.0'
+    -   born: 2013
+        club: S. Velké Hamry
+        diff: '1:40.0'
+        finish: '10:01:43'
+        name: Lákšu
+        rank: 8
+        rank_sokol: 2
+        start: 09:57:20
+        surname: Škmae
+        time: '4:23.0'
+    -   born: 2012
+        club: ''
+        diff: '2:15.0'
+        finish: '10:02:58'
+        name: Nja
+        rank: 9
+        rank_sokol: ''
+        start: 09:58:00
+        surname: Ehánavkr
+        time: '4:58.0'
+    desc: ''
+    distance: 1000m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2010
+        club: Sokol Studenec
+        diff: '0.0'
+        finish: '10:10:48'
+        name: Araul
+        rank: 1
+        rank_sokol: 1
+        start: '10:04:40'
+        surname: Ávráďokub
+        time: '6:08.0'
+    -   born: 2010
+        club: Sokol Studenec
+        diff: '22.0'
+        finish: '10:12:10'
+        name: Aorbbra
+        rank: 2
+        rank_sokol: 2
+        start: '10:05:40'
+        surname: Oáákvh
+        time: '6:30.0'
+    -   born: 2010
+        club: SK Janov - Bed.
+        diff: '42.0'
+        finish: '10:14:30'
+        name: Ataen
+        rank: 3
+        rank_sokol: ''
+        start: '10:07:40'
+        surname: Odveráel
+        time: '6:50.0'
+    -   born: 2011
+        club: Dukla Liberec
+        diff: '57.0'
+        finish: '10:14:05'
+        name: Nrkveaoi
+        rank: 4
+        rank_sokol: ''
+        start: '10:07:00'
+        surname: Áoyvam
+        time: '7:05.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '58.0'
+        finish: '10:09:26'
+        name: Aaktneiř
+        rank: 5
+        rank_sokol: ''
+        start: '10:02:20'
+        surname: Vseokmár
+        time: '7:06.0'
+    -   born: 2011
+        club: S. Velké Hamry
+        diff: '1:15.0'
+        finish: '10:12:23'
+        name: Ela
+        rank: 6
+        rank_sokol: 3
+        start: '10:05:00'
+        surname: Vráenbto
+        time: '7:23.0'
+    -   born: 2011
+        club: SKI klub Harr.
+        diff: '1:17.0'
+        finish: '10:15:45'
+        name: Daéal
+        rank: 7
+        rank_sokol: ''
+        start: '10:08:20'
+        surname: Anovháč
+        time: '7:25.0'
+    -   born: 2011
+        club: S. Velké Hamry
+        diff: '1:34.0'
+        finish: '10:13:42'
+        name: Ofesi
+        rank: 8
+        rank_sokol: 4
+        start: '10:06:00'
+        surname: Afjeofvár
+        time: '7:42.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '1:47.0'
+        finish: '10:12:15'
+        name: Bráa
+        rank: 9
+        rank_sokol: ''
+        start: '10:04:20'
+        surname: Lzekáávos
+        time: '7:55.0'
+    -   born: 2011
+        club: SK Janov - Bed.
+        diff: '1:51.0'
+        finish: '10:10:59'
+        name: Akméatr
+        rank: 10
+        rank_sokol: ''
+        start: '10:03:00'
+        surname: Camvárovo
+        time: '7:59.0'
+    -   born: 2011
+        club: Ski klub Lučany
+        diff: '1:53.0'
+        finish: '10:09:41'
+        name: Kstirian
+        rank: 11
+        rank_sokol: ''
+        start: '10:01:40'
+        surname: Áslevoázk
+        time: '8:01.0'
+    -   born: 2011
+        club: Sokol Studenec
+        diff: '2:01.0'
+        finish: '10:16:09'
+        name: Avpal
+        rank: 12
+        rank_sokol: 5
+        start: '10:08:00'
+        surname: Oáábtuvk
+        time: '8:09.0'
+    -   born: 2011
+        club: Sokol Skuhrov
+        diff: '2:03.0'
+        finish: '10:13:31'
+        name: Artdoo
+        rank: 13
+        rank_sokol: 6
+        start: '10:05:20'
+        surname: Oťákvšálo
+        time: '8:11.0'
+    -   born: 2010
+        club: LSK Lomnice
+        diff: '2:10.0'
+        finish: '10:11:58'
+        name: Rkláa
+        rank: 14
+        rank_sokol: ''
+        start: '10:03:40'
+        surname: Rátsa
+        time: '8:18.0'
+    -   born: 2010
+        club: LSK Lomnice
+        diff: '2:15.0'
+        finish: '10:15:03'
+        name: Alen
+        rank: 15
+        rank_sokol: ''
+        start: '10:06:40'
+        surname: Tvráboa
+        time: '8:23.0'
+    -   born: 2011
+        club: Sokol Skuhrov
+        diff: '2:21.0'
+        finish: '10:14:49'
+        name: Tksýairn
+        rank: 16
+        rank_sokol: 7
+        start: '10:06:20'
+        surname: Átoávhklo
+        time: '8:29.0'
+    -   born: 2010
+        club: LSK Lomnice
+        diff: '2:23.0'
+        finish: '10:11:51'
+        name: Oikevran
+        rank: 17
+        rank_sokol: ''
+        start: '10:03:20'
+        surname: Vkmioáš
+        time: '8:31.0'
+    -   born: 2011
+        club: ''
+        diff: '3:06.0'
+        finish: '10:11:54'
+        name: Élada
+        rank: 18
+        rank_sokol: ''
+        start: '10:02:40'
+        surname: Oapčkvást
+        time: '9:14.0'
+    -   born: 2010
+        club: Dukla Liberec
+        diff: ''
+        finish: ''
+        name: Ětlbaaž
+        rank: ''
+        rank_sokol: ''
+        start: '10:07:20'
+        surname: Bvoenásu
+        time: ''
+    -   born: 2011
+        club: Ski klub Lučany
+        diff: ''
+        finish: ''
+        name: Laaéd
+        rank: ''
+        rank_sokol: ''
+        start: '10:02:00'
+        surname: Ehdotáatvrrs
+        time: ''
+    -   born: 2010
+        club: S. Velké Hamry
+        diff: ''
+        finish: ''
+        name: Akanže
+        rank: ''
+        rank_sokol: ''
+        start: '10:04:00'
+        surname: Bážvtnoaa
+        time: ''
+    desc: ''
+    distance: 2000m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: SK Janov - Bed.
+        diff: '0.0'
+        finish: '10:18:11'
+        name: Ifipl
+        rank: 1
+        rank_sokol: ''
+        start: '10:12:20'
+        surname: Ddar
+        time: '5:51.0'
+    -   born: 2010
+        club: Sokol Skuhrov
+        diff: '19.0'
+        finish: '10:16:30'
+        name: Šmtuoa
+        rank: 2
+        rank_sokol: 1
+        start: '10:10:20'
+        surname: Rkebsk
+        time: '6:10.0'
+    -   born: 2010
+        club: SKI klub Harr.
+        diff: '25.0'
+        finish: '10:19:36'
+        name: Halcim
+        rank: 3
+        rank_sokol: ''
+        start: '10:13:20'
+        surname: Envačkě
+        time: '6:16.0'
+    -   born: 2010
+        club: Sokol Skuhrov
+        diff: '58.0'
+        finish: '10:19:29'
+        name: Atfneršik
+        rank: 4
+        rank_sokol: 2
+        start: '10:12:40'
+        surname: Hkcoprzaá
+        time: '6:49.0'
+    -   born: 2010
+        club: TJ Semily
+        diff: '1:03.0'
+        finish: '10:18:34'
+        name: Uakjb
+        rank: 5
+        rank_sokol: ''
+        start: '10:11:40'
+        surname: Řsaam
+        time: '6:54.0'
+    -   born: 2010
+        club: Sokol Skuhrov
+        diff: '1:06.0'
+        finish: '10:21:37'
+        name: Támšo
+        rank: 6
+        rank_sokol: 3
+        start: '10:14:40'
+        surname: Štaha
+        time: '6:57.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '1:29.0'
+        finish: '10:18:00'
+        name: Ilkšáum
+        rank: 7
+        rank_sokol: ''
+        start: '10:10:40'
+        surname: Mačza
+        time: '7:20.0'
+    -   born: 2011
+        club: Ski klub Lučany
+        diff: '1:36.0'
+        finish: '10:18:47'
+        name: Orman
+        rank: 8
+        rank_sokol: ''
+        start: '10:11:20'
+        surname: Toemš
+        time: '7:27.0'
+    -   born: 2011
+        club: SKI klub Harr.
+        diff: '1:40.0'
+        finish: '10:20:31'
+        name: Alosarvj
+        rank: 9
+        rank_sokol: ''
+        start: '10:13:00'
+        surname: Uman
+        time: '7:31.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '1:54.0'
+        finish: '10:21:25'
+        name: Njořde
+        rank: 10
+        rank_sokol: ''
+        start: '10:13:40'
+        surname: Vkl
+        time: '7:45.0'
+    -   born: 2011
+        club: Sokol Skuhrov
+        diff: '2:28.0'
+        finish: '10:22:39'
+        name: Átmoš
+        rank: 11
+        rank_sokol: 4
+        start: '10:14:20'
+        surname: Nzuryke
+        time: '8:19.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '3:02.0'
+        finish: '10:22:53'
+        name: Ěmajt
+        rank: 12
+        rank_sokol: ''
+        start: '10:14:00'
+        surname: Onůch
+        time: '8:53.0'
+    -   born: 2011
+        club: Sokol Skuhrov
+        diff: '4:22.0'
+        finish: '10:21:13'
+        name: Iáotšb
+        rank: 13
+        rank_sokol: 5
+        start: '10:11:00'
+        surname: Eýnrč
+        time: '10:13.0'
+    -   born: 2010
+        club: Dukla Liberec
+        diff: ''
+        finish: ''
+        name: Foesj
+        rank: ''
+        rank_sokol: ''
+        start: '10:12:00'
+        surname: Ercäshf
+        time: ''
+    desc: ''
+    distance: 2000m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2007
+        club: S. Velké Hamry
+        diff: '0.0'
+        finish: '10:34:05'
+        name: Aann
+        rank: 1
+        rank_sokol: 1
+        start: '10:21:20'
+        surname: Iliccáovh
+        time: '12:45.0'
+    -   born: 2009
+        club: LSK Lomnice
+        diff: '13.0'
+        finish: '10:35:58'
+        name: Dlaaien
+        rank: 2
+        rank_sokol: ''
+        start: '10:23:00'
+        surname: Louáhd
+        time: '12:58.0'
+    -   born: 2007
+        club: SKI klub Harr.
+        diff: '16.0'
+        finish: '10:35:01'
+        name: Vraě
+        rank: 3
+        rank_sokol: ''
+        start: '10:22:00'
+        surname: Áaokvvnčě
+        time: '13:01.0'
+    -   born: 2009
+        club: LSK Lomnice
+        diff: '53.0'
+        finish: '10:30:38'
+        name: Éldaa
+        rank: 4
+        rank_sokol: ''
+        start: '10:17:00'
+        surname: Vážoorb
+        time: '13:38.0'
+    -   born: 2007
+        club: S. Velké Hamry
+        diff: '1:00.0'
+        finish: '10:37:25'
+        name: Rkivaoen
+        rank: 5
+        rank_sokol: 2
+        start: '10:23:40'
+        surname: Ívdpoáolnkě
+        time: '13:45.0'
+    -   born: 2009
+        club: SK Janov - Bed.
+        diff: '1:05.0'
+        finish: '10:37:50'
+        name: Inkmao
+        rank: 6
+        rank_sokol: ''
+        start: '10:24:00'
+        surname: Áakvlbžo
+        time: '13:50.0'
+    -   born: 2008
+        club: S. Velké Hamry
+        diff: '1:27.0'
+        finish: '10:31:52'
+        name: Ivrtekio
+        rank: 7
+        rank_sokol: 3
+        start: '10:17:40'
+        surname: Áofvfjrae
+        time: '14:12.0'
+    -   born: 2009
+        club: LSK Lomnice
+        diff: '1:56.0'
+        finish: '10:37:21'
+        name: Rndeaa
+        rank: 8
+        rank_sokol: ''
+        start: '10:22:40'
+        surname: Mváalaho
+        time: '14:41.0'
+    -   born: 2009
+        club: S. Velké Hamry
+        diff: '2:25.0'
+        finish: '10:36:50'
+        name: Dsaien
+        rank: 9
+        rank_sokol: 4
+        start: '10:21:40'
+        surname: Orčkácbi
+        time: '15:10.0'
+    -   born: 2007
+        club: Sokol Skuhrov
+        diff: '2:27.0'
+        finish: '10:34:52'
+        name: Emam
+        rank: 10
+        rank_sokol: 5
+        start: '10:19:40'
+        surname: Báusdk
+        time: '15:12.0'
+    -   born: 2008
+        club: LSK Lomnice
+        diff: '2:29.0'
+        finish: '10:38:34'
+        name: Oviitkre
+        rank: 11
+        rank_sokol: ''
+        start: '10:23:20'
+        surname: Áhludo
+        time: '15:14.0'
+    -   born: 2008
+        club: Ski klub Lučany
+        diff: '2:30.0'
+        finish: '10:33:55'
+        name: Arkla
+        rank: 12
+        rank_sokol: ''
+        start: '10:18:40'
+        surname: Koepáck
+        time: '15:15.0'
+    -   born: 2008
+        club: Ski klub Lučany
+        diff: '2:52.0'
+        finish: '10:35:37'
+        name: Njaa
+        rank: 13
+        rank_sokol: ''
+        start: '10:20:00'
+        surname: Vákpeuotro
+        time: '15:37.0'
+    -   born: 2009
+        club: Ski klub Lučany
+        diff: '2:56.0'
+        finish: '10:33:01'
+        name: Etnaa
+        rank: 14
+        rank_sokol: ''
+        start: '10:17:20'
+        surname: Káíjloven
+        time: '15:41.0'
+    -   born: 2007
+        club: ''
+        diff: '3:07.0'
+        finish: '10:36:52'
+        name: Leuji
+        rank: 15
+        rank_sokol: ''
+        start: '10:21:00'
+        surname: Kaákovpl
+        time: '15:52.0'
+    -   born: 2009
+        club: S. Velké Hamry
+        diff: '3:37.0'
+        finish: '10:38:42'
+        name: Azzuan
+        rank: 16
+        rank_sokol: 6
+        start: '10:22:20'
+        surname: Ovosjadá
+        time: '16:22.0'
+    -   born: 2008
+        club: S. Velké Hamry
+        diff: '3:37.0'
+        finish: '10:36:42'
+        name: Aliceamh
+        rank: 17
+        rank_sokol: 7
+        start: '10:20:20'
+        surname: Avičiváon
+        time: '16:22.0'
+    -   born: 2009
+        club: LSK Lomnice
+        diff: '4:12.0'
+        finish: '10:33:37'
+        name: Laetsl
+        rank: 18
+        rank_sokol: ''
+        start: '10:16:40'
+        surname: Uvákodš
+        time: '16:57.0'
+    -   born: 2008
+        club: LSK Lomnice
+        diff: '4:35.0'
+        finish: '10:35:20'
+        name: Cuanlia
+        rank: 19
+        rank_sokol: ''
+        start: '10:18:00'
+        surname: Čákorvue
+        time: '17:20.0'
+    -   born: 2009
+        club: Sokol Skuhrov
+        diff: '4:42.0'
+        finish: '10:36:27'
+        name: Lknae
+        rank: 20
+        rank_sokol: 8
+        start: '10:19:00'
+        surname: Okyánvzur
+        time: '17:27.0'
+    -   born: 2009
+        club: Ski klub Lučany
+        diff: '5:18.0'
+        finish: '10:36:23'
+        name: Iamre
+        rank: 21
+        rank_sokol: ''
+        start: '10:18:20'
+        surname: Okváávon
+        time: '18:03.0'
+    -   born: 2009
+        club: LSK Lomnice
+        diff: '5:22.0'
+        finish: '10:38:47'
+        name: Elaan
+        rank: 22
+        rank_sokol: ''
+        start: '10:20:40'
+        surname: Kšiávom
+        time: '18:07.0'
+    -   born: 2008
+        club: Jiskra Jos. Důl
+        diff: '10:57.0'
+        finish: '10:43:02'
+        name: Reavikon
+        rank: 23
+        rank_sokol: ''
+        start: '10:19:20'
+        surname: Oevtečšvká
+        time: '23:42.0'
+    -   born: 2009
+        club: ''
+        diff: '15:58.0'
+        finish: '10:53:03'
+        name: Iveitokr
+        rank: 24
+        rank_sokol: ''
+        start: '10:24:20'
+        surname: Dvíohnká
+        time: '28:43.0'
+    desc: ''
+    distance: 4000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2008
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: '10:42:10'
+        name: Uajkb
+        rank: 1
+        rank_sokol: ''
+        start: '10:30:40'
+        surname: Nmau
+        time: '11:30.0'
+    -   born: 2007
+        club: LSK Lomnice
+        diff: '1.0'
+        finish: '10:38:51'
+        name: Otmšá
+        rank: 2
+        rank_sokol: ''
+        start: '10:27:20'
+        surname: Áekrekp
+        time: '11:31.0'
+    -   born: 2007
+        club: Ski klub Lučany
+        diff: '27.0'
+        finish: '10:43:17'
+        name: Votikr
+        rank: 3
+        rank_sokol: ''
+        start: '10:31:20'
+        surname: Nvkoá
+        time: '11:57.0'
+    -   born: 2009
+        club: SK Janov - Bed.
+        diff: '44.0'
+        finish: '10:41:14'
+        name: Iobtáš
+        rank: 4
+        rank_sokol: ''
+        start: '10:29:00'
+        surname: Hlobu
+        time: '12:14.0'
+    -   born: 2008
+        club: Sokol Skuhrov
+        diff: '55.0'
+        finish: '10:42:45'
+        name: Jměat
+        rank: 5
+        rank_sokol: 1
+        start: '10:30:20'
+        surname: Kebožr
+        time: '12:25.0'
+    -   born: 2009
+        club: SKI klub Harr.
+        diff: '1:34.0'
+        finish: '10:41:04'
+        name: Fplii
+        rank: 6
+        rank_sokol: ''
+        start: '10:28:00'
+        surname: Kmčeár
+        time: '13:04.0'
+    -   born: 2009
+        club: SK Janov - Bed.
+        diff: '1:54.0'
+        finish: '10:42:04'
+        name: Bějtloarom
+        rank: 7
+        rank_sokol: ''
+        start: '10:28:40'
+        surname: Kepča
+        time: '13:24.0'
+    -   born: 2008
+        club: Pražský biatlon
+        diff: '2:05.0'
+        finish: '10:41:15'
+        name: Baujk
+        rank: 8
+        rank_sokol: ''
+        start: '10:27:40'
+        surname: Taějamk
+        time: '13:35.0'
+    -   born: 2009
+        club: S. Velké Hamry
+        diff: '2:19.0'
+        finish: '10:43:09'
+        name: Bmoralějto
+        rank: 9
+        rank_sokol: 2
+        start: '10:29:20'
+        surname: Trebn
+        time: '13:49.0'
+    -   born: 2008
+        club: SKI klub Harr.
+        diff: '2:30.0'
+        finish: '10:40:40'
+        name: Ehkny
+        rank: 10
+        rank_sokol: ''
+        start: '10:26:40'
+        surname: Íksldtao
+        time: '14:00.0'
+    -   born: 2009
+        club: SKI klub Harr.
+        diff: '2:31.0'
+        finish: '10:42:21'
+        name: Kabuj
+        rank: 11
+        rank_sokol: ''
+        start: '10:28:20'
+        surname: Nhča
+        time: '14:01.0'
+    -   born: 2008
+        club: Pražský biatlon
+        diff: '2:33.0'
+        finish: '10:44:03'
+        name: Áonjš
+        rank: 12
+        rank_sokol: ''
+        start: '10:30:00'
+        surname: Tmaěkja
+        time: '14:03.0'
+    -   born: 2008
+        club: Sokol Skuhrov
+        diff: '3:52.0'
+        finish: '10:41:42'
+        name: Fsoje
+        rank: 13
+        rank_sokol: 3
+        start: '10:26:20'
+        surname: Psell
+        time: '15:22.0'
+    -   born: 2008
+        club: ''
+        diff: '5:31.0'
+        finish: '10:44:01'
+        name: Aladvisl
+        rank: 14
+        rank_sokol: ''
+        start: '10:27:00'
+        surname: Čtpaýovsk
+        time: '17:01.0'
+    -   born: 2009
+        club: Sokol Skuhrov
+        diff: '9:08.0'
+        finish: '10:52:18'
+        name: Šomtá
+        rank: 15
+        rank_sokol: 4
+        start: '10:31:40'
+        surname: Nýadtu
+        time: '20:38.0'
+    -   born: 2009
+        club: S. Velké Hamry
+        diff: ''
+        finish: ''
+        name: Adma
+        rank: ''
+        rank_sokol: ''
+        start: '10:29:40'
+        surname: Abrůn
+        time: ''
+    -   born: 2007
+        club: S. Velké Hamry
+        diff: ''
+        finish: ''
+        name: Tkšyrfo
+        rank: ''
+        rank_sokol: ''
+        start: '10:31:00'
+        surname: Aatnbž
+        time: ''
+    desc: ''
+    distance: 4000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2006
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: '10:51:44'
+        name: Sará
+        rank: 1
+        rank_sokol: ''
+        start: '10:33:40'
+        surname: Rámveákčo
+        time: '18:04.0'
+    desc: ''
+    distance: 6000m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2006
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: '10:51:42'
+        name: Pántšě
+        rank: 1
+        rank_sokol: 1
+        start: '10:34:00'
+        surname: Kýubds
+        time: '17:42.0'
+    desc: ''
+    distance: 6000m
+    name: Mladší dorostenci
+    sex: m
+-   athletes: []
+    desc: ''
+    distance: 6000m
+    name: Starší dorostenky
+    sex: f
+-   athletes: []
+    desc: ''
+    distance: 6000m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 1985
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: '10:50:58'
+        name: Imhealac
+        rank: 1
+        rank_sokol: ''
+        start: '10:34:40'
+        surname: Vápuoš
+        time: '16:18.0'
+    -   born: 1995
+        club: Sokol Skuhrov
+        diff: ''
+        finish: ''
+        name: Ptrea
+        rank: ''
+        rank_sokol: ''
+        start: '10:34:20'
+        surname: Roaurm
+        time: ''
+    desc: ''
+    distance: 6000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 1983
+        club: S. Velké Hamry
+        diff: '0.0'
+        finish: '10:49:10'
+        name: Lmaich
+        rank: 1
+        rank_sokol: 1
+        start: '10:35:00'
+        surname: Bdean
+        time: '14:10.0'
+    -   born: 1960
+        club: S. Velké Hamry
+        diff: '6:08.0'
+        finish: '10:55:38'
+        name: Vjalosar
+        rank: 2
+        rank_sokol: 2
+        start: '10:35:20'
+        surname: Bneda
+        time: '20:18.0'
+    -   born: 1979
+        club: Ski klub Lučany
+        diff: ''
+        finish: ''
+        name: Vjloaasr
+        rank: ''
+        rank_sokol: ''
+        start: '10:35:40'
+        surname: Drtahsetr
+        time: ''
+    -   born: 1981
+        club: ''
+        diff: ''
+        finish: ''
+        name: Iířj
+        rank: ''
+        rank_sokol: ''
+        start: '10:36:00'
+        surname: Dkehín
+        time: ''
+    desc: ''
+    distance: 6000m
+    name: Muži
+    sex: m
