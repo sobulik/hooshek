@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from .race import Race
+import event.race
 
-from util import util
+import util.util
 
 import datetime
 
@@ -23,12 +23,12 @@ class Event:
         self.mass = True
         if "interval" in i:
             self.mass = False
-            self.start = util.parseTime(i["interval"]["start"])
+            self.start = util.util.parseTime(i["interval"]["start"])
             self.interval_race = datetime.timedelta(seconds=i["interval"]["race"])
             self.interval_athlete = datetime.timedelta(seconds=i["interval"]["athlete"])
             self.interval_groupby = i["interval"]["groupby"]
 
-        self.races = tuple(map(lambda x: Race(x), i["races"]))
+        self.races = tuple(map(lambda x: event.race.Race(x), i["races"]))
 
     def toString(self):
         return "Event name: {0}, date: {1}, effective year: {2}, start: {3}, mass: {4}, interval_race: {5}".format(self.name, self.date, self.eff_year, self.start if hasattr(self, "start") else "", self.mass, self.interval_race if hasattr(self, "interval_race") else "")

@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
-import event
-import athletes
-import clubs
-import start
-import finish
+import event.io
+import athletes.io
+import clubs.io
+import start.io
+import finish.io
 
 from util import util
 import datetime
 
-event = event.load()
-clubs = clubs.load()
-start = start.load()
-flist = finish.load()
+event = event.io.load()
+clubs = clubs.io.load()
+start = start.io.load()
+flist = finish.io.load()
 
-aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.build(clubs)))
+aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.io.build(clubs)))
 results = dict()
 results["name"] = event.name
 results["date"] = event.date
@@ -77,4 +77,4 @@ for race in event.races:
                 athlete.rank_sokol = rank_sokol
         e["athletes"].extend(unfinished)
 
-finish.dump(results, event.encoding_print)
+finish.io.dump(results, event.encoding_print)

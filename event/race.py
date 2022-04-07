@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from util import util
+import util.util
 
 import datetime
 
@@ -21,7 +21,7 @@ class Race:
                 evaluation["age_max"] = e["age_max"]
                 self.eval.append(evaluation)
         if "start" in i:
-            self.start = util.parseTime(i["start"])
+            self.start = util.util.parseTime(i["start"])
         if "interval" in i:
             self.interval_athlete = datetime.timedelta(i["athlete"])
             self.interval_groupby = i["groupby"]

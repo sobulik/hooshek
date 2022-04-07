@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from persistence import yaml
-from persistence import termtables
-from util import util
+import persistence.yaml
+import persistence.termtables
+import util.util
 
-from cerberus import Validator
+import cerberus
 
 import collections
 import datetime
@@ -12,7 +12,7 @@ import os
 
 def load():
     """return a list of finish times"""
-    finish = yaml.load("finish.yaml")
+    finish = persistence.yaml.load("finish.yaml")
     finish = validate(finish)
         
     # primary key check
@@ -43,7 +43,7 @@ def validate(raw):
         }
     }
 
-    v = Validator(schema, require_all=True)
+    v = cerberus.Validator(schema, require_all=True)
     d = {"aux": raw}
     if not v.validate(d):
         print(v.errors)
@@ -74,10 +74,10 @@ def dump(start, encoding_print):
             a["club"] = athlete.club.abb15 if athlete.club is not None else ""
             a["start"] = athlete.start
             a["finish"] = athlete.finish.strftime("%H:%M:%S") if hasattr(athlete, "finish") and athlete.finish is not None else ""
-            a["time"] = util.format_delta(athlete.time) if hasattr(athlete, "time") and athlete.time is not None else ""
-            a["diff"] = util.format_delta(athlete.time - first_one.time) if hasattr(athlete, "time") and first_one is not None else ""
+            a["time"] = util.util.format_delta(athlete.time) if hasattr(athlete, "time") and athlete.time is not None else ""
+            a["diff"] = util.util.format_delta(athlete.time - first_one.time) if hasattr(athlete, "time") and first_one is not None else ""
             r["athletes"].append(a)
         o["races"].append(r)
         
-    yaml.dump(o, "results.yaml")
-    termtables.dump_finish(o, "results.txt", encoding_print)
+    persistence.yaml.dump(o, "results.yaml")
+    persistence.termtables.dump_finish(o, "results.txt", encoding_print)

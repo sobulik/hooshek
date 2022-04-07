@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
-import event
-import clubs
-import athletes
-import start
+import event.io
+import clubs.io
+import athletes.io
+import start.io
 
 import argparse
 import datetime
 import string
 
-event = event.load()
-clubs = clubs.load()
-aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.build(clubs)))
+event = event.io.load()
+clubs = clubs.io.load()
+aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.io.build(clubs)))
 
 startlist = dict()
 startlist["name"] = event.name
@@ -65,7 +65,7 @@ else:
             group += 1
         time += event.interval_race
 
-start.dump(startlist, event.encoding_print)
+start.io.dump(startlist, event.encoding_print)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--clubs", help="print startlist grouped by club", action="store_true")

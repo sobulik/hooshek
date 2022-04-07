@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
-from persistence import yaml
-from util import util
-from .event import Event
+import persistence.yaml
+import event.event
 
-from cerberus import Validator
+import cerberus
 
 import collections
 import datetime
@@ -12,16 +11,16 @@ import os
 
 def load():
     """return Event instance"""
-    event = yaml.load("event.yaml")
-    event = validate(event)
+    ivent = persistence.yaml.load("event.yaml")
+    ivent = validate(ivent)
 
     # unique key check
-    uniqueCounter = collections.Counter(map(lambda x: (x["age_min"], x["age_max"], x["sex"]), event["races"]))
+    uniqueCounter = collections.Counter(map(lambda x: (x["age_min"], x["age_max"], x["sex"]), ivent["races"]))
     for i in uniqueCounter:
         if uniqueCounter[i] > 1:
             raise Exception("Event file race " + str(i) + " defined " + str(uniqueCounter[i]) + " times")
 
-    for race in event["races"]:
+    for race in ivent["races"]:
         if (int(race["age_min"]) > int(race["age_max"])):
             raise Exception("age_min higher than age_max for a race")
 
@@ -34,7 +33,7 @@ def load():
                 if (int(e["age_max"]) > int(race["age_max"])):
                     raise Exception("age_max in evaluation higher than age_max for a race")
         
-    return Event(event)
+    return event.event.Event(ivent)
 
 def validate(raw):
     schema = {
@@ -144,7 +143,7 @@ def validate(raw):
         }
     }
 
-    v = Validator(schema, require_all=True)
+    v = cerberus.Validator(schema, require_all=True)
     if not v.validate(raw):
         print(v.errors)
         raise Exception("Event file does not validate")

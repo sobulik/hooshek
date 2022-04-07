@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-from persistence import yaml
-from persistence import termtables
+import persistence.yaml
+import persistence.termtables
 
 import os
 
 def load():
     """load start list"""
     if os.path.exists("start.yaml"):
-        raw = yaml.load("start.yaml")
+        raw = persistence.yaml.load("start.yaml")
     else:
         raw = None
 
@@ -43,5 +43,5 @@ def dump(start, encoding_print):
             r["athletes"].append(a)
         o["races"].append(r)
         
-    yaml.dump(o, "start.yaml")
-    termtables.dump_start(o, "start.txt", encoding_print)
+    persistence.yaml.dump(o, "start.yaml")
+    persistence.termtables.dump_start(o, "start.txt", encoding_print)

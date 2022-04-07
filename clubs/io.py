@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
 
-from persistence import yaml
-from .club import Club
+import persistence.yaml
+import clubs.club
 
-from cerberus import Validator
+import cerberus
 
 import collections
 import os
 
 def load():
     """return a dictionary of Club instances"""
-    clubs = yaml.load("clubs.yaml")
-    clubs = validate(clubs)
+    clubz = persistence.yaml.load("clubs.yaml")
+    clubz = validate(clubz)
 
     # primary key check
-    idCounter = collections.Counter(map(lambda x: x["id"], clubs["clubs"]))
+    idCounter = collections.Counter(map(lambda x: x["id"], clubz["clubs"]))
     for i in idCounter:
         if idCounter[i] > 1:
             raise Exception("Clubs file club id " + i + " defined " + str(idCounter[i]) + " times")
 
-    return {c.id: c for c in map(lambda x: Club(x), clubs["clubs"])}
+    return {c.id: c for c in map(lambda x: clubs.club.Club(x), clubz["clubs"])}
 
 def validate(raw):
     schema = {
@@ -54,7 +54,7 @@ def validate(raw):
         }
     }
 
-    v = Validator(schema, require_all=True)
+    v = cerberus.Validator(schema, require_all=True)
     if not v.validate(raw):
         print(v.errors)
         raise Exception("Clubs file does not validate")
