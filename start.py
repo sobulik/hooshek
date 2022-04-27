@@ -75,20 +75,20 @@ if args.clubs:
     aths = list()
     for race in startlist["races"]:
         for athlete in race.athletes:
-            if athlete.club is not None:
-                aths.append(athlete)
+            aths.append(athlete)
 
     def comparator(a):
         if a.id.startswith(tuple(string.ascii_uppercase)):
             return a.id[1:].rjust(3, "0")
         return a.id.rjust(3, "0")
     aths = sorted(aths, key=comparator)
-    aths = sorted(aths, key=lambda athlete : athlete.club.id)
+    aths = sorted(aths, key=lambda athlete : athlete.club.id if athlete.club is not None else "")
     club = ""
     with open("start-clubs.txt", "w", encoding=event.encoding_print) as f:
         for athlete in aths:
-            if club != athlete.club.id:
+            curr_club = athlete.club.id if athlete.club is not None else ""
+            if club != curr_club:
                 f.write("\n\n--------------------------------------------------------------------\n\n")
-                club = athlete.club.id
+                club = curr_club
             f.write(athlete.toString())
             f.write("\n")
