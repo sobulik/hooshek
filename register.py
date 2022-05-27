@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import event
-import clubs
-import athletes
+import event.io
+import clubs.io
+import athletes.io
 from athletes.athlete import Athlete
 
 import collections
@@ -13,10 +13,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument("file", help="csv file to register")
 args = parser.parse_args()
 
-event = event.load()
-clubs = clubs.load()
+event = event.io.load()
+clubs = clubs.io.load()
 
-aths = list(athletes.build(clubs, False))
+aths = list(athletes.io.build(clubs, False))
 
 with open(args.file, newline='') as f:
     reader = csv.reader(f)
@@ -45,4 +45,4 @@ with open(args.file, newline='') as f:
             aths.append(a)
             print("{0} created".format(row))
 
-athletes.dump(aths, "athletes-with-external.yaml")
+athletes.io.dump(aths, "athletes-with-external.yaml")
