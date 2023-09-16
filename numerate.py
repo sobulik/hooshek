@@ -35,7 +35,7 @@ for race in event.races:
             t[0].id = str(number_red)
         else:
             number_black += 1
-            while number_black in (216, 235):
+            while number_black in (25, 235):
                 number_black += 1
             t[0].id = str(number_black)
 
