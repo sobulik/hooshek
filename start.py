@@ -79,7 +79,7 @@ if args.clubs:
 
     def comparator(a):
         if a.id.startswith(tuple(string.ascii_uppercase)):
-            return a.id[1:].rjust(3, "0")
+            return a.id[0] + a.id[1:].rjust(3, "0")
         return a.id.rjust(3, "0")
     aths = sorted(aths, key=comparator)
     aths = sorted(aths, key=lambda athlete : athlete.club.id if athlete.club is not None else "")
