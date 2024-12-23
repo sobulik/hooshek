@@ -2,6 +2,8 @@
 
 import persistence.yaml
 import persistence.termtables
+import persistence.json
+import persistence.csv
 import util.util
 
 import cerberus
@@ -50,7 +52,7 @@ def validate(raw):
         raise Exception("Finish file does not validate")
     return v.document["aux"]
 
-def dump(start, encoding_print):
+def dump(start, encoding_print, format='txt'):
     """write results"""
     o = dict()
     o["name"] = start["name"]
@@ -80,4 +82,11 @@ def dump(start, encoding_print):
         o["races"].append(r)
         
     persistence.yaml.dump(o, "results.yaml")
-    persistence.termtables.dump_finish(o, "results.txt", encoding_print)
+    if format == 'txt':
+        persistence.termtables.dump_finish(o, "results.txt", encoding_print)
+    elif format == 'json':
+        persistence.json.dump(o, "results.json", encoding_print)
+    elif format == 'csv':
+        persistence.csv.dump_finish(o, "results.csv", encoding_print)
+    else:
+        raise ValueError(f"Unsupported output format: {format}")

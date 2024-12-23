@@ -5,7 +5,7 @@ import athletes.io
 import clubs.io
 import start.io
 import finish.io
-
+import argparse
 from util import util
 import datetime
 
@@ -77,4 +77,12 @@ for race in event.races:
                 athlete.rank_sokol = rank_sokol
         e["athletes"].extend(unfinished)
 
-finish.io.dump(results, event.encoding_print)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Process race results and output in various formats')
+    parser.add_argument('--format', '-f',
+                       choices=['txt', 'csv', 'json'],
+                       default='txt',
+                       help='Output format (default: txt)')
+    args = parser.parse_args()
+    
+    finish.io.dump(results, event.encoding_print, args.format)
