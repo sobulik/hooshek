@@ -84,5 +84,5 @@ if __name__ == '__main__':
                        default='txt',
                        help='Output format (default: txt)')
     args = parser.parse_args()
-    
+
     finish.io.dump(results, event.encoding_print, args.format)

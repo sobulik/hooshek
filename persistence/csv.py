@@ -6,12 +6,12 @@ def dump_finish(o, ofile, encoding_print):
 
     output = io.StringIO()
     writer = csv.writer(output)
-    
+
     # Write header
-    writer.writerow(['Category', 'Description', 'Sex', 'Distance', 
-                    'Rank', 'Sokol Rank', 'Name', 'Surname', 'Club', 'Birth Year', 
+    writer.writerow(['Category', 'Description', 'Sex', 'Distance',
+                    'Rank', 'Sokol Rank', 'Name', 'Surname', 'Club', 'Birth Year',
                     'Start Time', 'Finish Time', 'Total Time', 'Diff'])
-    
+
     # Write data
     for race in o["races"]:
         for athlete in race["athletes"]:
@@ -32,6 +32,6 @@ def dump_finish(o, ofile, encoding_print):
                 athlete["diff"]
             ]
             writer.writerow(row)
-    
+
     with open(ofile, 'w', encoding=encoding_print) as f:
         f.write(output.getvalue())
