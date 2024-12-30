@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import event
+import event.io
 
-event = event.load()
+event = event.io.load()
 
 print(event.toString())
