@@ -4,16 +4,16 @@
 
 J4    Aeirm Ímoečřáv (2014) DULI
 J11   Chemalia Řmeoáčív (2012) DULI
-P31   Uabkj Akakf (2010) DULI
-L54   Ěcohtjv Ířečm (2007) DULI
 J86   Cievntn Keežj (2012) DULI
+L54   Ěcohtjv Ířečm (2007) DULI
+P31   Uabkj Akakf (2010) DULI
 
 
 --------------------------------------------------------------------
 
-P74   Jříi Mznura (2009) JIJD
 L75   Samlvior Jeftša (2007) JIJD
 L76   Edark Mryl (2004) JIJD
+P74   Jříi Mznura (2009) JIJD
 
 
 --------------------------------------------------------------------
@@ -40,20 +40,7 @@ J6    Odřejn Šoámtke (2014) SOSK
 J10   Aežkna Ahalvomá (2012) SOSK
 J13   Rbaarob Vvošrkuváa (2012) SOSK
 J15   Vlorie Lord (2012) SOSK
-P21   Bšáoti Ečýnr (2011) SOSK
-P22   Otámš Rnzykue (2011) SOSK
-P24   Eelan Bukáds (2010) SOSK
-P28   Leáima Aovřávavč (2010) SOSK
-P29   Savly Nyyrkab (2010) SOSK
-P33   Šaeikrftn Acrpzákho (2010) SOSK
-P36   Brraabo Eíkáhvosl (2009) SOSK
-P38   Eofsi Cvuyeláo (2009) SOSK
-P39   Nealk Ozkuánvry (2009) SOSK
-P42   Jhtoěcv Aahaml (2009) SOSK
-P46   Mjěat Rbžkoe (2008) SOSK
-P47   Jbauk Uitkřrf (2008) SOSK
-P48   Kabju Nýnvoot (2008) SOSK
-P49   Ejosf Elpls (2008) SOSK
+J93   Rzteea Vrávušoavk (2015) SOSK
 L51   Mema Ubdksá (2007) SOSK
 L52   Anjkhoa Lcáakinomehv (2007) SOSK
 L56   Iomnš Čavavř (2007) SOSK
@@ -72,8 +59,21 @@ L73   Átošm Esslerirp (2003) SOSK
 L77   Áelatni Třvrfáiuko (2003) SOSK
 L80   Eknaaž Ovčvřaváa (2002) SOSK
 L81   Insade Iýodvnmoák (2002) SOSK
-J93   Rzteea Vrávušoavk (2015) SOSK
 L94   Etrobr Phzrkacoá (1970) SOSK
+P21   Bšáoti Ečýnr (2011) SOSK
+P22   Otámš Rnzykue (2011) SOSK
+P24   Eelan Bukáds (2010) SOSK
+P28   Leáima Aovřávavč (2010) SOSK
+P29   Savly Nyyrkab (2010) SOSK
+P33   Šaeikrftn Acrpzákho (2010) SOSK
+P36   Brraabo Eíkáhvosl (2009) SOSK
+P38   Eofsi Cvuyeláo (2009) SOSK
+P39   Nealk Ozkuánvry (2009) SOSK
+P42   Jhtoěcv Aahaml (2009) SOSK
+P46   Mjěat Rbžkoe (2008) SOSK
+P47   Jbauk Uitkřrf (2008) SOSK
+P48   Kabju Nýnvoot (2008) SOSK
+P49   Ejosf Elpls (2008) SOSK
 
 
 --------------------------------------------------------------------
@@ -81,6 +81,11 @@ L94   Etrobr Phzrkacoá (1970) SOSK
 J1    Aštáed Dbnea (2016) SOVH
 J5    Iíjř Ffreja (2014) SOVH
 J7    Ztaree Odnebvá (2013) SOVH
+L50   Anna Cioichláv (2007) SOVH
+L53   Kryošft Tabnža (2007) SOVH
+L55   Anrtmi Erškou (2007) SOVH
+L61   Álvacv Hvíocaktrl (2006) SOVH
+L95   Lhmiac Ebnda (1983) SOVH
 P15   Eal Vebnárto (2011) SOVH
 P18   Oisef Fáeoajfvr (2011) SOVH
 P25   Ašpěkánt Áoošjnáv (2010) SOVH
@@ -88,34 +93,29 @@ P35   Sniade Kirbcáoč (2009) SOVH
 P40   Atrljěbmoo Nbter (2009) SOVH
 P43   Rkitiove Ffvjáerao (2008) SOVH
 P44   Milacahe Vovnáčiia (2008) SOVH
-L50   Anna Cioichláv (2007) SOVH
-L53   Kryošft Tabnža (2007) SOVH
-L55   Anrtmi Erškou (2007) SOVH
-L61   Álvacv Hvíocaktrl (2006) SOVH
 P78   Nakrysýt Ovákávno (2008) SOVH
 P79   Válvac Kánov (2010) SOVH
-L95   Lhmiac Ebnda (1983) SOVH
 
 
 --------------------------------------------------------------------
 
 J8    Haajon Hvkáoá (2012) STUD
 J9    Uaznaz Kvoháá (2012) STUD
+J82   Tíanonn Ebtlarj (2014) STUD
+L85   Raolnkaí Vvpoaál (2007) STUD
+L96   Mahcil Hká (1975) STUD
 P19   Plava Ávktoáub (2011) STUD
 P26   Laamki Zváokolu (2010) STUD
 P72   Lrkáa Voátukáb (2008) STUD
-J82   Tíanonn Ebtlarj (2014) STUD
 P83   Ukbaj Etalrjb (2009) STUD
 P84   Rbaabro Káváho (2010) STUD
-L85   Raolnkaí Vvpoaál (2007) STUD
-L96   Mahcil Hká (1975) STUD
 
 
 --------------------------------------------------------------------
 
-P71   Áukšl Akrvus (2010) SWSL
 J88   Dořnje Ušp (2014) SWSL
-P89   Oředjn Vkl (2010) SWSL
 J90   Ančiak Kolváv (2014) SWSL
 J91   Rkoeivan Uvšápo (2017) SWSL
 L92   Ahicemla Ápuvoš (1985) SWSL
+P71   Áukšl Akrvus (2010) SWSL
+P89   Oředjn Vkl (2010) SWSL

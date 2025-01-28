@@ -17,17 +17,6 @@ athletes:
     sex: m
     surname: Tšso
 -   born: 2017
-    club: SKHA
-    id: '88'
-    name: Arlák
-    sex: f
-    surname: Číkmvánoko
--   born: 2017
-    club: SWSL
-    name: Aonerivk
-    sex: f
-    surname: Oáupvš
--   born: 2017
     id: '96'
     name: Kanžae
     sex: f
@@ -38,11 +27,44 @@ athletes:
     sex: f
     surname: Okabatálv
 -   born: 2017
+    club: SWSL
+    name: Aonerivk
+    sex: f
+    surname: Oáupvš
+-   born: 2017
+    club: SKHA
+    id: '88'
+    name: Arlák
+    sex: f
+    surname: Číkmvánoko
+-   born: 2017
     club: SOSK
     id: '279'
     name: Eřbok
     sex: m
     surname: Boádkl
+-   born: 2016
+    club: SOSK
+    id: '273'
+    name: Naaledmag
+    sex: f
+    surname: Amholváa
+-   born: 2016
+    id: '270'
+    name: Cleui
+    sex: f
+    surname: Atávvoop
+-   born: 2016
+    club: JBCN
+    id: '274'
+    name: Isnrkýat
+    sex: f
+    surname: Oávcueolph
+-   born: 2016
+    id: '92'
+    name: Aamj
+    sex: f
+    surname: Tosáovš
 -   born: 2016
     club: SOSK
     id: '281'
@@ -57,17 +79,6 @@ athletes:
     surname: Áliopšv
 -   born: 2016
     club: SOSK
-    id: '273'
-    name: Naaledmag
-    sex: f
-    surname: Amholváa
--   born: 2016
-    id: '270'
-    name: Cleui
-    sex: f
-    surname: Atávvoop
--   born: 2016
-    club: SOSK
     id: '277'
     name: Rzetea
     sex: f
@@ -79,17 +90,6 @@ athletes:
     sex: f
     surname: Íečřomvá
 -   born: 2016
-    club: JBCN
-    id: '274'
-    name: Isnrkýat
-    sex: f
-    surname: Oávcueolph
--   born: 2016
-    id: '92'
-    name: Aamj
-    sex: f
-    surname: Tosáovš
--   born: 2016
     id: '97'
     name: Xandreal
     sex: m
@@ -100,12 +100,6 @@ athletes:
     name: Otmšau
     sex: m
     surname: Cetfinrh
--   born: 2016
-    club: CSKV
-    id: '6'
-    name: Ivotkr
-    sex: m
-    surname: Ěavkn
 -   born: 2016
     club: SOSK
     id: '4'
@@ -129,6 +123,35 @@ athletes:
     name: Asblvuho
     sex: m
     surname: Tjfšae
+-   born: 2016
+    club: CSKV
+    id: '6'
+    name: Ivotkr
+    sex: m
+    surname: Ěavkn
+-   born: 2015
+    id: '10'
+    name: Lnae
+    sex: f
+    surname: Eávšrmvo
+-   born: 2015
+    club: SWSL
+    id: '8'
+    name: Nnaa
+    sex: f
+    surname: Iáovpčáskk
+-   born: 2015
+    club: SOSK
+    id: '265'
+    name: Nnmiraeaa
+    sex: f
+    surname: Voslaahvá
+-   born: 2015
+    club: HSKB
+    id: '9'
+    name: Aívnapl
+    sex: f
+    surname: Vošuráok
 -   born: 2015
     club: SOSK
     id: '11'
@@ -157,29 +180,6 @@ athletes:
     name: Aeelmi
     sex: f
     surname: Áovlodr
--   born: 2015
-    id: '10'
-    name: Lnae
-    sex: f
-    surname: Eávšrmvo
--   born: 2015
-    club: SWSL
-    id: '8'
-    name: Nnaa
-    sex: f
-    surname: Iáovpčáskk
--   born: 2015
-    club: SOSK
-    id: '265'
-    name: Nnmiraeaa
-    sex: f
-    surname: Voslaahvá
--   born: 2015
-    club: HSKB
-    id: '9'
-    name: Aívnapl
-    sex: f
-    surname: Vošuráok
 -   born: 2015
     club: SWSL
     id: '7'
@@ -245,24 +245,6 @@ athletes:
     sex: m
     surname: Rtpeuke
 -   born: 2014
-    club: SOSK
-    id: '83'
-    name: Gaaát
-    sex: f
-    surname: Áalm
--   born: 2014
-    club: SOSK
-    id: '278'
-    name: Lcieu
-    sex: f
-    surname: Árvojí
--   born: 2014
-    club: DULI
-    id: '20'
-    name: Ermia
-    sex: f
-    surname: Eíčmváoř
--   born: 2014
     club: DULI
     id: '18'
     name: Teiařkna
@@ -274,6 +256,12 @@ athletes:
     name: Emma
     sex: f
     surname: Etkoáepurv
+-   born: 2014
+    club: DULI
+    id: '20'
+    name: Ermia
+    sex: f
+    surname: Eíčmváoř
 -   born: 2014
     club: KBTR
     name: Adnelm
@@ -309,17 +297,23 @@ athletes:
     sex: f
     surname: Vvkáol
 -   born: 2014
+    club: SOSK
+    id: '83'
+    name: Gaaát
+    sex: f
+    surname: Áalm
+-   born: 2014
+    club: SOSK
+    id: '278'
+    name: Lcieu
+    sex: f
+    surname: Árvojí
+-   born: 2014
     club: TJTA
     id: '29'
     name: Ívt
     sex: m
     surname: Bkuní
--   born: 2014
-    club: SWSL
-    id: '31'
-    name: Eprt
-    sex: m
-    surname: Čkáiskep
 -   born: 2014
     id: '24'
     name: Dkera
@@ -376,17 +370,12 @@ athletes:
     name: Nntanío
     sex: m
     surname: Terlajb
--   born: 2013
-    club: SOVH
-    name: Zertea
-    sex: f
-    surname: Ádonvbe
--   born: 2013
-    club: SOZB
-    id: '93'
-    name: Lraka
-    sex: f
-    surname: Čkvoájuíbak
+-   born: 2014
+    club: SWSL
+    id: '31'
+    name: Eprt
+    sex: m
+    surname: Čkáiskep
 -   born: 2013
     club: ACJB
     id: '36'
@@ -412,6 +401,17 @@ athletes:
     sex: f
     surname: Uvnoáck
 -   born: 2013
+    club: SOVH
+    name: Zertea
+    sex: f
+    surname: Ádonvbe
+-   born: 2013
+    club: SOZB
+    id: '93'
+    name: Lraka
+    sex: f
+    surname: Čkvoájuíbak
+-   born: 2013
     club: SKJA
     id: '38'
     name: Iáklmuš
@@ -428,12 +428,6 @@ athletes:
     name: Řjíi
     sex: m
     surname: Bsvdoao
--   born: 2013
-    club: SKHA
-    id: '39'
-    name: Jiří
-    sex: m
-    surname: Čákrme
 -   born: 2013
     club: FRYD
     id: '41'
@@ -474,22 +468,18 @@ athletes:
     name: Ašmáyt
     sex: m
     surname: Voobdas
+-   born: 2013
+    club: SKHA
+    id: '39'
+    name: Jiří
+    sex: m
+    surname: Čákrme
 -   born: 2012
     club: SOSK
     id: '46'
     name: Ažaken
     sex: f
     surname: Aoáalhmv
--   born: 2012
-    club: STUD
-    name: Ahnoaj
-    sex: f
-    surname: Áokávh
--   born: 2012
-    club: SOVH
-    name: Kašlei
-    sex: f
-    surname: Áůolzhv
 -   born: 2012
     club: TJSE
     id: '51'
@@ -529,20 +519,36 @@ athletes:
     sex: f
     surname: Nsghi
 -   born: 2012
+    club: DULI
+    name: Calahmie
+    sex: f
+    surname: Ovčemříá
+-   born: 2012
     club: STUD
     id: '81'
     name: Caile
     sex: f
     surname: Očsááovkk
 -   born: 2012
-    club: DULI
-    name: Calahmie
-    sex: f
-    surname: Ovčemříá
--   born: 2012
     name: Ereetzi
     sex: f
     surname: Spoeráisvelr
+-   born: 2012
+    club: SOSK
+    id: '54'
+    name: Aemáil
+    sex: f
+    surname: Távákmošo
+-   born: 2012
+    club: STUD
+    name: Ahnoaj
+    sex: f
+    surname: Áokávh
+-   born: 2012
+    club: SOVH
+    name: Kašlei
+    sex: f
+    surname: Áůolzhv
 -   born: 2012
     club: SOSK
     id: '55'
@@ -554,17 +560,6 @@ athletes:
     name: Eam
     sex: f
     surname: Švárevmo
--   born: 2012
-    club: SOSK
-    id: '54'
-    name: Aemáil
-    sex: f
-    surname: Távákmošo
--   born: 2012
-    club: SKHA
-    name: Edins
-    sex: m
-    surname: Áčrka
 -   born: 2012
     club: SOHU
     id: '85'
@@ -605,23 +600,16 @@ athletes:
     sex: m
     surname: Tabrá
 -   born: 2012
+    club: SKHA
+    name: Edins
+    sex: m
+    surname: Áčrka
+-   born: 2012
     club: DULI
     id: '57'
     name: Innevtc
     sex: m
     surname: Žkeje
--   born: 2011
-    club: SKHA
-    id: '64'
-    name: Ladaé
-    sex: f
-    surname: Áahnčov
--   born: 2011
-    club: DULI
-    id: '69'
-    name: Lkašei
-    sex: f
-    surname: Áoeopkv
 -   born: 2011
     club: TJTA
     id: '67'
@@ -640,28 +628,22 @@ athletes:
     sex: f
     surname: Nrávoebt
 -   born: 2011
-    id: '62'
-    name: Kverioti
-    sex: f
-    surname: Oávudd
--   born: 2011
     club: HSKB
     id: '68'
     name: Žnkaea
     sex: f
     surname: Oolhámdvav
 -   born: 2011
+    id: '62'
+    name: Kverioti
+    sex: f
+    surname: Oávudd
+-   born: 2011
     club: SOVH
     id: '63'
     name: Osief
     sex: f
     surname: Rfjáefvoa
--   born: 2011
-    club: SKHA
-    id: '66'
-    name: Olkain
-    sex: f
-    surname: Šoluávek
 -   born: 2011
     club: STUD
     name: Palav
@@ -679,6 +661,24 @@ athletes:
     name: Etrieze
     sex: f
     surname: Vhüáernob
+-   born: 2011
+    club: SKHA
+    id: '64'
+    name: Ladaé
+    sex: f
+    surname: Áahnčov
+-   born: 2011
+    club: DULI
+    id: '69'
+    name: Lkašei
+    sex: f
+    surname: Áoeopkv
+-   born: 2011
+    club: SKHA
+    id: '66'
+    name: Olkain
+    sex: f
+    surname: Šoluávek
 -   born: 2011
     club: LSKL
     id: '82'
@@ -710,12 +710,6 @@ athletes:
     sex: m
     surname: Eýnčr
 -   born: 2011
-    club: VLCA
-    id: '73'
-    name: Aujbk
-    sex: m
-    surname: Íčřem
--   born: 2011
     club: DULI
     id: '100'
     name: Mtáyaš
@@ -739,12 +733,12 @@ athletes:
     name: Átšmo
     sex: m
     surname: Selheík
--   born: 2010
-    club: CKLH
-    id: '112'
-    name: Angdéalma
-    sex: f
-    surname: Ázávlro
+-   born: 2011
+    club: VLCA
+    id: '73'
+    name: Aujbk
+    sex: m
+    surname: Íčřem
 -   born: 2010
     club: SOVH
     name: Naakež
@@ -757,17 +751,17 @@ athletes:
     sex: f
     surname: Deeárovl
 -   born: 2010
-    club: DULI
-    id: '260'
-    name: Tinýrsak
-    sex: f
-    surname: Eároekllv
--   born: 2010
     club: SKIJ
     id: '257'
     name: Lkaorían
     sex: f
     surname: Esrplovsreái
+-   born: 2010
+    club: DULI
+    id: '260'
+    name: Tinýrsak
+    sex: f
+    surname: Eároekllv
 -   born: 2010
     id: '290'
     name: Sijnmea
@@ -796,17 +790,17 @@ athletes:
     sex: f
     surname: Kvuoloáz
 -   born: 2010
-    club: DULI
-    id: '111'
-    name: Taěžlab
-    sex: f
-    surname: Náebuvso
--   born: 2010
     club: SKHA
     id: '256'
     name: Krémaat
     sex: f
     surname: Nkáčkoívmo
+-   born: 2010
+    club: DULI
+    id: '111'
+    name: Taěžlab
+    sex: f
+    surname: Náebuvso
 -   born: 2010
     club: STUD
     name: Oaabrrb
@@ -835,23 +829,11 @@ athletes:
     sex: f
     surname: Rkeeolvá
 -   born: 2010
-    club: SOSK
-    id: '115'
-    name: Aemliá
-    sex: f
-    surname: Řačováavv
--   born: 2010
     club: SWSL
     id: '108'
     name: Kařneita
     sex: f
     surname: Srmoevká
--   born: 2010
-    club: JBCN
-    id: '253'
-    name: Ýsrnkait
-    sex: f
-    surname: Šaobtráov
 -   born: 2010
     club: SOSK
     id: '102'
@@ -877,17 +859,29 @@ athletes:
     sex: f
     surname: Vvhdlámooa
 -   born: 2010
+    club: CKLH
+    id: '112'
+    name: Angdéalma
+    sex: f
+    surname: Ázávlro
+-   born: 2010
+    club: SOSK
+    id: '115'
+    name: Aemliá
+    sex: f
+    surname: Řačováavv
+-   born: 2010
+    club: JBCN
+    id: '253'
+    name: Ýsrnkait
+    sex: f
+    surname: Šaobtráov
+-   born: 2010
     club: TJSE
     id: '119'
     name: Ajn
     sex: m
     surname: Aashs
--   born: 2010
-    club: DULI
-    id: '130'
-    name: Josfe
-    sex: m
-    surname: Äcsfher
 -   born: 2010
     club: SOTE
     id: '117'
@@ -900,12 +894,6 @@ athletes:
     name: Iflip
     sex: m
     surname: Drda
--   born: 2010
-    club: SKHA
-    id: '135'
-    name: Hlcmai
-    sex: m
-    surname: Ěaenčvk
 -   born: 2010
     club: KBTR
     name: Ovlsrjaa
@@ -923,22 +911,17 @@ athletes:
     sex: m
     surname: Lýhcpa
 -   born: 2010
-    club: SWSL
-    id: '124'
-    name: Mšlikáu
-    sex: m
-    surname: Mčáza
--   born: 2010
     club: SOSK
     id: '125'
     name: Vaclvá
     sex: m
     surname: Mlto
 -   born: 2010
-    club: SOVH
-    name: Vvalác
+    club: SWSL
+    id: '124'
+    name: Mšlikáu
     sex: m
-    surname: Nákvo
+    surname: Mčáza
 -   born: 2010
     club: TJTA
     id: '123'
@@ -951,6 +934,11 @@ athletes:
     name: Jhycám
     sex: m
     surname: Nleadtr
+-   born: 2010
+    club: SOVH
+    name: Vvalác
+    sex: m
+    surname: Nákvo
 -   born: 2010
     club: SWSL
     id: '122'
@@ -968,12 +956,6 @@ athletes:
     name: Ošutma
     sex: m
     surname: Rbkesk
--   born: 2010
-    club: HSKB
-    id: '118'
-    name: Anj
-    sex: m
-    surname: Šauhn
 -   born: 2010
     club: FRYD
     id: '120'
@@ -1027,6 +1009,24 @@ athletes:
     name: Ntšrifaek
     sex: m
     surname: Zpcákarho
+-   born: 2010
+    club: DULI
+    id: '130'
+    name: Josfe
+    sex: m
+    surname: Äcsfher
+-   born: 2010
+    club: SKHA
+    id: '135'
+    name: Hlcmai
+    sex: m
+    surname: Ěaenčvk
+-   born: 2010
+    club: HSKB
+    id: '118'
+    name: Anj
+    sex: m
+    surname: Šauhn
 -   born: 2009
     club: SOVH
     id: '137'
@@ -1100,15 +1100,10 @@ athletes:
     sex: f
     surname: Sjoávdao
 -   born: 2009
-    club: HSKB
-    name: Akbnal
+    club: SKHA
+    name: Oárzlei
     sex: f
-    surname: Šořváikdnji
--   born: 2009
-    club: DULI
-    name: Eamri
-    sex: f
-    surname: Šráíov
+    surname: Vjmoároa
 -   born: 2009
     club: DULI
     id: '242'
@@ -1121,21 +1116,21 @@ athletes:
     sex: f
     surname: Váolžbak
 -   born: 2009
-    club: SKHA
-    name: Oárzlei
-    sex: f
-    surname: Vjmoároa
--   born: 2009
     club: HSKB
     id: '146'
     name: Uazanz
     sex: f
     surname: Zráámov
 -   born: 2009
-    club: SKHA
-    name: Pflii
-    sex: m
-    surname: Áčkemr
+    club: HSKB
+    name: Akbnal
+    sex: f
+    surname: Šořváikdnji
+-   born: 2009
+    club: DULI
+    name: Eamri
+    sex: f
+    surname: Šráíov
 -   born: 2009
     club: SOVH
     name: Aamd
@@ -1159,12 +1154,6 @@ athletes:
     name: Rtošykf
     sex: m
     surname: Clihem
--   born: 2009
-    club: SKJA
-    id: '154'
-    name: Rbtoalmojě
-    sex: m
-    surname: Čekap
 -   born: 2009
     club: HSKB
     id: '159'
@@ -1221,17 +1210,17 @@ athletes:
     sex: m
     surname: Síkantm
 -   born: 2009
-    club: KBJI
-    id: '252'
-    name: Máayšt
-    sex: m
-    surname: Tábra
--   born: 2009
     club: SOTE
     id: '156'
     name: Chilma
     sex: m
     surname: Tondá
+-   born: 2009
+    club: KBJI
+    id: '252'
+    name: Máayšt
+    sex: m
+    surname: Tábra
 -   born: 2009
     club: SOSK
     id: '163'
@@ -1245,28 +1234,22 @@ athletes:
     sex: m
     surname: Uekaolšv
 -   born: 2009
+    club: SKHA
+    name: Pflii
+    sex: m
+    surname: Áčkemr
+-   born: 2009
+    club: SKJA
+    id: '154'
+    name: Rbtoalmojě
+    sex: m
+    surname: Čekap
+-   born: 2009
     club: DULI
     id: '152'
     name: Aášmyt
     sex: m
     surname: Žrbo
--   born: 2008
-    club: SWSL
-    id: '170'
-    name: Kalar
-    sex: f
-    surname: Áokpkec
--   born: 2008
-    club: STUD
-    name: Lkráa
-    sex: f
-    surname: Átuoávkb
--   born: 2008
-    club: TJSE
-    id: '177'
-    name: Rbboaar
-    sex: f
-    surname: Áznoývrt
 -   born: 2008
     club: DULI
     id: '263'
@@ -1291,17 +1274,17 @@ athletes:
     sex: f
     surname: Nsvkáoo
 -   born: 2008
-    club: SOVH
-    id: '174'
-    name: Trasniký
-    sex: f
-    surname: Oávvnkoá
--   born: 2008
     club: DULI
     id: '175'
     name: Ndmaaagél
     sex: f
     surname: Oesrfáhäcv
+-   born: 2008
+    club: SOVH
+    id: '174'
+    name: Trasniký
+    sex: f
+    surname: Oávvnkoá
 -   born: 2008
     club: SOVH
     name: Etovriki
@@ -1345,6 +1328,23 @@ athletes:
     name: Aleacmhi
     sex: f
     surname: Vvčáiniao
+-   born: 2008
+    club: SWSL
+    id: '170'
+    name: Kalar
+    sex: f
+    surname: Áokpkec
+-   born: 2008
+    club: STUD
+    name: Lkráa
+    sex: f
+    surname: Átuoávkb
+-   born: 2008
+    club: TJSE
+    id: '177'
+    name: Rbboaar
+    sex: f
+    surname: Áznoývrt
 -   born: 2008
     id: '288'
     name: Anj
@@ -1409,17 +1409,17 @@ athletes:
     sex: m
     surname: Noontvý
 -   born: 2008
-    club: SKJA
-    id: '189'
-    name: Valcvá
-    sex: m
-    surname: Nšrty
--   born: 2008
     club: SKHA
     id: '190'
     name: Ubakj
     sex: m
     surname: Numa
+-   born: 2008
+    club: SKJA
+    id: '189'
+    name: Valcvá
+    sex: m
+    surname: Nšrty
 -   born: 2008
     club: TJSE
     id: '191'
@@ -1456,17 +1456,6 @@ athletes:
     name: Ota
     sex: m
     surname: Ubnkí
--   born: 2007
-    club: STUD
-    name: Onralíak
-    sex: f
-    surname: Áavpovl
--   born: 2007
-    club: SKHA
-    id: '196'
-    name: Rěav
-    sex: f
-    surname: Ávěanvkoč
 -   born: 2007
     club: DULI
     id: '195'
@@ -1509,6 +1498,17 @@ athletes:
     sex: f
     surname: Vldáhykvío
 -   born: 2007
+    club: STUD
+    name: Onralíak
+    sex: f
+    surname: Áavpovl
+-   born: 2007
+    club: SKHA
+    id: '196'
+    name: Rěav
+    sex: f
+    surname: Ávěanvkoč
+-   born: 2007
     club: SOSK
     id: '201'
     name: Mšoni
@@ -1539,12 +1539,6 @@ athletes:
     sex: m
     surname: Olhuýd
 -   born: 2007
-    club: DULI
-    id: '199'
-    name: Hcjvoět
-    sex: m
-    surname: Řečím
--   born: 2007
     club: SOVH
     name: Trfykoš
     sex: m
@@ -1566,12 +1560,12 @@ athletes:
     name: Rntami
     sex: m
     surname: Ušerok
--   born: 2006
+-   born: 2007
     club: DULI
-    id: '206'
-    name: Ame
-    sex: f
-    surname: Ápokonr
+    id: '199'
+    name: Hcjvoět
+    sex: m
+    surname: Řečím
 -   born: 2006
     club: SKHA
     name: Sraá
@@ -1595,16 +1589,22 @@ athletes:
     sex: f
     surname: Nvtnáoo
 -   born: 2006
+    club: SKHA
+    name: Ienakřta
+    sex: f
+    surname: Ovramáoj
+-   born: 2006
     club: DULI
     id: '207'
     name: Aann
     sex: f
     surname: Oáívrš
 -   born: 2006
-    club: SKHA
-    name: Ienakřta
+    club: DULI
+    id: '206'
+    name: Ame
     sex: f
-    surname: Ovramáoj
+    surname: Ápokonr
 -   born: 2006
     club: SKJA
     id: '210'
@@ -1624,11 +1624,6 @@ athletes:
     sex: m
     surname: Eclbuho
 -   born: 2006
-    club: SOVH
-    name: Ávcalv
-    sex: m
-    surname: Ícrvkoltha
--   born: 2006
     club: SOSK
     id: '212'
     name: Lipif
@@ -1642,37 +1637,26 @@ athletes:
     surname: Pvalaat
 -   born: 2006
     club: SOSK
+    name: Naj
+    sex: m
+    surname: Uynkrez
+-   born: 2006
+    club: SOSK
     id: '211'
     name: Áěnštp
     sex: m
     surname: Uýbskd
 -   born: 2006
-    club: SOSK
-    name: Naj
+    club: SOVH
+    name: Ávcalv
     sex: m
-    surname: Uynkrez
+    surname: Ícrvkoltha
 -   born: 2006
     club: DULI
     id: '209'
     name: Amda
     sex: m
     surname: Žbor
--   born: 2005
-    club: SGJB
-    name: Aozr
-    sex: f
-    surname: Ákhle
--   born: 2005
-    club: SOTE
-    id: '221'
-    name: Vkiahde
-    sex: f
-    surname: Áosáohvvl
--   born: 2005
-    club: SOSK
-    name: Aknoli
-    sex: f
-    surname: Ázvémiko
 -   born: 2005
     club: SGJB
     id: '217'
@@ -1697,6 +1681,22 @@ athletes:
     name: Lceiu
     sex: f
     surname: Sdákub
+-   born: 2005
+    club: SGJB
+    name: Aozr
+    sex: f
+    surname: Ákhle
+-   born: 2005
+    club: SOTE
+    id: '221'
+    name: Vkiahde
+    sex: f
+    surname: Áosáohvvl
+-   born: 2005
+    club: SOSK
+    name: Aknoli
+    sex: f
+    surname: Ázvémiko
 -   born: 2005
     club: SOSK
     name: Kbuaj
@@ -1752,16 +1752,16 @@ athletes:
     sex: f
     surname: Itvřrákouf
 -   born: 2003
+    club: SOSK
+    name: Abarrob
+    sex: f
+    surname: Ubskád
+-   born: 2003
     club: SGJB
     id: '225'
     name: Inna
     sex: f
     surname: Šeubr
--   born: 2003
-    club: SOSK
-    name: Abarrob
-    sex: f
-    surname: Ubskád
 -   born: 2003
     club: SGJB
     id: '227'
