@@ -47,7 +47,7 @@ if __name__ == "__main__":
             r["lapCount"] = 0  # int # Počet LAPnutých závodníků
             r["organizer"] = "Tělocvičná jednota Sokol Skuhrov"  # string # Pořadatel závodu
             r["raceName"] = event.name  # string # Název závodu # TODO
-            r["raceDateStart"] = str(event.date)  # string # Datum začátku závodu
+            r["raceDateStart"] = datetime.datetime.combine(event.date, event.start) if hasattr(event, "start") else datetime.datetime.combine(event.date, datetime.time(10)) # string # Datum začátku závodu
             r["raceLocation"] = "Skuhrov, Liberecký kraj"  # string # Místo závodu
             r["trackLengthKm"] = float(race.distance.removesuffix("m")) / 1000  # float # Délka trati
             r["style"] = ("Přespolní běh", "klasicky", "volně")[0]  # string # styl # MANUAL!!!
