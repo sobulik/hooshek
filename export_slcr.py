@@ -52,7 +52,16 @@ if __name__ == "__main__":
             r["trackLengthKm"] = float(race.distance.removesuffix("m")) / 1000  # float # Délka trati
             r["style"] = ("Přespolní běh", "klasicky", "volně")[0]  # string # styl # MANUAL!!!
             r["eventId"] = 4132  # int # SLČR ID události # MANUAL!!!
-            r["results"] = []  # array # výsledky individuálního závodu # TODO
+            r["results"] = []  # array # výsledky individuálního závodu
+            for ath in e["athletes"]:
+                a = dict()
+                a["lastName"] = ath.surname
+                a["firstName"] = ath.name
+                a["gender"] = ath.sex.upper()
+                a["yearOfBirth"] = ath.born
+                if hasattr(ath, "time"):
+                    a["timeMilliseconds"] = ath.time // datetime.timedelta(milliseconds = 1)
+                r["results"].append(a)
             slcr.append(r)
 
     persistence.json.dump(slcr, "slcr-export.json")
