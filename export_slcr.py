@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+
+import event.io
+import athletes.io
+import clubs.io
+import start.io
+import finish.io
+
+import finish
+
+import persistence.json
+import persistence.yaml
+
+import datetime
+
+event = event.io.load()
+clubs = clubs.io.load()
+start = start.io.load()
+flist = finish.io.load()
+
+if __name__ == "__main__":
+
+    aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.io.build(clubs)))
+
+    slcr = []
+    i = 0
+    for race in event.races:
+        if race.age_max < 4:
+            continue
+        i += 1
+        r = dict()
+        for e in finish.eval_categories(event.eff_year, race, False):
+            finish.fill_category(e, event, aths, race, start, flist)
+            r["uniqueId"] = str(i)  # string # Interní ID závodu časoměřiče
+            r["resultsLayout"] = "CROSS_COUNTRY_INDIVIDUAL_MASS_START" if event.mass else "CROSS_COUNTRY_INDIVIDUAL_DISTANCE"  # string # layout závodu, viz. Číselník
+            r["categoryYearFrom"] = event.eff_year - race.age_max  # int # Kategorie ročník narození od
+            r["categoryYearTo"] = event.eff_year - race.age_min  # int # Kategorie ročník narození do
+            r["gender"] = race.sex.upper()  # string # Pohlaví M … muži, W / L / F … ženy
+            r["registeredCount"] = len(e["started"])  # int # Počet přihlášených závodníků
+            r["startedCount"] = len(e["started"])  # int # počet odstartovaných závodníků
+            r["classifiedCount"] = len(e["finished"]) - len(e["unfinished"]) # int # Počet klasifikovaných závodníků
+            r["dnsCount"] = 0  # int # Počet DNS závodníků
+            r["dnfCount"] = len(e["unfinished"])  # int # Počet DNF závodníků
+            r["dsqCount"] = 0  # int # Počet diskvalifikovaných závodníků
+            r["dqbCount"] = 0  # int # Počet DQB závodníků
+            r["npsCount"] = 0  # int # Počet NPS závodníků
+            r["lapCount"] = 0  # int # Počet LAPnutých závodníků
+            r["organizer"] = "Tělocvičná jednota Sokol Skuhrov"  # string # Pořadatel závodu
+            r["raceName"] = event.name  # string # Název závodu # TODO
+            r["raceDateStart"] = str(event.date)  # string # Datum začátku závodu
+            r["raceLocation"] = "Skuhrov, Liberecký kraj"  # string # Místo závodu
+            r["trackLengthKm"] = float(race.distance.removesuffix("m")) / 1000  # float # Délka trati
+            r["style"] = ("Přespolní běh", "klasicky", "volně")[0]  # string # styl # MANUAL!!!
+            r["eventId"] = 4132  # int # SLČR ID události # MANUAL!!!
+            r["results"] = []  # array # výsledky individuálního závodu # TODO
+            slcr.append(r)
+
+    persistence.json.dump(slcr, "slcr-export.json")
