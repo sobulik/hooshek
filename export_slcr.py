@@ -53,14 +53,23 @@ if __name__ == "__main__":
             r["style"] = ("Přespolní běh", "klasicky", "volně")[0]  # string # styl # MANUAL!!!
             r["eventId"] = 4132  # int # SLČR ID události # MANUAL!!!
             r["results"] = []  # array # výsledky individuálního závodu
+            first_one = None
             for ath in e["athletes"]:
                 a = dict()
+                if hasattr(ath, "rank"):
+                    a["rank"] = ath.rank
                 a["lastName"] = ath.surname
                 a["firstName"] = ath.name
                 a["gender"] = ath.sex.upper()
                 a["yearOfBirth"] = ath.born
+                if ath.club is not None:
+                    a["clubAbbreviation"] = ath.club.id
+                    a["clubName"] = ath.club.name
                 if hasattr(ath, "time"):
                     a["timeMilliseconds"] = ath.time // datetime.timedelta(milliseconds = 1)
+                    if first_one is None:
+                        first_one = a["timeMilliseconds"]
+                    a["diffMilliseconds"] = a["timeMilliseconds"] - first_one
                 r["results"].append(a)
             slcr.append(r)
 
