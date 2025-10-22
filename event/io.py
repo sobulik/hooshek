@@ -39,7 +39,7 @@ def validate(raw):
     schema = {
         "version": {
             "type": "string",
-            "allowed": ["1.0"]
+            "allowed": ["1.0", "1.1"]
         },
         "date": {
             "type": "date"
@@ -70,8 +70,16 @@ def validate(raw):
             },
             "required": False
         },
+        "location": {
+            "type": "string",
+            "required": False
+        },
         "name": {
             "type": "string"
+        },
+        "organizer": {
+            "type": "string",
+            "required": False
         },
         "races": {
             "type": "list",
@@ -133,6 +141,10 @@ def validate(raw):
                         "type": "string",
                         "allowed": ["f", "m"]
                     },
+                    "slcr_name": {
+                        "type": "string",
+                        "required": False
+                    },
                     "start": {
                         "type": "string",
                         "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$",
@@ -140,6 +152,15 @@ def validate(raw):
                     }
                 }
             }
+        },
+        "slcr_event_id": {
+            "type": "integer",
+            "required": False
+        },
+        "style": {
+            "type": "string",
+            "allowed": ["Přespolní běh", "klasicky", "volně"],
+            "required": False
         }
     }
 

@@ -45,13 +45,13 @@ if __name__ == "__main__":
             r["dqbCount"] = 0  # int # Počet DQB závodníků
             r["npsCount"] = 0  # int # Počet NPS závodníků
             r["lapCount"] = 0  # int # Počet LAPnutých závodníků
-            r["organizer"] = "Tělocvičná jednota Sokol Skuhrov"  # string # Pořadatel závodu
-            r["raceName"] = event.name  # string # Název závodu # TODO
+            r["organizer"] = event.organizer  # string # Pořadatel závodu
+            r["raceName"] = race.slcr_name  # string # Název závodu
             r["raceDateStart"] = datetime.datetime.combine(event.date, event.start) if hasattr(event, "start") else datetime.datetime.combine(event.date, datetime.time(10)) # string # Datum začátku závodu
-            r["raceLocation"] = "Skuhrov, Liberecký kraj"  # string # Místo závodu
+            r["raceLocation"] = event.location  # string # Místo závodu
             r["trackLengthKm"] = float(race.distance.removesuffix("m")) / 1000  # float # Délka trati
-            r["style"] = ("Přespolní běh", "klasicky", "volně")[0]  # string # styl # MANUAL!!!
-            r["eventId"] = 4132  # int # SLČR ID události # MANUAL!!!
+            r["style"] = event.style if event.style is not None else "Přespolní běh"  # string # styl
+            r["eventId"] = event.slcr_event_id  # int # SLČR ID události
             r["results"] = []  # array # výsledky individuálního závodu
             first_one = None
             for ath in e["athletes"]:
