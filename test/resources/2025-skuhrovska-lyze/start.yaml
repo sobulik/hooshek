@@ -1,0 +1,788 @@
+date: 2025-02-22
+mass: false
+name: Skuhrovská lyže
+races:
+-   athletes:
+    -   born: 2019
+        club: Biatlon Liberec
+        id: '1'
+        name: Taérg
+        start: 09:30:00
+        surname: Kiošuávbt
+    -   born: 2020
+        club: S. Velké Hamry
+        id: '2'
+        name: Aliemá
+        start: 09:30:30
+        surname: Bváoekřč
+    -   born: 2020
+        club: S. Velké Hamry
+        id: '3'
+        name: Aetna
+        start: 09:31:00
+        surname: Kmoávaš
+    -   born: 2021
+        club: Jiskra Jos. Důl
+        id: '4'
+        name: Ěbžaalt
+        start: 09:31:30
+        surname: Kevšotrá
+    -   born: 2019
+        club: Sokol Studenec
+        id: '5'
+        name: Mleáai
+        start: 09:32:00
+        surname: Nsráup
+    -   born: 2020
+        club: KB Trefa
+        id: '6'
+        name: Veliaer
+        start: 09:32:30
+        surname: Vevráldoa
+    -   born: 2020
+        club: SKI klub Jabl.
+        id: '7'
+        name: Aerim
+        start: 09:33:00
+        surname: Eonjtšvávy
+    -   born: 2020
+        club: Sokol Huntířov
+        id: '8'
+        name: Aptěášnk
+        start: 09:33:30
+        surname: Ároáohkv
+    -   born: 2019
+        club: ''
+        id: '9'
+        name: Eknaaž
+        start: 09:34:00
+        surname: Tsváoradn
+    -   born: 2020
+        club: Sokol Studenec
+        id: '10'
+        name: Emiléa
+        start: 09:34:30
+        surname: Aaáucothnmv
+    distance: 300m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2019
+        club: Jiskra Jos. Důl
+        id: '11'
+        name: Nnaotní
+        start: 09:36:30
+        surname: Eštrk
+    -   born: 2019
+        club: ''
+        id: '12'
+        name: Pfiil
+        start: 09:37:00
+        surname: Skčmra
+    -   born: 2020
+        club: Sokol Skuhrov
+        id: '13'
+        name: Ldvmaíir
+        start: 09:37:30
+        surname: Ruoram
+    -   born: 2020
+        club: ''
+        id: '14'
+        name: Itnrsiák
+        start: 09:38:00
+        surname: Vaotj
+    -   born: 2019
+        club: KB Trefa
+        id: '15'
+        name: Erbrthe
+        start: 09:38:30
+        surname: Noeosdm
+    -   born: 2020
+        club: ''
+        id: '16'
+        name: Šnreakift
+        start: 09:39:00
+        surname: Andtsr
+    -   born: 2019
+        club: ''
+        id: '121'
+        name: Lifip
+        start: 09:39:30
+        surname: Kzbaren
+    -   born: 2021
+        club: S. Velké Hamry
+        id: '123'
+        name: Páštně
+        start: 09:40:00
+        surname: Nbdea
+    distance: 300m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: '17'
+        name: Absian
+        start: 09:42:00
+        surname: Ávcresolí
+    -   born: 2017
+        club: Ski klub Lučany
+        id: '18'
+        name: Ieucl
+        start: 09:42:30
+        surname: Kejoláavzr
+    -   born: 2017
+        club: Sokol Huntířov
+        id: '19'
+        name: Eiktanař
+        start: 09:43:00
+        surname: Áhokáorv
+    -   born: 2018
+        club: Dukla Liberec
+        id: '20'
+        name: Ažknea
+        start: 09:43:30
+        surname: Eřčáovmí
+    -   born: 2017
+        club: Sokol Studenec
+        id: '21'
+        name: Tliáane
+        start: 09:44:00
+        surname: Uáprns
+    -   born: 2018
+        club: S. Velké Hamry
+        id: '22'
+        name: Inan
+        start: 09:44:30
+        surname: Odvděáenv
+    -   born: 2017
+        club: ''
+        id: '23'
+        name: Nelel
+        start: 09:45:00
+        surname: Rváohuazolbe
+    -   born: 2017
+        club: Sokol Studenec
+        id: '24'
+        name: Aterze
+        start: 09:45:30
+        surname: Moatchuanáv
+    -   born: 2018
+        club: Ski klub Lučany
+        id: '26'
+        name: Akvienro
+        start: 09:46:00
+        surname: Aoámcjětv
+    -   born: 2017
+        club: Ski klub Lučany
+        id: '27'
+        name: Intoean
+        start: 09:46:30
+        surname: Eozkjmnsá
+    -   born: 2017
+        club: LIAZ Jablonec
+        id: '28'
+        name: Esacsji
+        start: 09:47:00
+        surname: Avaáokblt
+    -   born: 2017
+        club: SKI klub Jabl.
+        id: '29'
+        name: Aeetzr
+        start: 09:47:30
+        surname: Vukovcaílá
+    distance: 500m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2017
+        club: Ski klub Lučany
+        id: '30'
+        name: Eaildn
+        start: 09:49:30
+        surname: Ircom
+    -   born: 2018
+        club: Sokol Studenec
+        id: '31'
+        name: Nínanto
+        start: 09:50:00
+        surname: Aerksák
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: '32'
+        name: Řeltaivbs
+        start: 09:50:30
+        surname: Enklpuí
+    -   born: 2018
+        club: Sokol Studenec
+        id: '33'
+        name: Ftrokyš
+        start: 09:51:00
+        surname: Pšu
+    -   born: 2017
+        club: Jiskra Jos. Důl
+        id: '34'
+        name: Amlues
+        start: 09:51:30
+        surname: Mhtis
+    -   born: 2017
+        club: S. Velké Hamry
+        id: '35'
+        name: Kbauj
+        start: 09:52:00
+        surname: Otášm
+    -   born: 2017
+        club: Sokol Skuhrov
+        id: '36'
+        name: Iulmkáš
+        start: 09:52:30
+        surname: Asvalh
+    -   born: 2017
+        club: Ski klub Lučany
+        id: '37'
+        name: Joášn
+        start: 09:53:00
+        surname: Epkip
+    -   born: 2017
+        club: Jiskra Jos. Důl
+        id: '38'
+        name: Jěmta
+        start: 09:53:30
+        surname: Bečíekzd
+    -   born: 2017
+        club: Jiskra Jos. Důl
+        id: '39'
+        name: Nořdje
+        start: 09:54:00
+        surname: Zečekdíb
+    -   born: 2018
+        club: Ski klub Lučany
+        id: '40'
+        name: Tšmyáa
+        start: 09:54:30
+        surname: Baebrc
+    -   born: 2017
+        club: S. Velké Hamry
+        id: '41'
+        name: Tmarni
+        start: 09:55:00
+        surname: Deočlek
+    -   born: 2017
+        club: KB Trefa
+        id: '42'
+        name: Umseal
+        start: 09:55:30
+        surname: Edarlv
+    -   born: 2018
+        club: ''
+        id: '120'
+        name: Fitkarešn
+        start: 09:56:00
+        surname: Onšat
+    distance: 500m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '43'
+        name: Ámelia
+        start: 09:58:00
+        surname: Áckizweovre
+    -   born: 2015
+        club: Jiskra Jos. Důl
+        id: '44'
+        name: Akežna
+        start: 09:58:30
+        surname: Retšákvo
+    -   born: 2016
+        club: Sokol Skuhrov
+        id: '45'
+        name: Aeeztr
+        start: 09:59:00
+        surname: Ájvrío
+    -   born: 2015
+        club: TJ Tanvald
+        id: '46'
+        name: Airtsd
+        start: 09:59:30
+        surname: Nboveátr
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '47'
+        name: Sefio
+        start: '10:00:00'
+        surname: Láesvroíc
+    -   born: 2016
+        club: Sokol Studenec
+        id: '49'
+        name: Areabilg
+        start: '10:00:30'
+        surname: Vkhááo
+    -   born: 2016
+        club: KB Trefa
+        id: '50'
+        name: Mtadila
+        start: '10:01:00'
+        surname: Msneáovodo
+    -   born: 2015
+        club: Ski klub Lučany
+        id: '51'
+        name: Ýjsunat
+        start: '10:01:30'
+        surname: Pivopák
+    -   born: 2016
+        club: Ski klub Lučany
+        id: '52'
+        name: Eezrat
+        start: '10:02:00'
+        surname: Oáovšnm
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '53'
+        name: Ilozreá
+        start: '10:02:30'
+        surname: Kíunáoplv
+    -   born: 2016
+        club: Sokol Studenec
+        id: '54'
+        name: Takeianř
+        start: '10:03:00'
+        surname: Hácuvbloo
+    -   born: 2016
+        club: Jiskra Jos. Důl
+        id: '55'
+        name: Aeimlá
+        start: '10:03:30'
+        surname: Voškáret
+    -   born: 2015
+        club: S. Velké Hamry
+        id: '56'
+        name: Ceali
+        start: '10:04:00'
+        surname: Oifáevx
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '57'
+        name: Nremaiana
+        start: '10:04:30'
+        surname: Vhsáavaol
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '58'
+        name: Eeamli
+        start: '10:05:00'
+        surname: Vdárool
+    -   born: 2016
+        club: KB SiMi Praha
+        id: '59'
+        name: Lraa
+        start: '10:05:30'
+        surname: Coáhavm
+    -   born: 2016
+        club: Jiskra Jos. Důl
+        id: '60'
+        name: Aoll
+        start: '10:06:00'
+        surname: Vovonáj
+    -   born: 2015
+        club: Sokol Skuhrov
+        id: '61'
+        name: Ezaret
+        start: '10:06:30'
+        surname: Vruvaávokš
+    distance: 1000m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2015
+        club: Ski klub Lučany
+        id: '62'
+        name: Anj
+        start: '10:08:30'
+        surname: Aerlkzj
+    -   born: 2016
+        club: Sokol Skuhrov
+        id: '63'
+        name: Bjuka
+        start: '10:09:00'
+        surname: Zewcekri
+    -   born: 2015
+        club: Sokol Studenec
+        id: '64'
+        name: Páětnš
+        start: '10:09:30'
+        surname: Pálrad
+    -   born: 2015
+        club: Ski klub Lučany
+        id: '65'
+        name: Iilpf
+        start: '10:10:00'
+        surname: Ěcjamte
+    -   born: 2016
+        club: S. Velké Hamry
+        id: '66'
+        name: Tšmyaá
+        start: '10:10:30'
+        surname: Mšake
+    -   born: 2015
+        club: S. Velké Hamry
+        id: '67'
+        name: Jthocvě
+        start: '10:11:00'
+        surname: Vaeck
+    -   born: 2015
+        club: Skuhrov n. Běl.
+        id: '68'
+        name: Esdni
+        start: '10:11:30'
+        surname: Aakňz
+    -   born: 2016
+        club: ''
+        id: '69'
+        name: Erkam
+        start: '10:12:00'
+        surname: Adtnrs
+    -   born: 2016
+        club: S. Velké Hamry
+        id: '70'
+        name: Eštáda
+        start: '10:12:30'
+        surname: Denab
+    -   born: 2015
+        club: KB Trefa
+        id: '71'
+        name: Sfeoj
+        start: '10:13:00'
+        surname: Heru
+    -   born: 2015
+        club: Sokol Studenec
+        id: '72'
+        name: Bjkau
+        start: '10:13:30'
+        surname: Ásrkeak
+    -   born: 2016
+        club: Sokol Skuhrov
+        id: '73'
+        name: Sfeoj
+        start: '10:14:00'
+        surname: Bouda
+    -   born: 2015
+        club: Sokol Studenec
+        id: '74'
+        name: Ajn
+        start: '10:14:30'
+        surname: Jhakovc
+    -   born: 2016
+        club: Ski klub Lučany
+        id: '75'
+        name: Plifi
+        start: '10:15:00'
+        surname: Lnerde
+    distance: 1000m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: '76'
+        name: Uliec
+        start: '10:17:00'
+        surname: Voájrí
+    -   born: 2014
+        club: LIAZ Jablonec
+        id: '77'
+        name: Atni
+        start: '10:17:30'
+        surname: Obkáaatvl
+    -   born: 2014
+        club: Dukla Liberec
+        id: '78'
+        name: Ameir
+        start: '10:18:00'
+        surname: Řoáčemví
+    -   born: 2013
+        club: S. Velké Hamry
+        id: '79'
+        name: Tazere
+        start: '10:18:30'
+        surname: Ádebvno
+    -   born: 2013
+        club: Skuhrov n. Běl.
+        id: '80'
+        name: Ljiue
+        start: '10:19:00'
+        surname: Knyejazt
+    -   born: 2013
+        club: Sokol Studenec
+        id: '81'
+        name: Atlienvna
+        start: '10:19:30'
+        surname: Ofgáorv
+    -   born: 2014
+        club: Skuhrov n. Běl.
+        id: '82'
+        name: Laice
+        start: '10:20:00'
+        surname: Koráevpká
+    -   born: 2014
+        club: KB Trefa
+        id: '83'
+        name: Atýn
+        start: '10:20:30'
+        surname: Vákoháan
+    -   born: 2013
+        club: Skuhrov n. Běl.
+        id: '84'
+        name: Nnaa
+        start: '10:21:00'
+        surname: Caavčmohá
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: '85'
+        name: Anan
+        start: '10:21:30'
+        surname: Žvkáolba
+    distance: 2000m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: S. Velké Hamry
+        id: '86'
+        name: Jiří
+        start: '10:23:30'
+        surname: Rjefaf
+    -   born: 2014
+        club: Sokol Studenec
+        id: '87'
+        name: Ítv
+        start: '10:24:00'
+        surname: Badyšu
+    -   born: 2014
+        club: KB SiMi Praha
+        id: '88'
+        name: Akder
+        start: '10:24:30'
+        surname: Amhc
+    -   born: 2014
+        club: Sokol Skuhrov
+        id: '89'
+        name: Elrvoi
+        start: '10:25:00'
+        surname: Kkílu
+    distance: 2000m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: '90'
+        name: Abraorb
+        start: '10:27:00'
+        surname: Ašoávrkuvv
+    -   born: 2012
+        club: Sokol Studenec
+        id: '91'
+        name: Aznzua
+        start: '10:27:30'
+        surname: Hoávká
+    -   born: 2012
+        club: Jiskra Jos. Důl
+        id: '92'
+        name: Eišakl
+        start: '10:28:00'
+        surname: Žvoerlpáikt
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: '93'
+        name: Žaekna
+        start: '10:28:30'
+        surname: Amláoahv
+    -   born: 2011
+        club: TJ Tanvald
+        id: '94'
+        name: Báeta
+        start: '10:29:00'
+        surname: Iehclámov
+    -   born: 2012
+        club: Skuhrov n. Běl.
+        id: '95'
+        name: Vae
+        start: '10:29:30'
+        surname: Olsnováá
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: '96'
+        name: Tatlo
+        start: '10:30:00'
+        surname: Tviávo
+    -   born: 2012
+        club: S. Velké Hamry
+        id: '97'
+        name: Lavtiai
+        start: '10:30:30'
+        surname: Vkak
+    -   born: 2011
+        club: Sokol Studenec
+        id: '98'
+        name: Eal
+        start: '10:31:00'
+        surname: Áčitoookkvvr
+    -   born: 2011
+        club: Sokol Skuhrov
+        id: '99'
+        name: Arýtsink
+        start: '10:31:30'
+        surname: Kááovhlto
+    -   born: 2011
+        club: Sokol Skuhrov
+        id: '100'
+        name: Dlenamaga
+        start: '10:32:00'
+        surname: Ákpuorv
+    -   born: 2011
+        club: Sokol Studenec
+        id: '102'
+        name: Lvapa
+        start: '10:32:30'
+        surname: Átvokbuá
+    distance: 4000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: '103'
+        name: Eiovlr
+        start: '10:34:30'
+        surname: Ldro
+    -   born: 2012
+        club: Biatlon Liberec
+        id: '104'
+        name: Vrvao
+        start: '10:35:00'
+        surname: Šakbtiu
+    -   born: 2011
+        club: Biatlon Liberec
+        id: '105'
+        name: Aonnt
+        start: '10:35:30'
+        surname: Itašukb
+    -   born: 2012
+        club: Sokol Skuhrov
+        id: '107'
+        name: Táošm
+        start: '10:36:00'
+        surname: Ltmo
+    distance: 4000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2009
+        club: TJ Slovan Praha
+        id: '108'
+        name: A Denaknlze
+        start: '10:38:00'
+        surname: Reiupk
+    -   born: 2009
+        club: S. Velké Hamry
+        id: '109'
+        name: Térkaam
+        start: '10:38:30'
+        surname: Vdáeočolk
+    distance: 5000m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: Jiskra Jos. Důl
+        id: '110'
+        name: Ajn
+        start: '10:40:30'
+        surname: Alietpkrž
+    -   born: 2009
+        club: Sokol Skuhrov
+        id: '111'
+        name: Mšotá
+        start: '10:41:00'
+        surname: Uýdatn
+    -   born: 2010
+        club: Sokol Skuhrov
+        id: '112'
+        name: Cáavlv
+        start: '10:41:30'
+        surname: Otlm
+    distance: 5000m
+    name: Mladší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2008
+        club: Sokol Skuhrov
+        id: '122'
+        name: Auazzn
+        start: '10:43:30'
+        surname: Ágyoanv
+    distance: 6000m
+    name: Starší dorostenky
+    sex: f
+-   athletes: []
+    distance: 6000m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 1995
+        club: Sokol Skuhrov
+        id: '113'
+        name: Rtpea
+        start: '10:44:00'
+        surname: Romuar
+    distance: 6000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 1999
+        club: S. Velké Hamry
+        id: '114'
+        name: Kioindm
+        start: '10:46:00'
+        surname: Čřbaek
+    -   born: 1979
+        club: ''
+        id: '115'
+        name: Foesj
+        start: '10:46:30'
+        surname: Noskčrýeorh
+    -   born: 1983
+        club: S. Velké Hamry
+        id: '116'
+        name: Lhmica
+        start: '10:47:00'
+        surname: Neabd
+    -   born: 1981
+        club: ''
+        id: '117'
+        name: Terp
+        start: '10:47:30'
+        surname: Atrdns
+    -   born: 1986
+        club: ''
+        id: '118'
+        name: Alše
+        start: '10:48:00'
+        surname: Rdtsan
+    -   born: 1982
+        club: Sokol Skuhrov
+        id: '119'
+        name: Seojf
+        start: '10:48:30'
+        surname: Bduoa
+    -   born: 1969
+        club: Sokol Skuhrov
+        id: '124'
+        name: Otámš
+        start: '10:49:00'
+        surname: Tlrad
+    distance: 9000m
+    name: Muži
+    sex: m

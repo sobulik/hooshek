@@ -10,6 +10,7 @@ class Event:
     """Event domain class"""
 
     def __init__(self, i):
+        self.version = i["version"]
         self.name = i["name"]
         self.date = i["date"]
         self.encoding_print = "utf-8"

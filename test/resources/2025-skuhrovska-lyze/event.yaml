@@ -1,0 +1,153 @@
+version: "1.1"
+name: Skuhrovská lyže
+date: 2025-02-22
+location: Skuhrov, Liberecký kraj
+organizer: Tělocvičná jednota Sokol Skuhrov
+slcr_event_id: 4774
+style: klasicky
+encoding_print: "utf_8_sig"
+interval:
+    start: "09:30:00"
+    race: 120
+    athlete: 30
+    groupby: 1
+races:
+    - age_min: 0
+      age_max: 5
+      sex: f
+      name: Benjamínky
+      slcr_name: Benjamínci W
+      distance: 300m
+    - age_min: 0
+      age_max: 5
+      sex: m
+      name: Benjamínci
+      slcr_name: Benjamínci M
+      distance: 300m
+    - age_min: 6
+      age_max: 7
+      sex: f
+      name: Minižačky
+      slcr_name: Minižačky
+      distance: 500m
+      eval:
+      -   age_min: 6
+          age_max: 6
+      -   age_min: 7
+          age_max: 7
+    - age_min: 6
+      age_max: 7
+      sex: m
+      name: Minižáci
+      slcr_name: Minižáčci
+      distance: 500m
+      eval:
+      -   age_min: 6
+          age_max: 6
+      -   age_min: 7
+          age_max: 7
+    - age_min: 8
+      age_max: 9
+      sex: f
+      name: Nejmladší žákyně
+      slcr_name: Žákyně nejmladší
+      distance: 1000m
+      eval:
+      -   age_min: 8
+          age_max: 8
+      -   age_min: 9
+          age_max: 9
+    - age_min: 8
+      age_max: 9
+      sex: m
+      name: Nejmladší žáci
+      slcr_name: Žáci nejmladší
+      distance: 1000m
+      eval:
+      -   age_min: 8
+          age_max: 8
+      -   age_min: 9
+          age_max: 9
+    - age_min: 10
+      age_max: 11
+      sex: f
+      name: Mladší žákyně
+      slcr_name: Žákyně mladší
+      distance: 2000m
+      eval:
+      -   age_min: 10
+          age_max: 10
+      -   age_min: 11
+          age_max: 11
+    - age_min: 10
+      age_max: 11
+      sex: m
+      name: Mladší žáci
+      slcr_name: Žáci mladší
+      distance: 2000m
+      eval:
+      -   age_min: 10
+          age_max: 10
+      -   age_min: 11
+          age_max: 11
+    - age_min: 12
+      age_max: 13
+      sex: f
+      name: Starší žákyně
+      slcr_name: Žákyně starší
+      distance: 4000m
+      eval:
+      -   age_min: 12
+          age_max: 12
+      -   age_min: 13
+          age_max: 13
+    - age_min: 12
+      age_max: 13
+      sex: m
+      name: Starší žáci
+      slcr_name: Žáci starší
+      distance: 4000m
+      eval:
+      -   age_min: 12
+          age_max: 12
+      -   age_min: 13
+          age_max: 13
+    - age_min: 14
+      age_max: 15
+      sex: f
+      name: Mladší dorostenky
+      slcr_name: Dorostenky mladší
+      distance: 5000m
+    - age_min: 14
+      age_max: 15
+      sex: m
+      name: Mladší dorostenci
+      slcr_name: Dorostenci mladší
+      distance: 5000m
+        #start: "10:19:20"
+    - age_min: 16
+      age_max: 17
+      sex: f
+      name: Starší dorostenky
+      slcr_name: Dorostenky starší
+      distance: 6000m
+    - age_min: 16
+      age_max: 17
+      sex: m
+      name: Starší dorostenci
+      slcr_name: Dorostenci starší
+      distance: 6000m
+    - age_min: 18
+      age_max: 99
+      sex: f
+      name: Ženy
+      slcr_name: Ženy a juniorky
+      distance: 6000m
+      start: "10:44:00"
+    - age_min: 18
+      age_max: 99
+      sex: m
+      name: Muži
+      slcr_name: Muži a junioři
+      distance: 9000m
+        #start: "10:20:20"
