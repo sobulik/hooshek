@@ -6,6 +6,7 @@ import event.event
 import cerberus
 
 import collections
+import copy
 import datetime
 import os
 
@@ -36,10 +37,10 @@ def load():
     return event.event.Event(ivent)
 
 def validate(raw):
-    schema = {
+    schema_1_0 = {
         "version": {
             "type": "string",
-            "allowed": ["1.0", "1.1"]
+            "allowed": ["1.0"]
         },
         "date": {
             "type": "date"
@@ -70,16 +71,8 @@ def validate(raw):
             },
             "required": False
         },
-        "location": {
-            "type": "string",
-            "required": False
-        },
         "name": {
             "type": "string"
-        },
-        "organizer": {
-            "type": "string",
-            "required": False
         },
         "races": {
             "type": "list",
@@ -141,10 +134,6 @@ def validate(raw):
                         "type": "string",
                         "allowed": ["f", "m"]
                     },
-                    "slcr_name": {
-                        "type": "string",
-                        "required": False
-                    },
                     "start": {
                         "type": "string",
                         "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$",
@@ -152,20 +141,36 @@ def validate(raw):
                     }
                 }
             }
-        },
-        "slcr_event_id": {
-            "type": "integer",
-            "required": False
-        },
-        "style": {
-            "type": "string",
-            "allowed": ["Přespolní běh", "klasicky", "volně"],
-            "required": False
         }
     }
+    schema_1_1 = copy.deepcopy(schema_1_0)
+    schema_1_1["version"]["allowed"] = ["1.1"]
+    schema_1_1["location"] = {
+        "type": "string"
+    }
+    schema_1_1["organizer"] = {
+        "type": "string"
+    }
+    schema_1_1["races"]["schema"]["schema"]["slcr_name"] = {
+        "type": "string",
+        "required": False
+    }
+    schema_1_1["slcr_event_id"] = {
+        "type": "integer"
+    }
+    schema_1_1["style"] = {
+        "type": "string",
+        "allowed": ["Přespolní běh", "klasicky", "volně"]
+    }
 
-    v = cerberus.Validator(schema, require_all=True)
-    if not v.validate(raw):
-        print(v.errors)
+    val_result = None
+    for schema in (schema_1_0, schema_1_1):
+        v = cerberus.Validator(schema, require_all=True)
+        val_result = (schema, v, False)
+        if v.validate(raw):
+            val_result = (schema, v, True)
+            break
+    if not val_result[2]:
+        print(val_result[1].errors)
         raise Exception("Event file does not validate")
-    return v.document
+    return val_result[1].document
