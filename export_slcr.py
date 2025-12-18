@@ -5,8 +5,7 @@ import athletes.io
 import clubs.io
 import start.io
 import finish.io
-
-import finish
+import finish.category
 
 import persistence.json
 import persistence.yaml
@@ -29,8 +28,8 @@ if __name__ == "__main__":
             continue
         i += 1
         r = dict()
-        for e in finish.eval_categories(event.eff_year, race, False):
-            finish.fill_category(e, event, aths, race, start, flist)
+        for e in finish.category.eval_categories(event.eff_year, race, False):
+            finish.category.fill_category(e, event, aths, race, start, flist)
             r["uniqueId"] = str(i)  # string # Interní ID závodu časoměřiče
             r["resultsLayout"] = "CROSS_COUNTRY_INDIVIDUAL_MASS_START" if event.mass else "CROSS_COUNTRY_INDIVIDUAL_DISTANCE"  # string # layout závodu, viz. Číselník
             r["categoryYearFrom"] = event.eff_year - race.age_max  # int # Kategorie ročník narození od

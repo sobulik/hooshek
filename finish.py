@@ -5,8 +5,7 @@ import athletes.io
 import clubs.io
 import start.io
 import finish.io
-
-import finish
+import finish.category
 
 event = event.io.load()
 clubs = clubs.io.load()
@@ -21,8 +20,8 @@ if __name__ == "__main__":
     results["mass"] = event.mass
     results["evals"] = list()
     for race in event.races:
-        for e in finish.eval_categories(event.eff_year, race, True):
-            finish.fill_category(e, event, aths, race, start, flist)
+        for e in finish.category.eval_categories(event.eff_year, race, True):
+            finish.category.fill_category(e, event, aths, race, start, flist)
             results["evals"].append(e)
 
     finish.io.dump(results, event.encoding_print)
