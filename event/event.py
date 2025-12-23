@@ -10,9 +10,26 @@ class Event:
     """Event domain class"""
 
     def __init__(self, i):
+        self.version = i["version"]
         self.name = i["name"]
         self.date = i["date"]
         self.encoding_print = "utf-8"
+        try:
+            self.location = i["location"]
+        except KeyError:
+            pass
+        try:
+            self.organizer = i["organizer"]
+        except KeyError:
+            pass
+        try:
+            self.slcr_event_id = i["slcr_event_id"]
+        except KeyError:
+            pass
+        try:
+            self.style = i["style"]
+        except KeyError:
+            pass
         if "encoding_print" in i and i["encoding_print"] is not None:
             self.encoding_print = i["encoding_print"]
 

@@ -12,6 +12,10 @@ class Race:
         self.age_max = i["age_max"]
         self.sex = i["sex"]
         self.name = i["name"]
+        try:
+            self.slcr_name = i["slcr_name"]
+        except KeyError:
+            self.slcr_name = self.name
         self.distance = i["distance"]
         if "eval" in i:
             self.eval = list()

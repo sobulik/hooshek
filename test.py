@@ -91,6 +91,15 @@ class Test(unittest.TestCase):
             subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "numerate.py")], cwd=self.dir_target)
             self.assertTrue(filecmp.cmp(os.path.join(dir_source, "athletes-with-numbers.yaml"), os.path.join(self.dir_target, "athletes-with-numbers.yaml")))
 
+    def _test_export_slcr(self, dir_source):
+        """SLCR export is correct"""
+        if os.path.exists(os.path.join(dir_source, "slcr-export.json")):
+            for f in ("event.yaml", "clubs.yaml", "athletes.yaml", "start.yaml", "finish.yaml"):
+                shutil.copy(os.path.join(dir_source, f), os.path.join(self.dir_target, f))
+
+            subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "export_slcr.py")], cwd=self.dir_target)
+            self.assertTrue(filecmp.cmp(os.path.join(dir_source, "slcr-export.json"), os.path.join(self.dir_target, "slcr-export.json")))
+
 if __name__ == "__main__":
 
     def generator(test, folder):

@@ -1,0 +1,1993 @@
+date: 2025-09-20
+name: Setkání mistrů
+races:
+-   athletes:
+    -   born: 2022
+        club: KB Trefa
+        diff: '0.0'
+        finish: 00:00:17
+        name: Erozáir
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Loacáv
+        time: '17.6'
+    -   born: 2023
+        club: Ski klub Lučany
+        diff: '1.4'
+        finish: 00:00:19
+        name: Lemáia
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Davstorán
+        time: '19.0'
+    -   born: 2023
+        club: SKI klub Jabl.
+        diff: '5.4'
+        finish: 00:00:23
+        name: Orpitvvikela A
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Oinovkáác
+        time: '23.0'
+    -   born: 2023
+        club: Sokol Skuhrov
+        diff: '17.0'
+        finish: 00:00:34
+        name: Isfoe
+        rank: 4
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Rmurao
+        time: '34.6'
+    -   born: 2022
+        club: ''
+        diff: '22.6'
+        finish: 00:00:40
+        name: Enthriaet
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pákrvosou
+        time: '40.2'
+    desc: ''
+    distance: 100m
+    name: Nejmenší dívky
+    sex: f
+-   athletes:
+    -   born: 2022
+        club: SKI klub Jabl.
+        diff: '0.0'
+        finish: 00:00:16
+        name: Šmáto
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ldahkí
+        time: '16.8'
+    -   born: 2022
+        club: ''
+        diff: '0.5'
+        finish: 00:00:17
+        name: Olfrian
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Seabvand
+        time: '17.3'
+    -   born: 2022
+        club: S. Velké Hamry
+        diff: '0.9'
+        finish: 00:00:17
+        name: Rivoel
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Číufk
+        time: '17.7'
+    -   born: 2022
+        club: Sokol Skuhrov
+        diff: '2.7'
+        finish: 00:00:19
+        name: Jna
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Íeedamčnkl
+        time: '19.5'
+    -   born: 2022
+        club: SKI klub Jabl.
+        diff: '4.5'
+        finish: 00:00:21
+        name: Lausk
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Znroehau
+        time: '21.3'
+    -   born: 2022
+        club: Jiskra Jos. Důl
+        diff: '5.6'
+        finish: 00:00:22
+        name: Trpkia
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ehsdcreni
+        time: '22.4'
+    -   born: 2023
+        club: S. Velké Hamry
+        diff: '7.6'
+        finish: 00:00:24
+        name: Elrvio
+        rank: 7
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Čařebk
+        time: '24.4'
+    -   born: 2023
+        club: TJ Tanvald
+        diff: '25.3'
+        finish: 00:00:42
+        name: Aínotnn
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Krcae
+        time: '42.1'
+    -   born: 2024
+        club: ''
+        diff: '39.1'
+        finish: 00:00:55
+        name: Deainl
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Laaham
+        time: '55.9'
+    desc: ''
+    distance: 100m
+    name: Nejmenší chlapci
+    sex: m
+-   athletes:
+    -   born: 2020
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:01:28
+        name: Uzzaan
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Sáhcvcohteelr
+        time: '1:28.1'
+    -   born: 2020
+        club: S. Velké Hamry
+        diff: '4.1'
+        finish: 00:01:32
+        name: Enaat
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Ašmkváo
+        time: '1:32.2'
+    -   born: 2020
+        club: S. Velké Hamry
+        diff: '8.5'
+        finish: 00:01:36
+        name: Áimeal
+        rank: 3
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Vřebkáoč
+        time: '1:36.6'
+    -   born: 2020
+        club: SKI klub Jabl.
+        diff: '9.4'
+        finish: 00:01:37
+        name: Enikřaat
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Álachodv
+        time: '1:37.5'
+    -   born: 2020
+        club: ''
+        diff: '16.7'
+        finish: 00:01:44
+        name: Ldaníěan
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ouársopkv
+        time: '1:44.8'
+    -   born: 2021
+        club: Sokol Skuhrov
+        diff: '34.9'
+        finish: 00:02:03
+        name: Ielcu
+        rank: 6
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Vlámoot
+        time: '2:03.0'
+    -   born: 2021
+        club: TJ Tanvald
+        diff: '35.5'
+        finish: 00:02:03
+        name: Fesio
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Novákváo
+        time: '2:03.6'
+    -   born: 2021
+        club: ''
+        diff: '54.0'
+        finish: 00:02:22
+        name: Šailek
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Avoáhaml
+        time: '2:22.1'
+    -   born: 2021
+        club: Sokol Huntířov
+        diff: '54.8'
+        finish: 00:02:22
+        name: Ilkno
+        rank: 9
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Amkvoádá
+        time: '2:22.9'
+    -   born: 2021
+        club: KB Trefa
+        diff: '1:05.6'
+        finish: 00:02:33
+        name: Ootdrahe
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Onáeovsdmo
+        time: '2:33.7'
+    desc: ''
+    distance: 300m
+    name: Benjamínky
+    sex: f
+-   athletes:
+    -   born: 2020
+        club: TJ Tanvald
+        diff: '0.0'
+        finish: 00:01:35
+        name: Jan
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Erákbd
+        time: '1:35.0'
+    -   born: 2020
+        club: TJ Tanvald
+        diff: '2.1'
+        finish: 00:01:37
+        name: Rdmilvía
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mrruoa
+        time: '1:37.1'
+    -   born: 2020
+        club: ''
+        diff: '6.3'
+        finish: 00:01:41
+        name: Ajn
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ttreb
+        time: '1:41.3'
+    -   born: 2021
+        club: SKI klub Jabl.
+        diff: '10.6'
+        finish: 00:01:45
+        name: Ášojn
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ošjíehř
+        time: '1:45.6'
+    -   born: 2020
+        club: S. Velké Hamry
+        diff: '16.9'
+        finish: 00:01:51
+        name: Vpela
+        rank: 5
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Ílkčevpa
+        time: '1:51.9'
+    -   born: 2021
+        club: SKI klub Jabl.
+        diff: '25.1'
+        finish: 00:02:00
+        name: Tobáiš
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Avlkuíc
+        time: '2:00.1'
+    desc: ''
+    distance: 300m
+    name: Benjamínci
+    sex: m
+-   athletes:
+    -   born: 2019
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: 00:02:57
+        name: Ínrokaal
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Cilrvooápa
+        time: '2:57.8'
+    -   born: 2019
+        club: ''
+        diff: '6.7'
+        finish: 00:03:04
+        name: Etzrea
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pdzmikoe
+        time: '3:04.5'
+    -   born: 2019
+        club: TJ Tanvald
+        diff: '14.5'
+        finish: 00:03:12
+        name: Nale
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Rvodábák
+        time: '3:12.3'
+    -   born: 2019
+        club: ''
+        diff: '18.0'
+        finish: 00:03:15
+        name: Aoanhj
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Navolág
+        time: '3:15.8'
+    -   born: 2019
+        club: ''
+        diff: '22.8'
+        finish: 00:03:20
+        name: Aědanl
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bavoedásnv
+        time: '3:20.6'
+    -   born: 2019
+        club: TJ Tanvald
+        diff: '37.4'
+        finish: 00:03:35
+        name: Áieorzl
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Coárakv
+        time: '3:35.2'
+    -   born: 2019
+        club: Dukla Liberec
+        diff: '40.8'
+        finish: 00:03:38
+        name: Argét
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Áboštkviu
+        time: '3:38.6'
+    -   born: 2019
+        club: SK Janov - Bed.
+        diff: '41.6'
+        finish: 00:03:39
+        name: Rrbaabo
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ivokfaár
+        time: '3:39.4'
+    -   born: 2019
+        club: SKI klub Jabl.
+        diff: '43.4'
+        finish: 00:03:41
+        name: Etnaa
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Rnazuhoe
+        time: '3:41.2'
+    -   born: 2019
+        club: Ski klub Lučany
+        diff: '1:02.6'
+        finish: 00:04:00
+        name: Žkenaa
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Drváotasn
+        time: '4:00.4'
+    -   born: 2019
+        club: Jiskra Jos. Důl
+        diff: '1:54.9'
+        finish: 00:04:52
+        name: Laad
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ooájvnv
+        time: '4:52.7'
+    desc: '2019'
+    distance: 500m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2018
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:02:50
+        name: Nžekaa
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Oámdvklá
+        time: '2:50.1'
+    -   born: 2018
+        club: Ski klub Lučany
+        diff: '9.0'
+        finish: 00:02:59
+        name: Nieokrva
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vmjcáotěa
+        time: '2:59.1'
+    -   born: 2018
+        club: SKI klub Harr.
+        diff: '15.7'
+        finish: 00:03:05
+        name: Eerst
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Envábšoe
+        time: '3:05.8'
+    -   born: 2018
+        club: SKI klub Harr.
+        diff: '16.6'
+        finish: 00:03:06
+        name: Žsaanne
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hfonamváon
+        time: '3:06.7'
+    -   born: 2018
+        club: Dukla Liberec
+        diff: '18.0'
+        finish: 00:03:08
+        name: Kiašle
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Popzváoti
+        time: '3:08.1'
+    -   born: 2018
+        club: Sokol Skuhrov
+        diff: '31.4'
+        finish: 00:03:21
+        name: Elneah
+        rank: 6
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Hláavaom
+        time: '3:21.5'
+    -   born: 2018
+        club: Dukla Liberec
+        diff: '38.7'
+        finish: 00:03:28
+        name: Aetna
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Oahácbermev
+        time: '3:28.8'
+    -   born: 2018
+        club: SKI klub Jabl.
+        diff: '55.8'
+        finish: 00:03:45
+        name: Ktýnsair
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Npmávšauo
+        time: '3:45.9'
+    desc: '2018'
+    distance: 500m
+    name: Minižačky
+    sex: f
+-   athletes:
+    -   born: 2019
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: 00:03:06
+        name: Hrvcine
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mhanonf
+        time: '3:06.5'
+    -   born: 2019
+        club: TJ Tanvald
+        diff: '10.5'
+        finish: 00:03:17
+        name: Terp
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kvnoá
+        time: '3:17.0'
+    -   born: 2019
+        club: SKI klub Jabl.
+        diff: '29.7'
+        finish: 00:03:36
+        name: ' Árekisntialvp'
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Niáock
+        time: '3:36.2'
+    -   born: 2019
+        club: SKI klub Jabl.
+        diff: '35.5'
+        finish: 00:03:42
+        name: Nja
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Alíkdh
+        time: '3:42.0'
+    -   born: 2019
+        club: KB Trefa
+        diff: '38.0'
+        finish: 00:03:44
+        name: Ebrhetr
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Onodmes
+        time: '3:44.5'
+    -   born: 2019
+        club: ''
+        diff: ''
+        finish: ''
+        name: Ilpfi
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Zbnrake
+        time: ''
+    desc: '2019'
+    distance: 500m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2018
+        club: Sokol Studenec
+        diff: '0.0'
+        finish: 00:02:53
+        name: Tkofyšr
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Ušp
+        time: '2:53.9'
+    -   born: 2018
+        club: SKI klub Jabl.
+        diff: '5.6'
+        finish: 00:02:59
+        name: Ilifp
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Anhrzeou
+        time: '2:59.5'
+    -   born: 2018
+        club: SKI klub Jabl.
+        diff: '10.5'
+        finish: 00:03:04
+        name: Mtšyaá
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Íořhjše
+        time: '3:04.4'
+    desc: '2018'
+    distance: 500m
+    name: Minižáci
+    sex: m
+-   athletes:
+    -   born: 2017
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 00:03:41
+        name: Rvoneika
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Áovšpu
+        time: '3:41.5'
+    -   born: 2017
+        club: Sokol Skuhrov
+        diff: '27.7'
+        finish: 00:04:09
+        name: Lmgnaaaéd
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Áňárkovk
+        time: '4:09.2'
+    -   born: 2017
+        club: SKI klub Harr.
+        diff: '32.1'
+        finish: 00:04:13
+        name: Álakr
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Íáknočvkmo
+        time: '4:13.6'
+    -   born: 2017
+        club: Dukla Liberec
+        diff: '54.5'
+        finish: 00:04:36
+        name: Etarze
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Rbvcemoaháe
+        time: '4:36.0'
+    -   born: 2017
+        club: Sokol Skuhrov
+        diff: '1:02.1'
+        finish: 00:04:43
+        name: Kiaetřan
+        rank: 5
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Hkoáráov
+        time: '4:43.6'
+    -   born: 2017
+        club: SKI klub Jabl.
+        diff: '1:13.9'
+        finish: 00:04:55
+        name: Zreaet
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vcoíaáukvl
+        time: '4:55.4'
+    desc: '2017'
+    distance: 800m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: 00:03:51
+        name: Agmleaadn
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Amáohlav
+        time: '3:51.0'
+    -   born: 2016
+        club: Vlčáci
+        diff: '0.4'
+        finish: 00:03:51
+        name: Llae
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Očvmříeá
+        time: '3:51.4'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '2.9'
+        finish: 00:03:53
+        name: Lujei
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vlauáoošvk
+        time: '3:53.9'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '4.1'
+        finish: 00:03:55
+        name: Uilce
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ráafuühovber
+        time: '3:55.1'
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '15.9'
+        finish: 00:04:06
+        name: Eezart
+        rank: 5
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Rovjíá
+        time: '4:06.9'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '20.8'
+        finish: 00:04:11
+        name: Ifeso
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ipřndvoá
+        time: '4:11.8'
+    -   born: 2016
+        club: KB Trefa
+        diff: '21.9'
+        finish: 00:04:12
+        name: Aaidltm
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Odmesáoonv
+        time: '4:12.9'
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '30.1'
+        finish: 00:04:21
+        name: Eevynl
+        rank: 8
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Áachčmková
+        time: '4:21.1'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '30.5'
+        finish: 00:04:21
+        name: Rakál
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Euovárbgea
+        time: '4:21.5'
+    -   born: 2016
+        club: SK Janov - Bed.
+        diff: '48.1'
+        finish: 00:04:39
+        name: Eicul
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Áarfviok
+        time: '4:39.1'
+    -   born: 2016
+        club: Ski klub Lučany
+        diff: '1:12.5'
+        finish: 00:05:03
+        name: Erzeta
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Omoášvn
+        time: '5:03.5'
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '1:18.5'
+        finish: 00:05:09
+        name: Ema
+        rank: 12
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Klvobažá
+        time: '5:09.5'
+    -   born: 2016
+        club: Jiskra Jos. Důl
+        diff: '1:43.1'
+        finish: 00:05:34
+        name: Oall
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Jonáovv
+        time: '5:34.1'
+    -   born: 2016
+        club: SKI klub Jabl.
+        diff: ''
+        finish: ''
+        name: Amktéra
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Áákreeosvk
+        time: ''
+    desc: '2016'
+    distance: 800m
+    name: Nejmladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2017
+        club: SKI klub Jabl.
+        diff: '0.0'
+        finish: 00:03:42
+        name: Roaks
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pšotr
+        time: '3:42.4'
+    -   born: 2017
+        club: Sokol Skuhrov
+        diff: '19.7'
+        finish: 00:04:02
+        name: Šákulmi
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Alvash
+        time: '4:02.1'
+    -   born: 2017
+        club: Ski klub Lučany
+        diff: '21.7'
+        finish: 00:04:04
+        name: Onšáj
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ikppe
+        time: '4:04.1'
+    -   born: 2017
+        club: SKI klub Jabl.
+        diff: '22.6'
+        finish: 00:04:05
+        name: ' Eapvaxlalerdn'
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Nicoák
+        time: '4:05.0'
+    -   born: 2017
+        club: Dukla Liberec
+        diff: '23.1'
+        finish: 00:04:05
+        name: Idadv
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Rsheclecht
+        time: '4:05.5'
+    -   born: 2017
+        club: SKI klub Jabl.
+        diff: '42.4'
+        finish: 00:04:24
+        name: Aadm
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Koonáeksp
+        time: '4:24.8'
+    -   born: 2017
+        club: Ski klub Lučany
+        diff: '46.1'
+        finish: 00:04:28
+        name: Jsfoe
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lgdatov
+        time: '4:28.5'
+    -   born: 2017
+        club: Sokol Skuhrov
+        diff: '49.5'
+        finish: 00:04:31
+        name: Řvaislteb
+        rank: 8
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Kpnueíl
+        time: '4:31.9'
+    -   born: 2017
+        club: Jiskra Jos. Důl
+        diff: '1:18.4'
+        finish: 00:05:00
+        name: Smuela
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Simth
+        time: '5:00.8'
+    desc: '2017'
+    distance: 800m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2016
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 00:03:43
+        name: Anj
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Čipeáskk
+        time: '3:43.4'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '3.7'
+        finish: 00:03:47
+        name: Kfeniaštr
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ýhol
+        time: '3:47.1'
+    -   born: 2016
+        club: S. Velké Hamry
+        diff: '7.4'
+        finish: 00:03:50
+        name: Tmáašy
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Kešam
+        time: '3:50.8'
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '8.2'
+        finish: 00:03:51
+        name: Jkaub
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Eiezwrkc
+        time: '3:51.6'
+    -   born: 2016
+        club: TJ Tanvald
+        diff: '9.7'
+        finish: 00:03:53
+        name: Anj
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Nktramei
+        time: '3:53.1'
+    -   born: 2016
+        club: SKI klub Jabl.
+        diff: '16.7'
+        finish: 00:04:00
+        name: Oěthcjv
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Okářl
+        time: '4:00.1'
+    -   born: 2016
+        club: Sokol Skuhrov
+        diff: '18.2'
+        finish: 00:04:01
+        name: Sefjo
+        rank: 7
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Budao
+        time: '4:01.6'
+    -   born: 2016
+        club: SK Janov - Bed.
+        diff: '23.4'
+        finish: 00:04:06
+        name: Minrta
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Okplá
+        time: '4:06.8'
+    -   born: 2016
+        club: SKI klub Harr.
+        diff: '31.7'
+        finish: 00:04:15
+        name: Eřnodj
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Jeínk
+        time: '4:15.1'
+    -   born: 2016
+        club: Dukla Liberec
+        diff: '34.0'
+        finish: 00:04:17
+        name: Airmnt
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bilerak
+        time: '4:17.4'
+    -   born: 2016
+        club: KB Trefa
+        diff: '36.5'
+        finish: 00:04:19
+        name: Ieášl
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hšoyvldí
+        time: '4:19.9'
+    -   born: 2016
+        club: ''
+        diff: '46.0'
+        finish: 00:04:29
+        name: Timran
+        rank: 12
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Epmiodkz
+        time: '4:29.4'
+    -   born: 2016
+        club: ''
+        diff: '1:50.8'
+        finish: 00:05:34
+        name: Mdaa
+        rank: 13
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Krbzaen
+        time: '5:34.2'
+    desc: '2016'
+    distance: 800m
+    name: Nejmladší žáci
+    sex: m
+-   athletes:
+    -   born: 2015
+        club: S. Velké Hamry
+        diff: '0.0'
+        finish: 00:05:05
+        name: Ciale
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Fieoxvá
+        time: '5:05.1'
+    -   born: 2015
+        club: Harrachov RA
+        diff: '11.6'
+        finish: 00:05:16
+        name: Eilnli
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ocýpháv
+        time: '5:16.7'
+    -   born: 2015
+        club: Hanč. klub Ben.
+        diff: '17.0'
+        finish: 00:05:22
+        name: Apvlína
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Voášokru
+        time: '5:22.1'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '21.8'
+        finish: 00:05:26
+        name: Iáoelzr
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Víákpnlou
+        time: '5:26.9'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '23.7'
+        finish: 00:05:28
+        name: Jýastnu
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Káipvop
+        time: '5:28.8'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '26.4'
+        finish: 00:05:31
+        name: Anan
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Viksákoáčp
+        time: '5:31.5'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '35.4'
+        finish: 00:05:40
+        name: Traeze
+        rank: 7
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Kášovavrvu
+        time: '5:40.5'
+    -   born: 2015
+        club: SKI klub Jabl.
+        diff: '47.6'
+        finish: 00:05:52
+        name: Tnaeáli
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Káoálřvo
+        time: '5:52.7'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '1:11.3'
+        finish: 00:06:16
+        name: Nian
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lseeáv
+        time: '6:16.4'
+    -   born: 2015
+        club: Spart. Vrchlabí
+        diff: '1:12.2'
+        finish: 00:06:17
+        name: Eam
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mkeleávto
+        time: '6:17.3'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '1:28.0'
+        finish: 00:06:33
+        name: Aanraemin
+        rank: 11
+        rank_sokol: 4
+        start: 00:00:00
+        surname: Laváhasov
+        time: '6:33.1'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: '1:51.5'
+        finish: 00:06:56
+        name: Athe
+        rank: 12
+        rank_sokol: 5
+        start: 00:00:00
+        surname: Ookáválťš
+        time: '6:56.6'
+    -   born: 2015
+        club: Sokol Skuhrov
+        diff: ''
+        finish: ''
+        name: Miálae
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Icezrváowke
+        time: ''
+    -   born: 2015
+        club: Biatlon Liberec
+        diff: ''
+        finish: ''
+        name: Taeažlb
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kbtáuivšo
+        time: ''
+    desc: '2015'
+    distance: 1000m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2014
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: 00:05:14
+        name: Malika
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Omákínkočv
+        time: '5:14.4'
+    -   born: 2014
+        club: Hanč. klub Ben.
+        diff: '5.6'
+        finish: 00:05:20
+        name: Patěnkáš
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kušáovor
+        time: '5:20.0'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '19.7'
+        finish: 00:05:34
+        name: Anna
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Ábaklžvo
+        time: '5:34.1'
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '20.1'
+        finish: 00:05:34
+        name: Anna
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Olkávv
+        time: '5:34.5'
+    -   born: 2014
+        club: KB Trefa
+        diff: '29.3'
+        finish: 00:05:43
+        name: Išakle
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Olhyíšdv
+        time: '5:43.7'
+    -   born: 2014
+        club: SKI klub Harr.
+        diff: '39.1'
+        finish: 00:05:53
+        name: Aldaegmna
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Háokoráv
+        time: '5:53.5'
+    -   born: 2014
+        club: Dukla Liberec
+        diff: '43.0'
+        finish: 00:05:57
+        name: Řaeatnik
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hyrecdovná
+        time: '5:57.4'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '1:13.7'
+        finish: 00:06:28
+        name: Atiskýnr
+        rank: 8
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Ákvkáoňr
+        time: '6:28.1'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '1:34.1'
+        finish: 00:06:48
+        name: Rzáileo
+        rank: 9
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Okšlvťáoá
+        time: '6:48.5'
+    desc: '2014'
+    distance: 1000m
+    name: Mladší žákyně
+    sex: f
+-   athletes:
+    -   born: 2015
+        club: SKI klub Jabl.
+        diff: '0.0'
+        finish: 00:04:54
+        name: Nirob
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Khá
+        time: '4:54.4'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '2.1'
+        finish: 00:04:56
+        name: Dejřon
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mdláek
+        time: '4:56.5'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '10.0'
+        finish: 00:05:04
+        name: Amjět
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bkšui
+        time: '5:04.4'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '22.3'
+        finish: 00:05:16
+        name: Uajkb
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Brgueae
+        time: '5:16.7'
+    -   born: 2015
+        club: Ski klub Lučany
+        diff: '28.8'
+        finish: 00:05:23
+        name: Iipfl
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tecmajě
+        time: '5:23.2'
+    -   born: 2015
+        club: TJ Tanvald
+        diff: '34.0'
+        finish: 00:05:28
+        name: Oidnikm
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Řšhjeo
+        time: '5:28.4'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '39.3'
+        finish: 00:05:33
+        name: Říji
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Htchecelsr
+        time: '5:33.7'
+    -   born: 2015
+        club: S. Velké Hamry
+        diff: '42.3'
+        finish: 00:05:36
+        name: Ocvtjhě
+        rank: 8
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Kcaev
+        time: '5:36.7'
+    -   born: 2015
+        club: Dukla Liberec
+        diff: '1:48.7'
+        finish: 00:06:43
+        name: Jhtcvoě
+        rank: 9
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Eecrmabh
+        time: '6:43.1'
+    -   born: 2015
+        club: SKI klub Jabl.
+        diff: '2:13.2'
+        finish: 00:07:07
+        name: Toielab Jshai
+        rank: 10
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Eveonsnts
+        time: '7:07.6'
+    -   born: 2015
+        club: ''
+        diff: '2:24.2'
+        finish: 00:07:18
+        name: Šamáyt
+        rank: 11
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bnaé
+        time: '7:18.6'
+    desc: '2015'
+    distance: 1000m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 00:04:39
+        name: Řnojde
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pšu
+        time: '4:39.0'
+    -   born: 2014
+        club: Ski klub Lučany
+        diff: '4.5'
+        finish: 00:04:43
+        name: Pter
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Spčkkeái
+        time: '4:43.5'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '41.5'
+        finish: 00:05:20
+        name: Loirve
+        rank: 3
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Klíku
+        time: '5:20.5'
+    -   born: 2014
+        club: Sokol Skuhrov
+        diff: '1:31.4'
+        finish: 00:06:10
+        name: Naelid
+        rank: 4
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Mehčkcáa
+        time: '6:10.4'
+    -   born: 2014
+        club: Dukla Liberec
+        diff: '1:56.6'
+        finish: 00:06:35
+        name: Adma
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pavlů
+        time: '6:35.6'
+    desc: '2014'
+    distance: 1000m
+    name: Mladší žáci
+    sex: m
+-   athletes:
+    -   born: 2013
+        club: SKI klub Jabl.
+        diff: '0.0'
+        finish: 00:10:52
+        name: Lena
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Áokesekárv
+        time: '10:52.6'
+    -   born: 2013
+        club: Dukla Liberec
+        diff: '19.6'
+        finish: 00:11:12
+        name: Maem
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Zvpptoáio
+        time: '11:12.2'
+    -   born: 2013
+        club: SK Janov - Bed.
+        diff: '1:23.4'
+        finish: 00:12:16
+        name: Etreza
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Lákiocámhv
+        time: '12:16.0'
+    desc: '2013'
+    distance: 2000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: 00:10:47
+        name: Mleáai
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Tošámávok
+        time: '10:47.1'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '48.4'
+        finish: 00:11:35
+        name: Anežka
+        rank: 2
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Áahlaomv
+        time: '11:35.5'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '1:01.0'
+        finish: 00:11:48
+        name: Loatt
+        rank: 3
+        rank_sokol: 3
+        start: 00:00:00
+        surname: Oivtvá
+        time: '11:48.1'
+    -   born: 2012
+        club: Atl. kl. Semily
+        diff: '1:07.7'
+        finish: 00:11:54
+        name: Laníkora
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Chvlooá
+        time: '11:54.8'
+    -   born: 2012
+        club: Dukla Liberec
+        diff: '2:10.4'
+        finish: 00:12:57
+        name: Ašeilk
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Nifedhrero
+        time: '12:57.5'
+    -   born: 2012
+        club: SKI klub Jabl.
+        diff: '3:51.4'
+        finish: 00:14:38
+        name: Llhcemei
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Arahms
+        time: '14:38.5'
+    -   born: 2012
+        club: SKI klub Jabl.
+        diff: '3:51.4'
+        finish: 00:14:38
+        name: Lae Ehvbeiste
+        rank: 7
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Sveonesnt
+        time: '14:38.5'
+    -   born: 2012
+        club: SG Jablonec
+        diff: '8:15.1'
+        finish: 00:19:02
+        name: Emam
+        rank: 8
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Oéábnv
+        time: '19:02.2'
+    -   born: 2012
+        club: Č. SKI Vysoké
+        diff: ''
+        finish: ''
+        name: Tpare
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Čáerukvo
+        time: ''
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: ''
+        finish: ''
+        name: Rarbaob
+        rank: ''
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Škvrvvaáuo
+        time: ''
+    desc: '2012'
+    distance: 2000m
+    name: Starší žákyně
+    sex: f
+-   athletes:
+    -   born: 2013
+        club: SKI klub Harr.
+        diff: '0.0'
+        finish: 00:11:01
+        name: Ilaos
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Svtaý
+        time: '11:01.0'
+    -   born: 2013
+        club: SK Janov - Bed.
+        diff: '1.7'
+        finish: 00:11:02
+        name: Ofjse
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ršnty
+        time: '11:02.7'
+    -   born: 2013
+        club: Dukla Liberec
+        diff: '10.3'
+        finish: 00:11:11
+        name: Gouh
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Aebkilr
+        time: '11:11.3'
+    -   born: 2013
+        club: S. Velké Hamry
+        diff: '1:42.4'
+        finish: 00:12:43
+        name: Luášk
+        rank: 4
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Šmake
+        time: '12:43.4'
+    desc: '2013'
+    distance: 2000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2012
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:10:10
+        name: Netvinc
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Žjkee
+        time: '10:10.7'
+    -   born: 2012
+        club: Sokol Skuhrov
+        diff: '11.9'
+        finish: 00:10:22
+        name: Omtšá
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Lotm
+        time: '10:22.6'
+    -   born: 2012
+        club: SKI klub Harr.
+        diff: '33.8'
+        finish: 00:10:44
+        name: Ncvřieav
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Výtsa
+        time: '10:44.5'
+    -   born: 2012
+        club: SKI klub Harr.
+        diff: '1:12.4'
+        finish: 00:11:23
+        name: Kívte
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hroák
+        time: '11:23.1'
+    desc: '2012'
+    distance: 2000m
+    name: Starší žáci
+    sex: m
+-   athletes:
+    -   born: 2011
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: 00:18:26
+        name: Aagldneam
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Áoprvku
+        time: '18:26.2'
+    -   born: 2011
+        club: Ski klub Lučany
+        diff: '58.2'
+        finish: 00:19:24
+        name: Aiknýstr
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ozáskávle
+        time: '19:24.4'
+    -   born: 2011
+        club: Dukla Liberec
+        diff: '1:41.5'
+        finish: 00:20:07
+        name: Emair
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ekivaáorlb
+        time: '20:07.7'
+    -   born: 2011
+        club: Dukla Liberec
+        diff: '7:20.9'
+        finish: 00:25:47
+        name: Ielakš
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Vtáksook
+        time: '25:47.1'
+    desc: ''
+    distance: 3000m
+    name: Starší žákyně U15
+    sex: f
+-   athletes:
+    -   born: 2011
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:14:10
+        name: Jan
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Šekma
+        time: '14:10.5'
+    -   born: 2011
+        club: Biatlon Liberec
+        diff: '1:07.6'
+        finish: 00:15:18
+        name: Annot
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Tušbkai
+        time: '15:18.1'
+    -   born: 2011
+        club: Dukla Liberec
+        diff: '1:27.8'
+        finish: 00:15:38
+        name: Adma
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Kcuošoeohhcl
+        time: '15:38.3'
+    desc: ''
+    distance: 3000m
+    name: Starší žáci U15
+    sex: m
+-   athletes:
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 00:20:51
+        name: Řeniakat
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Mkrsoeáv
+        time: '20:51.3'
+    desc: ''
+    distance: 3000m
+    name: Mladší dorostenky
+    sex: f
+-   athletes:
+    -   born: 2010
+        club: Sokol Skuhrov
+        diff: '0.0'
+        finish: 00:15:15
+        name: Ifkntaerš
+        rank: 1
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Azprkcoáh
+        time: '15:15.0'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '41.0'
+        finish: 00:15:56
+        name: Ětjma
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Hůocn
+        time: '15:56.0'
+    -   born: 2010
+        club: Sokol Skuhrov
+        diff: '51.3'
+        finish: 00:16:06
+        name: Laávvc
+        rank: 3
+        rank_sokol: 2
+        start: 00:00:00
+        surname: Ltom
+        time: '16:06.3'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '1:16.6'
+        finish: 00:16:31
+        name: Rpte
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Keopýkc
+        time: '16:31.6'
+    -   born: 2010
+        club: SKI klub Jabl.
+        diff: '2:00.4'
+        finish: 00:17:15
+        name: Eouhskju La
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Noetvssne
+        time: '17:15.4'
+    -   born: 2010
+        club: Ski klub Lučany
+        diff: '2:22.7'
+        finish: 00:17:37
+        name: Kumišlá
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Zčmaa
+        time: '17:37.7'
+    desc: ''
+    distance: 3000m
+    name: Mladší dorostenci
+    sex: m
+-   athletes:
+    -   born: 2008
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:30:26
+        name: Anan
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Álmávdko
+        time: '30:26.7'
+    -   born: 2008
+        club: Ski klub Lučany
+        diff: '6:36.0'
+        finish: 00:37:02
+        name: Karal
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ácpkkeo
+        time: '37:02.7'
+    desc: ''
+    distance: 5000m
+    name: Starší dorostenky
+    sex: f
+-   athletes: []
+    desc: ''
+    distance: 7500m
+    name: Starší dorostenci
+    sex: m
+-   athletes:
+    -   born: 1985
+        club: Ski klub Lučany
+        diff: '0.0'
+        finish: 00:26:44
+        name: Aeamlich
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ušpvoá
+        time: '26:44.7'
+    -   born: 1995
+        club: Sokol Skuhrov
+        diff: '17:35.2'
+        finish: 00:44:19
+        name: Rpeta
+        rank: 2
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Ouramr
+        time: '44:19.9'
+    desc: ''
+    distance: 5000m
+    name: Ženy
+    sex: f
+-   athletes:
+    -   born: 2007
+        club: Dukla Liberec
+        diff: '0.0'
+        finish: 00:34:12
+        name: Tšěánp
+        rank: 1
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Pčuíkel
+        time: '34:12.5'
+    -   born: 1986
+        club: ''
+        diff: '1:51.4'
+        finish: 00:36:03
+        name: Elaš
+        rank: 2
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Strnda
+        time: '36:03.9'
+    -   born: 2007
+        club: Dukla Liberec
+        diff: '6:00.1'
+        finish: 00:40:12
+        name: Kálšu
+        rank: 3
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Ávekp
+        time: '40:12.6'
+    -   born: 1986
+        club: Biatlon Liberec
+        diff: '8:26.3'
+        finish: 00:42:38
+        name: Mada
+        rank: 4
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Bštkiua
+        time: '42:38.8'
+    -   born: 1986
+        club: ''
+        diff: '9:14.6'
+        finish: 00:43:27
+        name: Jna
+        rank: 5
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Erzankb
+        time: '43:27.1'
+    -   born: 1981
+        club: ''
+        diff: '10:16.8'
+        finish: 00:44:29
+        name: Pret
+        rank: 6
+        rank_sokol: ''
+        start: 00:00:00
+        surname: Dsantr
+        time: '44:29.3'
+    -   born: 1970
+        club: Sokol Skuhrov
+        diff: '14:52.7'
+        finish: 00:49:05
+        name: Rretob
+        rank: 7
+        rank_sokol: 1
+        start: 00:00:00
+        surname: Rczpaohák
+        time: '49:05.2'
+    desc: ''
+    distance: 7500m
+    name: Muži
+    sex: m
