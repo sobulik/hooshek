@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# pdm
+.pdm-python
+
 # Vim swap files
 *.swp
 
