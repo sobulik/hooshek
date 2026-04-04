@@ -4,7 +4,7 @@ Hooshek is a command-line interface (CLI) tool for managing sports competitions,
 
 ## Installation
 
-1. **Make sure Python is installed**
+1. **Make sure Python is installed**<br>
     Many environments come with pre-installed Python.
     ```bash
     $ python3 --version
@@ -12,7 +12,7 @@ Hooshek is a command-line interface (CLI) tool for managing sports competitions,
     ```
     If you see an error or Python version is lower than 3.9, install Python 3.9 or above using your OS package manager. Alternatively, obtain it from [python.org](https://www.python.org/downloads/).
 
-2. **Install PDM**
+2. **Install PDM**<br>
     PDM is a Python package and dependency manager. Install it from [pdm-project.org](https://pdm-project.org/en/latest/).
 
 3. **Clone the repository**
