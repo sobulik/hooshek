@@ -1,7 +1,13 @@
-# Python runtime
+# Python-generated files
 __pycache__/
-*.py[cod]
-*$py.class
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
 
 # Vim swap files
 *.swp
