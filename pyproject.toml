@@ -8,7 +8,7 @@ authors = [
     {name = "sobulik"}
 ]
 maintainers = [
-    {name = "janhlama", email = "<mail@janhalama.cz>"}
+    {name = "janhalama", email = "<mail@janhalama.cz>"}
 ]
 keywords = ["sport", "race", "timer"]
 dependencies = [
