@@ -1,0 +1,27 @@
+name: CI
+on: [push]
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-24.04]
+        uv-version: [0.11.6]
+        python-version: [3.9, 3.10, 3.11, 3.12, 3.13, 3.14]
+    runs-on: ${{ matrix.os }}
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          version: ${{ matrix.uv-version }}
+          python-version: ${{ matrix.python-version }}
+          enable-cache: true
+
+      - name: Install the project
+        run: uv sync --locked
+
+      - name: Run tests
+        run: uv run ./test.py
