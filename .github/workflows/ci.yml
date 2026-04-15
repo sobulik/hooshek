@@ -11,7 +11,9 @@ jobs:
         uses: ./.github/actions/setup-uv
 
       - name: Run ruff
-        run: echo "To be done"
+        run: |
+          python --version
+          echo "To be done"
 
   test:
     runs-on: ${{ matrix.os }}
