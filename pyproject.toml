@@ -17,3 +17,8 @@ dependencies = [
     "termtables~=0.2.4",
 ]
 license = {text = "MIT"}
+
+[dependency-groups]
+test = [
+    "pytest>=8.4.2",
+]

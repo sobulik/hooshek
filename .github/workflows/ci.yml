@@ -32,7 +32,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install the project
-        run: uv sync --locked
+        run: uv sync --locked --group test
+
+      - name: Run pytest
+        run: uv run pytest
 
       - name: Run tests
         run: uv run ./test.py
