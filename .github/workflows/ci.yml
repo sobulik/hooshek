@@ -16,6 +16,7 @@ jobs:
           echo "To be done"
 
   test:
+    needs: lint
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
