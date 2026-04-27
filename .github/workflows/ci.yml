@@ -1,0 +1,39 @@
+name: CI
+on: [push]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup uv
+        uses: ./.github/actions/setup-uv
+
+      - name: Run ruff
+        run: |
+          python --version
+          echo "To be done"
+
+  test:
+    needs: lint
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-24.04"]
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13", "3.14"]
+      fail-fast: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup uv
+        uses: ./.github/actions/setup-uv
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install the project
+        run: uv sync --locked
+
+      - name: Run tests
+        run: uv run ./test.py
