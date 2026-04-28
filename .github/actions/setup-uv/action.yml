@@ -9,5 +9,5 @@ runs:
     - name: Install uv
       uses: astral-sh/setup-uv@v8.0.0
       with:
-        version: "0.11.7"
+        version: "0.11.8"
         python-version: ${{ inputs.python-version }}
