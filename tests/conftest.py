@@ -2,7 +2,7 @@ import pathlib
 import pytest
 
 def dir_fixtures():
-    p = pathlib.Path(__file__).parents[1] / "test" / "resources"
+    p = pathlib.Path(__file__).parent / "data"
     return filter(lambda d: d.is_dir(), p.iterdir())
 
 @pytest.fixture(params=dir_fixtures(), scope="session")
