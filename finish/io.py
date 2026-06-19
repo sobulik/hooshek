@@ -7,8 +7,6 @@ import util.util
 import cerberus
 
 import collections
-import datetime
-import os
 
 def load():
     """return a list of finish times"""

@@ -7,8 +7,6 @@ import cerberus
 
 import collections
 import copy
-import datetime
-import os
 
 def load():
     """return Event instance"""

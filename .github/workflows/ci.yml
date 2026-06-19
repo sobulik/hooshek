@@ -10,10 +10,12 @@ jobs:
       - name: Setup uv
         uses: ./.github/actions/setup-uv
 
-      - name: Run ruff
+      - name: Install the project
+        run: uv sync --locked --group lint
+
+      - name: Run ruff check
         run: |
-          python --version
-          echo "To be done"
+          uv run ruff check
 
   test:
     needs: lint

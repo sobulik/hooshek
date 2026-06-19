@@ -6,7 +6,6 @@ import clubs.club
 import cerberus
 
 import collections
-import os
 
 def load():
     """return a dictionary of Club instances"""

@@ -6,7 +6,6 @@ import athletes.athlete
 import cerberus
 
 import collections
-import os
 
 def build(clubs, primaryKeyCheck=True):
     """return a list of Athlete instances"""

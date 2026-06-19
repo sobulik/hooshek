@@ -5,7 +5,6 @@ import clubs.io
 import athletes.io
 from athletes.athlete import Athlete
 
-import collections
 import argparse
 import csv
 
