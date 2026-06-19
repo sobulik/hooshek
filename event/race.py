@@ -4,6 +4,7 @@ import util.util
 
 import datetime
 
+
 class Race:
     """Race domain class"""
 

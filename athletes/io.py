@@ -7,6 +7,7 @@ import cerberus
 
 import collections
 
+
 def build(clubs, primaryKeyCheck=True):
     """return a list of Athlete instances"""
     athletez = persistence.yaml.load("athletes.yaml")
@@ -14,16 +15,32 @@ def build(clubs, primaryKeyCheck=True):
 
     # primary key check
     if primaryKeyCheck:
-        idCounter = collections.Counter(map(lambda x: x["id"], filter(lambda x: "id" in x, athletez["athletes"])))
+        idCounter = collections.Counter(
+            map(lambda x: x["id"], filter(lambda x: "id" in x, athletez["athletes"]))
+        )
         for i in idCounter:
             if idCounter[i] > 1:
-                raise Exception("Athletes file athlete id " + str(i) + " defined " + str(idCounter[i]) + " times")
+                raise Exception(
+                    "Athletes file athlete id "
+                    + str(i)
+                    + " defined "
+                    + str(idCounter[i])
+                    + " times"
+                )
 
     # unique key check
-    uniqueCounter = collections.Counter(map(lambda x: (x["name"], x["surname"], x["born"]), athletez["athletes"]))
+    uniqueCounter = collections.Counter(
+        map(lambda x: (x["name"], x["surname"], x["born"]), athletez["athletes"])
+    )
     for i in uniqueCounter:
         if uniqueCounter[i] > 1:
-            raise Exception("Athletes file athlete " + str(i) + " defined " + str(uniqueCounter[i]) + " times")
+            raise Exception(
+                "Athletes file athlete "
+                + str(i)
+                + " defined "
+                + str(uniqueCounter[i])
+                + " times"
+            )
 
     # associate clubs
     for a in athletez["athletes"]:
@@ -31,50 +48,40 @@ def build(clubs, primaryKeyCheck=True):
             if a["club"] in clubs:
                 a["club"] = clubs[a["club"]]
             else:
-                raise Exception("Club " + a["club"] + " of athlete " + a["surname"] + "not defined in clubs")
+                raise Exception(
+                    "Club "
+                    + a["club"]
+                    + " of athlete "
+                    + a["surname"]
+                    + "not defined in clubs"
+                )
 
     return tuple(map(lambda x: athletes.athlete.Athlete(x), athletez["athletes"]))
 
+
 def validate(raw):
     schema = {
-        "version": {
-            "type": "string",
-            "allowed": ["1.0"]
-        },
+        "version": {"type": "string", "allowed": ["1.0"]},
         "athletes": {
             "type": "list",
             "minlength": 1,
             "schema": {
                 "type": "dict",
                 "schema": {
-                    "born": {
-                        "type": "integer",
-                        "min": 1900,
-                        "max": 2100
-                    },
+                    "born": {"type": "integer", "min": 1900, "max": 2100},
                     "club": {
                         "type": "string",
                         "minlength": 4,
                         "maxlength": 4,
-                        "required": False
+                        "required": False,
                     },
-                    "id": {
-                        "type": "string",
-                        "required": False
-                    },
-                    "name": {
-                        "type": "string"
-                    },
-                    "sex": {
-                        "type": "string",
-                        "allowed": ["f", "m"]
-                    },
-                    "surname": {
-                        "type": "string"
-                    }
-                }
-            }
-        }
+                    "id": {"type": "string", "required": False},
+                    "name": {"type": "string"},
+                    "sex": {"type": "string", "allowed": ["f", "m"]},
+                    "surname": {"type": "string"},
+                },
+            },
+        },
     }
 
     v = cerberus.Validator(schema, require_all=True)
@@ -82,6 +89,7 @@ def validate(raw):
         print(v.errors)
         raise Exception("Athletes file does not validate")
     return v.document
+
 
 def dump(athletes, filename):
     """write athletes"""
@@ -99,5 +107,5 @@ def dump(athletes, filename):
         if athlete.club is not None:
             a["club"] = athlete.club.id
         o["athletes"].append(a)
-        
+
     persistence.yaml.dump(o, filename)

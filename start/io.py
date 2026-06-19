@@ -5,6 +5,7 @@ import persistence.termtables
 
 import os
 
+
 def load():
     """load start list"""
     if os.path.exists("start.yaml"):
@@ -16,8 +17,10 @@ def load():
 
     return raw
 
+
 def sanity_check(raw):
     pass
+
 
 def dump(start, encoding_print):
     """write start list"""
@@ -42,6 +45,6 @@ def dump(start, encoding_print):
             a["start"] = athlete.start.strftime("%H:%M:%S")
             r["athletes"].append(a)
         o["races"].append(r)
-        
+
     persistence.yaml.dump(o, "start.yaml")
     persistence.termtables.dump_start(o, "start.txt", encoding_print)

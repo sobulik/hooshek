@@ -1,5 +1,6 @@
 import datetime
 
+
 def parseTime(t):
     microsecond = 0
     second = 0
@@ -14,7 +15,10 @@ def parseTime(t):
         minute = int(time[len(time) - 2])
     if len(time) > 2:
         hour = int(time[len(time) - 3])
-    return datetime.time(hour=hour, minute=minute, second=second, microsecond=microsecond)
+    return datetime.time(
+        hour=hour, minute=minute, second=second, microsecond=microsecond
+    )
+
 
 def format_delta(t):
     seconds = t.seconds
