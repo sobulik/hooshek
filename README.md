@@ -25,7 +25,7 @@ Hooshek is a command-line interface tool for managing sports competitions, prima
 
 4. **Verify the installation**
     ```bash
-    $ uv run test.py
+    $ uv run pytest
     ```
 
 <!--
