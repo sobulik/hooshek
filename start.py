@@ -24,15 +24,19 @@ for race in event.races:
     startlist["races"].append(race)
     race.athletes = list()
     for athlete in aths:
-        if (athlete.sex == race.sex
-                and event.eff_year - athlete.born >= race.age_min
-                and event.eff_year - athlete.born <= race.age_max):
+        if (
+            athlete.sex == race.sex
+            and event.eff_year - athlete.born >= race.age_min
+            and event.eff_year - athlete.born <= race.age_max
+        ):
             race.athletes.append(athlete)
+
 
 def comparator(a):
     if a.id.startswith(tuple(string.ascii_uppercase)):
         return a.id[0] + a.id[1:].rjust(3, "0")
     return a.id.rjust(3, "0")
+
 
 # sort athletes
 for race in startlist["races"]:
@@ -68,7 +72,9 @@ else:
 start.io.dump(startlist, event.encoding_print)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--clubs", help="print startlist grouped by club", action="store_true")
+parser.add_argument(
+    "--clubs", help="print startlist grouped by club", action="store_true"
+)
 args = parser.parse_args()
 
 if args.clubs:
@@ -81,14 +87,19 @@ if args.clubs:
         if a.id.startswith(tuple(string.ascii_uppercase)):
             return a.id[0] + a.id[1:].rjust(3, "0")
         return a.id.rjust(3, "0")
+
     aths = sorted(aths, key=comparator)
-    aths = sorted(aths, key=lambda athlete : athlete.club.id if athlete.club is not None else "")
+    aths = sorted(
+        aths, key=lambda athlete: athlete.club.id if athlete.club is not None else ""
+    )
     club = ""
     with open("start-clubs.txt", "w", encoding=event.encoding_print) as f:
         for athlete in aths:
             curr_club = athlete.club.id if athlete.club is not None else ""
             if club != curr_club:
-                f.write("\n\n--------------------------------------------------------------------\n\n")
+                f.write(
+                    "\n\n--------------------------------------------------------------------\n\n"
+                )
                 club = curr_club
             f.write(athlete.toString())
             f.write("\n")

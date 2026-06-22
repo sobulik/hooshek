@@ -6,6 +6,7 @@ import util.util
 
 import datetime
 
+
 class Event:
     """Event domain class"""
 
@@ -48,4 +49,11 @@ class Event:
         self.races = tuple(map(lambda x: event.race.Race(x), i["races"]))
 
     def toString(self):
-        return "Event name: {0}, date: {1}, effective year: {2}, start: {3}, mass: {4}, interval_race: {5}".format(self.name, self.date, self.eff_year, self.start if hasattr(self, "start") else "", self.mass, self.interval_race if hasattr(self, "interval_race") else "")
+        return "Event name: {0}, date: {1}, effective year: {2}, start: {3}, mass: {4}, interval_race: {5}".format(
+            self.name,
+            self.date,
+            self.eff_year,
+            self.start if hasattr(self, "start") else "",
+            self.mass,
+            self.interval_race if hasattr(self, "interval_race") else "",
+        )

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Club:
     """Club domain class"""
 
@@ -16,4 +17,6 @@ class Club:
             self.isSokol = i["isSokol"]
 
     def toString(self):
-        return "Club id: {0}, name: {1}, {2}a Sokol".format(self.id, self.name, "" if self.isSokol else "not ")
+        return "Club id: {0}, name: {1}, {2}a Sokol".format(
+            self.id, self.name, "" if self.isSokol else "not "
+        )

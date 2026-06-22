@@ -2,6 +2,7 @@
 
 import string
 
+
 class Athlete:
     """Athlete domain class"""
 
@@ -24,6 +25,12 @@ class Athlete:
             idf = self.id.rjust(3, " ")
             if self.id.startswith(tuple(string.ascii_uppercase)):
                 idf = self.id.ljust(3, " ")
-        return "{0}   {1} {2} ({3}){5}".format(idf, self.name, self.surname, self.born, self.sex, " " + self.club.id if self.club is not None else "")
-        #return "Athlete id: {0}, name: {1}, surname: {2}, born: {3}, sex: {4}, club: {5}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.sex, self.club if hasattr(self, "club") else "")
-        #return "{0}  {1} {2}, {3}, {4}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.club if hasattr(self, "club") else "")
+        return "{0}   {1} {2} ({3}){4}".format(
+            idf,
+            self.name,
+            self.surname,
+            self.born,
+            " " + self.club.id if self.club is not None else "",
+        )
+        # return "Athlete id: {0}, name: {1}, surname: {2}, born: {3}, sex: {4}, club: {5}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.sex, self.club if hasattr(self, "club") else "")
+        # return "{0}  {1} {2}, {3}, {4}".format(self.id if hasattr(self, "id") else "", self.name, self.surname, self.born, self.club if hasattr(self, "club") else "")

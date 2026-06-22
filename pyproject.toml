@@ -19,6 +19,9 @@ dependencies = [
 license = {text = "MIT"}
 
 [dependency-groups]
+lint = [
+    "ruff>=0.15.18",
+]
 test = [
     "pytest~=9.0.3",
 ]
