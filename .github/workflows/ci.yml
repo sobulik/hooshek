@@ -31,7 +31,7 @@ jobs:
         uses: ./.github/actions/setup-uv
 
       - name: Install the project
-        run: uv sync --locked --group typechecker
+        run: uv sync --locked --group typechecker --group test
 
       - name: Run ty check
         run: |
