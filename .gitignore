@@ -1,16 +1,12 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+
+.pytest_cache/
+.ruff_cache/
 
 # Virtual environments
-.venv
+.venv/
 
 # Vim swap files
 *.swp
-
-# test data
-test/data/

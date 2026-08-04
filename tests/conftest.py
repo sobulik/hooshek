@@ -14,4 +14,4 @@ def dir_fixture(request):
 
 @pytest.fixture(scope="session")
 def dir_script():
-    return pathlib.Path(__file__).parents[1]
+    return pathlib.Path(__file__).parents[1] / "src" / "hooshek"
