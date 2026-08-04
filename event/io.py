@@ -7,6 +7,7 @@ import cerberus
 
 import collections
 import copy
+import typing
 
 
 def load():
@@ -49,7 +50,7 @@ def load():
 
 
 def validate(raw):
-    schema_1_0 = {
+    schema_1_0: typing.Any = {
         "version": {"type": "string", "allowed": ["1.0"]},
         "date": {"type": "date"},
         "encoding_print": {"type": "string", "required": False},
@@ -125,14 +126,11 @@ def validate(raw):
         "allowed": ["Přespolní běh", "klasicky", "volně"],
     }
 
-    val_result = None
     for schema in (schema_1_0, schema_1_1):
         v = cerberus.Validator(schema, require_all=True)
-        val_result = (schema, v, False)
         if v.validate(raw):
-            val_result = (schema, v, True)
-            break
-    if not val_result[2]:
-        print(val_result[1].errors)
-        raise Exception("Event file does not validate")
-    return val_result[1].document
+            return v.document
+        else:
+            if schema == schema_1_1:
+                print(v.errors)
+    raise Exception("Event file does not validate")
