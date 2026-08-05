@@ -34,68 +34,29 @@ Hooshek is a command-line interface tool for managing sports competitions, prima
     ```
 
 ## Usage
-<!--
-## Setup competition
 
-1. **Configure the `event.yaml` file with your competition details:**
-
-    ```yaml
-    version: "1.0"
-    name: Skuhrovská Steeplechase
-    date: 2024-09-21
-    encoding_print: "utf_8_sig"
-    mass: true
-    races:
-      - age_min: 0
-        age_max: 3
-        sex: f
-        name: Pulkyně
-        distance: 100m
-    ```
-
-    The `mass` field is used to indicate whether the competition is a mass start.
-
-
-2. **Register athletes by adding them to the `athletes.yaml` file manually:**
-
-    ```yaml
-    athletes:
-    -   born: 2021
-        name: Jiří
-        sex: m
-        surname: Kubsch
-        club: SOSK
-    ```
-    By specifying the `id` field, you can manually assign a bib number to the athlete.
-
-3. **Register athletes by importing them from Czech Ski Association csv file:**
-
+1. **Copy the test folder**
+    The easiest way to start is to copy one of the existing test folders.
     ```bash
-    python register.py --file ./athletes.csv
+    $ cp -r tests/data/2025-skuhrovska-lyze my-folder
+    $ cd my-folder
     ```
 
-## Basic Commands
-
-### Create start list
-
-Create start list of the competition by assigning categories and bib numbers to athletes and create start list.
-
-```bash
-python start.py
-```
-
-### Create final rankings
-
- 1. Enter results of the athlets into finish.yaml file.
-    ```yaml
-    - {id: "J1", time: "00:00:48.6"}
+2. **Generate the start list**
+    ```bash
+    $ uv run --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/start.py
     ```
- 2. Run the `finish.py` command to generate the final rankings in txt, csv and json formats. The txt format is the default output format. Use --format option to specify the output format.
+    Check the generated start list at start.yaml and start.txt.
 
-```bash
-python finish.py
-```
--->
+3. **Generate the results**
+    ```bash
+    $ uv run --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/finish.py
+    ```
+    Check the generated results at results.yaml and results.txt.
+
+4. **Modify the input and re-run**
+   Modify the input files event.yaml, clubs.yaml, athletes.yaml and finish.yaml as needed.
+   Run start.py, finish.py scripts as above to get the updates.
 
 ## License
 
