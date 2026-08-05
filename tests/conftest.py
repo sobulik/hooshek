@@ -2,16 +2,16 @@ import pathlib
 import pytest
 
 
-def dir_fixtures():
+@pytest.fixture(scope="session")
+def project_path():
+    return pathlib.Path(__file__).parents[1]
+
+
+def fixtures_path():
     p = pathlib.Path(__file__).parent / "data"
     return filter(lambda d: d.is_dir(), p.iterdir())
 
 
-@pytest.fixture(params=dir_fixtures(), scope="session")
-def dir_fixture(request):
+@pytest.fixture(params=fixtures_path(), scope="session")
+def fixture_path(request):
     return request.param
-
-
-@pytest.fixture(scope="session")
-def dir_script():
-    return pathlib.Path(__file__).parents[1] / "src" / "hooshek"

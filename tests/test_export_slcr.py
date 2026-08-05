@@ -1,18 +1,18 @@
+import subcommand
+
 import filecmp
 import pytest
-import subprocess
 import shutil
-import sys
 
 
-def test_export_slcr(dir_fixture, dir_script, tmp_path):
-    if not (dir_fixture / "slcr-export.json").is_file():
+def test_export_slcr(project_path, fixture_path, tmp_path):
+    if not (fixture_path / "slcr-export.json").is_file():
         pytest.skip("No slcr-export.yaml for this fixture")
     for f in ("event.yaml", "clubs.yaml", "athletes.yaml", "start.yaml", "finish.yaml"):
-        shutil.copy(dir_fixture / f, tmp_path)
-    subprocess.run(
-        [sys.executable, dir_script / "export_slcr.py"], cwd=tmp_path, check=True
-    )
+        shutil.copy(fixture_path / f, tmp_path)
+
+    subcommand.run(["export_slcr.py"], project_path, tmp_path)
+
     assert filecmp.cmp(
-        dir_fixture / "slcr-export.json", tmp_path / "slcr-export.json", shallow=False
+        fixture_path / "slcr-export.json", tmp_path / "slcr-export.json", shallow=False
     )
