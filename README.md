@@ -25,7 +25,7 @@ Hooshek is a command-line interface tool for managing sports competitions, prima
 
 4. **Install project dependencies**
     ```bash
-    $ uv sync --all-groups
+    $ uv sync --locked --all-groups
     ```
 
 5. **Verify the installation**
@@ -44,13 +44,13 @@ Hooshek is a command-line interface tool for managing sports competitions, prima
 
 2. **Generate the start list**
     ```bash
-    $ uv run --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/start.py
+    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/start.py
     ```
     Check the generated start list at start.yaml and start.txt.
 
 3. **Generate the results**
     ```bash
-    $ uv run --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/finish.py
+    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/finish.py
     ```
     Check the generated results at results.yaml and results.txt.
 

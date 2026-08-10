@@ -15,11 +15,11 @@ jobs:
 
       - name: Run ruff check
         run: |
-          uv run ruff check
+          uv run --no-sync ruff check
 
       - name: Run ruff format check
         run: |
-          uv run ruff format --check
+          uv run --no-sync ruff format --check
 
   typechecker:
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
 
       - name: Run ty check
         run: |
-          uv run ty check --output-format github
+          uv run --no-sync ty check --output-format github
 
   test:
     needs: [lint, typechecker]
@@ -58,4 +58,4 @@ jobs:
         run: uv sync --locked --group test
 
       - name: Run pytest
-        run: uv run pytest
+        run: uv run --no-sync pytest
