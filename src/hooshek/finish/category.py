@@ -1,4 +1,4 @@
-from util import util
+from hooshek.util import util
 import datetime
 
 
@@ -76,7 +76,7 @@ def fill_category(e, event, aths, race, start, flist):
     for athlete in e["athletes"]:
         rank += 1
         athlete.rank = rank
-        if athlete.club is not None and athlete.club.isSokol:
+        if athlete.club is not None and athlete.club.is_sokol:
             rank_sokol += 1
             athlete.rank_sokol = rank_sokol
     e["athletes"].extend(e["unfinished"])

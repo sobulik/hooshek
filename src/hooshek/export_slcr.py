@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 
-import event.io
-import athletes.io
-import clubs.io
-import start.io
-import finish.io
-import finish.category
+import hooshek.event.io
+import hooshek.athletes.io
+import hooshek.clubs.repo
+import hooshek.start.io
+import hooshek.finish.io
+import hooshek.finish.category
 
-import persistence.json
-import persistence.yaml
+import hooshek.persistence.json
+import hooshek.persistence.yaml
 
 import datetime
 
-event = event.io.load()
-clubs = clubs.io.load()
-start = start.io.load()
-flist = finish.io.load()
+event = hooshek.event.io.load()
+clubs = hooshek.clubs.repo.load()
+start = hooshek.start.io.load()
+flist = hooshek.finish.io.load()
 
 if __name__ == "__main__":
-    aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.io.build(clubs)))
+    aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
 
     slcr = []
     i = 0
@@ -27,8 +27,8 @@ if __name__ == "__main__":
             continue
         i += 1
         r = dict()
-        for e in finish.category.eval_categories(event.eff_year, race, False):
-            finish.category.fill_category(e, event, aths, race, start, flist)
+        for e in hooshek.finish.category.eval_categories(event.eff_year, race, False):
+            hooshek.finish.category.fill_category(e, event, aths, race, start, flist)
             r["uniqueId"] = str(i)  # string # Interní ID závodu časoměřiče
             r["resultsLayout"] = (
                 "CROSS_COUNTRY_INDIVIDUAL_MASS_START"
@@ -97,4 +97,4 @@ if __name__ == "__main__":
                 r["results"].append(a)
             slcr.append(r)
 
-    persistence.json.dump(slcr, "slcr-export.json")
+    hooshek.persistence.json.dump(slcr, "slcr-export.json")

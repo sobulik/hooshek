@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import clubs.io
-import athletes.io
+import hooshek.clubs.repo
+import hooshek.athletes.io
 
 import argparse
 
@@ -14,8 +14,8 @@ import random
 # except locale.Error:
 #    pass
 
-clubs = clubs.io.load()
-aths = athletes.io.build(clubs)
+clubs = hooshek.clubs.repo.load()
+aths = hooshek.athletes.io.build(clubs)
 aths = sorted(aths, key=lambda athlete: athlete.surname)
 aths = sorted(aths, key=lambda athlete: athlete.sex)
 aths = sorted(aths, key=lambda athlete: athlete.born, reverse=True)
@@ -36,6 +36,6 @@ if args.shuffle:
             .lower()
             .title()
         )
-    athletes.io.dump(aths, args.shuffle)
+    hooshek.athletes.io.dump(aths, args.shuffle)
 else:
-    athletes.io.dump(aths, "athletes-sorted.yaml")
+    hooshek.athletes.io.dump(aths, "athletes-sorted.yaml")

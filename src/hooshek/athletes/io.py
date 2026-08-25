@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import persistence.yaml
-import athletes.athlete
+import hooshek.persistence.yaml
+import hooshek.athletes.athlete
 
 import cerberus
 
@@ -10,7 +10,7 @@ import collections
 
 def build(clubs, primaryKeyCheck=True):
     """return a list of Athlete instances"""
-    athletez = persistence.yaml.load("athletes.yaml")
+    athletez = hooshek.persistence.yaml.load("athletes.yaml")
     athletez = validate(athletez)
 
     # primary key check
@@ -56,7 +56,9 @@ def build(clubs, primaryKeyCheck=True):
                     + "not defined in clubs"
                 )
 
-    return tuple(map(lambda x: athletes.athlete.Athlete(x), athletez["athletes"]))
+    return tuple(
+        map(lambda x: hooshek.athletes.athlete.Athlete(x), athletez["athletes"])
+    )
 
 
 def validate(raw):
@@ -108,4 +110,4 @@ def dump(athletes, filename):
             a["club"] = athlete.club.id
         o["athletes"].append(a)
 
-    persistence.yaml.dump(o, filename)
+    hooshek.persistence.yaml.dump(o, filename)

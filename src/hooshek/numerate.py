@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
-import event.io
-import clubs.io
-import athletes.io
+import hooshek.event.io
+import hooshek.clubs.repo
+import hooshek.athletes.io
 
 import collections
 import hashlib
 
-event = event.io.load()
-clubs = clubs.io.load()
+event = hooshek.event.io.load()
+clubs = hooshek.clubs.repo.load()
 
-aths = athletes.io.build(clubs, False)
+aths = hooshek.athletes.io.build(clubs, False)
 athsWithId = tuple(filter(lambda x: hasattr(x, "id"), aths))
 
 # expect no id or id == "0"
@@ -66,6 +66,6 @@ for i in idCounter:
             "Athletes file athlete id " + i + " defined " + str(idCounter[i]) + " times"
         )
 
-athletes.io.dump(aths, "athletes-with-numbers.yaml")
+hooshek.athletes.io.dump(aths, "athletes-with-numbers.yaml")
 
 # print("The last numbers assigned are {0} and {1}".format(str(number_red), str(number_black)))

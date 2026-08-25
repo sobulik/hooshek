@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import event.io
-import clubs.io
-import athletes.io
-from athletes.athlete import Athlete
+import hooshek.event.io
+import hooshek.clubs.repo
+import hooshek.athletes.io
+from hooshek.athletes.athlete import Athlete
 
 import argparse
 import csv
@@ -12,10 +12,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument("file", help="csv file to register")
 args = parser.parse_args()
 
-event = event.io.load()
-clubs = clubs.io.load()
+event = hooshek.event.io.load()
+clubs = hooshek.clubs.repo.load()
 
-aths = list(athletes.io.build(clubs, False))
+aths = list(hooshek.athletes.io.build(clubs, False))
 
 with open(args.file, newline="") as f:
     reader = csv.reader(f)
@@ -65,4 +65,4 @@ with open(args.file, newline="") as f:
             aths.append(a)
             print("{0} created".format(row))
 
-athletes.io.dump(aths, "athletes-with-external.yaml")
+hooshek.athletes.io.dump(aths, "athletes-with-external.yaml")

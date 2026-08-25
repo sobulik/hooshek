@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import event.io
+import hooshek.event.io
 
-event = event.io.load()
+event = hooshek.event.io.load()
 
 print(event.toString())
