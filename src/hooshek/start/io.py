@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import persistence.yaml
-import persistence.termtables
+import hooshek.persistence.yaml
+import hooshek.persistence.termtables
 
 import os
 
@@ -9,7 +9,7 @@ import os
 def load():
     """load start list"""
     if os.path.exists("start.yaml"):
-        raw = persistence.yaml.load("start.yaml")
+        raw = hooshek.persistence.yaml.load("start.yaml")
     else:
         raw = None
 
@@ -46,5 +46,5 @@ def dump(start, encoding_print):
             r["athletes"].append(a)
         o["races"].append(r)
 
-    persistence.yaml.dump(o, "start.yaml")
-    persistence.termtables.dump_start(o, "start.txt", encoding_print)
+    hooshek.persistence.yaml.dump(o, "start.yaml")
+    hooshek.persistence.termtables.dump_start(o, "start.txt", encoding_print)

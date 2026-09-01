@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import clubs.io
+import hooshek.clubs.repo
 
-clubs = clubs.io.load()
+clubs = hooshek.clubs.repo.load()
 for club in sorted(clubs.values(), key=lambda club: club.id):
-    print(club.toString())
+    print(club)

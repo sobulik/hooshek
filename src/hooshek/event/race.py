@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import util.util
+import hooshek.util.util
 
 import datetime
 
@@ -26,7 +26,7 @@ class Race:
                 evaluation["age_max"] = e["age_max"]
                 self.eval.append(evaluation)
         if "start" in i:
-            self.start = util.util.parseTime(i["start"])
+            self.start = hooshek.util.util.parseTime(i["start"])
         if "interval" in i:
             self.interval_athlete = datetime.timedelta(i["athlete"])
             self.interval_groupby = i["groupby"]

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import persistence.yaml
-import persistence.termtables
-import util.util
+import hooshek.persistence.yaml
+import hooshek.persistence.termtables
+import hooshek.util.util
 
 import cerberus
 
@@ -11,7 +11,7 @@ import collections
 
 def load():
     """return a list of finish times"""
-    finish = persistence.yaml.load("finish.yaml")
+    finish = hooshek.persistence.yaml.load("finish.yaml")
     finish = validate(finish)
 
     # primary key check
@@ -90,17 +90,17 @@ def dump(start, encoding_print):
                 else ""
             )
             a["time"] = (
-                util.util.format_delta(athlete.time)
+                hooshek.util.util.format_delta(athlete.time)
                 if hasattr(athlete, "time") and athlete.time is not None
                 else ""
             )
             a["diff"] = (
-                util.util.format_delta(athlete.time - first_one.time)
+                hooshek.util.util.format_delta(athlete.time - first_one.time)
                 if hasattr(athlete, "time") and first_one is not None
                 else ""
             )
             r["athletes"].append(a)
         o["races"].append(r)
 
-    persistence.yaml.dump(o, "results.yaml")
-    persistence.termtables.dump_finish(o, "results.txt", encoding_print)
+    hooshek.persistence.yaml.dump(o, "results.yaml")
+    hooshek.persistence.termtables.dump_finish(o, "results.txt", encoding_print)

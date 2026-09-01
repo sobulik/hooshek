@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import persistence.yaml
-import event.event
+import hooshek.persistence.yaml
+import hooshek.event.event
 
 import cerberus
 
@@ -12,7 +12,7 @@ import typing
 
 def load():
     """return Event instance"""
-    ivent = persistence.yaml.load("event.yaml")
+    ivent = hooshek.persistence.yaml.load("event.yaml")
     ivent = validate(ivent)
 
     # unique key check
@@ -46,7 +46,7 @@ def load():
                         "age_max in evaluation higher than age_max for a race"
                     )
 
-    return event.event.Event(ivent)
+    return hooshek.event.event.Event(ivent)
 
 
 def validate(raw):

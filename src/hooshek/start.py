@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
-import event.io
-import clubs.io
-import athletes.io
-import start.io
+import hooshek.event.io
+import hooshek.clubs.repo
+import hooshek.athletes.io
+import hooshek.start.io
 
 import argparse
 import datetime
 import string
 
-event = event.io.load()
-clubs = clubs.io.load()
-aths = tuple(filter(lambda x: hasattr(x, "id"), athletes.io.build(clubs)))
+event = hooshek.event.io.load()
+clubs = hooshek.clubs.repo.load()
+aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
 
 startlist = dict()
 startlist["name"] = event.name
@@ -69,7 +69,7 @@ else:
             group += 1
         time += event.interval_race
 
-start.io.dump(startlist, event.encoding_print)
+hooshek.start.io.dump(startlist, event.encoding_print)
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
