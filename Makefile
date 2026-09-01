@@ -1,9 +1,9 @@
 check:
-	uv run ruff check
-	uv run ruff format --check
-	uv run ty check
-	uv run pytest
+	uv run --no-sync ruff check
+	uv run --no-sync ruff format --check
+	uv run --no-sync ty check
+	uv run --no-sync pytest
 
 fix:
-	uv run ruff check --fix
-	uv run ruff format
+	uv run --no-sync ruff check --fix
+	uv run --no-sync ruff format
