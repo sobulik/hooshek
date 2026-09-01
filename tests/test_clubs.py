@@ -55,11 +55,33 @@ def test_duplicate_club_ids():
         ClubsModel(**data)
 
 
+def test_no_name():
+    data = {
+        "version": "1.0",
+        "clubs": [
+            {"id": "ABCD"},
+        ],
+    }
+    with pytest.raises(pydantic.ValidationError):
+        ClubsModel(**data)
+
+
 def test_abb15_max_length():
     data = {
         "version": "1.0",
         "clubs": [
             {"id": "ABCD", "name": "Club", "abb15": "A" * 16},
+        ],
+    }
+    with pytest.raises(pydantic.ValidationError):
+        ClubsModel(**data)
+
+
+def test_invalid_field():
+    data = {
+        "version": "1.0",
+        "clubs": [
+            {"id": "ABCD", "name": "Club 1", "abb15": "C1", "isSokoll": True},
         ],
     }
     with pytest.raises(pydantic.ValidationError):

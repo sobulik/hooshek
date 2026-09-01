@@ -7,13 +7,15 @@ import typing
 
 
 class ClubModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+
     id: str = pydantic.Field(
         pattern="^[A-Z]{4}$",
         min_length=4,
         max_length=4,
         description="Four letter club id assigned by czech-ski.com",
     )
-    name: str = ""
+    name: str
     abb15: str = pydantic.Field(
         max_length=15, description="Club name abbreviation to 15 chars max"
     )
