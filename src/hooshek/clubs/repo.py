@@ -20,11 +20,16 @@ class ClubModel(pydantic.BaseModel):
         max_length=15, description="Club name abbreviation to 15 chars max"
     )
     is_sokol: bool = pydantic.Field(
-        default=False, alias="isSokol", description="Is club a member of sokol.eu?"
+        default=False,
+        alias="isSokol",
+        strict=False,
+        description="Is club a member of sokol.eu?",
     )
 
 
 class ClubsModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+
     version: typing.Literal["1.0"]
     clubs: list[ClubModel]
 
@@ -43,10 +48,7 @@ def load() -> dict[str, Club]:
     raw = yaml.load("clubs.yaml")
     try:
         validated = ClubsModel(**raw)
-        return {
-            club.id: Club(club.id, club.name, club.abb15, club.is_sokol)
-            for club in validated.clubs
-        }
+        return {club.id: Club(**club.model_dump()) for club in validated.clubs}
     except pydantic.ValidationError as e:
         print(e.errors())
         raise
