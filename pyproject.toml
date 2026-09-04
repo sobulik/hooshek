@@ -16,6 +16,7 @@ dependencies = [
     "pydantic>=2.13.4",
     "pyyaml~=6.0.2",
     "termtables~=0.2.4",
+    "typer>=0.27.2",
 ]
 license = {text = "MIT"}
 
@@ -33,3 +34,6 @@ typechecker = [
 [build-system]
 requires = ["uv_build >= 0.12.5, <0.13"]
 build-backend = "uv_build"
+
+[project.scripts]
+hooshek = "hooshek.cli:app"
