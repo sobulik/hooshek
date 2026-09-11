@@ -44,19 +44,19 @@ Hooshek is a command-line interface tool for managing sports competitions, prima
 
 2. **Generate the start list**
     ```bash
-    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/start.py
+    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/startlist.py
     ```
     Check the generated start list at start.yaml and start.txt.
 
 3. **Generate the results**
     ```bash
-    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/finish.py
+    $ uv run --no-sync --project <PROJECT_PATH> <PROJECT_PATH>/src/hooshek/results.py
     ```
     Check the generated results at results.yaml and results.txt.
 
 4. **Modify the input and re-run**<br>
    Modify the input files event.yaml, clubs.yaml, athletes.yaml and finish.yaml as needed.
-   Run start.py, finish.py scripts as above to get the updates.
+   Run startlist.py, results.py scripts as above to get the updates.
 
 ## License
 

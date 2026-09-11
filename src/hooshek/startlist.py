@@ -3,7 +3,7 @@
 import hooshek.event.io
 import hooshek.clubs.repo
 import hooshek.athletes.io
-import hooshek.start.io
+import hooshek.startlist.io
 
 import argparse
 import datetime
@@ -69,7 +69,7 @@ else:
             group += 1
         time += event.interval_race
 
-hooshek.start.io.dump(startlist, event.encoding_print)
+hooshek.startlist.io.dump(startlist, event.encoding_print)
 
 parser = argparse.ArgumentParser()
 parser.add_argument(

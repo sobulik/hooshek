@@ -25,8 +25,8 @@ for i in idCounter:
             + " times. Only zeros are expected!"
         )
 
-number_red = 0
-number_black = 100
+bib_red = 0
+bib_black = 100
 for race in event.races:
     raceAths = list()
     for athlete in athsWithId:
@@ -48,13 +48,13 @@ for race in event.races:
     raceAths.sort(key=lambda t: t[1])
     for t in raceAths:
         if t[0].born > event.eff_year - 10:
-            number_red += 1
-            t[0].id = str(number_red)
+            bib_red += 1
+            t[0].id = str(bib_red)
         else:
-            number_black += 1
-            while number_black in (25, 235):
-                number_black += 1
-            t[0].id = str(number_black)
+            bib_black += 1
+            while bib_black in (25, 235):
+                bib_black += 1
+            t[0].id = str(bib_black)
 
 # assert
 idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
@@ -66,6 +66,6 @@ for i in idCounter:
             "Athletes file athlete id " + i + " defined " + str(idCounter[i]) + " times"
         )
 
-hooshek.athletes.io.dump(aths, "athletes-with-numbers.yaml")
+hooshek.athletes.io.dump(aths, "athletes-with-bibs.yaml")
 
-# print("The last numbers assigned are {0} and {1}".format(str(number_red), str(number_black)))
+# print("The last bibs assigned are {0} and {1}".format(str(bib_red), str(bib_black)))
