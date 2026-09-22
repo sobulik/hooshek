@@ -2,6 +2,8 @@ import hooshek.athletes.athlete
 import hooshek.athletes.io
 import hooshek.clubs.repo
 import hooshek.event.io
+import hooshek.results.io
+import hooshek.results.category
 import hooshek.startlist.io
 
 import collections
@@ -270,6 +272,26 @@ def assign_bibs():
             )
 
     hooshek.athletes.io.dump(aths, "athletes-with-bibs.yaml")
+
+
+@app.command()
+def results():
+    event = hooshek.event.io.load()
+    clubs = hooshek.clubs.repo.load()
+    start = hooshek.startlist.io.load()
+    flist = hooshek.results.io.load()
+    aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
+    results = dict()
+    results["name"] = event.name
+    results["date"] = event.date
+    results["mass"] = event.mass
+    results["evals"] = list()
+    for race in event.races:
+        for e in hooshek.results.category.eval_categories(event.eff_year, race, True):
+            hooshek.results.category.fill_category(e, event, aths, race, start, flist)
+            results["evals"].append(e)
+
+    hooshek.results.io.dump(results, event.encoding_print)
 
 
 if __name__ == "__main__":
