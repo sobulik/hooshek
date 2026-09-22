@@ -24,7 +24,8 @@ def clubs():
 @app.command()
 def athletes(
     shuffle: typing.Annotated[
-        str, typer.Option(help="shuffle names to anonymize and store as file <str>")
+        str | None,
+        typer.Option(help="shuffle names to anonymize and store as file <str>"),
     ] = None,
 ):
     clubs = hooshek.clubs.repo.load()
