@@ -1,4 +1,6 @@
 from hooshek.util import util
+
+import dataclasses
 import datetime
 
 
@@ -39,44 +41,54 @@ def fill_category(e, event, aths, race, start, flist):
         ):
             e["started"].append(athlete)
 
-    for athlete in e["started"]:
+    for i, athlete in enumerate(e["started"]):
         for r in start["races"]:
             for a in r["athletes"]:
                 if athlete.id == a["id"]:
-                    athlete.start = a["start"]
+                    e["started"][i] = dataclasses.replace(
+                        e["started"][i], start=a["start"]
+                    )
                     break
             if athlete.start is not None:
                 break
-        result = list(filter(lambda x: x["id"] == athlete.id, flist))
+        result = list(filter(lambda x: x["id"] == e["started"][i].id, flist))
         if (
             len(result) == 1
-            and athlete.start is not None
+            and e["started"][i].start is not None
             and result[0]["time"] != "00:00:00.0"
         ):
-            athlete.finish = util.parseTime(result[0]["time"])
-            athlete.time = datetime.datetime.combine(
-                event.date, athlete.finish
-            ) - datetime.datetime.combine(event.date, util.parseTime(athlete.start))
+            e["started"][i] = dataclasses.replace(
+                e["started"][i], finish=util.parseTime(result[0]["time"])
+            )
+            tt = datetime.datetime.combine(
+                event.date, e["started"][i].finish
+            ) - datetime.datetime.combine(
+                event.date, util.parseTime(e["started"][i].start)
+            )
             if not event.mass and event.version != "1.0":
-                athlete.time += datetime.timedelta(
+                tt += datetime.timedelta(
                     hours=event.start.hour,
                     minutes=event.start.minute,
                     seconds=event.start.second,
                 )
+            e["started"][i] = dataclasses.replace(e["started"][i], time=tt)
 
     e["finished"] = sorted(
-        filter(lambda a: hasattr(a, "time"), e["started"]), key=lambda a: a.time
+        filter(lambda a: a.time is not None, e["started"]), key=lambda a: a.time
     )
     e["unfinished"] = sorted(
-        filter(lambda a: not hasattr(a, "time"), e["started"]), key=lambda a: a.id
+        filter(lambda a: a.time is None, e["started"]),
+        key=lambda a: a.id if a.id is not None else "",
     )
     e["athletes"] = e["finished"]
     rank = 0
     rank_sokol = 0
-    for athlete in e["athletes"]:
+    for i, athlete in enumerate(e["athletes"]):
         rank += 1
-        athlete.rank = rank
+        e["athletes"][i] = dataclasses.replace(athlete, rank=rank)
         if athlete.club is not None and athlete.club.is_sokol:
             rank_sokol += 1
-            athlete.rank_sokol = rank_sokol
+            e["athletes"][i] = dataclasses.replace(
+                e["athletes"][i], rank_sokol=rank_sokol
+            )
     e["athletes"].extend(e["unfinished"])
