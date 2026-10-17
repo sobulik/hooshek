@@ -6,8 +6,6 @@ import collections
 import pydantic
 import typing
 
-import cerberus
-
 
 class AthleteModel(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid", strict=True)
@@ -79,53 +77,25 @@ def load(clubs: dict[str, Club]) -> list[Athlete]:
         return athletes
 
 
-def validate(raw):
-    schema = {
-        "version": {"type": "string", "allowed": ["1.0"]},
-        "athletes": {
-            "type": "list",
-            "minlength": 1,
-            "schema": {
-                "type": "dict",
-                "schema": {
-                    "born": {"type": "integer", "min": 1900, "max": 2100},
-                    "club": {
-                        "type": "string",
-                        "minlength": 4,
-                        "maxlength": 4,
-                        "required": False,
-                    },
-                    "id": {"type": "string", "required": False},
-                    "name": {"type": "string"},
-                    "sex": {"type": "string", "allowed": ["f", "m"]},
-                    "surname": {"type": "string"},
-                },
-            },
-        },
-    }
-
-    v = cerberus.Validator(schema, require_all=True)
-    if not v.validate(raw):
-        print(v.errors)
-        raise Exception("Athletes file does not validate")
-    return v.document
-
-
 def dump(athletes, filename):
     """write athletes"""
-    o = dict()
-    o["version"] = "1.0"
-    o["athletes"] = list()
+    athlete_models = []
     for athlete in athletes:
-        a = dict()
-        if athlete.id is not None:
-            a["id"] = athlete.id
-        a["name"] = athlete.name
-        a["surname"] = athlete.surname
-        a["born"] = athlete.born
-        a["sex"] = athlete.sex
-        if athlete.club is not None:
-            a["club"] = athlete.club.id
-        o["athletes"].append(a)
+        athlete_models.append(
+            AthleteModel(
+                id=athlete.id,
+                name=athlete.name,
+                surname=athlete.surname,
+                born=athlete.born,
+                sex=athlete.sex,
+                club=athlete.club.id if athlete.club is not None else None,
+            )
+        )
 
-    yaml.dump(o, filename)
+    try:
+        validated = AthletesModel(version="1.0", athletes=athlete_models)
+    except pydantic.ValidationError as e:
+        print(e.errors())
+        raise
+    else:
+        yaml.dump(validated.model_dump(exclude_none=True), filename)
