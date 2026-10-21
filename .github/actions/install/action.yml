@@ -5,8 +5,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Install the project
-      shell: bash
+    - shell: bash
       run: |
         GROUP_ARG=""
         for group in ${{ inputs.groups }}; do
