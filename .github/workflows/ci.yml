@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: ./.github/actions/checkout
+        uses: actions/checkout@v6
 
       - name: Setup uv
         uses: ./.github/actions/setup-uv
