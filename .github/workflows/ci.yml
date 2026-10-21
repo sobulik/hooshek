@@ -11,7 +11,9 @@ jobs:
         uses: ./.github/actions/setup-uv
 
       - name: Install the project
-        run: uv sync --locked --group lint
+        uses: ./.github/actions/install
+        with:
+          groups: "lint"
 
       - name: Run ruff check
         run: |

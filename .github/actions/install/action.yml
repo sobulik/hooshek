@@ -1,0 +1,15 @@
+inputs:
+  groups:
+    required: false
+    default: ""
+runs:
+  steps:
+    - name: Install the project
+      run: |
+        GROUP_ARG=""
+        for group in ${{ inputs.groups }}; do
+          if [ -n "$group" ]; then
+            GROUP_ARG="$GROUP_ARG --group $group"
+          fi
+        done
+        uv sync --locked $GROUP_ARG
