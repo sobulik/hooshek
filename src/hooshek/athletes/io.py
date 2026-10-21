@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
-import hooshek.persistence.yaml
-import hooshek.athletes.athlete
+import collections
 
 import cerberus
 
-import collections
+import hooshek.athletes.athlete
+import hooshek.persistence.yaml
+
+from ..exceptions import ValidationError
 
 
 def build(clubs, primaryKeyCheck=True):
@@ -16,11 +18,11 @@ def build(clubs, primaryKeyCheck=True):
     # primary key check
     if primaryKeyCheck:
         idCounter = collections.Counter(
-            map(lambda x: x["id"], filter(lambda x: "id" in x, athletez["athletes"]))
+            x["id"] for x in filter(lambda x: "id" in x, athletez["athletes"])
         )
         for i in idCounter:
             if idCounter[i] > 1:
-                raise Exception(
+                raise ValidationError(
                     "Athletes file athlete id "
                     + str(i)
                     + " defined "
@@ -30,11 +32,11 @@ def build(clubs, primaryKeyCheck=True):
 
     # unique key check
     uniqueCounter = collections.Counter(
-        map(lambda x: (x["name"], x["surname"], x["born"]), athletez["athletes"])
+        (x["name"], x["surname"], x["born"]) for x in athletez["athletes"]
     )
     for i in uniqueCounter:
         if uniqueCounter[i] > 1:
-            raise Exception(
+            raise ValidationError(
                 "Athletes file athlete "
                 + str(i)
                 + " defined "
@@ -48,7 +50,7 @@ def build(clubs, primaryKeyCheck=True):
             if a["club"] in clubs:
                 a["club"] = clubs[a["club"]]
             else:
-                raise Exception(
+                raise ValidationError(
                     "Club "
                     + a["club"]
                     + " of athlete "
@@ -56,9 +58,7 @@ def build(clubs, primaryKeyCheck=True):
                     + "not defined in clubs"
                 )
 
-    return tuple(
-        map(lambda x: hooshek.athletes.athlete.Athlete(x), athletez["athletes"])
-    )
+    return tuple(hooshek.athletes.athlete.Athlete(x) for x in athletez["athletes"])
 
 
 def validate(raw):
@@ -89,17 +89,17 @@ def validate(raw):
     v = cerberus.Validator(schema, require_all=True)
     if not v.validate(raw):
         print(v.errors)
-        raise Exception("Athletes file does not validate")
+        raise ValidationError("Athletes file does not validate")
     return v.document
 
 
 def dump(athletes, filename):
     """write athletes"""
-    o = dict()
+    o = {}
     o["version"] = "1.0"
-    o["athletes"] = list()
+    o["athletes"] = []
     for athlete in athletes:
-        a = dict()
+        a = {}
         if hasattr(athlete, "id"):
             a["id"] = athlete.id
         a["name"] = athlete.name

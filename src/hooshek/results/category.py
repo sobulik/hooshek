@@ -1,12 +1,13 @@
-from hooshek.util import util
 import datetime
+
+from hooshek.util import util
 
 
 def eval_categories(eff_year, race, fine):
-    eval_categories = list()
+    eval_categories = []
     if fine and hasattr(race, "eval"):
         for evaluation in race.eval:
-            e = dict()
+            e = {}
             e["age_min"] = evaluation["age_min"]
             e["age_max"] = evaluation["age_max"]
             if e["age_min"] == e["age_max"]:
@@ -17,7 +18,7 @@ def eval_categories(eff_year, race, fine):
                 )
             eval_categories.append(e)
     else:
-        e = dict()
+        e = {}
         e["age_min"] = race.age_min
         e["age_max"] = race.age_max
         e["desc"] = ""
@@ -30,7 +31,7 @@ def fill_category(e, event, aths, race, start, flist):
     e["sex"] = race.sex
     e["distance"] = race.distance
 
-    e["started"] = list()
+    e["started"] = []
     for athlete in aths:
         if (
             athlete.sex == e["sex"]
@@ -71,11 +72,9 @@ def fill_category(e, event, aths, race, start, flist):
         filter(lambda a: not hasattr(a, "time"), e["started"]), key=lambda a: a.id
     )
     e["athletes"] = e["finished"]
-    rank = 0
     rank_sokol = 0
-    for athlete in e["athletes"]:
-        rank += 1
-        athlete.rank = rank
+    for rank, athlete in enumerate(e["athletes"]):
+        athlete.rank = rank + 1
         if athlete.club is not None and athlete.club.is_sokol:
             rank_sokol += 1
             athlete.rank_sokol = rank_sokol

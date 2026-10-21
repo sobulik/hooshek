@@ -1,9 +1,10 @@
-import hooshek.cli
-
 import filecmp
-import pytest
 import shutil
+
+import pytest
 import typer.testing
+
+import hooshek.cli
 
 
 def test_sort(fixture_path, tmp_path, monkeypatch):

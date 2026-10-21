@@ -1,9 +1,10 @@
-import hooshek.cli
-
 import filecmp
-import pytest
 import shutil
+
+import pytest
 import typer.testing
+
+import hooshek.cli
 
 
 @pytest.mark.parametrize("ext", ("yaml", "txt"))

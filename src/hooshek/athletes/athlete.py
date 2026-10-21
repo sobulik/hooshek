@@ -25,7 +25,7 @@ class Athlete:
             idf = self.id.rjust(3, " ")
             if self.id.startswith(tuple(string.ascii_uppercase)):
                 idf = self.id.ljust(3, " ")
-        return "{0}   {1} {2} ({3}){4}".format(
+        return "{}   {} {} ({}){}".format(
             idf,
             self.name,
             self.surname,

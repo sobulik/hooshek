@@ -29,11 +29,9 @@ def dump_start(o, ofile, encoding_print):
                 isFirst = False
             else:
                 f.write("\n\f")
-            f.write(
-                "Kategorie: {0}   Trať: {1}\n".format(race["name"], race["distance"])
-            )
+            f.write("Kategorie: {}   Trať: {}\n".format(race["name"], race["distance"]))
             if len(race["athletes"]) > 0:
-                athletes = list()
+                athletes = []
                 for a in race["athletes"]:
                     if o["mass"]:
                         athletes.append(
@@ -85,12 +83,12 @@ def dump_finish(o, ofile, encoding_print):
             else:
                 f.write("\n\f")
             f.write(
-                "Kategorie: {0} {1}  Trať: {2}\n".format(
+                "Kategorie: {} {}  Trať: {}\n".format(
                     race["name"], race["desc"], race["distance"]
                 )
             )
             if len(race["athletes"]) > 0:
-                athletes = list()
+                athletes = []
                 for a in race["athletes"]:
                     athletes.append(
                         (

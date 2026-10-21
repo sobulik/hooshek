@@ -1,20 +1,22 @@
-import hooshek.athletes.athlete
-import hooshek.athletes.io
-import hooshek.clubs.repo
-import hooshek.event.io
-import hooshek.persistence.json
-import hooshek.results.io
-import hooshek.results.category
-import hooshek.startlist.io
-
 import collections
 import csv
 import datetime
 import hashlib
 import random
 import string
-import typer
 import typing
+
+import typer
+
+import hooshek.athletes.athlete
+import hooshek.athletes.io
+import hooshek.clubs.repo
+import hooshek.event.io
+import hooshek.exceptions
+import hooshek.persistence.json
+import hooshek.results.category
+import hooshek.results.io
+import hooshek.startlist.io
 
 app = typer.Typer()
 
@@ -59,16 +61,16 @@ def startlist():
     clubs = hooshek.clubs.repo.load()
     aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
 
-    startlist = dict()
+    startlist = {}
     startlist["name"] = event.name
     startlist["date"] = event.date
     startlist["mass"] = event.mass
-    startlist["races"] = list()
+    startlist["races"] = []
 
     # set race athletes
     for race in event.races:
         startlist["races"].append(race)
-        race.athletes = list()
+        race.athletes = []
         for athlete in aths:
             if (
                 athlete.sex == race.sex
@@ -115,7 +117,7 @@ def startlist():
 
     hooshek.startlist.io.dump(startlist, event.encoding_print)
 
-    aths = list()
+    aths = []
     for race in startlist["races"]:
         for athlete in race.athletes:
             aths.append(athlete)
@@ -166,7 +168,7 @@ def import_athletes(
                     if row[4] in clubs:
                         a.club = clubs[row[4]]
                     else:
-                        raise Exception(
+                        raise hooshek.exceptions.ValidationError(
                             "Club "
                             + row[4]
                             + " of athlete "
@@ -174,7 +176,7 @@ def import_athletes(
                             + " not defined in clubs"
                         )
                 a.id = "0"
-                print("{0} already present".format(row))
+                print(f"{row} already present")
                 break
         if not present:
             club = None
@@ -182,7 +184,7 @@ def import_athletes(
                 if row[4] in clubs:
                     club = clubs[row[4]]
                 else:
-                    raise Exception(
+                    raise hooshek.exceptions.ValidationError(
                         "Club "
                         + row[4]
                         + " of athlete "
@@ -200,7 +202,7 @@ def import_athletes(
                 }
             )
             aths.append(a)
-            print("{0} created".format(row))
+            print(f"{row} created")
 
     hooshek.athletes.io.dump(aths, "athletes-with-imported.yaml")
 
@@ -214,10 +216,10 @@ def assign_bibs():
     athsWithId = tuple(filter(lambda x: hasattr(x, "id"), aths))
 
     # expect no id or id == "0"
-    idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
+    idCounter = collections.Counter(x.id for x in athsWithId)
     for i in idCounter:
         if i != "0" and idCounter[i] > 0:
-            raise Exception(
+            raise hooshek.exceptions.ValidationError(
                 "Athletes file athlete id "
                 + i
                 + " defined "
@@ -228,7 +230,7 @@ def assign_bibs():
     bib_red = 0
     bib_black = 100
     for race in event.races:
-        raceAths = list()
+        raceAths = []
         for athlete in athsWithId:
             if (
                 athlete.sex == race.sex
@@ -239,9 +241,7 @@ def assign_bibs():
                     (
                         athlete,
                         hashlib.md5(
-                            "{0}{1}{2}".format(
-                                athlete.name, athlete.surname, event.date
-                            ).encode()
+                            f"{athlete.name}{athlete.surname}{event.date}".encode()
                         ).hexdigest(),
                     )
                 )
@@ -257,14 +257,14 @@ def assign_bibs():
                 t[0].id = str(bib_black)
 
     # assert
-    idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
+    idCounter = collections.Counter(x.id for x in athsWithId)
     for i in idCounter:
         if i == "0":
-            raise Exception(
+            raise hooshek.exceptions.ValidationError(
                 "Athletes file athlete id " + i + " not numerated correctly"
             )
         if idCounter[i] > 1:
-            raise Exception(
+            raise hooshek.exceptions.ValidationError(
                 "Athletes file athlete id "
                 + i
                 + " defined "
@@ -282,11 +282,11 @@ def results():
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
     aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
-    results = dict()
+    results = {}
     results["name"] = event.name
     results["date"] = event.date
     results["mass"] = event.mass
-    results["evals"] = list()
+    results["evals"] = []
     for race in event.races:
         for e in hooshek.results.category.eval_categories(event.eff_year, race, True):
             hooshek.results.category.fill_category(e, event, aths, race, start, flist)
@@ -309,7 +309,7 @@ def export_slcr():
         if race.age_max < 4:
             continue
         i += 1
-        r = dict()
+        r = {}
         for e in hooshek.results.category.eval_categories(event.eff_year, race, False):
             hooshek.results.category.fill_category(e, event, aths, race, start, flist)
             r["uniqueId"] = str(i)  # string # Interní ID závodu časoměřiče
@@ -360,7 +360,7 @@ def export_slcr():
             r["results"] = []  # array # výsledky individuálního závodu
             first_one = None
             for ath in e["athletes"]:
-                a = dict()
+                a = {}
                 if hasattr(ath, "rank"):
                     a["rank"] = ath.rank
                 a["lastName"] = ath.surname
@@ -384,4 +384,8 @@ def export_slcr():
 
 
 if __name__ == "__main__":
-    app()
+    try:
+        app()
+    except hooshek.exceptions.HooshekError as e:
+        typer.echo(f"Error: {e}", err=True)
+        raise typer.Exit(code=1)
