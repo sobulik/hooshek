@@ -5,6 +5,7 @@ inputs:
 runs:
   steps:
     - name: Install the project
+      shell: bash
       run: |
         GROUP_ARG=""
         for group in ${{ inputs.groups }}; do
