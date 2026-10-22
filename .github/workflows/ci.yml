@@ -26,11 +26,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7.0.1
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
-
-      - name: Install the project
-        uses: ./.github/actions/sync-uv
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
         with:
           groups: "typechecker test"
 
@@ -55,14 +52,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7.0.1
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: Install the project
-        uses: ./.github/actions/sync-uv
-        with:
           groups: "test"
 
       - name: Run pytest
