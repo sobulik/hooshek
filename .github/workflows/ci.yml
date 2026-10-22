@@ -7,11 +7,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7.0.1
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
-
-      - name: Install the project
-        uses: ./.github/actions/install
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
         with:
           groups: "lint"
 
@@ -33,7 +30,7 @@ jobs:
         uses: ./.github/actions/setup-uv
 
       - name: Install the project
-        uses: ./.github/actions/install
+        uses: ./.github/actions/sync-uv
         with:
           groups: "typechecker test"
 
@@ -64,7 +61,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install the project
-        uses: ./.github/actions/install
+        uses: ./.github/actions/sync-uv
         with:
           groups: "test"
 
