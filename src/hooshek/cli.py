@@ -1,5 +1,5 @@
 import hooshek.athletes.athlete
-import hooshek.athletes.io
+import hooshek.athletes.repo
 import hooshek.clubs.repo
 import hooshek.event.io
 import hooshek.persistence.json
@@ -9,6 +9,7 @@ import hooshek.startlist.io
 
 import collections
 import csv
+import dataclasses
 import datetime
 import hashlib
 import random
@@ -34,30 +35,31 @@ def athletes(
     ] = None,
 ):
     clubs = hooshek.clubs.repo.load()
-    aths = hooshek.athletes.io.build(clubs)
+    aths = hooshek.athletes.repo.load(clubs)
     aths = sorted(aths, key=lambda athlete: athlete.surname)
     aths = sorted(aths, key=lambda athlete: athlete.sex)
     aths = sorted(aths, key=lambda athlete: athlete.born, reverse=True)
     if shuffle:
-        for athlete in aths:
-            athlete.name = (
+        for i, athlete in enumerate(aths):
+            name = (
                 "".join(random.sample(athlete.name, len(athlete.name))).lower().title()
             )
-            athlete.surname = (
+            surname = (
                 "".join(random.sample(athlete.surname, len(athlete.surname)))
                 .lower()
                 .title()
             )
-        hooshek.athletes.io.dump(aths, shuffle)
+            aths[i] = dataclasses.replace(athlete, name=name, surname=surname)
+        hooshek.athletes.repo.dump(aths, shuffle)
     else:
-        hooshek.athletes.io.dump(aths, "athletes-sorted.yaml")
+        hooshek.athletes.repo.dump(aths, "athletes-sorted.yaml")
 
 
 @app.command()
 def startlist():
     event = hooshek.event.io.load()
     clubs = hooshek.clubs.repo.load()
-    aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
+    aths = tuple(filter(lambda x: x.id is not None, hooshek.athletes.repo.load(clubs)))
 
     startlist = dict()
     startlist["name"] = event.name
@@ -89,8 +91,8 @@ def startlist():
     # set start times
     if event.mass:
         for race in startlist["races"]:
-            for athlete in race.athletes:
-                athlete.start = datetime.time()
+            for i, athlete in enumerate(race.athletes):
+                race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
     else:
         time = datetime.datetime.combine(event.date, event.start)
         for race in startlist["races"]:
@@ -105,11 +107,13 @@ def startlist():
                 groupby = race.interval_groupby
 
             group = 0
-            for athlete in race.athletes:
+            for i, athlete in enumerate(race.athletes):
                 if group == groupby:
                     time += interval
                     group = 0
-                athlete.start = datetime.datetime.fromtimestamp(time.timestamp())
+                race.athletes[i] = dataclasses.replace(
+                    athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
+                )
                 group += 1
             time += event.interval_race
 
@@ -138,7 +142,18 @@ def startlist():
                     "\n\n--------------------------------------------------------------------\n\n"
                 )
                 club = curr_club
-            f.write(athlete.toString())
+            idf = athlete.id.rjust(3, " ")
+            if athlete.id.startswith(tuple(string.ascii_uppercase)):
+                idf = athlete.id.ljust(3, " ")
+            f.write(
+                "{0}   {1} {2} ({3}){4}".format(
+                    idf,
+                    athlete.name,
+                    athlete.surname,
+                    athlete.born,
+                    " " + athlete.club.id if athlete.club is not None else "",
+                )
+            )
             f.write("\n")
 
 
@@ -153,18 +168,19 @@ def import_athletes(
 ):
     clubs = hooshek.clubs.repo.load()
 
-    aths = list(hooshek.athletes.io.build(clubs, False))
+    aths = hooshek.athletes.repo.load(clubs)
 
     reader = csv.reader(file)
     for row in reader:
         year = int(row[3])
         present = False
-        for a in aths:
+        for i, a in enumerate(aths):
             if row[1] == a.name and row[0] == a.surname and year == a.born:
                 present = True
+                replace = {"id": "0"}
                 if len(row) > 4:
                     if row[4] in clubs:
-                        a.club = clubs[row[4]]
+                        replace["club"] = clubs[row[4]]
                     else:
                         raise Exception(
                             "Club "
@@ -173,7 +189,7 @@ def import_athletes(
                             + row[0]
                             + " not defined in clubs"
                         )
-                a.id = "0"
+                aths[i] = dataclasses.replace(a, **replace)
                 print("{0} already present".format(row))
                 break
         if not present:
@@ -189,49 +205,44 @@ def import_athletes(
                         + row[0]
                         + " not defined in clubs"
                     )
+            sex: typing.Literal["f", "m"] = (
+                typing.cast(  # fiks avoid this with pydantic
+                    typing.Literal["f", "m"], row[2]
+                )
+            )
             a = hooshek.athletes.athlete.Athlete(
-                {
-                    "id": "0",
-                    "name": row[1],
-                    "surname": row[0],
-                    "born": year,
-                    "sex": row[2],
-                    "club": club,
-                }
+                id="0", name=row[1], surname=row[0], born=year, sex=sex, club=club
             )
             aths.append(a)
             print("{0} created".format(row))
 
-    hooshek.athletes.io.dump(aths, "athletes-with-imported.yaml")
+    hooshek.athletes.repo.dump(aths, "athletes-with-imported.yaml")
 
 
 @app.command("assign-bibs")
 def assign_bibs():
     event = hooshek.event.io.load()
     clubs = hooshek.clubs.repo.load()
-
-    aths = hooshek.athletes.io.build(clubs, False)
-    athsWithId = tuple(filter(lambda x: hasattr(x, "id"), aths))
+    athletes = hooshek.athletes.repo.load(clubs)
 
     # expect no id or id == "0"
-    idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
+    idCounter = collections.Counter(
+        map(lambda x: x.id, filter(lambda x: x.id is not None, athletes))
+    )
     for i in idCounter:
         if i != "0" and idCounter[i] > 0:
-            raise Exception(
-                "Athletes file athlete id "
-                + i
-                + " defined "
-                + str(idCounter[i])
-                + " times. Only zeros are expected!"
+            raise ValueError(
+                f"Athletes file athlete id {i} defined {idCounter[i]} times. Only zeros are expected!"
             )
 
     bib_red = 0
     bib_black = 100
     for race in event.races:
         raceAths = list()
-        for athlete in athsWithId:
+        for i, athlete in enumerate(athletes):
             if (
-                athlete.sex == race.sex
+                athlete.id is not None
+                and athlete.sex == race.sex
                 and event.eff_year - athlete.born >= race.age_min
                 and event.eff_year - athlete.born <= race.age_max
             ):
@@ -243,36 +254,33 @@ def assign_bibs():
                                 athlete.name, athlete.surname, event.date
                             ).encode()
                         ).hexdigest(),
+                        i,
                     )
                 )
         raceAths.sort(key=lambda t: t[1])
         for t in raceAths:
             if t[0].born > event.eff_year - 10:
                 bib_red += 1
-                t[0].id = str(bib_red)
+                athletes[t[2]] = dataclasses.replace(t[0], id=str(bib_red))
             else:
                 bib_black += 1
                 while bib_black in (25, 235):
                     bib_black += 1
-                t[0].id = str(bib_black)
+                athletes[t[2]] = dataclasses.replace(t[0], id=str(bib_black))
 
     # assert
-    idCounter = collections.Counter(map(lambda x: x.id, athsWithId))
+    idCounter = collections.Counter(
+        map(lambda x: x.id, filter(lambda x: x.id is not None, athletes))
+    )
     for i in idCounter:
         if i == "0":
-            raise Exception(
-                "Athletes file athlete id " + i + " not numerated correctly"
-            )
+            raise ValueError(f"Athletes file athlete id {i} not assigned correctly")
         if idCounter[i] > 1:
-            raise Exception(
-                "Athletes file athlete id "
-                + i
-                + " defined "
-                + str(idCounter[i])
-                + " times"
+            raise ValueError(
+                f"Athletes file athlete id {i} defined {idCounter[i]} times"
             )
 
-    hooshek.athletes.io.dump(aths, "athletes-with-bibs.yaml")
+    hooshek.athletes.repo.dump(athletes, "athletes-with-bibs.yaml")
 
 
 @app.command()
@@ -281,7 +289,7 @@ def results():
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
-    aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
+    aths = tuple(filter(lambda x: x.id is not None, hooshek.athletes.repo.load(clubs)))
     results = dict()
     results["name"] = event.name
     results["date"] = event.date
@@ -301,7 +309,7 @@ def export_slcr():
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
-    aths = tuple(filter(lambda x: hasattr(x, "id"), hooshek.athletes.io.build(clubs)))
+    aths = tuple(filter(lambda x: x.id is not None, hooshek.athletes.repo.load(clubs)))
 
     slcr = []
     i = 0
@@ -361,7 +369,7 @@ def export_slcr():
             first_one = None
             for ath in e["athletes"]:
                 a = dict()
-                if hasattr(ath, "rank"):
+                if ath.rank is not None:
                     a["rank"] = ath.rank
                 a["lastName"] = ath.surname
                 a["firstName"] = ath.name
@@ -370,7 +378,7 @@ def export_slcr():
                 if ath.club is not None:
                     a["clubAbbreviation"] = ath.club.id
                     a["clubName"] = ath.club.name
-                if hasattr(ath, "time"):
+                if ath.time is not None:
                     a["timeMilliseconds"] = ath.time // datetime.timedelta(
                         milliseconds=1
                     )
