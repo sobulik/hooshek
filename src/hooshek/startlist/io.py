@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import hooshek.persistence.yaml
-import hooshek.persistence.termtables
-
 import os
+
+import hooshek.persistence.termtables
+import hooshek.persistence.yaml
 
 
 def load():
@@ -24,19 +24,19 @@ def sanity_check(raw):
 
 def dump(start, encoding_print):
     """write start list"""
-    o = dict()
+    o = {}
     o["name"] = start["name"]
     o["date"] = start["date"]
     o["mass"] = start["mass"]
-    o["races"] = list()
+    o["races"] = []
     for race in start["races"]:
-        r = dict()
+        r = {}
         r["name"] = race.name
         r["sex"] = race.sex
         r["distance"] = race.distance
-        r["athletes"] = list()
+        r["athletes"] = []
         for athlete in race.athletes:
-            a = dict()
+            a = {}
             a["id"] = athlete.id
             a["name"] = athlete.name
             a["surname"] = athlete.surname

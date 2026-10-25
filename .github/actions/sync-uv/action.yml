@@ -1,0 +1,16 @@
+inputs:
+  groups:
+    required: false
+    default: ""
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        GROUP_ARG=""
+        for group in ${{ inputs.groups }}; do
+          if [ -n "$group" ]; then
+            GROUP_ARG="$GROUP_ARG --group $group"
+          fi
+        done
+        uv sync --locked $GROUP_ARG

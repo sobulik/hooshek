@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
-import hooshek.event.race
-
-import hooshek.util.util
-
 import datetime
+
+import hooshek.event.race
+import hooshek.util.util
 
 
 class Event:
@@ -46,10 +45,10 @@ class Event:
             self.interval_athlete = datetime.timedelta(seconds=i["interval"]["athlete"])
             self.interval_groupby = i["interval"]["groupby"]
 
-        self.races = tuple(map(lambda x: hooshek.event.race.Race(x), i["races"]))
+        self.races = tuple(hooshek.event.race.Race(x) for x in i["races"])
 
     def toString(self):
-        return "Event name: {0}, date: {1}, effective year: {2}, start: {3}, mass: {4}, interval_race: {5}".format(
+        return "Event name: {}, date: {}, effective year: {}, start: {}, mass: {}, interval_race: {}".format(
             self.name,
             self.date,
             self.eff_year,

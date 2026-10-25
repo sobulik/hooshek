@@ -1,7 +1,7 @@
-from ..clubs.club import Club
-
 import dataclasses
 import typing
+
+from ..clubs.club import Club
 
 
 @dataclasses.dataclass(frozen=True, slots=True)

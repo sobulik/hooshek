@@ -4,14 +4,14 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - &checkout
+        name: Checkout
+        uses: actions/checkout@v7.0.1
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
-
-      - name: Install the project
-        run: uv sync --locked --group lint
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
+        with:
+          groups: "lint"
 
       - name: Run ruff check
         run: |
@@ -24,14 +24,12 @@ jobs:
   typechecker:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - *checkout
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
-
-      - name: Install the project
-        run: uv sync --locked --group typechecker --group test
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
+        with:
+          groups: "typechecker test"
 
       - name: Run ty check
         run: |
@@ -40,22 +38,24 @@ jobs:
   test:
     needs: [lint, typechecker]
     runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.continue-on-error || false }}
     strategy:
       matrix:
-        os: ["ubuntu-24.04"]
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14", "3.15"]
+        os: ["ubuntu-26.04"]
+        python-version: ["3.11", "3.12", "3.13", "3.14", "3.15"]
+        include:
+          - os: "ubuntu-26.04"
+            python-version: "3.16"
+            continue-on-error: true
       fail-fast: false
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - *checkout
 
-      - name: Setup uv
-        uses: ./.github/actions/setup-uv
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: Install the project
-        run: uv sync --locked --group test
+          groups: "test"
 
       - name: Run pytest
         run: uv run --no-sync pytest
