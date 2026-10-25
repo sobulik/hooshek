@@ -77,9 +77,9 @@ def dump(start, encoding_print):
         )
         for athlete in race["athletes"]:
             a = {}
-            a["rank"] = athlete.rank if hasattr(athlete, "rank") else ""
+            a["rank"] = athlete.rank if athlete.rank is not None else ""
             a["rank_sokol"] = (
-                athlete.rank_sokol if hasattr(athlete, "rank_sokol") else ""
+                athlete.rank_sokol if athlete.rank_sokol is not None else ""
             )
             a["name"] = athlete.name
             a["surname"] = athlete.surname
@@ -88,17 +88,17 @@ def dump(start, encoding_print):
             a["start"] = athlete.start
             a["finish"] = (
                 athlete.finish.strftime("%H:%M:%S")
-                if hasattr(athlete, "finish") and athlete.finish is not None
+                if athlete.finish is not None
                 else ""
             )
             a["time"] = (
                 hooshek.util.util.format_delta(athlete.time)
-                if hasattr(athlete, "time") and athlete.time is not None
+                if athlete.time is not None
                 else ""
             )
             a["diff"] = (
                 hooshek.util.util.format_delta(athlete.time - first_one.time)
-                if hasattr(athlete, "time") and first_one is not None
+                if athlete.time is not None and first_one is not None
                 else ""
             )
             r["athletes"].append(a)
