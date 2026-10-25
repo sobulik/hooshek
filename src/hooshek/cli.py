@@ -40,7 +40,7 @@ def athletes(
     aths = sorted(aths, key=lambda athlete: athlete.sex)
     aths = sorted(aths, key=lambda athlete: athlete.born, reverse=True)
     if shuffle:
-        for athlete in aths:
+        for i, athlete in enumerate(aths):
             name = (
                 "".join(random.sample(athlete.name, len(athlete.name))).lower().title()
             )
@@ -49,7 +49,7 @@ def athletes(
                 .lower()
                 .title()
             )
-            athlete = dataclasses.replace(athlete, name=name, surname=surname)
+            aths[i] = dataclasses.replace(athlete, name=name, surname=surname)
         hooshek.athletes.repo.dump(aths, shuffle)
     else:
         hooshek.athletes.repo.dump(aths, "athletes-sorted.yaml")
