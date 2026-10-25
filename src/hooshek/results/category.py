@@ -49,7 +49,7 @@ def fill_category(e, event, aths, race, start, flist):
                         e["started"][i], start=a["start"]
                     )
                     break
-            if athlete.start is not None:
+            if e["started"][i].start is not None:
                 break
         result = list(filter(lambda x: x["id"] == e["started"][i].id, flist))
         if (
