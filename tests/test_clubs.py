@@ -1,7 +1,7 @@
-from hooshek.clubs.repo import ClubModel, ClubsModel, load
-
-import pytest
 import pydantic
+import pytest
+
+from hooshek.clubs.repo import ClubModel, ClubsModel, load
 
 
 def test_valid_clubs_model():

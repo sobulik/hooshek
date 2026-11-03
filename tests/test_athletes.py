@@ -1,14 +1,15 @@
-import hooshek.cli
-from hooshek.athletes.athlete import Athlete
-from hooshek.athletes.repo import AthleteModel, AthletesModel, load, dump
-from hooshek.clubs.club import Club
-
 import filecmp
+import shutil
+import typing
+
 import pydantic
 import pytest
-import shutil
 import typer.testing
-import typing
+
+import hooshek.cli
+from hooshek.athletes.athlete import Athlete
+from hooshek.athletes.repo import AthleteModel, AthletesModel, dump, load
+from hooshek.clubs.club import Club
 
 
 def test_sort(fixture_path, tmp_path, monkeypatch):

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import hooshek.util.util
-
 import datetime
+
+import hooshek.util.util
 
 
 class Race:
@@ -19,9 +19,9 @@ class Race:
             self.slcr_name = self.name
         self.distance = i["distance"]
         if "eval" in i:
-            self.eval = list()
+            self.eval = []
             for e in i["eval"]:
-                evaluation = dict()
+                evaluation = {}
                 evaluation["age_min"] = e["age_min"]
                 evaluation["age_max"] = e["age_max"]
                 self.eval.append(evaluation)

@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
-import hooshek.persistence.yaml
-import hooshek.event.event
-
-import cerberus
-
 import collections
 import copy
 import typing
+
+import cerberus
+
+import hooshek.event.event
+import hooshek.persistence.yaml
+
+from ..exceptions import ValidationError
 
 
 def load():
@@ -17,11 +19,11 @@ def load():
 
     # unique key check
     uniqueCounter = collections.Counter(
-        map(lambda x: (x["age_min"], x["age_max"], x["sex"]), ivent["races"])
+        (x["age_min"], x["age_max"], x["sex"]) for x in ivent["races"]
     )
     for i in uniqueCounter:
         if uniqueCounter[i] > 1:
-            raise Exception(
+            raise ValidationError(
                 "Event file race "
                 + str(i)
                 + " defined "
@@ -31,18 +33,20 @@ def load():
 
     for race in ivent["races"]:
         if int(race["age_min"]) > int(race["age_max"]):
-            raise Exception("age_min higher than age_max for a race")
+            raise ValidationError("age_min higher than age_max for a race")
 
         if "eval" in race:
             for e in race["eval"]:
                 if int(e["age_min"]) > int(e["age_max"]):
-                    raise Exception("age_min higher than age_max for an evaluation")
+                    raise ValidationError(
+                        "age_min higher than age_max for an evaluation"
+                    )
                 if int(e["age_min"]) < int(race["age_min"]):
-                    raise Exception(
+                    raise ValidationError(
                         "age_min in evaluation lower than age_min for a race"
                     )
                 if int(e["age_max"]) > int(race["age_max"]):
-                    raise Exception(
+                    raise ValidationError(
                         "age_max in evaluation higher than age_max for a race"
                     )
 
@@ -133,4 +137,4 @@ def validate(raw):
         else:
             if schema == schema_1_1:
                 print(v.errors)
-    raise Exception("Event file does not validate")
+    raise ValidationError("Event file does not validate")

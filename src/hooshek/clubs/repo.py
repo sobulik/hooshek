@@ -1,9 +1,10 @@
-from hooshek.persistence import yaml
-from hooshek.clubs.club import Club
-
 import collections
-import pydantic
 import typing
+
+import pydantic
+
+from hooshek.clubs.club import Club
+from hooshek.persistence import yaml
 
 
 class ClubModel(pydantic.BaseModel):

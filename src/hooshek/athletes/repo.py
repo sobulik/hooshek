@@ -1,10 +1,11 @@
+import collections
+import typing
+
+import pydantic
+
+from ..clubs.club import Club
 from ..persistence import yaml
 from .athlete import Athlete
-from ..clubs.club import Club
-
-import collections
-import pydantic
-import typing
 
 
 class AthleteModel(pydantic.BaseModel):
@@ -28,7 +29,7 @@ class AthletesModel(pydantic.BaseModel):
     @pydantic.model_validator(mode="after")
     def check_unique_ids(self) -> "AthletesModel":
         idCounter = collections.Counter(
-            map(lambda x: x.id, filter(lambda x: x.id is not None, self.athletes))
+            x.id for x in filter(lambda x: x.id is not None, self.athletes)
         )
         for athlete_id, count in idCounter.items():
             if athlete_id != "0" and count > 1:
@@ -41,7 +42,7 @@ class AthletesModel(pydantic.BaseModel):
     @pydantic.model_validator(mode="after")
     def check_unique_key(self) -> "AthletesModel":
         uniqueCounter = collections.Counter(
-            map(lambda x: (x.name, x.surname, x.born), self.athletes)
+            (x.name, x.surname, x.born) for x in self.athletes
         )
         for athlete, count in uniqueCounter.items():
             if count > 1:

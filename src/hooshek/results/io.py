@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-import hooshek.persistence.yaml
-import hooshek.persistence.termtables
-import hooshek.util.util
+import collections
 
 import cerberus
 
-import collections
+import hooshek.persistence.termtables
+import hooshek.persistence.yaml
+import hooshek.util.util
+
+from ..exceptions import ValidationError
 
 
 def load():
@@ -15,10 +17,10 @@ def load():
     finish = validate(finish)
 
     # primary key check
-    idCounter = collections.Counter(map(lambda x: x["id"], finish))
+    idCounter = collections.Counter(x["id"] for x in finish)
     for i in idCounter:
         if idCounter[i] > 1:
-            raise Exception(
+            raise ValidationError(
                 "Finish file result for id "
                 + str(i)
                 + " defined "
@@ -51,30 +53,30 @@ def validate(raw):
     d = {"aux": raw}
     if not v.validate(d):
         print(v.errors)
-        raise Exception("Finish file does not validate")
+        raise ValidationError("Finish file does not validate")
     return v.document["aux"]
 
 
 def dump(start, encoding_print):
     """write results"""
-    o = dict()
+    o = {}
     o["name"] = start["name"]
     o["date"] = start["date"]
-    o["races"] = list()
+    o["races"] = []
     for race in start["evals"]:
-        r = dict()
+        r = {}
         r["name"] = race["name"]
         r["desc"] = race["desc"]
         r["sex"] = race["sex"]
         r["distance"] = race["distance"]
-        r["athletes"] = list()
+        r["athletes"] = []
         first_one = (
             race["athletes"][0]
             if len(race["athletes"]) > 0 and hasattr(race["athletes"][0], "time")
             else None
         )
         for athlete in race["athletes"]:
-            a = dict()
+            a = {}
             a["rank"] = athlete.rank if athlete.rank is not None else ""
             a["rank_sokol"] = (
                 athlete.rank_sokol if athlete.rank_sokol is not None else ""
