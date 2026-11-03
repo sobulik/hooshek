@@ -6,6 +6,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
     steps:
       - &checkout
         name: Checkout
@@ -25,6 +26,7 @@ jobs:
   typechecker:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
     steps:
       - *checkout
 
@@ -40,6 +42,7 @@ jobs:
     needs: [lint, typechecker]
     runs-on: ${{ matrix.os }}
     permissions:
+      contents: read
     continue-on-error: ${{ matrix.continue-on-error || false }}
     strategy:
       matrix:

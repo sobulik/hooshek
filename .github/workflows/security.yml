@@ -12,6 +12,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
     steps:
       - &checkout
         name: Checkout
@@ -26,6 +27,7 @@ jobs:
   codeQL:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       security-events: write
     strategy:
       fail-fast: false
