@@ -1,0 +1,74 @@
+name: Security
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+  schedule:
+    - cron: "37 6 * * 2"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - &checkout
+        name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - name: Tool uv setup and sync
+        uses: ./.github/actions/setup-sync
+
+      - name: Run uv audit
+        run: uv audit
+
+  codeQL:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - language: actions
+        - language: python
+    steps:
+      - *checkout
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v4
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v4
+        with:
+          category: "/language:${{matrix.language}}"
+
+  trivy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - *checkout
+
+      - name: Run trivy
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: fs
+          scan-ref: .
+          ignore-unfixed: true
+          severity: CRITICAL,HIGH,MEDIUM
+          format: sarif
+          output: trivy-results.sarif
+          exit-code: 1
+
+      - name: Upload trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@v4
+        if: always()
+        with:
+          sarif_file: trivy-results.sarif

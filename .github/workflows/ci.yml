@@ -1,8 +1,12 @@
 name: CI
-on: [push]
+on:
+  push:
+
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - &checkout
         name: Checkout
@@ -14,15 +18,15 @@ jobs:
           groups: "lint"
 
       - name: Run ruff check
-        run: |
-          uv run --no-sync ruff check
+        run: uv run --no-sync ruff check
 
       - name: Run ruff format check
-        run: |
-          uv run --no-sync ruff format --check
+        run: uv run --no-sync ruff format --check
 
   typechecker:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - *checkout
 
@@ -32,12 +36,13 @@ jobs:
           groups: "typechecker test"
 
       - name: Run ty check
-        run: |
-          uv run --no-sync ty check --output-format github
+        run: uv run --no-sync ty check --output-format github
 
   test:
     needs: [lint, typechecker]
     runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
     continue-on-error: ${{ matrix.continue-on-error || false }}
     strategy:
       matrix:
