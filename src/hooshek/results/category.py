@@ -6,11 +6,11 @@ from hooshek.util import util
 
 def eval_categories(eff_year, race, fine):
     eval_categories = []
-    if fine and hasattr(race, "eval"):
+    if fine and race.eval is not None:
         for evaluation in race.eval:
             e = {}
-            e["age_min"] = evaluation["age_min"]
-            e["age_max"] = evaluation["age_max"]
+            e["age_min"] = evaluation.age_min
+            e["age_max"] = evaluation.age_max
             if e["age_min"] == e["age_max"]:
                 e["desc"] = str(eff_year - e["age_max"])
             else:
@@ -65,7 +65,7 @@ def fill_category(e, event, aths, race, start, flist):
             ) - datetime.datetime.combine(
                 event.date, util.parseTime(e["started"][i].start)
             )
-            if not event.mass and event.version != "1.0":
+            if not event.mass and event.version != "1.0" and event.start is not None:
                 tt += datetime.timedelta(
                     hours=event.start.hour,
                     minutes=event.start.minute,

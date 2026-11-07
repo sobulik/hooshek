@@ -1,58 +1,65 @@
-#!/usr/bin/env python3
-
+import dataclasses
 import datetime
 
-import hooshek.event.race
-import hooshek.util.util
+from .race import Race
 
 
+@dataclasses.dataclass(frozen=True, slots=True)
+class EventInterval:
+    start: datetime.time
+    race: datetime.timedelta
+    athlete: datetime.timedelta
+    groupby: int
+
+
+@dataclasses.dataclass(frozen=True, slots=True)
 class Event:
     """Event domain class"""
 
-    def __init__(self, i):
-        self.version = i["version"]
-        self.name = i["name"]
-        self.date = i["date"]
-        self.encoding_print = "utf-8"
-        try:
-            self.location = i["location"]
-        except KeyError:
-            pass
-        try:
-            self.organizer = i["organizer"]
-        except KeyError:
-            pass
-        try:
-            self.slcr_event_id = i["slcr_event_id"]
-        except KeyError:
-            pass
-        try:
-            self.style = i["style"]
-        except KeyError:
-            pass
-        if "encoding_print" in i and i["encoding_print"] is not None:
-            self.encoding_print = i["encoding_print"]
+    version: str
+    name: str
+    date: datetime.date
+    races: tuple[Race, ...]
+    location: str | None = None
+    organizer: str | None = None
+    slcr_event_id: int | None = None
+    style: str | None = None
+    encoding_print: str = "utf-8"
+    interval: EventInterval | None = None
 
-        self.eff_year = self.date.year
+    @property
+    def eff_year(self) -> int:
+        y = self.date.year
         if self.date.month < 7:
-            self.eff_year -= 1
+            y -= 1
+        return y
 
-        self.mass = True
-        if "interval" in i:
-            self.mass = False
-            self.start = hooshek.util.util.parseTime(i["interval"]["start"])
-            self.interval_race = datetime.timedelta(seconds=i["interval"]["race"])
-            self.interval_athlete = datetime.timedelta(seconds=i["interval"]["athlete"])
-            self.interval_groupby = i["interval"]["groupby"]
+    @property
+    def mass(self) -> bool:
+        return self.interval is None
 
-        self.races = tuple(hooshek.event.race.Race(x) for x in i["races"])
+    @property
+    def start(self) -> datetime.time | None:
+        return self.interval.start if self.interval else None
+
+    @property
+    def interval_race(self) -> datetime.timedelta | None:
+        return self.interval.race if self.interval else None
+
+    @property
+    def interval_athlete(self) -> datetime.timedelta | None:
+        return self.interval.athlete if self.interval else None
+
+    @property
+    def interval_groupby(self) -> int | None:
+        return self.interval.groupby if self.interval else None
 
     def toString(self):
         return "Event name: {}, date: {}, effective year: {}, start: {}, mass: {}, interval_race: {}".format(
             self.name,
             self.date,
             self.eff_year,
-            self.start if hasattr(self, "start") else "",
+            self.start if self.start else "",
             self.mass,
-            self.interval_race if hasattr(self, "interval_race") else "",
+            self.interval_race if self.interval_race else "",
         )

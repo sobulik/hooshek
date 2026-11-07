@@ -1,140 +1,151 @@
-#!/usr/bin/env python3
-
 import collections
-import copy
+import datetime
 import typing
 
-import cerberus
+import pydantic
 
-import hooshek.event.event
 import hooshek.persistence.yaml
+from hooshek.exceptions import ValidationError
 
-from ..exceptions import ValidationError
+from ..util.util import parseTime
+from .event import Event, EventInterval
+from .race import Race, RaceEvaluation, RaceInterval
 
 
-def load():
-    """return Event instance"""
-    ivent = hooshek.persistence.yaml.load("event.yaml")
-    ivent = validate(ivent)
+class RaceEvaluationModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+    age_min: int = pydantic.Field(ge=0)
+    age_max: int = pydantic.Field(ge=0)
 
-    # unique key check
-    uniqueCounter = collections.Counter(
-        (x["age_min"], x["age_max"], x["sex"]) for x in ivent["races"]
+
+class RaceIntervalModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+    start: str = pydantic.Field(pattern=r"^[0-9]{2}:[0-9]{2}:[0-9]{2}$")
+    athlete: int = pydantic.Field(ge=1)
+    groupby: int = pydantic.Field(ge=1)
+
+
+class RaceModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+    age_min: int = pydantic.Field(ge=0)
+    age_max: int = pydantic.Field(ge=0)
+    name: str
+    sex: typing.Literal["f", "m"]
+    distance: str
+    slcr_name: str | None = None
+    eval: list[RaceEvaluationModel] | None = None
+    start: str | None = pydantic.Field(
+        default=None, pattern=r"^[0-9]{2}:[0-9]{2}:[0-9]{2}$"
     )
-    for i in uniqueCounter:
-        if uniqueCounter[i] > 1:
-            raise ValidationError(
-                "Event file race "
-                + str(i)
-                + " defined "
-                + str(uniqueCounter[i])
-                + " times"
-            )
+    interval: RaceIntervalModel | None = None
 
-    for race in ivent["races"]:
-        if int(race["age_min"]) > int(race["age_max"]):
-            raise ValidationError("age_min higher than age_max for a race")
-
-        if "eval" in race:
-            for e in race["eval"]:
-                if int(e["age_min"]) > int(e["age_max"]):
-                    raise ValidationError(
-                        "age_min higher than age_max for an evaluation"
-                    )
-                if int(e["age_min"]) < int(race["age_min"]):
-                    raise ValidationError(
+    @pydantic.model_validator(mode="after")
+    def validate_ages(self) -> "RaceModel":
+        if self.age_min > self.age_max:
+            raise ValueError("age_min higher than age_max for a race")
+        if self.eval:
+            for e in self.eval:
+                if e.age_min > e.age_max:
+                    raise ValueError("age_min higher than age_max for an evaluation")
+                if e.age_min < self.age_min:
+                    raise ValueError(
                         "age_min in evaluation lower than age_min for a race"
                     )
-                if int(e["age_max"]) > int(race["age_max"]):
-                    raise ValidationError(
+                if e.age_max > self.age_max:
+                    raise ValueError(
                         "age_max in evaluation higher than age_max for a race"
                     )
+        return self
 
-    return hooshek.event.event.Event(ivent)
+
+class EventIntervalModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+    start: str = pydantic.Field(pattern=r"^[0-9]{2}:[0-9]{2}:[0-9]{2}$")
+    race: int = pydantic.Field(ge=1)
+    athlete: int = pydantic.Field(ge=1)
+    groupby: int = pydantic.Field(ge=1)
 
 
-def validate(raw):
-    schema_1_0: typing.Any = {
-        "version": {"type": "string", "allowed": ["1.0"]},
-        "date": {"type": "date"},
-        "encoding_print": {"type": "string", "required": False},
-        "interval": {
-            "type": "dict",
-            "schema": {
-                "start": {
-                    "type": "string",
-                    "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$",
-                },
-                "race": {"type": "integer", "min": 1},
-                "athlete": {"type": "integer", "min": 1},
-                "groupby": {"type": "integer", "min": 1},
-            },
-            "required": False,
-        },
-        "name": {"type": "string"},
-        "races": {
-            "type": "list",
-            "minlength": 1,
-            "schema": {
-                "type": "dict",
-                "schema": {
-                    "age_min": {"type": "integer", "min": 0},
-                    "age_max": {"type": "integer", "min": 0},
-                    "eval": {
-                        "type": "list",
-                        "minlength": 1,
-                        "schema": {
-                            "type": "dict",
-                            "schema": {
-                                "age_min": {"type": "integer", "min": 0},
-                                "age_max": {"type": "integer", "min": 0},
-                            },
-                        },
-                        "required": False,
-                    },
-                    "distance": {"type": "string"},
-                    "interval": {
-                        "type": "dict",
-                        "schema": {
-                            "start": {
-                                "type": "string",
-                                "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$",
-                            },
-                            "athlete": {"type": "integer", "min": 1},
-                            "groupby": {"type": "integer", "min": 1},
-                        },
-                        "required": False,
-                    },
-                    "name": {"type": "string"},
-                    "sex": {"type": "string", "allowed": ["f", "m"]},
-                    "start": {
-                        "type": "string",
-                        "regex": "^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$",
-                        "required": False,
-                    },
-                },
-            },
-        },
-    }
-    schema_1_1 = copy.deepcopy(schema_1_0)
-    schema_1_1["version"]["allowed"] = ["1.1"]
-    schema_1_1["location"] = {"type": "string"}
-    schema_1_1["organizer"] = {"type": "string"}
-    schema_1_1["races"]["schema"]["schema"]["slcr_name"] = {
-        "type": "string",
-        "required": False,
-    }
-    schema_1_1["slcr_event_id"] = {"type": "integer"}
-    schema_1_1["style"] = {
-        "type": "string",
-        "allowed": ["Přespolní běh", "klasicky", "volně"],
-    }
+class EventModel(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid", strict=True)
+    version: typing.Literal["1.0", "1.1"]
+    name: str
+    date: datetime.date
+    location: str | None = None
+    organizer: str | None = None
+    slcr_event_id: int | None = None
+    style: typing.Literal["Přespolní běh", "klasicky", "volně"] | None = None
+    encoding_print: str | None = "utf-8"
+    interval: EventIntervalModel | None = None
+    races: list[RaceModel] = pydantic.Field(min_length=1)
 
-    for schema in (schema_1_0, schema_1_1):
-        v = cerberus.Validator(schema, require_all=True)
-        if v.validate(raw):
-            return v.document
-        else:
-            if schema == schema_1_1:
-                print(v.errors)
-    raise ValidationError("Event file does not validate")
+    @pydantic.model_validator(mode="after")
+    def check_unique_races(self) -> "EventModel":
+        unique_counter = collections.Counter(
+            (r.age_min, r.age_max, r.sex) for r in self.races
+        )
+        for key, count in unique_counter.items():
+            if count > 1:
+                raise ValueError(f"Event file race {key} defined {count} times")
+        return self
+
+
+def load() -> Event:
+    """return Event instance"""
+    raw = hooshek.persistence.yaml.load("event.yaml")
+    try:
+        validated = EventModel(**raw)
+    except pydantic.ValidationError as e:
+        print(e.errors())
+        raise ValidationError("Event file does not validate")
+
+    interval = None
+    if validated.interval:
+        interval = EventInterval(
+            start=parseTime(validated.interval.start),
+            race=datetime.timedelta(seconds=validated.interval.race),
+            athlete=datetime.timedelta(seconds=validated.interval.athlete),
+            groupby=validated.interval.groupby,
+        )
+
+    races = []
+    for r in validated.races:
+        evals = (
+            tuple(RaceEvaluation(age_min=e.age_min, age_max=e.age_max) for e in r.eval)
+            if r.eval
+            else None
+        )
+        r_interval = (
+            RaceInterval(
+                athlete=datetime.timedelta(seconds=r.interval.athlete),
+                groupby=r.interval.groupby,
+            )
+            if r.interval
+            else None
+        )
+        races.append(
+            Race(
+                age_min=r.age_min,
+                age_max=r.age_max,
+                sex=r.sex,
+                name=r.name,
+                distance=r.distance,
+                slcr_name=r.slcr_name if r.slcr_name is not None else r.name,
+                eval=evals,
+                start=parseTime(r.start) if r.start else None,
+                interval=r_interval,
+            )
+        )
+
+    return Event(
+        version=validated.version,
+        name=validated.name,
+        date=validated.date,
+        location=validated.location,
+        organizer=validated.organizer,
+        slcr_event_id=validated.slcr_event_id,
+        style=validated.style,
+        encoding_print=validated.encoding_print or "utf-8",
+        interval=interval,
+        races=tuple(races),
+    )

@@ -96,10 +96,12 @@ def startlist():
             for i, athlete in enumerate(race.athletes):
                 race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
     else:
-        time = datetime.datetime.combine(event.date, event.start)
+        time = datetime.datetime.combine(
+            event.date, event.start if event.start is not None else datetime.time(10)
+        )
         for race in startlist["races"]:
             # override event defaults
-            if hasattr(race, "start"):
+            if race.start is not None:
                 time = datetime.datetime.combine(event.date, race.start)
             interval = event.interval_athlete
             if hasattr(race, "interval_athlete"):
@@ -111,13 +113,15 @@ def startlist():
             group = 0
             for i, athlete in enumerate(race.athletes):
                 if group == groupby:
-                    time += interval
+                    if interval is not None:
+                        time += interval
                     group = 0
                 race.athletes[i] = dataclasses.replace(
                     athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
                 )
                 group += 1
-            time += event.interval_race
+            if event.interval_race is not None:
+                time += event.interval_race
 
     hooshek.startlist.io.dump(startlist, event.encoding_print)
 
@@ -364,9 +368,13 @@ def export_slcr():
             r["raceName"] = race.slcr_name  # string # Název závodu
             r["raceDateStart"] = (
                 datetime.datetime.combine(event.date, event.start)
-                if hasattr(event, "start")
-                else datetime.datetime.combine(event.date, datetime.time(10))
-            )  # string # Datum začátku závodu
+                if event.start is not None
+                else (
+                    datetime.datetime.combine(event.date, race.start)
+                    if race.start is not None
+                    else datetime.datetime.combine(event.date, datetime.time(10))
+                )
+            )
             r["raceLocation"] = event.location  # string # Místo závodu
             r["trackLengthKm"] = (
                 float(race.distance.removesuffix("m")) / 1000

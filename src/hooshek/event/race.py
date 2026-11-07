@@ -1,36 +1,33 @@
-#!/usr/bin/env python3
-
+import dataclasses
 import datetime
 
-import hooshek.util.util
+
+@dataclasses.dataclass(frozen=True, slots=True)
+class RaceEvaluation:
+    age_min: int
+    age_max: int
 
 
+@dataclasses.dataclass(frozen=True, slots=True)
+class RaceInterval:
+    athlete: datetime.timedelta
+    groupby: int
+
+
+@dataclasses.dataclass(slots=True)
 class Race:
     """Race domain class"""
 
-    def __init__(self, i):
-        self.age_min = i["age_min"]
-        self.age_max = i["age_max"]
-        self.sex = i["sex"]
-        self.name = i["name"]
-        try:
-            self.slcr_name = i["slcr_name"]
-        except KeyError:
-            self.slcr_name = self.name
-        self.distance = i["distance"]
-        if "eval" in i:
-            self.eval = []
-            for e in i["eval"]:
-                evaluation = {}
-                evaluation["age_min"] = e["age_min"]
-                evaluation["age_max"] = e["age_max"]
-                self.eval.append(evaluation)
-        if "start" in i:
-            self.start = hooshek.util.util.parseTime(i["start"])
-        if "interval" in i:
-            self.interval_athlete = datetime.timedelta(i["athlete"])
-            self.interval_groupby = i["groupby"]
-        self.athletes = None
+    age_min: int
+    age_max: int
+    sex: str
+    name: str
+    distance: str
+    slcr_name: str
+    eval: tuple[RaceEvaluation, ...] | None = None
+    start: datetime.time | None = None
+    interval: RaceInterval | None = None
+    athletes: list | None = None
 
     def toString(self):
         pass
