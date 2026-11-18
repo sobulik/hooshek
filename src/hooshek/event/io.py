@@ -8,8 +8,7 @@ import hooshek.persistence.yaml
 from hooshek.exceptions import ValidationError
 
 from ..util.util import parseTime
-from .event import Event, EventInterval
-from .race import Race, RaceEvaluation, RaceInterval
+from .event import Event, EventInterval, Race, RaceEvaluation, RaceInterval
 
 
 class RaceEvaluationModel(pydantic.BaseModel):

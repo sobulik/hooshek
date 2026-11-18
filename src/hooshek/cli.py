@@ -97,17 +97,20 @@ def startlist():
                 race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
     else:
         time = datetime.datetime.combine(
-            event.date, event.start if event.start is not None else datetime.time(10)
+            event.date,
+            event.start
+            if event.start is not None
+            else datetime.time(10),  # fiks remove 10
         )
         for race in startlist["races"]:
             # override event defaults
             if race.start is not None:
                 time = datetime.datetime.combine(event.date, race.start)
             interval = event.interval_athlete
-            if hasattr(race, "interval_athlete"):
+            if race.interval_athlete is not None:
                 interval = race.interval_athlete
             groupby = event.interval_groupby
-            if hasattr(race, "interval_groupby"):
+            if race.interval_groupby is not None:
                 groupby = race.interval_groupby
 
             group = 0
