@@ -19,6 +19,8 @@ import hooshek.results.category
 import hooshek.results.io
 import hooshek.startlist.io
 
+from .exceptions import InvalidStateError
+
 app = typer.Typer()
 
 
@@ -96,35 +98,35 @@ def startlist():
             for i, athlete in enumerate(race.athletes):
                 race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
     else:
-        time = datetime.datetime.combine(
-            event.date,
-            event.start
-            if event.start is not None
-            else datetime.time(10),  # fiks remove 10
-        )
-        for race in startlist["races"]:
-            # override event defaults
-            if race.start is not None:
-                time = datetime.datetime.combine(event.date, race.start)
-            interval = event.interval_athlete
-            if race.interval_athlete is not None:
-                interval = race.interval_athlete
-            groupby = event.interval_groupby
-            if race.interval_groupby is not None:
-                groupby = race.interval_groupby
+        if event.start is None:
+            raise InvalidStateError(
+                "event start field cannot be None for non-mass events"
+            )
+        else:
+            time = datetime.datetime.combine(event.date, event.start)
+            for race in startlist["races"]:
+                # override event defaults
+                if race.start is not None:
+                    time = datetime.datetime.combine(event.date, race.start)
+                interval = event.interval_athlete
+                if race.interval_athlete is not None:
+                    interval = race.interval_athlete
+                groupby = event.interval_groupby
+                if race.interval_groupby is not None:
+                    groupby = race.interval_groupby
 
-            group = 0
-            for i, athlete in enumerate(race.athletes):
-                if group == groupby:
-                    if interval is not None:
-                        time += interval
-                    group = 0
-                race.athletes[i] = dataclasses.replace(
-                    athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
-                )
-                group += 1
-            if event.interval_race is not None:
-                time += event.interval_race
+                group = 0
+                for i, athlete in enumerate(race.athletes):
+                    if group == groupby:
+                        if interval is not None:
+                            time += interval
+                        group = 0
+                    race.athletes[i] = dataclasses.replace(
+                        athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
+                    )
+                    group += 1
+                if event.interval_race is not None:
+                    time += event.interval_race
 
     hooshek.startlist.io.dump(startlist, event.encoding_print)
 
