@@ -4,9 +4,8 @@ import typing
 
 import pydantic
 
-import hooshek.persistence.yaml
-from hooshek.exceptions import ValidationError
-
+from ..exceptions import ValidationError
+from ..persistence import yaml
 from ..util.util import parseTime
 from .event import Event, EventInterval, Race, RaceEvaluation, RaceInterval
 
@@ -65,21 +64,16 @@ class EventIntervalModel(pydantic.BaseModel):
     groupby: int = pydantic.Field(ge=1)
 
 
-class EventModel(pydantic.BaseModel):
+class EventModelBase(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid", strict=True)
-    version: typing.Literal["1.0", "1.1"]
     name: str
     date: datetime.date
-    location: str | None = None
-    organizer: str | None = None
-    slcr_event_id: int | None = None
-    style: typing.Literal["Přespolní běh", "klasicky", "volně"] | None = None
     encoding_print: str | None = "utf-8"
     interval: EventIntervalModel | None = None
     races: list[RaceModel] = pydantic.Field(min_length=1)
 
     @pydantic.model_validator(mode="after")
-    def check_unique_races(self) -> "EventModel":
+    def check_unique_races(self) -> typing.Self:
         unique_counter = collections.Counter(
             (r.age_min, r.age_max, r.sex) for r in self.races
         )
@@ -89,11 +83,28 @@ class EventModel(pydantic.BaseModel):
         return self
 
 
+class EventModel10(EventModelBase):
+    version: typing.Literal["1.0"]
+
+
+class EventModel11(EventModelBase):
+    version: typing.Literal["1.1"]
+    location: str
+    organizer: str
+    slcr_event_id: int
+    style: typing.Literal["Přespolní běh", "klasicky", "volně"]
+
+
+EventModel = typing.Annotated[
+    EventModel10 | EventModel11, pydantic.Discriminator("version")
+]
+
+
 def load() -> Event:
     """return Event instance"""
-    raw = hooshek.persistence.yaml.load("event.yaml")
+    raw = yaml.load("event.yaml")
     try:
-        validated = EventModel(**raw)
+        validated = pydantic.TypeAdapter(EventModel).validate_python(raw)
     except pydantic.ValidationError as e:
         print(e.errors())
         raise ValidationError("Event file does not validate")
@@ -140,10 +151,10 @@ def load() -> Event:
         version=validated.version,
         name=validated.name,
         date=validated.date,
-        location=validated.location,
-        organizer=validated.organizer,
-        slcr_event_id=validated.slcr_event_id,
-        style=validated.style,
+        location=getattr(validated, "location", None),
+        organizer=getattr(validated, "organizer", None),
+        slcr_event_id=getattr(validated, "slcr_event_id", None),
+        style=getattr(validated, "style", None),
         encoding_print=validated.encoding_print or "utf-8",
         interval=interval,
         races=tuple(races),
