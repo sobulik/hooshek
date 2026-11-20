@@ -14,7 +14,7 @@ class RaceInterval:
     groupby: int
 
 
-@dataclasses.dataclass(slots=True)  # fiks missing frozen
+@dataclasses.dataclass(frozen=True, slots=True)
 class Race:
     """Race domain class"""
 
@@ -27,7 +27,6 @@ class Race:
     eval: tuple[RaceEvaluation, ...] | None = None
     start: datetime.time | None = None
     interval: RaceInterval | None = None
-    athletes: list | None = None
 
     @property
     def interval_athlete(self) -> datetime.timedelta | None:
@@ -54,11 +53,11 @@ class Event:
     name: str
     date: datetime.date
     races: tuple[Race, ...]
-    location: str | None = None  # fiks versions did disappear?
+    location: str | None = None
     organizer: str | None = None
     slcr_event_id: int | None = None
     style: str | None = None
-    encoding_print: str = "utf-8"  # fiks is the default ok?
+    encoding_print: str = "utf-8"
     interval: EventInterval | None = None
 
     @property

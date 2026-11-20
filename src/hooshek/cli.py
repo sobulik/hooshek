@@ -73,15 +73,15 @@ def startlist():
 
     # set race athletes
     for race in event.races:
-        startlist["races"].append(race)
-        race.athletes = []
+        race_athletes = []
         for athlete in aths:
             if (
                 athlete.sex == race.sex
                 and event.eff_year - athlete.born >= race.age_min
                 and event.eff_year - athlete.born <= race.age_max
             ):
-                race.athletes.append(athlete)
+                race_athletes.append(athlete)
+        startlist["races"].append((race, race_athletes))
 
     def comparator(a):
         if a.id.startswith(tuple(string.ascii_uppercase)):
@@ -90,13 +90,13 @@ def startlist():
 
     # sort athletes
     for race in startlist["races"]:
-        race.athletes.sort(key=comparator)
+        race[1].sort(key=comparator)
 
     # set start times
     if event.mass:
         for race in startlist["races"]:
-            for i, athlete in enumerate(race.athletes):
-                race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
+            for i, athlete in enumerate(race[1]):
+                race[1][i] = dataclasses.replace(athlete, start=datetime.time())
     else:
         if event.start is None:
             raise InvalidStateError(
@@ -106,22 +106,22 @@ def startlist():
             time = datetime.datetime.combine(event.date, event.start)
             for race in startlist["races"]:
                 # override event defaults
-                if race.start is not None:
-                    time = datetime.datetime.combine(event.date, race.start)
+                if race[0].start is not None:
+                    time = datetime.datetime.combine(event.date, race[0].start)
                 interval = event.interval_athlete
-                if race.interval_athlete is not None:
-                    interval = race.interval_athlete
+                if race[0].interval_athlete is not None:
+                    interval = race[0].interval_athlete
                 groupby = event.interval_groupby
-                if race.interval_groupby is not None:
-                    groupby = race.interval_groupby
+                if race[0].interval_groupby is not None:
+                    groupby = race[0].interval_groupby
 
                 group = 0
-                for i, athlete in enumerate(race.athletes):
+                for i, athlete in enumerate(race[1]):
                     if group == groupby:
                         if interval is not None:
                             time += interval
                         group = 0
-                    race.athletes[i] = dataclasses.replace(
+                    race[1][i] = dataclasses.replace(
                         athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
                     )
                     group += 1
@@ -132,7 +132,7 @@ def startlist():
 
     aths = []
     for race in startlist["races"]:
-        for athlete in race.athletes:
+        for athlete in race[1]:
             aths.append(athlete)
 
     def comparator(a):
