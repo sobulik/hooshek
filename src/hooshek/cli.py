@@ -12,13 +12,13 @@ import typer
 import hooshek.athletes.athlete
 import hooshek.athletes.repo
 import hooshek.clubs.repo
-import hooshek.event.io
 import hooshek.exceptions
 import hooshek.persistence.json
 import hooshek.results.category
 import hooshek.results.io
 import hooshek.startlist.io
 
+from .event import repo as eventRepo
 from .exceptions import InvalidStateError
 
 app = typer.Typer()
@@ -61,7 +61,7 @@ def athletes(
 
 @app.command()
 def startlist():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     aths = tuple(filter(lambda x: x.id is not None, hooshek.athletes.repo.load(clubs)))
 
@@ -232,7 +232,7 @@ def import_athletes(
 
 @app.command("assign-bibs")
 def assign_bibs():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     athletes = hooshek.athletes.repo.load(clubs)
 
@@ -304,7 +304,7 @@ def assign_bibs():
 
 @app.command()
 def results():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
@@ -324,7 +324,7 @@ def results():
 
 @app.command("export-slcr")
 def export_slcr():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
