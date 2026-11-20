@@ -3,8 +3,9 @@ import typing
 
 import pydantic
 
-from hooshek.clubs.club import Club
-from hooshek.persistence import yaml
+from ..exceptions import ValidationError
+from ..persistence import yaml
+from .club import Club
 
 
 class ClubModel(pydantic.BaseModel):
@@ -40,7 +41,9 @@ class ClubsModel(pydantic.BaseModel):
         id_counter = collections.Counter(club.id for club in self.clubs)
         for club_id, count in id_counter.items():
             if count > 1:
-                raise ValueError(f"Clubs file club id {club_id} defined {count} times")
+                raise ValidationError(
+                    f"Clubs file club id {club_id} defined {count} times"
+                )
         return self
 
 

@@ -40,17 +40,19 @@ class RaceModel(pydantic.BaseModel):
     @pydantic.model_validator(mode="after")
     def validate_ages(self) -> "RaceModel":
         if self.age_min > self.age_max:
-            raise ValueError("age_min higher than age_max for a race")
+            raise ValidationError("age_min higher than age_max for a race")
         if self.eval:
             for e in self.eval:
                 if e.age_min > e.age_max:
-                    raise ValueError("age_min higher than age_max for an evaluation")
+                    raise ValidationError(
+                        "age_min higher than age_max for an evaluation"
+                    )
                 if e.age_min < self.age_min:
-                    raise ValueError(
+                    raise ValidationError(
                         "age_min in evaluation lower than age_min for a race"
                     )
                 if e.age_max > self.age_max:
-                    raise ValueError(
+                    raise ValidationError(
                         "age_max in evaluation higher than age_max for a race"
                     )
         return self
@@ -79,7 +81,7 @@ class EventModelBase(pydantic.BaseModel):
         )
         for key, count in unique_counter.items():
             if count > 1:
-                raise ValueError(f"Event file race {key} defined {count} times")
+                raise ValidationError(f"Event file race {key} defined {count} times")
         return self
 
 
@@ -107,55 +109,57 @@ def load() -> Event:
         validated = pydantic.TypeAdapter(EventModel).validate_python(raw)
     except pydantic.ValidationError as e:
         print(e.errors())
-        raise ValidationError("Event file does not validate")
-
-    interval = None
-    if validated.interval:
-        interval = EventInterval(
-            start=parseTime(validated.interval.start),
-            race=datetime.timedelta(seconds=validated.interval.race),
-            athlete=datetime.timedelta(seconds=validated.interval.athlete),
-            groupby=validated.interval.groupby,
-        )
-
-    races = []
-    for r in validated.races:
-        evals = (
-            tuple(RaceEvaluation(age_min=e.age_min, age_max=e.age_max) for e in r.eval)
-            if r.eval
-            else None
-        )
-        r_interval = (
-            RaceInterval(
-                athlete=datetime.timedelta(seconds=r.interval.athlete),
-                groupby=r.interval.groupby,
+        raise
+    else:
+        interval = None
+        if validated.interval:
+            interval = EventInterval(
+                start=parseTime(validated.interval.start),
+                race=datetime.timedelta(seconds=validated.interval.race),
+                athlete=datetime.timedelta(seconds=validated.interval.athlete),
+                groupby=validated.interval.groupby,
             )
-            if r.interval
-            else None
-        )
-        races.append(
-            Race(
-                age_min=r.age_min,
-                age_max=r.age_max,
-                sex=r.sex,
-                name=r.name,
-                distance=r.distance,
-                slcr_name=r.slcr_name if r.slcr_name is not None else r.name,
-                eval=evals,
-                start=parseTime(r.start) if r.start else None,
-                interval=r_interval,
-            )
-        )
 
-    return Event(
-        version=validated.version,
-        name=validated.name,
-        date=validated.date,
-        location=getattr(validated, "location", None),
-        organizer=getattr(validated, "organizer", None),
-        slcr_event_id=getattr(validated, "slcr_event_id", None),
-        style=getattr(validated, "style", None),
-        encoding_print=validated.encoding_print or "utf-8",
-        interval=interval,
-        races=tuple(races),
-    )
+        races = []
+        for r in validated.races:
+            evals = (
+                tuple(
+                    RaceEvaluation(age_min=e.age_min, age_max=e.age_max) for e in r.eval
+                )
+                if r.eval
+                else None
+            )
+            r_interval = (
+                RaceInterval(
+                    athlete=datetime.timedelta(seconds=r.interval.athlete),
+                    groupby=r.interval.groupby,
+                )
+                if r.interval
+                else None
+            )
+            races.append(
+                Race(
+                    age_min=r.age_min,
+                    age_max=r.age_max,
+                    sex=r.sex,
+                    name=r.name,
+                    distance=r.distance,
+                    slcr_name=r.slcr_name if r.slcr_name is not None else r.name,
+                    eval=evals,
+                    start=parseTime(r.start) if r.start else None,
+                    interval=r_interval,
+                )
+            )
+
+        return Event(
+            version=validated.version,
+            name=validated.name,
+            date=validated.date,
+            location=getattr(validated, "location", None),
+            organizer=getattr(validated, "organizer", None),
+            slcr_event_id=getattr(validated, "slcr_event_id", None),
+            style=getattr(validated, "style", None),
+            encoding_print=validated.encoding_print or "utf-8",
+            interval=interval,
+            races=tuple(races),
+        )

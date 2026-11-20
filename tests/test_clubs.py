@@ -2,6 +2,7 @@ import pydantic
 import pytest
 
 from hooshek.clubs.repo import ClubModel, ClubsModel, load
+from hooshek.exceptions import ValidationError
 
 
 def test_valid_clubs_model():
@@ -43,7 +44,7 @@ def test_duplicate_club_ids():
     c1 = {"id": "ABCD", "name": "Club 1", "abb15": "C1"}
     c2 = {"id": "ABCD", "name": "Club 2", "abb15": "C2"}
     data = {"version": "1.0", "clubs": [ClubModel(**c1), ClubModel(**c2)]}
-    with pytest.raises(ValueError, match="defined 2 times"):
+    with pytest.raises(ValidationError, match="defined 2 times"):
         ClubsModel(**data)
 
 
