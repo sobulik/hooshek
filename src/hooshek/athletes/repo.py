@@ -4,6 +4,7 @@ import typing
 import pydantic
 
 from ..clubs.club import Club
+from ..exceptions import ValidationError
 from ..persistence import yaml
 from .athlete import Athlete
 
@@ -33,7 +34,7 @@ class AthletesModel(pydantic.BaseModel):
         )
         for athlete_id, count in idCounter.items():
             if athlete_id != "0" and count > 1:
-                raise ValueError(
+                raise ValidationError(
                     f"Athletes file athlete id {athlete_id} defined {count} times"
                 )
         return self
@@ -46,7 +47,7 @@ class AthletesModel(pydantic.BaseModel):
         )
         for athlete, count in uniqueCounter.items():
             if count > 1:
-                raise ValueError(f"Athlete {athlete} defined {count} times")
+                raise ValidationError(f"Athlete {athlete} defined {count} times")
         return self
 
 
@@ -69,7 +70,7 @@ def load(clubs: dict[str, Club]) -> list[Athlete]:
                 if a.club in clubs:
                     club = clubs[a.club]
                 else:
-                    raise ValueError(
+                    raise ValidationError(
                         f"Club {a.club} of athlete {a.surname} not defined in clubs"
                     )
             athlete["club"] = club

@@ -12,12 +12,14 @@ import typer
 import hooshek.athletes.athlete
 import hooshek.athletes.repo
 import hooshek.clubs.repo
-import hooshek.event.io
 import hooshek.exceptions
 import hooshek.persistence.json
 import hooshek.results.category
 import hooshek.results.io
 import hooshek.startlist.io
+
+from .event import repo as eventRepo
+from .exceptions import InvalidStateError
 
 app = typer.Typer()
 
@@ -59,7 +61,7 @@ def athletes(
 
 @app.command()
 def startlist():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     aths = tuple(filter(lambda x: x.id is not None, hooshek.athletes.repo.load(clubs)))
 
@@ -71,15 +73,15 @@ def startlist():
 
     # set race athletes
     for race in event.races:
-        startlist["races"].append(race)
-        race.athletes = []
+        race_athletes = []
         for athlete in aths:
             if (
                 athlete.sex == race.sex
                 and event.eff_year - athlete.born >= race.age_min
                 and event.eff_year - athlete.born <= race.age_max
             ):
-                race.athletes.append(athlete)
+                race_athletes.append(athlete)
+        startlist["races"].append((race, race_athletes))
 
     def comparator(a):
         if a.id.startswith(tuple(string.ascii_uppercase)):
@@ -88,42 +90,49 @@ def startlist():
 
     # sort athletes
     for race in startlist["races"]:
-        race.athletes.sort(key=comparator)
+        race[1].sort(key=comparator)
 
     # set start times
     if event.mass:
         for race in startlist["races"]:
-            for i, athlete in enumerate(race.athletes):
-                race.athletes[i] = dataclasses.replace(athlete, start=datetime.time())
+            for i, athlete in enumerate(race[1]):
+                race[1][i] = dataclasses.replace(athlete, start=datetime.time())
     else:
-        time = datetime.datetime.combine(event.date, event.start)
-        for race in startlist["races"]:
-            # override event defaults
-            if hasattr(race, "start"):
-                time = datetime.datetime.combine(event.date, race.start)
-            interval = event.interval_athlete
-            if hasattr(race, "interval_athlete"):
-                interval = race.interval_athlete
-            groupby = event.interval_groupby
-            if hasattr(race, "interval_groupby"):
-                groupby = race.interval_groupby
+        if event.start is None:
+            raise InvalidStateError(
+                "event start field cannot be None for non-mass events"
+            )
+        else:
+            time = datetime.datetime.combine(event.date, event.start)
+            for race in startlist["races"]:
+                # override event defaults
+                if race[0].start is not None:
+                    time = datetime.datetime.combine(event.date, race[0].start)
+                interval = event.interval_athlete
+                if race[0].interval_athlete is not None:
+                    interval = race[0].interval_athlete
+                groupby = event.interval_groupby
+                if race[0].interval_groupby is not None:
+                    groupby = race[0].interval_groupby
 
-            group = 0
-            for i, athlete in enumerate(race.athletes):
-                if group == groupby:
-                    time += interval
-                    group = 0
-                race.athletes[i] = dataclasses.replace(
-                    athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
-                )
-                group += 1
-            time += event.interval_race
+                group = 0
+                for i, athlete in enumerate(race[1]):
+                    if group == groupby:
+                        if interval is not None:
+                            time += interval
+                        group = 0
+                    race[1][i] = dataclasses.replace(
+                        athlete, start=datetime.datetime.fromtimestamp(time.timestamp())
+                    )
+                    group += 1
+                if event.interval_race is not None:
+                    time += event.interval_race
 
     hooshek.startlist.io.dump(startlist, event.encoding_print)
 
     aths = []
     for race in startlist["races"]:
-        for athlete in race.athletes:
+        for athlete in race[1]:
             aths.append(athlete)
 
     def comparator(a):
@@ -223,7 +232,7 @@ def import_athletes(
 
 @app.command("assign-bibs")
 def assign_bibs():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     athletes = hooshek.athletes.repo.load(clubs)
 
@@ -295,7 +304,7 @@ def assign_bibs():
 
 @app.command()
 def results():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
@@ -315,7 +324,7 @@ def results():
 
 @app.command("export-slcr")
 def export_slcr():
-    event = hooshek.event.io.load()
+    event = eventRepo.load()
     clubs = hooshek.clubs.repo.load()
     start = hooshek.startlist.io.load()
     flist = hooshek.results.io.load()
@@ -364,9 +373,13 @@ def export_slcr():
             r["raceName"] = race.slcr_name  # string # Název závodu
             r["raceDateStart"] = (
                 datetime.datetime.combine(event.date, event.start)
-                if hasattr(event, "start")
-                else datetime.datetime.combine(event.date, datetime.time(10))
-            )  # string # Datum začátku závodu
+                if event.start is not None
+                else (
+                    datetime.datetime.combine(event.date, race.start)
+                    if race.start is not None
+                    else datetime.datetime.combine(event.date, datetime.time(10))
+                )
+            )
             r["raceLocation"] = event.location  # string # Místo závodu
             r["trackLengthKm"] = (
                 float(race.distance.removesuffix("m")) / 1000

@@ -29,13 +29,13 @@ def dump(start, encoding_print):
     o["date"] = start["date"]
     o["mass"] = start["mass"]
     o["races"] = []
-    for race in start["races"]:
+    for race, race_athletes in start["races"]:
         r = {}
         r["name"] = race.name
         r["sex"] = race.sex
         r["distance"] = race.distance
         r["athletes"] = []
-        for athlete in race.athletes:
+        for athlete in race_athletes:
             a = {}
             a["id"] = athlete.id
             a["name"] = athlete.name

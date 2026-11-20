@@ -10,6 +10,7 @@ import hooshek.cli
 from hooshek.athletes.athlete import Athlete
 from hooshek.athletes.repo import AthleteModel, AthletesModel, dump, load
 from hooshek.clubs.club import Club
+from hooshek.exceptions import ValidationError
 
 
 def test_sort(fixture_path, tmp_path, monkeypatch):
@@ -73,7 +74,7 @@ def test_duplicate_athlete_ids():
     a1 = AthleteModel(id="1", name="Jan", surname="Novak", born=2005, sex="m")
     a2 = AthleteModel(id="1", name="Petr", surname="Svoboda", born=2006, sex="m")
     data = {"version": "1.0", "athletes": [a1, a2]}
-    with pytest.raises(ValueError, match="defined 2 times"):
+    with pytest.raises(ValidationError, match="defined 2 times"):
         AthletesModel(**data)
 
 
@@ -81,7 +82,7 @@ def test_duplicate_athlete_key():
     a1 = AthleteModel(name="Jan", surname="Novak", born=2005, sex="m")
     a2 = AthleteModel(name="Jan", surname="Novak", born=2005, sex="m")
     data = {"version": "1.0", "athletes": [a1, a2]}
-    with pytest.raises(ValueError, match="defined 2 times"):
+    with pytest.raises(ValidationError, match="defined 2 times"):
         AthletesModel(**data)
 
 
